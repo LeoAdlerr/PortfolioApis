@@ -186,8 +186,8 @@ public interface EstadoRepository extends JpaRepository<Estado, Integer> {
 	@Query(value = "SELECT * FROM estado", nativeQuery = true)
 	public List<Estado> selectEstado();
 	}
-	</p>
-	</details>
+</p>
+</details>
   
  <h4>Aprendizado Efetivo:</h4>
 
