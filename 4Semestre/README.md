@@ -1,12 +1,6 @@
-<h2> Leonardo Adler da Silva </h2>
-
-  Olá, sou Leonardo Adler da Silva
-estudante de Banco de Dados na Fatec Jessen Vidal, na qual tive a experiência de utilizar
-metodologias ageis e diversas tecnologias.  
-
-<h3> Em 2022-2 foi trabalhado um projeto API com o parceiro acadêmico IACIT </h3> 
+ <h3> Em 2023-2 foi trabalhado um projeto API com o parceiro acadêmico JAIA </h3> 
  
-* [Link para o GitHub](https://github.com/DatatechOffice/Api_Iacit)
+* [Link para o GitHub](https://github.com/Great-Pretender/GreatPretender-API)
 
 <h4> Visão e objetivo do projeto </h4>
     Desenvolver um sistema web, onde fosse possível realizar a extração e tratamento
