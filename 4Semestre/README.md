@@ -3,23 +3,14 @@
 * [Link para o GitHub](https://github.com/Great-Pretender/GreatPretender-API)
 
 <h4> Visão e objetivo do projeto </h4>
-    Desenvolver um sistema web, onde fosse possível realizar a extração e tratamento
-  de dados meteorológicos através do site INEP fornecido pelo parceiro, além da persistência 
-  dos mesmos e por fim a visualização dos dados de forma que decisões pudessem ser realizadas,
-  no caso foram utilizado gráficos e a filtragem dos dados pelo usuário para tal.
+
+	Um Sistema desenvolvido para controlar o estado de um imóvel em, com os resultados exportados num Laudo de Inspeção Predial, além de gerenciar manutenções preventivas e corretivas de não conformidades que possam estar colocando em risco um patrimônio, garantindo assim a segurança, qualidade e manutençao ou gerenciamento de riscos.
 
 <h4>Tecnologias utilizadas no Projeto</h4>
 
-- HTML, CSS e Bootstrap: 
-  <br>
-    Todo o visual e design da página web foram feitas utilizando essas tecnologias, isso inclue os gráficos 
-  com os dados meteorológicos auxiliando-se das lógicas do Javascript para tal;
-  <br><br>
-- JavaScript:
-  <br>
-    Lógica das páginas, seja restrições das mesmas, preenchimentos ou a filtragem dos dados selecionados pelos 
-  usuários e para tal a conexão e utilização das APIs criadas em java/springboot;
-  <br><br>
+<h5>Backend: </h5>
+
+
 - Java e SpringBoot:
   <br><br>
     Primeiramente foram feitas rotinas para persistir a base de dados meteorológicos; 
@@ -47,6 +38,22 @@
   e na instalação do código final facilita o uso do mesmo;
   <br><br>
   
+
+<h5>Frontend: </h5>
+
+- Javascript, CSS e Bootstrap: 
+  <br>
+    Todo o visual e design da página web foram feitas utilizando essas tecnologias, isso inclue os gráficos 
+  com os dados meteorológicos auxiliando-se das lógicas do Javascript para tal;
+  <br><br>
+- JavaScript:
+  <br>
+    Lógica das páginas, seja restrições das mesmas, preenchimentos ou a filtragem dos dados selecionados pelos 
+  usuários e para tal a conexão e utilização das APIs criadas em java/springboot;
+  <br>
+
+
+
 <h4>Contribuições individuais</h4>
   <details>
 <summary>Api Rest </summary>
