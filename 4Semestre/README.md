@@ -4,27 +4,20 @@
 
 <h4> Visão e objetivo do projeto </h4>
 
-	Um Sistema desenvolvido para controlar o estado de um imóvel em, com os resultados exportados num Laudo de Inspeção Predial, além de gerenciar manutenções preventivas e corretivas de não conformidades que possam estar colocando em risco um patrimônio, garantindo assim a segurança, qualidade e manutençao ou gerenciamento de riscos.
+	Um Sistema desenvolvido para controlar o estado de um imóvel em, com os resultados exportados num Laudo de Inspeção Predial, 
+	além de gerenciar manutenções preventivas e corretivas de não conformidades que possam estar colocando em risco um patrimônio,
+	garantindo assim a segurança, qualidade e manutençao ou gerenciamento de riscos.
 
 <h4>Tecnologias utilizadas no Projeto</h4>
 
 <h5>Backend: </h5>
 
-
 - Java e SpringBoot:
   <br><br>
-    Primeiramente foram feitas rotinas para persistir a base de dados meteorológicos; 
-    Depois a criação  das Apis Rest conectando o banco de dados que contém os dados meteorológicos com as páginas, 
-  para tal foram criadas pesquisas aliadas a lógicas para buscar e filtrar os dados e assim enviando os resultados
-  em formato JSON para que possam ser tratados pelo JavaScript;
+    As API's para o CRUD da aplicação foram feitas em SpringBoot;
+	Tanto 
   <br><br>
-- Python: 
-  <br><br>
-    Uma rotina para captação dos dados em csv fornecidos pelo cliente foi criada, para assim criar um csv com os  
-  valores de todos os períodos agregados e assim podendo envia-los num formato onde fosse possível persisti-los usando
-  o java;
-  <br><br>
-- PostgreSQL: 
+- Oracle Cloud: 
   <br><br>
     Foi o banco de dados de preferência da empresa contratante e o utilizado para armazenar os dados meteorológicos de 
   uma forma de uma forma que fosse possível utiliza-los num programa, além de traze-los num formato e tipo que 
