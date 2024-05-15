@@ -81,63 +81,11 @@ public class SetorController {
 	json porém o vue.js envia os seus objetos e atributos de acordo com o banco, assim como estão feitas as entidades no backend. 
 		No caso do método get/setor/{setor} um objeto do tipo setor está sendo recebido pela api e se usa o parâmetro ID para a pesquisa
 	presente no service utilizado(buscar o registro com o id em específico);
-		Ja o método post /setor é utilizado para receber o objeto setor com os paramêtros inseridos no frontend com o intuito de criar um novo registro de setor(criar um novo setor para a aplicação);
+		Ja o método post /setor é utilizado para receber o objeto setor com os paramêtros inseridos no frontend com o intuito de criar um 
+	novo registro de setor(criar um novo setor para a aplicação);
 		O método get /setor seleciona todos os registros de setores;
   </p>
   </details>
-	
-<details>
-<summary>Orientação a Objeto e classes que representam algo da vida real</summary>
-<p><br> <br>
-	No exemplo em questão represento a Radiação globlal das cidades em questão, que contém o horário da coleta e o valor da radiação no momento da coleta do dado;
-	<br>
-@Entity(name = "radiacao_global")
-@Table(name = "radiacao_global")
-@Getter
-@Setter
-@NoArgsConstructor
-@Component
-public class RadiacaoGlobal {
-	public RadiacaoGlobal(Estacao estCodigo, Timestamp dataHora, BigDecimal valor) {
-		this.estCodigo=estCodigo;
-		this.dataHora=dataHora;
-		this.valor=valor;
-	}
-	
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name= "rag_id")
-    private Integer ragId;
-
-	@Column(name= "rag_radiacao_global")
-    private BigDecimal valor;
-
-	@Column(name= "rag_data_hora")
-    private Timestamp dataHora;
-
-	@ManyToOne
-	@JoinColumn(name = "est_codigo", referencedColumnName = "est_codigo")
-	private Estacao estCodigo;
-}
-		</p>
-	</details>
-	
-<details>
-<summary>Polimorfismo</summary>
-<p><br><br>
-	Com a utilização de Interfaces do Hibernate, criamos uma possibilidade de utilizar os atributos para
-comunicar colunas e tabelas do banco de dados com as classes que representam cada respectiva entidade;
-	<br>
-	@Repository
-public interface EstadoRepository extends JpaRepository<Estado, Integer> {
-	@Query(value = "SELECT * FROM estado WHERE etd_unidade_federativa = ?1", nativeQuery = true)
-	public Estado selectBySigla(String etd);
-
-	@Query(value = "SELECT * FROM estado", nativeQuery = true)
-	public List<Estado> selectEstado();
-	}
-</p>
-</details>
   
  <h4>Aprendizado Efetivo:</h4>
 
