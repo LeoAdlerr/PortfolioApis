@@ -86,6 +86,10 @@ public class SetorController {
 		O método get /setor seleciona todos os registros de setores;
   </p>
   </details>
+
+  <details>
+	<summary> Routers </summary>
+  </details>
   
  <h4>Aprendizado Efetivo:</h4>
 
@@ -96,8 +100,6 @@ public class SetorController {
     No caso, a conexão http através dos links, os tipos de retorno e como utiliza-los(enviando e recebendo JSON's), onde utilizamos POST, GET,
     PUT entre outros tipos de requests que possibilitaram a conexão entre o Banco de Dados e o Front do projeto;
 <br>	<br>
-<summary>Orientação a Objeto:</summary>
-	-As classes da pasta Entity, com auxilio do hibernate, são objetos que representam as tabelas do banco de dados e consequentemente suas representações de algo na vida real, como a classe Temperatura que representa as temperaturas de cada cidade e a classe Região que representa as regiões geográficas do Brasil(Sul, Centro-Oeste, etc);
 <br><br>
  <summary>Polimorfismo:</summary>
 	-Ao separar as classes em Interfaces, Services, Entitys(Repositories) e Controllers, foi possível herdar funcionalidades de classes para no final controla-las(tendo separado cada parte do processo), assim selecionando de acordo com a necessidade e economizando linhas de código;
