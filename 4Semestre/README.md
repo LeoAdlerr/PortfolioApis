@@ -14,19 +14,17 @@
 
 - Java e SpringBoot:
   <br><br>
-    As API's para o CRUD da aplicação foram feitas em SpringBoot;
-	Tanto 
+    -As API's Rest para o CRUD da aplicação foram feitas em SpringBoot;
+	-Segurança de Logins e geração de relatórios;
   <br><br>
-- Oracle Cloud: 
+- Oracle Cloud(AWS): 
   <br><br>
-    Foi o banco de dados de preferência da empresa contratante e o utilizado para armazenar os dados meteorológicos de 
-  uma forma de uma forma que fosse possível utiliza-los num programa, além de traze-los num formato e tipo que 
-  falicitassem o uso;
+    Foi adotado um banco de dados na nuvem para sustentar os dados da aplicação;
   <br><br>
   
 - Maven: 
   <br>  
-    Utilizado para versionar e enviar o código no Git, assim facilitando a todos os desenvolvedores e usuários a utilizar o
+    Utilizado para versionar e gerenciar as bibliotecas, assim facilitando a todos os desenvolvedores e usuários a utilizar o
   código mais atualizado no momento, principalmente na manutenção de bibliotecas Java utilizadas, algo que durante o processo 
   e na instalação do código final facilita o uso do mesmo;
   <br><br>
@@ -34,12 +32,11 @@
 
 <h5>Frontend: </h5>
 
-- Javascript, CSS e Bootstrap: 
+- Vue.js: 
   <br>
-    Todo o visual e design da página web foram feitas utilizando essas tecnologias, isso inclue os gráficos 
-  com os dados meteorológicos auxiliando-se das lógicas do Javascript para tal;
+    Todo o visual e design da página web foram feitas utilizando essa tecnologia, isso inclue os relatórios e criação de laudos;
   <br><br>
-- JavaScript:
+- TypeScript:
   <br>
     Lógica das páginas, seja restrições das mesmas, preenchimentos ou a filtragem dos dados selecionados pelos 
   usuários e para tal a conexão e utilização das APIs criadas em java/springboot;
@@ -52,83 +49,42 @@
 <summary>Api Rest </summary>
 	
   <p><br>
-  	- Usando spring boot, criei as api's a serem consumidas, nas quais conectei com o banco sql para buscar os dados 
-  filtrados pelo frontend, foi pensado em criar uma lógica que contemple quaisquer pesquisas feitas, além
-  do crud com as telas de Login;
-	  <br>
-    * [classe Controller exemplo]@Controller
-public class TemperaturaController {
+  	- Usando spring boot, criei as api's a serem consumidas, tanto as de criação dos laudos e as de selecionar valores dos 
+	clientes e seus laudos e já registrados;
+	<br>
+	Exemplo:
 
-	@Autowired(required = true)
-	private ServiceTemperatura temperaturaService;
+    * @RestController
+@RequestMapping(value = "/setor")
+public class SetorController {
+     @Autowired
+     private ISetorService service;
 
-	@PostMapping(value = { "/temperatura" }, consumes = MediaType.APPLICATION_JSON_VALUE)
-	public ResponseEntity<List<Temperatura>> postFiltroPorData(@RequestBody FilterDataVo data) throws ParseException {
-		
-		List<Temperatura> listTemperatura = temperaturaService.getByFilter(data.getEstacao(), data.getDataInicio(), data.getDataFim());
-		
-		return listTemperatura != null && listTemperatura.size() > 0 ? new ResponseEntity<List<Temperatura>>(listTemperatura, HttpStatus.CREATED)
-				: new ResponseEntity<List<Temperatura>>(listTemperatura, HttpStatus.BAD_REQUEST);
+     @GetMapping
+     public List<Setor> buscarTodosSetores() {
+          return service.buscarTodosSetores();
+     }
 
-	}
-}    
-    Neste exemplo utilizei um método post para receber os dados vindos do frontend, no caso em formato JSON. Para receber esse json foi 
-  necessário criar uma classe(FilterDataVO) que tivesse um modelo e atributos equivalentes aos vindos do JS.
-    Entra os dados no método vindos de um service que foi feita a inserção de dependência na classe controller e após a resposta, dependendo
-  do retorno ou não da função(getByFilter), existe um ternário para dar uma resposta que no caso pode ser um BadRequest(se não houver um
-  retorno)  ou Created(caso haja um retorno). 
+     @PostMapping
+     public Setor novoSetor(@RequestBody Setor setor) {
+          return service.novoSetor(setor);
+     }
+
+     @GetMapping(value = "/{setor}")
+     public Setor buscarPorId(@PathVariable("setor") Long id) {
+          return service.buscarPorId(id);
+     }
+   
+}
+
+    	Neste exemplo utilizei um método get e post para receber os dados vindos do frontend. Como o frontend envia os dados num formato 
+	json porém o vue.js envia os seus objetos e atributos de acordo com o banco, assim como estão feitas as entidades no backend. 
+		No caso do método get/setor/{setor} um objeto do tipo setor está sendo recebido pela api e se usa o parâmetro ID para a pesquisa
+	presente no service utilizado(buscar o registro com o id em específico);
+		Ja o método post /setor é utilizado para receber o objeto setor com os paramêtros inseridos no frontend com o intuito de criar um novo registro de setor(criar um novo setor para a aplicação);
+		O método get /setor seleciona todos os registros de setores;
   </p>
   </details>
-	  
-	  
-  
-<details>
-<summary>Manipulação de dados
-- Na persistência</summary>
-<p><br><br>
-	Scripts em java para popular o banco com os dados vindos do csv
-	<br><br>
- *[Classe regiaoService]
-  	
-  Nesse trecho primeiramente recebo os dados vindos do csv referentes aos estados e como são diversas linhas
-	  com o mesmo valor seguidas, criei uma lógica que quando um valor fosse inserido(for), só teria uma inserção 
-	  novamente quando houvesse uma mudança, pois só queriamos uma instância de cada Estado nas tabelas, utilizando 
-	  um objeto com os valores em seus atributos utilizamos o springBoot para inserir cada instância na respectiva tabela,
-	  usando o comando .save;
-	
-	  public void insBancoService
-	  (ArrayList<String> regEstN,
-	  ArrayList<String> regEstC,
-	  ArrayList<String> regEstLA, 
-	  ArrayList<String> regEstLO, 
-	  ArrayList<String> regEstAL, 
-   	  ArrayList<String> regEstD, 
-	  ArrayList<String> etd) 
-		int ii = regEstC.size();
-		for (int i = 1; i < ii; i++) {
-			String estNome = regEstN.get(i);
-			String estC = regEstC.get(i);
-			String latitude = regEstLA.get(i);
-			String longitude = regEstLO.get(i);
-			String altitude = regEstAL.get(i);
-			String dataFundacao = regEstD.get(i);
-			String estadoS = etd.get(i);
-
-			if (i - 1 >= 0 && regEstC.get(i - 1) != estC) {
-				Estado estado = new Estado();
-				estado = serviceEstado.returnEstado(estadoS);
-				Estado estadoID = new Estado(estado.getEtdId());
-				Estacao estacao = new Estacao(estadoID, estC, BigDecimal.valueOf(Double.parseDouble(longitude)),
-						estNome, Timestamp.valueOf(dataFundacao + " 00:00:00"),
-						BigDecimal.valueOf(Double.parseDouble(latitude)),
-						BigDecimal.valueOf(Double.parseDouble(altitude)));
-				estacaoRepository.save(estacao);
-			} else {
-				continue;
-			}
-    };
-	</p>
-</details>
 	
 <details>
 <summary>Orientação a Objeto e classes que representam algo da vida real</summary>
