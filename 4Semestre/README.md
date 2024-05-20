@@ -96,7 +96,7 @@ public class SetorController {
   <details>
 	<summary> Requisição das api's rest </summary>
 	  - Exemplo de requisição Rest que consome a api do backend SpringBoot
-   <br>	  
+   <br>	 <br>
 //Função para buscar os setores do banco
 async function buscarSetor() {
   try {
@@ -106,18 +106,21 @@ async function buscarSetor() {
     console.error('Error fetching servico:', error)
   }  
 }
+	  <br>
 	  <p> Nessa função estou consumindo a rota '/setor' que retorna um objeto com a lista de setores cadastrados; </p>
   </details>
 	<details> 
 		<summary> Vue.js </summary>
 		<div>
           //Exemplo de uso da requisição no Vue.js
+			<br>
           <label>Setor: </label>
             <select class="setor" id="setor" v-model="setor" @change="getSetor()">
               <option v-for="s in setores" :key="s.id" v-bind:value="s.id"
               >{{ s.nome}}</option>
             </select>
           </div>
+		<br><br>
 		<p> Utilizando do framework Vue.js foi possível armazenar a lista de setores para que sejam vizualidos 
 		na view do projeto, no caso de uso acima aparecem os setores para serem selecionados dentro de um 
 		html select, que ao selecionar através da anotação @change salva o ID do setor em questão 
