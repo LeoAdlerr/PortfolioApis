@@ -1,6 +1,6 @@
  <h3> Em 2023-2 foi trabalhado um projeto API com o parceiro acadêmico JAIA </h3> 
  
-* [Link para o GitHub](https://github.com/Great-Pretender/GreatPretender-API)
+* [Link para o Repositório do projeto](https://github.com/Great-Pretender/GreatPretender-API)
 
 <h4> Visão e objetivo do projeto </h4>
 
