@@ -15,13 +15,13 @@ Um Sistema desenvolvido para controlar o estado de um imóvel em, com os resulta
 
 - Java e SpringBoot:
   <br><br>
-    -As API's Rest para o CRUD da aplicação foram feitas em SpringBoot;
-<br>
--Segurança de Logins e geração de relatórios através do Spring Security;
-  <br>
+  	-As API's Rest para o CRUD da aplicação foram feitas em SpringBoot;
+  
+	-Segurança de Logins e geração de relatórios através do Spring Security;
+  <br><br>
 - Oracle Cloud(AWS): 
   <br><br>
-    Foi adotado um banco de dados na nuvem para sustentar os dados da aplicação;
+    Foi adotado um banco de dados na nuvem para sustentar os dados da aplicação com conexão através da Wallet oracle;
   <br><br>
   
 - Maven: 
