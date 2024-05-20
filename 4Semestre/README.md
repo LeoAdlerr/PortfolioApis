@@ -4,10 +4,10 @@
 
 <h4> Visão e objetivo do projeto </h4>
 
-	Um Sistema desenvolvido para controlar o estado de um imóvel em, com os resultados exportados 
- num Laudo de Inspeção Predial, além de gerenciar manutenções preventivas e corretivas de não conformidades
- que possam estar colocando em risco um patrimônio, garantindo assim a segurança, qualidade e manutençao 
- ou gerenciamento de riscos.
+Um Sistema desenvolvido para controlar o estado de um imóvel em, com os resultados
+ exportados num Laudo de Inspeção Predial, além de gerenciar manutenções preventivas
+ e corretivas de não conformidades que possam estar colocando em risco um patrimônio,
+ garantindo assim a segurança, qualidade e manutençao ou gerenciamento de riscos.
 
 <h4>Tecnologias utilizadas no Projeto</h4>
 
