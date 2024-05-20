@@ -47,6 +47,8 @@ Um Sistema desenvolvido para controlar o estado de um imóvel em, com os resulta
 
 
 <h4>Contribuições individuais</h4>
+<details>
+<summary>Backend </summary>
   <details>
 <summary>Api Rest </summary>
 	
@@ -88,10 +90,13 @@ public class SetorController {
 		O método get /setor seleciona todos os registros de setores;
   </p>
   </details>
-
+   </details>
+	<details>
+   <summary> Frontend </summary>
   <details>
 	<summary> Routers </summary>
   </details>
+	</details>
   
  <h4>Aprendizado Efetivo:</h4>
 
