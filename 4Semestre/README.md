@@ -122,28 +122,35 @@ async function buscarSetor() {
           </div>
 		<br><br>
 		<p> Utilizando do framework Vue.js foi possível armazenar a lista de setores para que sejam vizualidos 
-		na view do projeto, no caso de uso acima aparecem os setores para serem selecionados dentro de um 
-		html select, que ao selecionar através da anotação @change salva o ID do setor em questão 
-		para atualizar o registro no banco de dados</p>
+		na view do projeto utilizando o v-model, no caso de uso acima aparecem os setores para serem 
+		selecionados dentro de um html select, que ao selecionar através da anotação @change salva o 
+		ID do setor em questão para atualizar o registro no banco de dados</p>
 		</details>
 	</details>
   
  <h4>Aprendizado Efetivo:</h4>
 
-  <summary>Api's Rest:</summary>
-  - Foi o principal aprendizado, pois através desse entendimento é possível criar diversos tipos de aplicativos
-  web, principalmente aqueles que necessitam de algum mecanismo de busca ou até para mostrar dados, seja em forma de gráficos como foi o nosso
-		caso ou de diversas outras maneiras.
-    No caso, a conexão http através dos links, os tipos de retorno e como utiliza-los(enviando e recebendo JSON's), onde utilizamos POST, GET,
-    PUT entre outros tipos de requests que possibilitaram a conexão entre o Banco de Dados e o Front do projeto;
-<br>	<br>
+  <summary>Requisição Rests:</summary>
+  - Como consumir e utilizar uma api rest através do envio de um corpo de requisição adequado e como utilizar as 
+  respostas foi um dos principais aprendizados;
 <br><br>
- <summary>Polimorfismo:</summary>
-	-Ao separar as classes em Interfaces, Services, Entitys(Repositories) e Controllers, foi possível herdar funcionalidades de classes para no final controla-las(tendo separado cada parte do processo), assim selecionando de acordo com a necessidade e economizando linhas de código;
+ <summary>Vue.js:</summary>
+	-O framework possibilitou o uso de routers, ou seja, dentro da mesma view é possível adicionar múltiplas 
+ interfaces para o usuário;
+ 	- O uso de constantes diretamente no html através do v-model;
 <br><br>
-<summary>Persistência:</summary>
-	-Utilizando a orientação a objeto/polimorfismo, criamos passos que começam desde o download dos CSVs com os dados meteorológicos, tratamento desses arquivos e inserção definitiva utilizando esses dados no banco, isso tendo em vista que é uma quantidade massiva de informações, ou seja, todos os passos necessários para tal foram implementados.
-
+<summary>Conexão de banco de dados através de Wallet:</summary>
+	-Utilizamos a wallet no repositório para que sem configurações extensas no application properties a conexão
+ com o banco de dados fosse possível em qualquer máquina que a possuir.
+<summary>Spring Security</summary>
+	- Utilizando o security, validações de nível de usuário na aplicação foi possível ao adicionar a senha 
+ criptografada em hash e separando os uuários por nível de acesso.
+ <summary>Spring e JPA</summary>
+ 	- A função save() funciona tanto pra o Insert quanto pra um Update, ou seja, um objeto que não existe não 
+  vai ter ID, logo é um novo registro. Agora um objeto com um ID existente substituirá os valores registrados no
+  banco pelos atributos que ele contém se baseando no ID para realizar o update(where do update é o próprio ID do
+  objeto em questão), isso é feito automaticamente na função save() do spring.
+  presentes nele
   
 
   
