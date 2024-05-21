@@ -12,6 +12,6 @@ metodologias ageis e diversas tecnologias nos projetos abaixo:
 
 ### 3º Semestre : * [Link para portfólio 3º Semestre Java - SpringBoot](https://github.com/LeoAdlerr/PortfolioApis/tree/main/3Semestre)
 
-### 4º Semestre : * [Link para portfólio 4º Semestre Java - SpringBoot](https://github.com/LeoAdlerr/PortfolioApis/tree/main/4Semestre)
+### 4º Semestre : * [Link para portfólio 4º Semestre SpringBoot - Vue.JS](https://github.com/LeoAdlerr/PortfolioApis/tree/main/4Semestre)
 
 ## Feito por Leonardo Adler da Silva
