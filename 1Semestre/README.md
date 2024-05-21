@@ -5,8 +5,8 @@ estudante de Banco de Dados na Fatec Jessen Vidal, na qual tive a experiência d
 metodologias ageis e diversas tecnologias.  
 
 <h3> Em 2022-2 foi trabalhado um projeto API com o parceiro acadêmico IACIT </h3> 
-* [Video Apresentação do projeto](https://github.com/DatatechOffice/Api_Iacit)
- https://www.youtube.com/watch?v=0aUKWEjipQQ
+* [Video Apresentação do projeto](https://www.youtube.com/watch?v=0aUKWEjipQQ)
+ 
 * [Link para o GitHub](https://github.com/DatatechOffice/Api_Iacit)
 
 <h4> Visão e objetivo do projeto </h4>
