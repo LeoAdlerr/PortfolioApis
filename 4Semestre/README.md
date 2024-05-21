@@ -142,9 +142,11 @@ async function buscarSetor() {
 <summary>Conexão de banco de dados através de Wallet:</summary>
 	-Utilizamos a wallet no repositório para que sem configurações extensas no application properties a conexão
  com o banco de dados fosse possível em qualquer máquina que a possuir.
+ <br><br>
 <summary>Spring Security</summary>
 	- Utilizando o security, validações de nível de usuário na aplicação foi possível ao adicionar a senha 
  criptografada em hash e separando os uuários por nível de acesso.
+ <br><br>
  <summary>Spring e JPA</summary>
  	- A função save() funciona tanto pra o Insert quanto pra um Update, ou seja, um objeto que não existe não 
   vai ter ID, logo é um novo registro. Agora um objeto com um ID existente substituirá os valores registrados no
