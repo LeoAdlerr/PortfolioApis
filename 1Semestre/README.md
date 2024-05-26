@@ -1,7 +1,7 @@
 <h3> Em 2021-2 foi trabalhado um projeto API com cliente interno(professores da Fatec) </h3> 
 * [Video Apresentação do projeto](https://www.youtube.com/watch?v=0aUKWEjipQQ)
 
-<br>
+<br><br>
  
 * [Link para o GitHub](https://github.com/LeoAdlerr/Projeto-Integrador-2021-2-Grupo3/tree/main)
 
