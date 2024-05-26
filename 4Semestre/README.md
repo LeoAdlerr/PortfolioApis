@@ -113,22 +113,25 @@ Neste exemplo utilizei um método get e post para receber os dados vindos do fro
   </details>
 	<details> 
 		<summary> Vue.js </summary>
-		<div>
-          //Exemplo de uso da requisição no Vue.js
-			<br>
-          <label>Setor: </label>
-            <select class="setor" id="setor" v-model="setor" @change="getSetor()">
-              <option v-for="s in setores" :key="s.id" v-bind:value="s.id"
-              >{{ s.nome}}</option>
-            </select>
-          </div>
-		<br><br>
-		<p> Utilizando do framework Vue.js foi possível armazenar a lista de setores para que sejam vizualidos 
-		na view do projeto utilizando o v-model, no caso de uso acima aparecem os setores para serem 
-		selecionados dentro de um html select, que ao selecionar através da anotação @change salva o 
-		ID do setor em questão para atualizar o registro no banco de dados</p>
-		</details>
-	</details>
+					<div>
+			//Exemplo de uso da requisição no Vue.js
+   			<br>
+					
+			  // <label/>Setor: </label>
+			   // </select class="setor" id="setor" v-model="setor" @change="getSetor()">
+			      </option v-for="s in setores" :key="s.id" v-bind:value="s.id"
+			      >{{ s.nome}}</option>
+			    // </select>
+		
+					// </div>
+	      
+<br><br>
+<p> Utilizando do framework Vue.js foi possível armazenar a lista de setores para que sejam vizualidos 
+na view do projeto utilizando o v-model, no caso de uso acima aparecem os setores para serem 
+selecionados dentro de um html select, que ao selecionar através da anotação @change salva o 
+ID do setor em questão para atualizar o registro no banco de dados</p>
+</details>
+</details>
   
  <h4>Aprendizado Efetivo:</h4>
 
