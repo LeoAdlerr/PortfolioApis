@@ -3,7 +3,7 @@
 
 <br><br>
  
-* [Link para o GitHub](https://github.com/LeoAdlerr/Projeto-Integrador-2021-2-Grupo3/tree/main)
+* [Link para o Repositório](https://github.com/LeoAdlerr/Projeto-Integrador-2021-2-Grupo3/tree/main)
 
 <h4> Visão e objetivo do projeto </h4>
       O projeto tem como objetivo desenvolver um programa que forneça e informe as estatísticas 
