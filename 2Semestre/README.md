@@ -17,8 +17,17 @@ outros sistemas.
 
 - Java: 
   <br>
-    Todo o visual e design da página web foram feitas utilizando essas tecnologias, isso inclue os gráficos 
-  com os dados meteorológicos auxiliando-se das lógicas do Javascript para tal;
+    A linguagem de programação utilizada com as lógicas para inserção, selecionar, deletar e excluir.
+  Assim conectando o banco de dados a aplicação Desktop;
+  <br><br>
+  - SqlServer: 
+  <br>
+    Foi utilizado um banco na nuvem azure(SqlServer) onde os dados de login e dos pedidos dos clientes foram
+    armazenados;
+  <br><br>
+  - JavaSwing: 
+  <br>
+    Todo o visual e design da aplicação foi feita usando essa tecnologia, desde a tela de login até a tela gold;
   <br><br>
 - Maven: 
   <br>  
@@ -28,159 +37,127 @@ outros sistemas.
   <br><br>
   
 <h4>Contribuições individuais</h4>
-  <details>
-<summary>Api Rest </summary>
+<details>
+<summary> Classes DAO de Conexão com BD </summary>
 	
   <p><br>
-  	- Usando spring boot, criei as api's a serem consumidas, nas quais conectei com o banco sql para buscar os dados 
-  filtrados pelo frontend, foi pensado em criar uma lógica que contemple quaisquer pesquisas feitas, além
-  do crud com as telas de Login;
-	  <br>
-    * [classe Controller exemplo]@Controller
-public class TemperaturaController {
+  	- Foi criada uma classe DAO chamada ConnectionManager, ela tem o objeto com conexão pro Banco de Dados e que por consequência
+  todas as demais classes Dao irão utilizar, assim não tendo a necessidade de abrir uma nova conexão a cada evento da aplicação:
+<br>
+					* [classe ConnectionManager exemplo]
+	  
 
-	@Autowired(required = true)
-	private ServiceTemperatura temperaturaService;
-
-	@PostMapping(value = { "/temperatura" }, consumes = MediaType.APPLICATION_JSON_VALUE)
-	public ResponseEntity<List<Temperatura>> postFiltroPorData(@RequestBody FilterDataVo data) throws ParseException {
-		
-		List<Temperatura> listTemperatura = temperaturaService.getByFilter(data.getEstacao(), data.getDataInicio(), data.getDataFim());
-		
-		return listTemperatura != null && listTemperatura.size() > 0 ? new ResponseEntity<List<Temperatura>>(listTemperatura, HttpStatus.CREATED)
-				: new ResponseEntity<List<Temperatura>>(listTemperatura, HttpStatus.BAD_REQUEST);
-
-	}
-}    
-    Neste exemplo utilizei um método post para receber os dados vindos do frontend, no caso em formato JSON. Para receber esse json foi 
-  necessário criar uma classe(FilterDataVO) que tivesse um modelo e atributos equivalentes aos vindos do JS.
-    Entra os dados no método vindos de um service que foi feita a inserção de dependência na classe controller e após a resposta, dependendo
-  do retorno ou não da função(getByFilter), existe um ternário para dar uma resposta que no caso pode ser um BadRequest(se não houver um
-  retorno)  ou Created(caso haja um retorno). 
+	  public static Connection getConnection() throws SQLException { return
+	  DriverManager.getConnection(
+	  "jdbc:sqlserver://XXXXXX.DDDDDD.WWWWWW.net;databaseName=DDDD;user=SSSSSS;password=***********"
+	  ); }
+<br>
+  </p>
+  </details>
+  <details>
+<summary> Classes DAO dos Objetos </summary>
+	
+  <p><br>
+  	- Foi criada uma classe DAO chamada DaoCliente, onde todo evento que envolva o banco de dados na tabela/entidade Cliente 
+	  é realizada:
+<br>
+					* [classe DaoCliente exemplo]
+	  
+								public void criarCl(Cliente c1) {
+								this.c1=c1;
+								Connection con = null;
+								try {
+								    con = ConnectionManager.getConnection();
+								    String insert_sql = "insert into cliente (cnpj, entrega_minimas, entregas_possiveis, 
+									nome_cliente, objetivo, setor, razao_social, id_solucao) values (?, ?, ?, ?, ?, ?, ?, ?)";
+								    PreparedStatement pst;
+								    pst = con.prepareStatement(insert_sql);
+								    pst.setObject(1, c1.getvCNPJ_Cliente());
+								    pst.setObject(2, c1.getvEntregaM_Cliente());
+								    pst.setObject(3, c1.getvEntregaP_Cliente());
+								    pst.setObject(4, c1.getvNome_Cliente());
+								    pst.setObject(5, c1.getvObjetivo_Cliente());
+								    pst.setObject(6, c1.getvSetor_Cliente());
+								    pst.setObject(7, c1.getvSocial_Cliente());
+								    pst.setObject(8, c1.getvId_Solucao());
+								    pst.executeUpdate();
+							} catch (SQLException e) {
+							    e.printStackTrace();
+							    throw new RuntimeException("Erro ao inserir os dados!", e);
+							} finally {
+							    try {
+								if (con != null)
+								    con.close();
+							    } catch (SQLException e) {
+								e.printStackTrace();
+								throw new RuntimeException("Erro ao fechar conexão", e);
+							    }
+							}
+						    }
+<br>
+    Neste exemplo o método criarCl() recebe um objeto da entidade Cliente que por sua vez utiliza dos gets presente nos atributos
+do objeto da Classe Cliente para criar um novo registro na tabela cliente com os valores especificados na view. 
   </p>
   </details>
 	  
 	  
   
 <details>
-<summary>Manipulação de dados
-- Na persistência</summary>
+<summary> Modelagem Relacional </summary>
 <p><br><br>
-	Scripts em java para popular o banco com os dados vindos do csv
+	Foi gerado uma modelagem relacional para satisfazer a necessidade de cadastrar clientes e seus pedidos/produtos
 	<br><br>
- *[Classe regiaoService]
+ *[Modelagem da aplicação]
   	
-  Nesse trecho primeiramente recebo os dados vindos do csv referentes aos estados e como são diversas linhas
-	  com o mesmo valor seguidas, criei uma lógica que quando um valor fosse inserido(for), só teria uma inserção 
-	  novamente quando houvesse uma mudança, pois só queriamos uma instância de cada Estado nas tabelas, utilizando 
-	  um objeto com os valores em seus atributos utilizamos o springBoot para inserir cada instância na respectiva tabela,
-	  usando o comando .save;
-	
-	  public void insBancoService
-	  (ArrayList<String> regEstN,
-	  ArrayList<String> regEstC,
-	  ArrayList<String> regEstLA, 
-	  ArrayList<String> regEstLO, 
-	  ArrayList<String> regEstAL, 
-   	  ArrayList<String> regEstD, 
-	  ArrayList<String> etd) 
-		int ii = regEstC.size();
-		for (int i = 1; i < ii; i++) {
-			String estNome = regEstN.get(i);
-			String estC = regEstC.get(i);
-			String latitude = regEstLA.get(i);
-			String longitude = regEstLO.get(i);
-			String altitude = regEstAL.get(i);
-			String dataFundacao = regEstD.get(i);
-			String estadoS = etd.get(i);
+![image](https://github.com/LeoAdlerr/PortfolioApis/assets/88751032/5c21e53a-fb14-468f-8472-d8ed36985de5)
 
-			if (i - 1 >= 0 && regEstC.get(i - 1) != estC) {
-				Estado estado = new Estado();
-				estado = serviceEstado.returnEstado(estadoS);
-				Estado estadoID = new Estado(estado.getEtdId());
-				Estacao estacao = new Estacao(estadoID, estC, BigDecimal.valueOf(Double.parseDouble(longitude)),
-						estNome, Timestamp.valueOf(dataFundacao + " 00:00:00"),
-						BigDecimal.valueOf(Double.parseDouble(latitude)),
-						BigDecimal.valueOf(Double.parseDouble(altitude)));
-				estacaoRepository.save(estacao);
-			} else {
-				continue;
-			}
-    };
-	</p>
-</details>
-	
-<details>
-<summary>Orientação a Objeto e classes que representam algo da vida real</summary>
-<p><br> <br>
-	No exemplo em questão represento a Radiação globlal das cidades em questão, que contém o horário da coleta e o valor da radiação no momento da coleta do dado;
-	<br>
-@Entity(name = "radiacao_global")
-@Table(name = "radiacao_global")
-@Getter
-@Setter
-@NoArgsConstructor
-@Component
-public class RadiacaoGlobal {
-	public RadiacaoGlobal(Estacao estCodigo, Timestamp dataHora, BigDecimal valor) {
-		this.estCodigo=estCodigo;
-		this.dataHora=dataHora;
-		this.valor=valor;
-	}
-	
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name= "rag_id")
-    private Integer ragId;
-
-	@Column(name= "rag_radiacao_global")
-    private BigDecimal valor;
-
-	@Column(name= "rag_data_hora")
-    private Timestamp dataHora;
-
-	@ManyToOne
-	@JoinColumn(name = "est_codigo", referencedColumnName = "est_codigo")
-	private Estacao estCodigo;
-}
-		</p>
-	</details>
-	
-<details>
-<summary>Polimorfismo</summary>
-<p><br><br>
-	Com a utilização de Interfaces do Hibernate, criamos uma possibilidade de utilizar os atributos para
-comunicar colunas e tabelas do banco de dados com as classes que representam cada respectiva entidade;
-	<br>
-	@Repository
-public interface EstadoRepository extends JpaRepository<Estado, Integer> {
-	@Query(value = "SELECT * FROM estado WHERE etd_unidade_federativa = ?1", nativeQuery = true)
-	public Estado selectBySigla(String etd);
-
-	@Query(value = "SELECT * FROM estado", nativeQuery = true)
-	public List<Estado> selectEstado();
-	}
 </p>
 </details>
+	
+<details>
+<summary>Orientação a Objeto e classes que representam algo na vida real</summary>
+<p><br> <br>
+	No exemplo em questão represento a tabela cliente, que contém os valores que serão cadastrados pela aplicação no banco de dados
+	, ou seja, os valores que representam esse cliente na vida real;
+		<br>
+	
+		//Classe
+		public class Cliente {
+		    //Atributos
+		    private String vNome_Cliente;
+		    private String vCNPJ_Cliente;
+		    private String vNome_Cliente2;
+		    private String vCNPJ_Cliente2;
+		    private String vSocial_Cliente;
+		    private String vSetor_Cliente;
+		    private String vSolucao_Cliente;
+		    private String vObjetivo_Cliente;
+		    private String vEntregaM_Cliente;
+		    private String vEntregaP_Cliente;
+		    private int vId_Cliente;
+		    private int vId_Solucao;
+		    private int vId_Produto;
+		    private int vId_Escolha;
+</p>
+</details>
+	
   
  <h4>Aprendizado Efetivo:</h4>
 
-  <summary>Api's Rest:</summary>
-  - Foi o principal aprendizado, pois através desse entendimento é possível criar diversos tipos de aplicativos
-  web, principalmente aqueles que necessitam de algum mecanismo de busca ou até para mostrar dados, seja em forma de gráficos como foi o nosso
-		caso ou de diversas outras maneiras.
-    No caso, a conexão http através dos links, os tipos de retorno e como utiliza-los(enviando e recebendo JSON's), onde utilizamos POST, GET,
-    PUT entre outros tipos de requests que possibilitaram a conexão entre o Banco de Dados e o Front do projeto;
+  <summary> Orientação a Objeto :</summary>
+  - Foi o principal aprendizado, criando classes que representassem as tabelas do banco de dados com os mesmos atributos uma tarefa de 
+mapear e representar os registros na aplicação se tornou muito mais prático;
 <br>	<br>
-<summary>Orientação a Objeto:</summary>
-	-As classes da pasta Entity, com auxilio do hibernate, são objetos que representam as tabelas do banco de dados e consequentemente suas representações de algo na vida real, como a classe Temperatura que representa as temperaturas de cada cidade e a classe Região que representa as regiões geográficas do Brasil(Sul, Centro-Oeste, etc);
+<summary> MVC(Model, View, Controller):</summary>
+	- Com classes para representar a modelagem do BD, separadas das classes de visão e conexão com o Banco, cada tarefa pode se tornar
+ muito mais específica além da aplicação ser mais fácil de ser compreendida por qulaquer desenvolvedor, ja que cada parte do código segue 
+ o seu padrão;
 <br><br>
- <summary>Polimorfismo:</summary>
-	-Ao separar as classes em Interfaces, Services, Entitys(Repositories) e Controllers, foi possível herdar funcionalidades de classes para no final controla-las(tendo separado cada parte do processo), assim selecionando de acordo com a necessidade e economizando linhas de código;
+ <summary> Modelagem Relacional:</summary>
+	-Para representar as algo na vida real foi necessário criar uma modelagem relacional e nesse projeto foi algo imprescindível pois os
+ dados de uma visão dependiam dos valores inseridos na anterior, inclusive tendo a possibilidade de uma visão que podiam ter registros multiplos
+ da anterior para o mesmo cliente (relacionamento 1,N ou um pra muitos) e outras que apenas um registro era possível(relacionamento 1,1 ou um pra um);
 <br><br>
-<summary>Persistência:</summary>
-	-Utilizando a orientação a objeto/polimorfismo, criamos passos que começam desde o download dos CSVs com os dados meteorológicos, tratamento desses arquivos e inserção definitiva utilizando esses dados no banco, isso tendo em vista que é uma quantidade massiva de informações, ou seja, todos os passos necessários para tal foram implementados.
 
-  
 
   
