@@ -10,6 +10,8 @@ recursos na plataforma Dom Rock, entrada de dados e estimativa de consumo de rec
 em volume de dados de cliente, quantidade de usuários e outros) e gere relatórios e consultas, mas, 
 principalmente, tenha a base de dados modelada adequadamente para futuras integrações com 
 outros sistemas.
+	Criação de interfaces para cada etapa do programa visando facilitar a ativação delas e dos cadastros posteriormente,
+além de tornar o processo visível aos clientes.
 
 <h4>Tecnologias utilizadas no Projeto</h4>
 
@@ -18,31 +20,6 @@ outros sistemas.
     Todo o visual e design da página web foram feitas utilizando essas tecnologias, isso inclue os gráficos 
   com os dados meteorológicos auxiliando-se das lógicas do Javascript para tal;
   <br><br>
-- JavaScript:
-  <br>
-    Lógica das páginas, seja restrições das mesmas, preenchimentos ou a filtragem dos dados selecionados pelos 
-  usuários e para tal a conexão e utilização das APIs criadas em java/springboot;
-  <br><br>
-- Java e SpringBoot:
-  <br><br>
-    Primeiramente foram feitas rotinas para persistir a base de dados meteorológicos; 
-    Depois a criação  das Apis Rest conectando o banco de dados que contém os dados meteorológicos com as páginas, 
-  para tal foram criadas pesquisas aliadas a lógicas para buscar e filtrar os dados e assim enviando os resultados
-  em formato JSON para que possam ser tratados pelo JavaScript;
-  <br><br>
-- Python: 
-  <br><br>
-    Uma rotina para captação dos dados em csv fornecidos pelo cliente foi criada, para assim criar um csv com os  
-  valores de todos os períodos agregados e assim podendo envia-los num formato onde fosse possível persisti-los usando
-  o java;
-  <br><br>
-- PostgreSQL: 
-  <br><br>
-    Foi o banco de dados de preferência da empresa contratante e o utilizado para armazenar os dados meteorológicos de 
-  uma forma de uma forma que fosse possível utiliza-los num programa, além de traze-los num formato e tipo que 
-  falicitassem o uso;
-  <br><br>
-  
 - Maven: 
   <br>  
     Utilizado para versionar e enviar o código no Git, assim facilitando a todos os desenvolvedores e usuários a utilizar o
