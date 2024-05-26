@@ -97,18 +97,19 @@ Neste exemplo utilizei um método get e post para receber os dados vindos do fro
   <details>
 	<summary> Requisição das api's rest </summary>
 	  - Exemplo de requisição Rest que consome a api do backend SpringBoot
-   <br>	 <br>
-//Função para buscar os setores do banco
-async function buscarSetor() {
-  try {
-    const response = await axios.get('setor')
-    SelectionSection.value = response.data
-  } catch (error) {
-    console.error('Error fetching servico:', error)
-  }  
-}
-	  <br>
-	  <p> Nessa função estou consumindo a rota '/setor' que retorna um objeto com a lista de setores cadastrados; </p>
+  
+		//Função para buscar os setores do banco
+		async function buscarSetor() {
+		  try {
+		    const response = await axios.get('setor')
+		    SelectionSection.value = response.data
+		  } catch (error) {
+		    console.error('Error fetching servico:', error)
+		  }  
+		}
+  
+  <br>
+  <p> Nessa função estou consumindo a rota '/setor' que retorna um objeto com a lista de setores cadastrados; </p>
   </details>
 	<details> 
 		<summary> Vue.js </summary>
