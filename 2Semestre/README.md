@@ -4,14 +4,16 @@
 * [Link para o Repositório](https://github.com/DatatechOffice/datatech_api)
 
 <h4> Visão e objetivo do projeto </h4>
-    Desenvolver um sistema web, onde fosse possível realizar a extração e tratamento
-  de dados meteorológicos através do site INEP fornecido pelo parceiro, além da persistência 
-  dos mesmos e por fim a visualização dos dados de forma que decisões pudessem ser realizadas,
-  no caso foram utilizado gráficos e a filtragem dos dados pelo usuário para tal.
+    O desafio consiste na gestão de ativação de clientes na plataforma Dom Rock. Precisamos de uma 
+solução que seja orientada a entrada de dados de parâmetros e variáveis de cada cliente para alocar 
+recursos na plataforma Dom Rock, entrada de dados e estimativa de consumo de recursos (baseado 
+em volume de dados de cliente, quantidade de usuários e outros) e gere relatórios e consultas, mas, 
+principalmente, tenha a base de dados modelada adequadamente para futuras integrações com 
+outros sistemas.
 
 <h4>Tecnologias utilizadas no Projeto</h4>
 
-- HTML, CSS e Bootstrap: 
+- Java: 
   <br>
     Todo o visual e design da página web foram feitas utilizando essas tecnologias, isso inclue os gráficos 
   com os dados meteorológicos auxiliando-se das lógicas do Javascript para tal;
