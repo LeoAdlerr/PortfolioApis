@@ -1,5 +1,5 @@
 
-<h3> Em 2022-1 foi trabalhado um projeto API com o parceiro acadêmico IACIT </h3> 
+<h3> Em 2022-1 foi trabalhado um projeto API com o parceiro acadêmico DomRock </h3> 
  
 * [Link para o Repositório](https://github.com/DatatechOffice/datatech_api)
 
@@ -10,8 +10,8 @@ recursos na plataforma Dom Rock, entrada de dados e estimativa de consumo de rec
 em volume de dados de cliente, quantidade de usuários e outros) e gere relatórios e consultas, mas, 
 principalmente, tenha a base de dados modelada adequadamente para futuras integrações com 
 outros sistemas.
-	Criação de interfaces para cada etapa do programa visando facilitar a ativação delas e dos cadastros posteriormente,
-além de tornar o processo visível aos clientes.
+	Para realizar o deafio, foi necessária a Criação de interfaces para cada etapa do programa visando 
+ facilitar a ativação delas e dos cadastros posteriormente, além de tornar o processo visível aos clientes.
 
 <h4>Tecnologias utilizadas no Projeto</h4>
 
