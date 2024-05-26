@@ -87,7 +87,8 @@ Neste exemplo utilizei um método get e post para receber os dados vindos do fro
 	presente no service utilizado(buscar o registro com o id em específico);
 		Ja o método post /setor é utilizado para receber o objeto setor com os paramêtros inseridos no frontend com o intuito de criar um 
 	novo registro de setor(criar um novo setor para a aplicação);
-		O método get /setor seleciona todos os registros de setores;
+		<br>
+  O método get /setor seleciona todos os registros de setores;
   </p>
   </details>
    </details>
