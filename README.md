@@ -6,7 +6,7 @@
 estudante de Banco de Dados na Fatec Jessen Vidal, na qual tive a experiência de utilizar
 metodologias ageis e diversas tecnologias nos projetos abaixo: 
 
-### 1º Semestre (Fatec) : * [Link para portfólio 1º Semestre Python](https://github.com/LeoAdlerr/PortfolioApis/tree/main/1Semestre) 
+### 1º Semestre (Fatec/Interno) : * [Link para portfólio 1º Semestre Python](https://github.com/LeoAdlerr/PortfolioApis/tree/main/1Semestre) 
 
 ### 2º Semestre (DomRock): * [Link para portfólio 2º Semestre Java](https://github.com/LeoAdlerr/PortfolioApis/tree/main/2Semestre)
 
