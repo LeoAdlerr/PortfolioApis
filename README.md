@@ -5,8 +5,10 @@
   Olá, sou Leonardo Adler da Silva
 estudante de Banco de Dados na Fatec Jessen Vidal, na qual tive a experiência de utilizar
 metodologias ageis e diversas tecnologias nos projetos abaixo: 
+target="_blank" no elemento de âncora (<a>
 
-### 1º Semestre (Fatec/Interno) : * [Link para portfólio 1º Semestre Python](https://github.com/LeoAdlerr/PortfolioApis/tree/main/1Semestre) 
+### 1º Semestre (Fatec/Interno) : * [Link para portfólio 1º Semestre Python]
+<a target="_blank">https://github.com/LeoAdlerr/PortfolioApis/tree/main/1Semestre</a>
 
 ### 2º Semestre (DomRock): * [Link para portfólio 2º Semestre Java](https://github.com/LeoAdlerr/PortfolioApis/tree/main/2Semestre)
 
