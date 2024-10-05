@@ -60,7 +60,7 @@ Olá, sou **Leonardo Adler da Silva**, estudante de Banco de Dados na Fatec FATE
     </tbody>
 </table>
 
-## Feito com entusiasmo por Leonardo Adler da Silva
+#### Feito com entusiasmo por Leonardo Adler da Silva
 
 
 <div id="portfolio1Covid">
