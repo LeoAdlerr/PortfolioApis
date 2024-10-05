@@ -1,20 +1,22 @@
-# Portfólios dos projetos API's(Aprendizagem por Projetos Integradores) FATEC Jessen Vidal
+# Portfólio dos Projetos API's (Aprendizagem por Projetos Integradores) - FATEC Jessen Vidal
 
-<h2> Leonardo Adler da Silva </h2>
+## 🌟 Leonardo Adler da Silva
 
-  Olá, sou Leonardo Adler da Silva
-estudante de Banco de Dados na Fatec Jessen Vidal, na qual tive a experiência de utilizar
-metodologias ageis e diversas tecnologias nos projetos abaixo: 
+Olá, sou **Leonardo Adler da Silva**, um apaixonado estudante de Banco de Dados na Fatec Jessen Vidal. Ao longo da minha jornada acadêmica, tive a oportunidade de trabalhar com metodologias ágeis e diversas tecnologias, resultando em projetos empolgantes que compartilho abaixo. 
 
-<p>1º Semestre (Fatec/Interno)<a href="https://github.com/LeoAdlerr/PortfolioApis/tree/main/1Semestre" target="_blank">Link para portfólio 1º Semestre Python</a></p>
+### 🚀 Projetos por Semestre
 
-### 2º Semestre (DomRock): * [Link para portfólio 2º Semestre Java](https://github.com/LeoAdlerr/PortfolioApis/tree/main/2Semestre)
+- **1º Semestre (Fatec/Interno)**: [🔗 Link para o portfólio 1º Semestre Python](https://github.com/LeoAdlerr/PortfolioApis/tree/main/1Semestre)
 
-### 3º Semestre (IACIT): * [Link para portfólio 3º Semestre Java - SpringBoot](https://github.com/LeoAdlerr/PortfolioApis/tree/main/3Semestre)
+- **2º Semestre (DomRock)**: [🔗 Link para o portfólio 2º Semestre Java](https://github.com/LeoAdlerr/PortfolioApis/tree/main/2Semestre)
 
-### 4º Semestre (JAIA): * [Link para portfólio 4º Semestre SpringBoot - Vue.JS](https://github.com/LeoAdlerr/PortfolioApis/tree/main/4Semestre)
+- **3º Semestre (IACIT)**: [🔗 Link para o portfólio 3º Semestre Java - SpringBoot](https://github.com/LeoAdlerr/PortfolioApis/tree/main/3Semestre)
 
-## Feito por Leonardo Adler da Silva
+- **4º Semestre (JAIA)**: [🔗 Link para o portfólio 4º Semestre SpringBoot - Vue.JS](https://github.com/LeoAdlerr/PortfolioApis/tree/main/4Semestre)
+
+---
+
+## 🎉 Feito com entusiasmo por Leonardo Adler da Silva
 
 
 
