@@ -1,6 +1,6 @@
 <!-- Seções do portfólio -->
 <div id="topo">
-    <h1>Bem-vindo ao Meu Portfólio dos Projetos API's (Aprendizagem por Projetos Integradores) by FATEC São José dos Campos - Jessen Vidal</h1>
+    <h1>Bem-vindo ao Meu Portfólio dos Projetos API's (Aprendizagem de Projetos Integradores) by FATEC São José dos Campos - Jessen Vidal</h1>
 </div>
 
 ## Leonardo Adler da Silva
