@@ -1,4 +1,7 @@
-# Portfólio dos Projetos API's (Aprendizagem por Projetos Integradores) - FATEC Jessen Vidal
+<!-- Seções do portfólio -->
+<div id="topo">
+	<h1> Bem-vindo ao Meu Portfólio dos Projetos API's (Aprendizagem por Projetos Integradores) by FATEC Sao Jose dos Campos - Jessen Vidal </h1>	
+</div>
 
 ##  Leonardo Adler da Silva
 
@@ -6,20 +9,20 @@ Olá, sou **Leonardo Adler da Silva**, um apaixonado estudante de Banco de Dados
 
 ### 🚀 Projetos por Semestre
 
-- **1º Semestre (Fatec/Interno)**: [🔗 Link para o portfólio 1º Semestre Python](https://github.com/LeoAdlerr/PortfolioApis/tree/main/1Semestre)
-
-- **2º Semestre (DomRock)**: [🔗 Link para o portfólio 2º Semestre Java](https://github.com/LeoAdlerr/PortfolioApis/tree/main/2Semestre)
-
-- **3º Semestre (IACIT)**: [🔗 Link para o portfólio 3º Semestre Java - SpringBoot](https://github.com/LeoAdlerr/PortfolioApis/tree/main/3Semestre)
-
-- **4º Semestre (JAIA)**: [🔗 Link para o portfólio 4º Semestre SpringBoot - Vue.JS](https://github.com/LeoAdlerr/PortfolioApis/tree/main/4Semestre)
-
----
+<a href="#portfolio1Covid">**1º Semestre Python (Fatec/Interno)**</a>
+<a href="#portfolio2DomRock">**2º Semestre Java Desktop (DomRock)**</a>
+<a href="#portfolio3IACIT">**3º Semestre Java - SpringBoot (IACIT)**</a>
+<a href="#portfolio4Jaia">**4º Semestre Vue.JS - SpringBoot (JAIA)**</a>
+<a href="#portfolio5Tecsus">**5º Semestre Node.js - PowerBi (TECSUS)**</a>
+<a href="#portfolio6SPCGrafeno">**6º Semestre Inteligencia Artificial - Node.js (Spc Grafeno)**</a>
 
 ##  Feito com entusiasmo por Leonardo Adler da Silva
 
+<div id="portfolio1Covid">
+	<h3>Em 2021-2 foi trabalhado um projeto API com cliente interno (Fatec)</h3>
+</div>
 
-<h3>Em 2021-2 foi trabalhado um projeto API com cliente interno (professores da Fatec)</h3>
+* [Link para o Repositório](https://github.com/LeoAdlerr/Projeto-Integrador-2021-2-Grupo3)
 
 ## Objetivo do Projeto
 O objetivo deste projeto foi desenvolver um programa interativo que fornecesse estatísticas sobre a Covid-19 no estado de São Paulo. Através da coleta e visualização de dados, o programa busca informar a população sobre a evolução da pandemia, permitindo uma melhor compreensão dos impactos e das medidas tomadas ao longo do tempo.
@@ -88,11 +91,21 @@ Este projeto me proporcionou uma valiosa experiência em programação e anális
 ## Considerações Finais
 Este projeto marcou meu primeiro contato com programação e análise de dados, e mesmo sendo um iniciante, foi gratificante ver a criação de uma ferramenta que não apenas reúne informações, mas também fornece insights reais e relevantes aos usuários. A experiência adquirida foi essencial para meu desenvolvimento pessoal e profissional, e me motivou a continuar aprendendo e aprimorando minhas habilidades na área de tecnologia e ciência de dados.
 
+<!-- Links para navegação -->
+<a href="#topo">Voltar ao topo</a>
+
 <br><br>
 
-<h3> Em 2022-1 foi trabalhado um projeto API com o parceiro acadêmico DomRock </h3> 
+<div id="portfolio2DomRock">
+	<h3> Em 2022-1 foi trabalhado um projeto API com o parceiro acadêmico DomRock </h3> 
+</div>
+
+<!-- Links para navegação -->
+<a href="#topo">Voltar ao topo</a>
  
 # Projeto de Gestão de Ativação de Clientes - Dom Rock
+
+* [Link para o Repositório](https://github.com/DatatechOffice/datatech_api)
 
 ## Visão e Objetivo do Projeto
 O desafio consiste na gestão de ativação de clientes na plataforma Dom Rock. Precisamos de uma solução que seja orientada a entrada de dados de parâmetros e variáveis de cada cliente para alocar recursos na plataforma Dom Rock, entrada de dados e estimativa de consumo de recursos (baseado em volume de dados de cliente, quantidade de usuários e outros) e gere relatórios e consultas, mas, principalmente, tenha a base de dados modelada adequadamente para futuras integrações com outros sistemas. Para realizar o desafio, foi necessária a criação de interfaces para cada etapa do programa visando facilitar a ativação delas e dos cadastros posteriormente, além de tornar o processo visível aos clientes.
@@ -232,10 +245,14 @@ Os principais aprendizados incluem:
 ## 💡Considerações Finais
 O projeto foi uma experiência rica em aprendizado e colaboração. Durante o desenvolvimento, enfrentamos desafios como a definição dos requisitos do sistema e a integração entre diferentes tecnologias, que foram superados com o esforço conjunto da equipe.
 
+<!-- Links para navegação -->
+<a href="#topo">Voltar ao topo</a>
+
 <br><br>
 
-
-<h3> Em 2023-1 foi trabalhado um projeto API com o parceiro acadêmico IACIT </h3> 
+<div id="portfolio3IACIT">
+	<h3> Em 2023-1 foi trabalhado um projeto API com o parceiro acadêmico IACIT </h3>  
+</div>
 
 * [Link para o Repositório](https://github.com/DatatechOffice/Api_Iacit)
 
@@ -352,14 +369,17 @@ public interface RadiacaoRepository extends JpaRepository<RadiacaoGlobal, Long> 
 <summary>Persistência:</summary>
 - Utilizando orientação a objeto/polimorfismo, implementamos todo o processo desde o download dos CSVs com dados meteorológicos, tratamento desses arquivos e inserção no banco, considerando a quantidade massiva de informações.
 
-
-
 <h4>Conclusão</h4>
 O projeto desenvolvido em parceria com a IACIT foi uma experiência enriquecedora, proporcionando uma compreensão profunda sobre o uso de APIs, a manipulação de dados e a implementação de soluções web eficientes. O aprendizado do framework Spring foi crucial para estruturar as aplicações, permitindo o desenvolvimento de sistemas robustos e escaláveis, alinhando teoria e prática de forma significativa.
 
+<!-- Links para navegação -->
+<a href="#topo">Voltar ao topo</a>
+
 <br><br>
-  
-<h3>Em 2023-2 foi trabalhado um projeto API com o parceiro acadêmico JAIA</h3> 
+
+<div id="portfolio4Jaia">
+	<h3>Em 2023-2 foi trabalhado um projeto API com o parceiro acadêmico JAIA</h3> 
+</div>
 
 * [Link para o Repositório do projeto](https://github.com/Great-Pretender/GreatPretender-API)
 
@@ -502,44 +522,240 @@ O projeto desenvolvido em parceria com a JAIA resultou em um sistema eficaz para
 
 As funcionalidades implementadas garantem uma navegação simples e a manipulação ágil de dados, promovendo segurança e eficiência na gestão de patrimônios. Assim, o sistema não só atende aos requisitos, mas também estabelece uma base sólida para futuras melhorias.
 
+<!-- Links para navegação -->
+<a href="#topo">Voltar ao topo</a>
 
-<h3>Em 2024-1 foi trabalhado um projeto API com o parceiro acadêmico Tecsus</h3> 
+<div id="portfolio5Tecsus">
+	<h2> Projeto API com o Parceiro Acadêmico TecSUS (2024-1) </h2>
+</div>
 
-<h4><a  href= "https://github.com/quarks-team/Projeto-Integrador-TecSUS" > Link para Repositorio do projeto </a></h4>
+[Link para Repositório do Projeto](https://github.com/quarks-team/Projeto-Integrador-TecSUS)
 
-### Objetivo
-O principal objetivo deste projeto foi desenvolver um **Dashboard Web** de alta complexidade, capaz de processar e analisar faturas de energia, água de diversas unidades de clientes. O sistema permite que as empresas identifiquem oportunidades de redução de custos e otimização de contratos com concessionárias. O dashboard oferece funcionalidades de geração de relatórios detalhados e alertas baseados no consumo, possibilitando uma visão clara e direta sobre o desempenho e os custos de cada unidade ou contrato.
+## Objetivo
 
-### Minhas Contribuições
+O principal objetivo deste projeto foi desenvolver um **Dashboard Web** de alta complexidade, capaz de processar e analisar faturas de energia e água de diversas unidades de clientes. O sistema permite que as empresas identifiquem oportunidades de redução de custos e otimização de contratos com concessionárias. Além disso, o dashboard oferece funcionalidades de geração de relatórios detalhados e alertas com base no consumo, possibilitando uma visão clara sobre o desempenho e os custos de cada unidade ou contrato.
 
-<summary> Modelagem dimensional
-	<p></p>
-	<details>
-	<img src="https://github.com/quarks-team/Projeto-Integrador-TecSUS-Database/blob/main/modelagem_banco_API_v.06.png">	
-	</details>
-</summary>
-(Contribuições futuras serão detalhadas nesta seção, relacionadas ao backend, frontend e integração de dados.)
+## Minhas Contribuições
 
-### Aprendizado Efetivo
+### Modelagem Dimensional
+- Participei da modelagem dimensional, criando um banco de dados que facilitou a análise de grandes volumes de dados. Essa arquitetura permitiu gerar relatórios rápidos e eficientes, essenciais para lidar com múltiplas faturas por unidade, contrato e concessionária, sem comprometer a performance.
+- Atuei em todas as fases da modelagem: concepção inicial, construção e implementação das tabelas de fato e dimensão. Trabalhei na definição de como as tabelas se relacionariam, levando em conta as especificidades dos dados de energia e água. Também desenvolvi as queries para carga de dados nas tabelas de fato, garantindo integridade e eficiência durante o processo de ETL.
 
-Durante o desenvolvimento deste projeto, obtive um aprendizado significativo em várias áreas fundamentais para a construção do sistema. Abaixo estão os principais tópicos de aprendizado:
+<details>
+<summary>Modelagem Dimensional</summary>
+<img src="https://github.com/quarks-team/Projeto-Integrador-TecSUS-Database/blob/main/modelagem_banco_API_v.06.png">
+</details>
 
-#### Modelagem Dimensional
-- O banco de dados foi criado dentro da concepcao de modelo dimensional, o que facilitou a análise de grandes volumes de dados, permitindo criar relatórios rápidos e eficientes. Isso foi crucial para que o sistema pudesse lidar com múltiplas faturas por unidade, contrato e concessionária, sem perder a performance.
-- Participei ativamente em todas as fases da modelagem dimensional, desde a concepção inicial até a construção e implementação das tabelas de fato e dimensão. Colaborei na definição de como cada tabela se relacionaria dentro do modelo, considerando as particularidades dos dados de energia e água. Além disso, desenvolvi as queries de carga de dados para as tabelas de fato, garantindo a integridade dos dados e o desempenho eficiente durante o processo de ETL.
+### Backend com Node.js
+Neste exemplo, desenvolvi um **controller** em Node.js que permitiu ao usuário carregar seus arquivos através do frontend e acompanhar o progresso do upload e do processo de ETL. Como o carregamento dos arquivos podia demorar até 5 minutos, era essencial manter o usuário informado sobre o tempo restante para a conclusão da carga.
 
-#### ETL (Extração, Transformação e Carga)
-- Implementei processos de **ETL (Extração, Transformação e Carga)** para integrar dados de várias fontes (como arquivos CSV, APIs de concessionárias e bases de dados legadas). O uso de ferramentas como o **Apache Airflow** ajudou a automatizar essas etapas, garantindo a precisão e a consistência dos dados no banco centralizado.
+<details>
+<summary>Exemplo de Controller em Node.js</summary>
+<pre><code>
+@Controller('billing')
+export class BillingController {
+  constructor(private readonly service: BillingService) {}
 
-#### Node.js
-- Na parte do backend, utilizei **Node.js** para desenvolver a API responsável pela coleta e fornecimento dos dados das faturas. Isso permitiu a construção de uma aplicação altamente performática e escalável, capaz de atender múltiplos clientes simultaneamente.
+  @Post('upload')
+  @UseInterceptors(FilesInterceptor('files'))
+  async uploadFiles(@UploadedFiles() files: Express.Multer.File[]) {
+    const folderPath = path.join(__dirname, 'files');
+    await mkdir(folderPath, { recursive: true });
+    const filePromises = files.map(async (file) => {
+      const filePath = path.join(folderPath, file.originalname);
+      await writeFile(filePath, file.buffer);
+      const log = (message: string) => {
+        if (global.sseResponse) {
+          global.sseResponse.write(
+            `event: user-log\ndata: ${JSON.stringify({ message })}\n\n`,
+          );
+        }
+      };
+      await this.service.transform(file.originalname, filePath, log);
+      if (global.sseResponse) {
+        global.sseResponse.write(
+          `event: user-log\ndata: ${JSON.stringify({
+            message: \`O arquivo "\${file.originalname}" foi processado com sucesso.\`,
+          })}\n\n`,
+        );
+      }
+    });
+    await Promise.all(filePromises);
+    if (global.sseResponse) {
+      global.sseResponse.write(
+        `event: user-log\ndata: ${JSON.stringify({
+          message: 'Todos os arquivos foram processados com sucesso.',
+        })}\n\n`,
+      );
+      global.sseResponse.end();
+    }
+    return { message: 'Todos os arquivos foram processados com sucesso.' };
+  }
+}
+</code></pre>
+</details>
 
-#### Power BI
-- No frontend, implementei dashboards e relatórios interativos utilizando **Power BI** para fornecer insights visuais em tempo real sobre o consumo de recursos (água, energia e gás). O Power BI foi essencial para o desenvolvimento de gráficos dinâmicos, permitindo que os usuários acompanhassem tendências e identificassem anomalias no consumo.
+### ETL com Node.js
+Implementei a lógica de **ETL** (Extração, Transformação e Carga) para inserir dados nas tabelas, verificando quais arquivos o usuário carregou e processando-os adequadamente. O sistema verificava se os dados carregados pertenciam a contratos ou contas de água ou energia, e só realizava a carga nas respectivas tabelas fato, garantindo a integridade e a coerência dos dados.
 
-#### Embedding Power BI na Aplicação
-- Um dos desafios técnicos mais interessantes foi a integração dos **dashboards do Power BI** diretamente no sistema web. Para isso, utilizei a técnica de embedding, que permitiu a exibição dos relatórios e gráficos de forma interativa, dentro da própria aplicação. A integração com o backend permitiu controlar o acesso e personalizar as visualizações conforme as permissões do usuário.
+<details>
+<summary>Exemplo de Transformação e Carga de Dados</summary>
+<pre><code>
+import { InjectRepository } from '@nestjs/typeorm';
+import { Repository, In } from 'typeorm';
+import { Time } from '../entity/time.entity';
+import { WatterBill } from '../entity/watter-bill.entity';
+import { WatterBillPayload } from '../request/watter-bill-payload';
+
+export class IngestWatterBill {
+  constructor(
+    @InjectRepository(Time) private readonly timeRepo: Repository<Time>,
+    @InjectRepository(WatterBill)
+    private readonly billRepo: Repository<WatterBill>,
+  ) {}
+
+  async execute(watterBills: WatterBillPayload[]) {
+    const times: Partial<Time>[] = [];
+    const bills: Partial<WatterBill>[] = [];
+    watterBills.forEach((bill) => {
+      const [day, month, year] = bill['Conta do Mês'].split('/').map(Number);
+      const billDate = new Date(year, month - 1, day);
+      bills.push({
+        rgiCode: bill['Código de Ligação (RGI)'],
+        billDate: billDate,
+        hidrometer: bill.Hidrômetro,
+        watterConsume: Number.parseFloat(
+          bill['Consumo de Água m³'].replace(',', ''),
+        ),
+        wastePipeConsume: Number.parseFloat(
+          bill['Consumo de Esgoto m³'].replace(',', ''),
+        ),
+        watterValue: Number.parseFloat(bill['Valor Água R$'].replace(',', '')),
+        wastePipeValue: Number.parseFloat(
+          bill['Valor Esgoto R$'].replace(',', ''),
+        ),
+        total: Number.parseFloat(bill['Total R$'].replace(',', '')),
+        plant: bill.Planta,
+        provider: 'null',
+      });
+      times.push({
+        month: month.toString(),
+        year: year.toString(),
+      });
+    });
+    // Processa dados, verifica duplicidade e insere dados nas tabelas de tempo e conta
+    // Carga nas tabelas de fato ocorre somente após verificações necessárias
+    try {
+      const distinctTimes = this.getDistinctObjects(times);
+      const existingTimes = await this.timeRepo.find({
+        where: {
+          month: In(distinctTimes.map((time) => time.month)),
+          year: In(distinctTimes.map((time) => time.year)),
+        },
+      });
+      const newTimes = distinctTimes.filter(
+        (time) => !existingTimes.find((existing) => existing.month === time.month && existing.year === time.year),
+      );
+      await this.timeRepo.save(newTimes);
+    } catch (error) {
+      console.error('Error saving times:', error);
+    }
+  }
+
+  // Função auxiliar para remover duplicidade de objetos
+  getDistinctObjects(array) {
+    return array.filter(
+      (obj, index, self) =>
+        index ===
+        self.findIndex((t) => t.month === obj.month && t.year === obj.year),
+    );
+  }
+}
+</code></pre>
+</details>
+
+### Verificação e Carga nas Tabelas Fato
+Após as transformações, o processo de carga nas tabelas fato de água ou energia era executado. A carga só ocorria se houvesse novos dados relevantes, garantindo eficiência e evitando duplicidades.
+
+<details>
+<summary>Carga nas Tabelas Fato</summary>
+<pre><code>
+async execute() {
+  const hasSomeContract = await this.contractRepo.count();
+  const hasSomeBill = await this.billRepo.count();
+  if (hasSomeBill > 0 && hasSomeContract > 0) {
+    await this.factRepo.clear();
+    await this.factRepo.query(
+      `INSERT INTO fato_conta_agua (
+        contrato_agua_id,
+        conta_agua_id,
+        unidade_cliente_id,
+        tempo_id,
+        local_planta_id,
+        total_conta_agua,
+        total_consumo_agua,
+        total_consumo_esgoto,
+        total_valor_agua,
+        total_valor_esgoto
+      )
+      SELECT 
+        c.contrato_agua_id, 
+        conta.conta_agua_id, 
+        u.unidade_cliente_id, 
+        t.tempo_id, 
+        l.local_planta_id,
+        SUM(conta.total_conta_agua) AS total_conta_agua, 
+        SUM(conta.consumo_agua) AS total_consumo_agua,
+        SUM(conta.consumo_esgoto) AS total_consumo_esgoto, 
+        SUM(conta.valor_agua) AS total_valor_agua, 
+        SUM(conta.valor_esgoto) AS total_valor_esgoto
+      FROM conta_agua conta
+      INNER JOIN contrato_agua c ON conta.codigo_rgi = c.codigo_rgi
+      INNER JOIN unidade_cliente u ON c.cnpj = u.cnpj
+      INNER JOIN local_planta l ON l.planta = conta.planta_agua
+      INNER JOIN tempo t ON t.tempo_mes = DATE_FORMAT(conta.agua_conta_mes, '%m') 
+                          AND t.tempo_ano = DATE_FORMAT(conta.agua_conta_mes, '%Y')
+      GROUP BY c.contrato_agua_id, conta.conta_agua_id, u.unidade_cliente_id, t.tempo_id, l.local_planta_id;`
+    );
+  }
+}
+</code></pre>
+</details>
+
+### Estratégia de Branches e Rastreabilide de requisitos
+
+A estratégia de **Trunk-Based Development** foi implementada para garantir que toda a equipe trabalhasse a partir da versão mais atualizada do código. Com isso, todas as novas funcionalidades e correções eram desenvolvidas a partir de uma branch clonada da main, permitindo uma colaboração mais fluida entre os membros do time.
+
+Essa abordagem não apenas assegurou que todos os desenvolvedores estivessem alinhados com a última versão do código, mas também facilitou a identificação dos requisitos sendo abordados em cada tarefa. Cada branch criada incluía o ID da task, permitindo relacioná-la diretamente à User Story correspondente, a qual descrevia quais requisitos seriam atendidos. Dessa forma, a equipe conseguiu acompanhar o progresso e a implementação dos requisitos de forma clara e organizada, garantindo um fluxo de trabalho eficiente e a entrega de soluções alinhadas às necessidades do projeto.
+
+## Aprendizado Efetivo
+
+Durante o desenvolvimento deste projeto, aprendi muito sobre várias áreas fundamentais da construção de sistemas complexos, como:
+
+### Modelagem Dimensional
+- Trabalhei intensamente com modelagem dimensional, essencial para lidar com grandes volumes de dados e para garantir relatórios ágeis.
+
+### Node.js
+- O uso de Node.js em backends escaláveis foi vantajoso tanto pela performance quanto pela facilidade de integração com bibliotecas de processamento de dados.
+
+### SQL e Consultas Otimizadas
+- A otimização de queries para grandes bases de dados, principalmente aquelas relacionadas ao cálculo de métricas e agregações, foi crucial para manter a eficiência do sistema.
+
+### DevOps
+- Aprendi sobre os princípios e práticas do DevOps, que enfatizam a colaboração entre as equipes de desenvolvimento e operações para automatizar e melhorar o ciclo de vida do desenvolvimento de software. A implementação de uma esteira DevOps permitiu integrar testes automatizados, integração contínua e entrega contínua (CI/CD), garantindo que as atualizações e implementações fossem mais rápidas, seguras e confiáveis. Isso não apenas melhorou a qualidade do código, mas também aumentou a eficiência do processo de desenvolvimento como um todo.
+
 
 ### Conclusão
 
-Este projeto foi uma excelente oportunidade para consolidar meus conhecimentos em **ETL**, **modelagem dimensional**, **desenvolvimento backend com Node.js** e **visualização de dados com Power BI**. Além disso, a implementação da **esteira de DevOps** garantiu que o ciclo de desenvolvimento fosse eficiente e rastreável. O dashboard web criado fornece insights valiosos que ajudarão os clientes da TecSUS a gerenciar seus contratos de maneira mais eficiente, reduzindo custos e melhorando a tomada de decisões estratégicas.
+Este projeto foi uma grande oportunidade para expandir minhas habilidades como desenvolvedor, especialmente ao trabalhar com tecnologias novas para mim, como Node.js e modelagem dimensional. O uso de Node.js no backend permitiu criar APIs eficientes e escaláveis, o que me proporcionou um aprendizado valioso em uma stack que eu ainda não dominava. Além disso, a modelagem dimensional aprimorou minha capacidade de organizar e estruturar dados para análises mais poderosas, otimizando o desempenho de visualizações no Power BI.
+
+A implementação de uma esteira de DevOps garantiu um ciclo de desenvolvimento contínuo e rastreável, permitindo um processo ágil e confiável. No final, o sistema desenvolvido oferece insights importantes para o cliente, melhorando a gestão de contratos e a tomada de decisões estratégicas. O projeto me transformou em um desenvolvedor mais completo, integrando habilidades de backend, ETL e visualização de dados em um único ecossistema eficiente e bem estruturado.
+
+<!-- Links para navegação -->
+<a href="#topo">Voltar ao topo</a>
+
+<div id="portfolio6SpcGrafeno">
+	<h2>Em 2024-2 foi trabalhado um projeto API com o parceiro acadêmico SPC Grafeno</h2>
+	* [Link para Repositório do Projeto](https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno)
+ 	<h1> LOADING .... </h1>
+</div>
