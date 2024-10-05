@@ -400,86 +400,83 @@ Um Sistema desenvolvido para controlar o estado de um imóvel em, com os resulta
     Lógica das páginas, seja restrições das mesmas, preenchimentos ou a filtragem dos dados selecionados pelos usuários e para tal a conexão e utilização das APIs criadas em java/springboot;
   <br>
 
-<h4>Contribuições individuais</h4>
+<h4>Contribuições Individuais</h4>
+
 <details>
-<summary>Backend </summary>
+<summary>Backend</summary>
   <details>
-<summary>Api Rest </summary>
-	
-  <p><br>
-  	- Usando Spring Boot, criei as APIs a serem consumidas, tanto as de criação dos laudos e as de selecionar valores dos clientes e seus laudos já registrados;
-	<br>
-	Exemplo:
+<summary>API Rest</summary>
+  
+- Usando Spring Boot, criei as APIs a serem consumidas, tanto as de criação dos laudos quanto as de seleção de valores dos clientes e seus laudos já registrados.
 
-    <pre><code>
-    @RestController
-    @RequestMapping(value = "/setor")
-    public class SetorController {
-        @Autowired
-        private ISetorService service;
+Exemplo:
 
-        @GetMapping
-        public List<Setor> buscarTodosSetores() {
-            return service.buscarTodosSetores();
-        }
+<pre><code>
+@RestController
+@RequestMapping(value = "/setor")
+public class SetorController {
+    @Autowired
+    private ISetorService service;
 
-        @PostMapping
-        public Setor novoSetor(@RequestBody Setor setor) {
-            return service.novoSetor(setor);
-        }
-
-        @GetMapping(value = "/{setor}")
-        public Setor buscarPorId(@PathVariable("setor") Long id) {
-            return service.buscarPorId(id);
-        }
+    @GetMapping
+    public List<Setor> buscarTodosSetores() {
+        return service.buscarTodosSetores();
     }
-    </code></pre>
 
-    Neste exemplo utilizei um método GET e POST para receber os dados vindos do frontend. Como o frontend envia os dados num formato JSON, porém o Vue.js envia os seus objetos e atributos de acordo com o banco, assim como estão feitas as entidades no backend. No caso do método GET `/setor/{setor}`, um objeto do tipo setor está sendo recebido pela API e se usa o parâmetro ID para a pesquisa presente no service utilizado (buscar o registro com o id em específico). Já o método POST `/setor` é utilizado para receber o objeto setor com os parâmetros inseridos no frontend com o intuito de criar um novo registro de setor (criar um novo setor para a aplicação).
-	<br><br>
-    O método GET `/setor` seleciona todos os registros de setores;
-  </p>
+    @PostMapping
+    public Setor novoSetor(@RequestBody Setor setor) {
+        return service.novoSetor(setor);
+    }
+
+    @GetMapping(value = "/{setor}")
+    public Setor buscarPorId(@PathVariable("setor") Long id) {
+        return service.buscarPorId(id);
+    }
+}
+</code></pre>
+
+Neste exemplo, utilizei métodos GET e POST para receber os dados vindos do frontend. Como o frontend envia os dados em formato JSON, o Vue.js envia seus objetos e atributos de acordo com o banco, assim como estão feitas as entidades no backend. No caso do método `GET /setor/{setor}`, um objeto do tipo Setor está sendo recebido pela API, utilizando o parâmetro ID para a pesquisa presente no service utilizado (buscar o registro com o ID em específico). Já o método `POST /setor` é utilizado para receber o objeto Setor com os parâmetros inseridos no frontend, com o intuito de criar um novo registro de setor. O método `GET /setor` seleciona todos os registros de setores.
   </details>
 </details>
 
 <details>
-   <summary>Frontend </summary>
+<summary>Frontend</summary>
   <details>
 	<summary>Requisição das APIs Rest</summary>
-	  <p> 
-	  - Exemplo de requisição Rest que consome a API do backend SpringBoot:
-  
-		<pre><code>
+	
+Exemplo de requisição Rest que consome a API do backend Spring Boot:
+
+<pre><code>
 // Função para buscar os setores do banco
 async function buscarSetor() {
-  try {
-    const response = await axios.get('setor');
-    SelectionSection.value = response.data;
-  } catch (error) {
-    console.error('Error fetching servico:', error);
-  }  
+    try {
+        const response = await axios.get('setor');
+        SelectionSection.value = response.data;
+    } catch (error) {
+        console.error('Error fetching servico:', error);
+    }  
 }
-		</code></pre>
-  
-	  Nessa função estou consumindo a rota '/setor' que retorna um objeto com a lista de setores cadastrados; 
-	  </p>
+</code></pre>
+
+Nessa função estou consumindo a rota `'/setor'` que retorna um objeto com a lista de setores cadastrados.
   </details>
-	<details> 
-		<summary>Vue.js </summary>
-		<p>
-			Exemplo de uso da requisição no Vue.js:
-			<pre><code>
-// <label/>Setor: </label>
-// </select class="setor" id="setor" v-model="setor" @change="getSetor()">
-//   </option v-for="s in setores" :key="s.id" v-bind:value="s.id">{{ s.nome}}</option>
-// </select>
-			</code></pre>
-		</p>
-		<p> 
-			Utilizando o framework Vue.js foi possível armazenar a lista de setores para que sejam visualizados na view do projeto utilizando o v-model. No caso de uso acima, aparecem os setores para serem selecionados dentro de um HTML select, que ao selecionar através da anotação @change salva o ID do setor em questão para atualizar o registro no banco de dados.
-		</p>
-		</details>
+
+<details> 
+		<summary>Vue.js</summary>
+		
+Exemplo de uso da requisição no Vue.js:
+```
+<label>Setor: </label>
+<select class="setor" id="setor" v-model="setor" @change="getSetor()">
+    <option v-for="s in setores" :key="s.id" v-bind:value="s.id">{{ s.nome }}</option>
+</select>
+```
+
+
+Utilizando o framework Vue.js, foi possível armazenar a lista de setores para que fossem visualizados na view do projeto utilizando o `v-model`. No caso de uso acima, aparecem os setores para serem selecionados dentro de um HTML select. Ao selecionar através da anotação `@change`, o ID do setor em questão é salvo para atualizar o registro no banco de dados.
 	</details>
+</details>
+
   
 <h4>Aprendizado Efetivo:</h4>
 
@@ -490,8 +487,8 @@ async function buscarSetor() {
 - O framework possibilitou o uso de routers, ou seja, dentro da mesma view é possível adicionar múltiplas interfaces para o usuário;
 - O uso de constantes diretamente no HTML através do v-model;
 <br><br>
-<summary>Conexão de banco de dados através de Wallet:</summary>
-- Utilizamos a wallet no repositório para que, sem configurações extensas no application properties, a conexão com o banco de dados fosse possível em qualquer máquina que a possuísse.
+<summary>Conexão de banco de dados através de Wallet AWS:</summary>
+- Utilizamos uma wallet AWS no repositório para que, sem configurações extensas no application properties, a conexão com o banco de dados fosse possível em qualquer máquina que a possuísse.
 <br><br>
 <summary>Spring Security: </summary>
 - Utilizando o security, validações de nível de usuário na aplicação foi possível ao adicionar a senha criptografada em hash e separando os usuários por nível de acesso.
