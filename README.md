@@ -505,7 +505,7 @@ As funcionalidades implementadas garantem uma navegação simples e a manipulaç
 
 <h3>Em 2023-2 foi trabalhado um projeto API com o parceiro acadêmico Tecsus</h3> 
 
-<h5><a  href= "https://github.com/quarks-team/Projeto-Integrador-TecSUS" > Repositorio para o projeto do semestre 5 </a></h5>
+<h4><a  href= "https://github.com/quarks-team/Projeto-Integrador-TecSUS" > Link para Repositorio do projeto </a></h4>
 
 ### Objetivo
 O principal objetivo deste projeto é desenvolver um **Dashboard Web** de alta complexidade, capaz de processar e analisar faturas de energia, água e gás de diversas unidades de clientes. O sistema permite que as empresas identifiquem oportunidades de redução de custos e otimização de contratos com concessionárias. O dashboard oferece funcionalidades de geração de relatórios detalhados e alertas baseados no consumo, possibilitando uma visão clara e direta sobre o desempenho e os custos de cada unidade ou contrato.
