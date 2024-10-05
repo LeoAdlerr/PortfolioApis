@@ -22,13 +22,13 @@ Olá, sou **Leonardo Adler da Silva**, um apaixonado estudante de Banco de Dados
         <tr>
             <td><a href="#portfolio1Covid">1º Semestre Python (Fatec/Interno)</a></td>
             <td>Desenvolvimento de um sistema interno para gerenciar dados acadêmicos.</td>
-            <td>Python, SQLite</td>
+            <td>Python</td>
             <td>Fatec</td>
         </tr>
         <tr>
             <td><a href="#portfolio2DomRock">2º Semestre Java Desktop (DomRock)</a></td>
             <td>Aplicativo de desktop para gerenciamento de informações de clientes.</td>
-            <td>Java, Swing</td>
+            <td>Java, Swing, Sqlserver, Sql</td>
             <td>DomRock</td>
         </tr>
         <tr>
