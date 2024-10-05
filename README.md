@@ -1,6 +1,6 @@
 # Portfólio dos Projetos API's (Aprendizagem por Projetos Integradores) - FATEC Jessen Vidal
 
-## 🌟 Leonardo Adler da Silva
+##  Leonardo Adler da Silva
 
 Olá, sou **Leonardo Adler da Silva**, um apaixonado estudante de Banco de Dados na Fatec Jessen Vidal. Ao longo da minha jornada acadêmica, tive a oportunidade de trabalhar com metodologias ágeis e diversas tecnologias, resultando em projetos empolgantes que compartilho abaixo. 
 
@@ -16,7 +16,7 @@ Olá, sou **Leonardo Adler da Silva**, um apaixonado estudante de Banco de Dados
 
 ---
 
-## 🎉 Feito com entusiasmo por Leonardo Adler da Silva
+##  Feito com entusiasmo por Leonardo Adler da Silva
 
 
 <h3>Em 2021-2 foi trabalhado um projeto API com cliente interno (professores da Fatec)</h3>
