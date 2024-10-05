@@ -5,7 +5,7 @@
 
 ## Leonardo Adler da Silva
 
-Olá, sou **Leonardo Adler da Silva**, um apaixonado estudante de Banco de Dados na Fatec Jessen Vidal. Ao longo da minha jornada acadêmica, tive a oportunidade de trabalhar com metodologias ágeis e diversas tecnologias, resultando em projetos empolgantes que compartilho abaixo. 
+Olá, sou **Leonardo Adler da Silva**, estudante de Banco de Dados na Fatec FATEC São José dos Campos - Jessen Vidal. Ao longo da minha jornada acadêmica, tive a oportunidade de trabalhar com metodologias ágeis e diversas tecnologias, resultando em projetos empolgantes que compartilho abaixo. 
 
 ### 🚀 Projetos por Semestre
 
@@ -21,14 +21,18 @@ Olá, sou **Leonardo Adler da Silva**, um apaixonado estudante de Banco de Dados
     <tbody>
         <tr>
             <td><a href="#portfolio1Covid">1º Semestre Python (Fatec/Interno)</a></td>
-            <td>Desenvolvimento de um sistema interno para gerenciar dados acadêmicos.</td>
-            <td>Python</td>
+            <td>
+                <strong>Resumo do Projeto:</strong> Este projeto tem como objetivo desenvolver um programa que forneça e informe as estatísticas através de gráficos dos dados relacionados a Covid-19 no estado de São Paulo. A ideia é criar um programa com sistema eficaz e simples no terminal.<br><br>
+                <strong>Relevância do projeto:</strong> O projeto é relevante para sociedade, para que assim as pessoas tomem noção das proporções da pandemia nos últimos tempos. Mostrando dados precisos de pessoas contaminadas e que foram a óbito pela Covid-19, o que é muito importante a população saber sobre e a partir desses dados tomar suas conclusões sobre a Doença e sobre a eficácia das medidas tomadas no estado de SP.<br><br>
+                <strong>Objetivos:</strong> Coleta de dados necessários para criação do programa com gráficos, sendo eles o conjuntivo de pessoas que foram a óbito e casos de pessoas que contrairam o COVID-19. Sendo assim acessível e simples, comparando dados precisos da região e data de preferência do usuário.
+            </td>
+            <td>Python, SQLite</td>
             <td>Fatec</td>
         </tr>
         <tr>
             <td><a href="#portfolio2DomRock">2º Semestre Java Desktop (DomRock)</a></td>
             <td>Aplicativo de desktop para gerenciamento de informações de clientes.</td>
-            <td>Java, Swing, Sqlserver, Sql</td>
+            <td>Java, Swing</td>
             <td>DomRock</td>
         </tr>
         <tr>
