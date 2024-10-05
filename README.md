@@ -22,39 +22,39 @@ Olá, sou **Leonardo Adler da Silva**, estudante de Banco de Dados na Fatec FATE
         <tr>
             <td><a href="#portfolio1Covid">1º Semestre Python (Fatec/Interno)</a></td>
             <td>Desenvolvimento de um programa que apresenta estatísticas da Covid-19 em SP, ajudando a população a entender a pandemia através de gráficos e dados acessíveis.</td>
-            <td>Python, SQLite</td>
+            <td>Python</td>
             <td>Fatec</td>
         </tr>
         <tr>
 	    <td><a href="#portfolio2DomRock">2º Semestre Java Desktop (DomRock)</a></td>
 	    <td>Desenvolvimento de uma solução para gestão da ativação de clientes na plataforma Dom Rock, permitindo a entrada de dados sobre parâmetros e variáveis de cada cliente, com modelagem de dados para futuras
 		    integrações e geração de relatórios.</td>
-	    <td>Java, Swing, MySQL</td>
+	    <td>Java, Swing, SqlServer</td>
 	    <td>DomRock</td>
 	</tr>
         <tr>
 	    <td><a href="#portfolio3IACIT">3º Semestre Java - SpringBoot (IACIT)</a></td>
 	    <td>Desenvolvimento de um sistema para automatizar a importação e o armazenamento de dados meteorológicos, permitindo a geração de relatórios customizados e reduzindo a perda de tempo e recursos na 
 		    consultoria meteorológica.</td>
-	    <td>Java, SpringBoot, MySQL</td>
+	    <td>Java, SpringBoot, PostgreSQL</td>
 	    <td>IACIT</td>
 	</tr>
        <tr>
 	    <td><a href="#portfolio4Jaia">4º Semestre Vue.JS - SpringBoot (JAIA)</a></td>
 	    <td>Desenvolvimento de um sistema para controlar anomalias em Laudos de Inspeção Predial, gerenciando manutenções preventivas e corretivas para garantir a segurança e qualidade dos patrimônios.</td>
-	    <td>Vue.js, SpringBoot, MySQL</td>
+	    <td>Vue.js, SpringBoot, Oracle Cloud</td>
 	    <td>JAIA</td>
 	</tr>
         <tr>
 	    <td><a href="#portfolio5Tecsus">5º Semestre Node.js - PowerBi (TECSUS)</a></td>
 	    <td>Desenvolvimento de um dashboard web para análise de faturas de energia e água, com o objetivo de otimizar contratos e reduzir custos para empresas clientes da TecSUS.</td>
-	    <td>Node.js, Power BI, ETL</td>
+	    <td>Node.js, Power BI, ETL, MySQL</td>
 	    <td>TECSUS</td>
 	</tr>
         <tr>
 		<td><a href="#portfolio6SPCGrafeno">6º Semestre Inteligência Artificial - Node.js (SPC Grafeno)</a></td>
 		    <td>Desenvolvimento de produtos financeiros inovadores utilizando aprendizado de máquina para analisar a confiabilidade de endossantes e prever tendências de ativos financeiros.</td>
-		    <td>Node.js, Machine Learning, IA</td>
+		    <td>Node.js, Machine Learning, IA, PostgreSQL, Railway</td>
 		<td>SPC Grafeno</td>
 	</tr>
     </tbody>
