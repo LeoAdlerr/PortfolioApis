@@ -64,7 +64,7 @@ Olá, sou **Leonardo Adler da Silva**, estudante de Banco de Dados na Fatec FATE
 
 
 <div id="portfolio1Covid">
-	<h3>Em 2021-2 foi trabalhado um projeto API com cliente interno (Fatec)</h3>
+	<h2>Em 2021-2 foi trabalhado um projeto API com cliente interno (Fatec)</h2>
 </div>
 
 * [Link para o Repositório](https://github.com/LeoAdlerr/Projeto-Integrador-2021-2-Grupo3)
@@ -144,7 +144,7 @@ Este projeto marcou meu primeiro contato com programação e análise de dados, 
 <br><br>
 
 <div id="portfolio2DomRock">
-	<h3> Em 2022-1 foi trabalhado um projeto API com o parceiro acadêmico DomRock </h3> 
+	<h2> Em 2022-1 foi trabalhado um projeto API com o parceiro acadêmico DomRock </h2> 
 </div>
 
 <!-- Links para navegação -->
@@ -298,7 +298,7 @@ O projeto foi uma experiência rica em aprendizado e colaboração. Durante o de
 <br><br>
 
 <div id="portfolio3IACIT">
-	<h3> Em 2023-1 foi trabalhado um projeto API com o parceiro acadêmico IACIT </h3>  
+	<h1> Em 2023-1 foi trabalhado um projeto API com o parceiro acadêmico IACIT </h1>  
 </div>
 
 * [Link para o Repositório](https://github.com/DatatechOffice/Api_Iacit)
@@ -425,7 +425,7 @@ O projeto desenvolvido em parceria com a IACIT foi uma experiência enriquecedor
 <br><br>
 
 <div id="portfolio4Jaia">
-	<h3>Em 2023-2 foi trabalhado um projeto API com o parceiro acadêmico JAIA</h3> 
+	<h2>Em 2023-2 foi trabalhado um projeto API com o parceiro acadêmico JAIA</h2> 
 </div>
 
 * [Link para o Repositório do projeto](https://github.com/Great-Pretender/GreatPretender-API)
@@ -573,7 +573,7 @@ As funcionalidades implementadas garantem uma navegação simples e a manipulaç
 <a href="#topo">Voltar ao topo</a>
 
 <div id="portfolio5Tecsus">
-	<h2> Projeto API com o Parceiro Acadêmico TecSUS (2024-1) </h2>
+	<h1> Projeto API com o Parceiro Acadêmico TecSUS (2024-1) </h1>
 </div>
 
 [Link para Repositório do Projeto](https://github.com/quarks-team/Projeto-Integrador-TecSUS)
@@ -802,7 +802,7 @@ A implementação de uma esteira de DevOps garantiu um ciclo de desenvolvimento 
 <a href="#topo">Voltar ao topo</a>
 
 <div id="portfolio6SpcGrafeno">
-	<h2>Em 2024-2 foi trabalhado um projeto API com o parceiro acadêmico SPC Grafeno</h2>
+	<h1>Em 2024-2 foi trabalhado um projeto API com o parceiro acadêmico SPC Grafeno</h1>
 	* [Link para Repositório do Projeto](https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno)
- 	<h1> LOADING .... </h1>
+ 	<h2> LOADING .... </h2>
 </div>
