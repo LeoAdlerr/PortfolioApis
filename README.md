@@ -1,22 +1,65 @@
 <!-- Seções do portfólio -->
 <div id="topo">
-	<h1> Bem-vindo ao Meu Portfólio dos Projetos API's (Aprendizagem por Projetos Integradores) by FATEC Sao Jose dos Campos - Jessen Vidal </h1>	
+    <h1>Bem-vindo ao Meu Portfólio dos Projetos API's (Aprendizagem por Projetos Integradores) by FATEC São José dos Campos - Jessen Vidal</h1>
 </div>
 
-##  Leonardo Adler da Silva
+## Leonardo Adler da Silva
 
 Olá, sou **Leonardo Adler da Silva**, um apaixonado estudante de Banco de Dados na Fatec Jessen Vidal. Ao longo da minha jornada acadêmica, tive a oportunidade de trabalhar com metodologias ágeis e diversas tecnologias, resultando em projetos empolgantes que compartilho abaixo. 
 
 ### 🚀 Projetos por Semestre
 
-<a href="#portfolio1Covid">**1º Semestre Python (Fatec/Interno)**</a>
-<a href="#portfolio2DomRock">**2º Semestre Java Desktop (DomRock)**</a>
-<a href="#portfolio3IACIT">**3º Semestre Java - SpringBoot (IACIT)**</a>
-<a href="#portfolio4Jaia">**4º Semestre Vue.JS - SpringBoot (JAIA)**</a>
-<a href="#portfolio5Tecsus">**5º Semestre Node.js - PowerBi (TECSUS)**</a>
-<a href="#portfolio6SPCGrafeno">**6º Semestre Inteligencia Artificial - Node.js (Spc Grafeno)**</a>
+<table style="width:100%; border-collapse: collapse; margin-top: 20px;">
+    <thead>
+        <tr>
+            <th style="border: 1px solid #ccc; padding: 10px; text-align: left;">Projeto</th>
+            <th style="border: 1px solid #ccc; padding: 10px; text-align: left;">Descrição</th>
+            <th style="border: 1px solid #ccc; padding: 10px; text-align: left;">Principais Tecnologias</th>
+            <th style="border: 1px solid #ccc; padding: 10px; text-align: left;">Cliente</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><a href="#portfolio1Covid">1º Semestre Python (Fatec/Interno)</a></td>
+            <td>Desenvolvimento de um sistema interno para gerenciar dados acadêmicos.</td>
+            <td>Python, SQLite</td>
+            <td>Fatec</td>
+        </tr>
+        <tr>
+            <td><a href="#portfolio2DomRock">2º Semestre Java Desktop (DomRock)</a></td>
+            <td>Aplicativo de desktop para gerenciamento de informações de clientes.</td>
+            <td>Java, Swing</td>
+            <td>DomRock</td>
+        </tr>
+        <tr>
+            <td><a href="#portfolio3IACIT">3º Semestre Java - SpringBoot (IACIT)</a></td>
+            <td>Construção de uma API para integração de serviços na área de tecnologia.</td>
+            <td>Java, Spring Boot</td>
+            <td>IACIT</td>
+        </tr>
+        <tr>
+            <td><a href="#portfolio4Jaia">4º Semestre Vue.JS - SpringBoot (JAIA)</a></td>
+            <td>Desenvolvimento de uma aplicação web para gestão de projetos.</td>
+            <td>Vue.js, Spring Boot</td>
+            <td>JAIA</td>
+        </tr>
+        <tr>
+            <td><a href="#portfolio5Tecsus">5º Semestre Node.js - PowerBi (TECSUS)</a></td>
+            <td>Implementação de dashboard para visualização de dados de contratos.</td>
+            <td>Node.js, Power BI</td>
+            <td>TECSUS</td>
+        </tr>
+        <tr>
+            <td><a href="#portfolio6SPCGrafeno">6º Semestre Inteligência Artificial - Node.js (SPC Grafeno)</a></td>
+            <td>Desenvolvimento de um sistema de IA para análise de dados financeiros.</td>
+            <td>Node.js, TensorFlow</td>
+            <td>SPC Grafeno</td>
+        </tr>
+    </tbody>
+</table>
 
-##  Feito com entusiasmo por Leonardo Adler da Silva
+## Feito com entusiasmo por Leonardo Adler da Silva
+
 
 <div id="portfolio1Covid">
 	<h3>Em 2021-2 foi trabalhado um projeto API com cliente interno (Fatec)</h3>
