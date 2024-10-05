@@ -503,14 +503,21 @@ O projeto desenvolvido em parceria com a JAIA resultou em um sistema eficaz para
 As funcionalidades implementadas garantem uma navegação simples e a manipulação ágil de dados, promovendo segurança e eficiência na gestão de patrimônios. Assim, o sistema não só atende aos requisitos, mas também estabelece uma base sólida para futuras melhorias.
 
 
-<h3>Em 2023-2 foi trabalhado um projeto API com o parceiro acadêmico Tecsus</h3> 
+<h3>Em 2024-1 foi trabalhado um projeto API com o parceiro acadêmico Tecsus</h3> 
 
 <h4><a  href= "https://github.com/quarks-team/Projeto-Integrador-TecSUS" > Link para Repositorio do projeto </a></h4>
 
 ### Objetivo
-O principal objetivo deste projeto é desenvolver um **Dashboard Web** de alta complexidade, capaz de processar e analisar faturas de energia, água e gás de diversas unidades de clientes. O sistema permite que as empresas identifiquem oportunidades de redução de custos e otimização de contratos com concessionárias. O dashboard oferece funcionalidades de geração de relatórios detalhados e alertas baseados no consumo, possibilitando uma visão clara e direta sobre o desempenho e os custos de cada unidade ou contrato.
+O principal objetivo deste projeto foi desenvolver um **Dashboard Web** de alta complexidade, capaz de processar e analisar faturas de energia, água de diversas unidades de clientes. O sistema permite que as empresas identifiquem oportunidades de redução de custos e otimização de contratos com concessionárias. O dashboard oferece funcionalidades de geração de relatórios detalhados e alertas baseados no consumo, possibilitando uma visão clara e direta sobre o desempenho e os custos de cada unidade ou contrato.
 
 ### Minhas Contribuições
+
+<summary> Modelagem dimensional
+	<p></p>
+	<details>
+	<img src="https://github.com/quarks-team/Projeto-Integrador-TecSUS-Database/blob/main/modelagem_banco_API_v.06.png">	
+	</details>
+</summary>
 (Contribuições futuras serão detalhadas nesta seção, relacionadas ao backend, frontend e integração de dados.)
 
 ### Aprendizado Efetivo
@@ -518,7 +525,8 @@ O principal objetivo deste projeto é desenvolver um **Dashboard Web** de alta c
 Durante o desenvolvimento deste projeto, obtive um aprendizado significativo em várias áreas fundamentais para a construção do sistema. Abaixo estão os principais tópicos de aprendizado:
 
 #### Modelagem Dimensional
-- Utilizei técnicas de **modelagem dimensional** para organizar o banco de dados, o que facilitou a análise de grandes volumes de dados, permitindo criar relatórios rápidos e eficientes. Isso foi crucial para que o sistema pudesse lidar com múltiplas faturas por unidade, contrato e concessionária, sem perder a performance.
+- O banco de dados foi criado dentro da concepcao de modelo dimensional, o que facilitou a análise de grandes volumes de dados, permitindo criar relatórios rápidos e eficientes. Isso foi crucial para que o sistema pudesse lidar com múltiplas faturas por unidade, contrato e concessionária, sem perder a performance.
+- Participei ativamente em todas as fases da modelagem dimensional, desde a concepção inicial até a construção e implementação das tabelas de fato e dimensão. Colaborei na definição de como cada tabela se relacionaria dentro do modelo, considerando as particularidades dos dados de energia e água. Além disso, desenvolvi as queries de carga de dados para as tabelas de fato, garantindo a integridade dos dados e o desempenho eficiente durante o processo de ETL.
 
 #### ETL (Extração, Transformação e Carga)
 - Implementei processos de **ETL (Extração, Transformação e Carga)** para integrar dados de várias fontes (como arquivos CSV, APIs de concessionárias e bases de dados legadas). O uso de ferramentas como o **Apache Airflow** ajudou a automatizar essas etapas, garantindo a precisão e a consistência dos dados no banco centralizado.
