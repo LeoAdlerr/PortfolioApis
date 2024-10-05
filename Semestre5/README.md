@@ -193,20 +193,26 @@ async execute() {
 </code></pre>
 </details>
 
-### Aprendizado Efetivo
+### Estratégia de Branches e Rastreabilide de requisitos
+
+A estratégia de **Trunk-Based Development** foi implementada para garantir que toda a equipe trabalhasse a partir da versão mais atualizada do código. Com isso, todas as novas funcionalidades e correções eram desenvolvidas a partir de uma branch clonada da main, permitindo uma colaboração mais fluida entre os membros do time.
+
+Essa abordagem não apenas assegurou que todos os desenvolvedores estivessem alinhados com a última versão do código, mas também facilitou a identificação dos requisitos sendo abordados em cada tarefa. Cada branch criada incluía o ID da task, permitindo relacioná-la diretamente à User Story correspondente, a qual descrevia quais requisitos seriam atendidos. Dessa forma, a equipe conseguiu acompanhar o progresso e a implementação dos requisitos de forma clara e organizada, garantindo um fluxo de trabalho eficiente e a entrega de soluções alinhadas às necessidades do projeto.
+
+## Aprendizado Efetivo
 
 Durante o desenvolvimento deste projeto, aprendi muito sobre várias áreas fundamentais da construção de sistemas complexos, como:
 
-#### Modelagem Dimensional
+### Modelagem Dimensional
 - Trabalhei intensamente com modelagem dimensional, essencial para lidar com grandes volumes de dados e para garantir relatórios ágeis.
 
-#### Node.js
+### Node.js
 - O uso de Node.js em backends escaláveis foi vantajoso tanto pela performance quanto pela facilidade de integração com bibliotecas de processamento de dados.
 
-#### SQL e Consultas Otimizadas
+### SQL e Consultas Otimizadas
 - A otimização de queries para grandes bases de dados, principalmente aquelas relacionadas ao cálculo de métricas e agregações, foi crucial para manter a eficiência do sistema.
 
-#### DevOps
+### DevOps
 - Aprendi sobre os princípios e práticas do DevOps, que enfatizam a colaboração entre as equipes de desenvolvimento e operações para automatizar e melhorar o ciclo de vida do desenvolvimento de software. A implementação de uma esteira DevOps permitiu integrar testes automatizados, integração contínua e entrega contínua (CI/CD), garantindo que as atualizações e implementações fossem mais rápidas, seguras e confiáveis. Isso não apenas melhorou a qualidade do código, mas também aumentou a eficiência do processo de desenvolvimento como um todo.
 
 
