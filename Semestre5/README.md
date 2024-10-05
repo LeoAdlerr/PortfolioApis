@@ -14,6 +14,51 @@ O principal objetivo deste projeto foi desenvolver um **Dashboard Web** de alta 
 </summary>
 <summary> Backend Node.js
 	<details>
+		<pre>
+			<code>
+				@Controller('billing')
+export class BillingController {
+  constructor(private readonly service: BillingService) {}
+
+  @Post('upload')
+  @UseInterceptors(FilesInterceptor('files'))
+  async uploadFiles(@UploadedFiles() files: Express.Multer.File[]) {
+    const folderPath = path.join(__dirname, 'files');
+    await mkdir(folderPath, { recursive: true });
+    const filePromises = files.map(async (file) => {
+      const filePath = path.join(folderPath, file.originalname);
+      await writeFile(filePath, file.buffer);
+      const log = (message: string) => {
+        if (global.sseResponse) {
+          global.sseResponse.write(
+            event: user-log\ndata: ${JSON.stringify({ message })}\n\n,
+          );
+        }
+      };
+      await this.service.transform(file.originalname, filePath, log);
+      // Emit an event of process progress friendly for SSE
+      if (global.sseResponse) {
+        global.sseResponse.write(
+          event: user-log\ndata: ${JSON.stringify({
+            message: O arquivo "${file.originalname}" foi processado com sucesso.,
+          })}\n\n,
+        );
+      }
+    });
+    await Promise.all(filePromises);
+    // Emit a conclusion event for SSE
+    if (global.sseResponse) {
+      global.sseResponse.write(
+        event: user-log\ndata: ${JSON.stringify({
+          message: 'Todos os arquivos foram processados com sucesso.',
+        })}\n\n,
+      );
+      global.sseResponse.end();
+    }
+    return { message: 'Todos os arquivos foram processados com sucesso.' };
+  }
+			</code>
+		</pre>
 	</details>
 </summary>
 <summary> ETL Node.js
