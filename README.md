@@ -14,51 +14,49 @@ Olá, sou **Leonardo Adler da Silva**, estudante de Banco de Dados na Fatec FATE
         <tr>
             <th style="border: 1px solid #ccc; padding: 10px; text-align: left;">Projeto</th>
             <th style="border: 1px solid #ccc; padding: 10px; text-align: left;">Descrição</th>
-            <th style="border: 1px solid #ccc; padding: 10px; text-align: left;">Principais Tecnologias</th>
+            <th style="border: 1px solid #ccc; padding: 10px; text-align: left;">Tecnologias</th>
             <th style="border: 1px solid #ccc; padding: 10px; text-align: left;">Cliente</th>
         </tr>
     </thead>
     <tbody>
         <tr>
             <td><a href="#portfolio1Covid">1º Semestre Python (Fatec/Interno)</a></td>
-            <td>
-                <strong>Resumo do Projeto:</strong> Este projeto tem como objetivo desenvolver um programa que forneça e informe as estatísticas através de gráficos dos dados relacionados a Covid-19 no estado de São Paulo. A ideia é criar um programa com sistema eficaz e simples no terminal.<br><br>
-                <strong>Relevância do projeto:</strong> O projeto é relevante para sociedade, para que assim as pessoas tomem noção das proporções da pandemia nos últimos tempos. Mostrando dados precisos de pessoas contaminadas e que foram a óbito pela Covid-19, o que é muito importante a população saber sobre e a partir desses dados tomar suas conclusões sobre a Doença e sobre a eficácia das medidas tomadas no estado de SP.<br><br>
-                <strong>Objetivos:</strong> Coleta de dados necessários para criação do programa com gráficos, sendo eles o conjuntivo de pessoas que foram a óbito e casos de pessoas que contrairam o COVID-19. Sendo assim acessível e simples, comparando dados precisos da região e data de preferência do usuário.
-            </td>
+            <td>Desenvolvimento de um programa que apresenta estatísticas da Covid-19 em SP, ajudando a população a entender a pandemia através de gráficos e dados acessíveis.</td>
             <td>Python, SQLite</td>
             <td>Fatec</td>
         </tr>
         <tr>
-            <td><a href="#portfolio2DomRock">2º Semestre Java Desktop (DomRock)</a></td>
-            <td>Aplicativo de desktop para gerenciamento de informações de clientes.</td>
-            <td>Java, Swing</td>
-            <td>DomRock</td>
-        </tr>
+	    <td><a href="#portfolio2DomRock">2º Semestre Java Desktop (DomRock)</a></td>
+	    <td>Desenvolvimento de uma solução para gestão da ativação de clientes na plataforma Dom Rock, permitindo a entrada de dados sobre parâmetros e variáveis de cada cliente, com modelagem de dados para futuras
+		    integrações e geração de relatórios.</td>
+	    <td>Java, Swing, MySQL</td>
+	    <td>DomRock</td>
+	</tr>
         <tr>
-            <td><a href="#portfolio3IACIT">3º Semestre Java - SpringBoot (IACIT)</a></td>
-            <td>Construção de uma API para integração de serviços na área de tecnologia.</td>
-            <td>Java, Spring Boot</td>
-            <td>IACIT</td>
-        </tr>
+	    <td><a href="#portfolio3IACIT">3º Semestre Java - SpringBoot (IACIT)</a></td>
+	    <td>Desenvolvimento de um sistema para automatizar a importação e o armazenamento de dados meteorológicos, permitindo a geração de relatórios customizados e reduzindo a perda de tempo e recursos na 
+		    consultoria meteorológica.</td>
+	    <td>Java, SpringBoot, MySQL</td>
+	    <td>IACIT</td>
+	</tr>
+       <tr>
+	    <td><a href="#portfolio4Jaia">4º Semestre Vue.JS - SpringBoot (JAIA)</a></td>
+	    <td>Desenvolvimento de um sistema para controlar anomalias em Laudos de Inspeção Predial, gerenciando manutenções preventivas e corretivas para garantir a segurança e qualidade dos patrimônios.</td>
+	    <td>Vue.js, SpringBoot, MySQL</td>
+	    <td>JAIA</td>
+	</tr>
         <tr>
-            <td><a href="#portfolio4Jaia">4º Semestre Vue.JS - SpringBoot (JAIA)</a></td>
-            <td>Desenvolvimento de uma aplicação web para gestão de projetos.</td>
-            <td>Vue.js, Spring Boot</td>
-            <td>JAIA</td>
-        </tr>
+	    <td><a href="#portfolio5Tecsus">5º Semestre Node.js - PowerBi (TECSUS)</a></td>
+	    <td>Desenvolvimento de um dashboard web para análise de faturas de energia e água, com o objetivo de otimizar contratos e reduzir custos para empresas clientes da TecSUS.</td>
+	    <td>Node.js, Power BI, ETL</td>
+	    <td>TECSUS</td>
+	</tr>
         <tr>
-            <td><a href="#portfolio5Tecsus">5º Semestre Node.js - PowerBi (TECSUS)</a></td>
-            <td>Implementação de dashboard para visualização de dados de contratos.</td>
-            <td>Node.js, Power BI</td>
-            <td>TECSUS</td>
-        </tr>
-        <tr>
-            <td><a href="#portfolio6SPCGrafeno">6º Semestre Inteligência Artificial - Node.js (SPC Grafeno)</a></td>
-            <td>Desenvolvimento de um sistema de IA para análise de dados financeiros.</td>
-            <td>Node.js, TensorFlow</td>
-            <td>SPC Grafeno</td>
-        </tr>
+		<td><a href="#portfolio6SPCGrafeno">6º Semestre Inteligência Artificial - Node.js (SPC Grafeno)</a></td>
+		    <td>Desenvolvimento de produtos financeiros inovadores utilizando aprendizado de máquina para analisar a confiabilidade de endossantes e prever tendências de ativos financeiros.</td>
+		    <td>Node.js, Machine Learning, IA</td>
+		<td>SPC Grafeno</td>
+	</tr>
     </tbody>
 </table>
 
@@ -71,8 +69,10 @@ Olá, sou **Leonardo Adler da Silva**, estudante de Banco de Dados na Fatec FATE
 
 * [Link para o Repositório](https://github.com/LeoAdlerr/Projeto-Integrador-2021-2-Grupo3)
 
-## Objetivo do Projeto
-O objetivo deste projeto foi desenvolver um programa interativo que fornecesse estatísticas sobre a Covid-19 no estado de São Paulo. Através da coleta e visualização de dados, o programa busca informar a população sobre a evolução da pandemia, permitindo uma melhor compreensão dos impactos e das medidas tomadas ao longo do tempo.
+  <strong>Resumo do Projeto:</strong> Este projeto tem como objetivo desenvolver um programa que forneça e informe as estatísticas através de gráficos dos dados relacionados a Covid-19 no estado de São Paulo. A ideia é criar um programa com sistema eficaz e simples no terminal.<br><br>
+                <strong>Relevância do projeto:</strong> O projeto é relevante para sociedade, para que assim as pessoas tomem noção das proporções da pandemia nos últimos tempos. Mostrando dados precisos de pessoas contaminadas e que foram a óbito pela Covid-19, o que é muito importante a população saber sobre e a partir desses dados tomar suas conclusões sobre a Doença e sobre a eficácia das medidas tomadas no estado de SP.<br><br>
+                <strong>Objetivos:</strong> Coleta de dados necessários para criação do programa com gráficos, sendo eles o conjuntivo de pessoas que foram a óbito e casos de pessoas que contrairam o COVID-19. Sendo assim acessível e simples, comparando dados precisos da região e data de preferência do usuário.
+           
 
 ## Tecnologias Utilizadas
 - Python
