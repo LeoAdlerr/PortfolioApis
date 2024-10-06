@@ -44,19 +44,19 @@ Olá, sou **Leonardo Adler da Silva**, estudante de Banco de Dados na Fatec FATE
        <tr>
 	    <td><a href="#portfolio4Jaia">4º Semestre Vue.JS - SpringBoot (JAIA)</a></td>
 	    <td>Desenvolvimento de um sistema para controlar anomalias em Laudos de Inspeção Predial, gerenciando manutenções preventivas e corretivas para garantir a segurança e qualidade dos patrimônios.</td>
-	    <td>Vue.js, SpringBoot, Oracle Cloud</td>
+	    <td>Vue.js, SpringBoot, Oracle Cloud, Docker</td>
 	    <td>JAIA</td>
 	</tr>
         <tr>
 	    <td><a href="#portfolio5Tecsus">5º Semestre Node.js - PowerBi (TECSUS)</a></td>
 	    <td>Desenvolvimento de um dashboard web para análise de faturas de energia e água, com o objetivo de otimizar contratos e reduzir custos para empresas clientes da TecSUS.</td>
-	    <td>Node.js, Power BI, ETL, MySQL</td>
+	    <td>Node.js, Power BI, MySQL, Docker/Docker Compose, Railway</td>
 	    <td>TECSUS</td>
 	</tr>
         <tr>
 		<td><a href="#portfolio6SPCGrafeno">6º Semestre Inteligência Artificial - Node.js (SPC Grafeno)</a></td>
 		    <td>Desenvolvimento de produtos financeiros inovadores utilizando aprendizado de máquina para analisar a confiabilidade de endossantes e prever tendências de ativos financeiros.</td>
-		    <td>Node.js, Machine Learning, IA, PostgreSQL, Railway</td>
+		    <td>Node.js, Machine Learning, IA/TensorFlow, PostgreSQL, Railway, Docker/Docker Compose</td>
 		<td>SPC Grafeno</td>
 	</tr>
     </tbody>
@@ -590,15 +590,18 @@ O principal objetivo deste projeto foi desenvolver um **Dashboard Web** de alta 
 
 - **Node.js**: 
   - Utilizado para construir uma API backend escalável, o Node.js permite o manuseio de múltiplas requisições simultaneamente, tornando-o ideal para processamento de dados em tempo real e interação com o frontend.
-  
+
 - **MySQL**: 
   - Um sistema de gerenciamento de banco de dados relacional escolhido por sua robustez e eficiência em armazenar e consultar dados estruturados, garantindo integridade dos dados e facilitando consultas complexas.
-  
+
 - **Vue.js**: 
   - Empregado como o framework frontend para criar uma interface de usuário dinâmica e responsiva. O Vue.js oferece uma arquitetura baseada em componentes que melhora a reutilização de código e simplifica o processo de desenvolvimento.
-  
+
 - **Docker/Docker Compose**: 
   - Usado para containerizar a aplicação, garantindo um ambiente de desenvolvimento e produção consistente. O Docker simplifica o gerenciamento de dependências e a implantação da aplicação, permitindo uma integração e escalabilidade contínuas.
+
+- **Railway**: 
+  - Escolhido para o deploy da aplicação, o Railway permite uma implementação rápida e eficiente em ambientes de produção. Oferece automação de CI/CD, facilitando o gerenciamento de deploys e garantindo a disponibilidade contínua do sistema.
 
 - **Power BI**: 
   - Integrado para visualização e relatórios de dados. O Power BI permite a criação de dashboards interativos que ajudam os stakeholders a tomar decisões informadas com base em insights de dados em tempo real.
