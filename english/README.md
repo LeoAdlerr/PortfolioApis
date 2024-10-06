@@ -148,8 +148,6 @@ This project marked my first contact with programming and data analysis. Even as
 	<h2>In 2022-1, an API project was developed with the academic partner DomRock</h2> 
 </div>
 
-<!-- Navigation Links -->
-<a href="#topo">Back to Top</a>
  
 # Customer Activation Management Project - Dom Rock
 
