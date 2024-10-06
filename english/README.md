@@ -424,9 +424,7 @@ The project developed in partnership with IACIT was an enriching experience, pro
 
 <br><br>
 
-<div id="portfolio4Jaia">
-	<h2>In 2023-2, an API project was developed in partnership with JAIA</h2> 
-</div>
+<h3> id="portfolio4Jaia">In 2023-2, an API project was developed with the academic partner Jaia </h3>
 
 * [Link to the Project Repository](https://github.com/Great-Pretender/GreatPretender-API)
 
@@ -438,31 +436,36 @@ A system developed to control the status of a property, with results exported in
 
 <h5>Backend:</h5>
 
-- Java and Spring Boot:
+- **Java and Spring Boot**:
   <br><br>
   	- The REST APIs for the application's CRUD operations were built using Spring Boot;
   
 	- Login security and report generation were implemented through Spring Security;
   <br><br>
   
-- Oracle Cloud (AWS): 
+- **Oracle Cloud (AWS)**: 
   <br><br>
     A cloud database was adopted to support the application data with a connection via Oracle Wallet;
   <br><br>
   
-- Maven: 
+- **Maven**: 
   <br>  
     Used to version and manage libraries, facilitating all developers and users to utilize the most up-to-date code, especially for maintaining the Java libraries used, which aids in the process and installation of the final code;
   <br><br>
 
+- **Docker/Docker Compose**:
+  <br><br>
+    Docker was used to containerize the entire application, ensuring consistency across development, testing, and production environments. Docker Compose was employed to manage multi-container setups, making it easier to deploy the system and maintain consistent environments throughout the project lifecycle.
+  <br><br>
+
 <h5>Frontend:</h5>
 
-- Vue.js: 
+- **Vue.js**: 
   <br>
     The entire visual design of the web page was created using this technology, including reports and the creation of inspection documents;
   <br><br>
   
-- TypeScript:
+- **TypeScript**:
   <br>
     Logic for the pages, including restrictions, data filling, and filtering of data selected by users, connecting and utilizing the APIs created in Java/Spring Boot;
   <br>
