@@ -819,6 +819,8 @@ Implementing a DevOps pipeline ensured a continuous and traceable development cy
 <!-- Navigation Links -->
 <a href="#top">Back to top</a>
 
+<br>
+
 <div id="portfolio6SpcGrafeno">
 	<h1>In 2024-2, an API project was developed with the academic partner SPC Grafeno</h1>
 	* [Link to Project Repository](https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno)
