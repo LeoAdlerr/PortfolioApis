@@ -441,33 +441,38 @@ Um Sistema desenvolvido para controlar o estado de um imóvel em, com os resulta
 
 <h5>Backend: </h5>
 
-- Java e SpringBoot:
+- **Java e Spring Boot**:
   <br><br>
-  	-As API's Rest para o CRUD da aplicação foram feitas em SpringBoot;
+  	- As API's Rest para o CRUD da aplicação foram feitas em Spring Boot;
   
-	-Segurança de Logins e geração de relatórios através do Spring Security;
-  <br><br>
-  
-- Oracle Cloud(AWS): 
-  <br><br>
-    Foi adotado um banco de dados na nuvem para sustentar os dados da aplicação com conexão através da Wallet oracle;
+	- Segurança de Logins e geração de relatórios através do Spring Security;
   <br><br>
   
-- Maven: 
+- **Oracle Cloud (AWS)**: 
+  <br><br>
+    Foi adotado um banco de dados na nuvem para sustentar os dados da aplicação com conexão através da Wallet Oracle;
+  <br><br>
+  
+- **Maven**: 
   <br>  
-    Utilizado para versionar e gerenciar as bibliotecas, assim facilitando a todos os desenvolvedores e usuários a utilizar o código mais atualizado no momento, principalmente na manutenção de bibliotecas Java utilizadas, algo que durante o processo e na instalação do código final facilita o uso do mesmo;
+    Utilizado para versionar e gerenciar as bibliotecas, facilitando que todos os desenvolvedores e usuários utilizem o código mais atualizado no momento, principalmente na manutenção de bibliotecas Java utilizadas, algo que durante o processo e na instalação do código final simplifica o uso do mesmo;
+  <br><br>
+
+- **Docker/Docker Compose**:
+  <br><br>
+    Docker foi utilizado para containerizar toda a aplicação, garantindo consistência entre os ambientes de desenvolvimento, teste e produção. Docker Compose foi empregado para gerenciar setups de múltiplos containers, facilitando a implantação e garantindo que os ambientes sejam mantidos de forma consistente ao longo do ciclo de vida do projeto.
   <br><br>
 
 <h5>Frontend: </h5>
 
-- Vue.js: 
+- **Vue.js**: 
   <br>
-    Todo o visual e design da página web foram feitas utilizando essa tecnologia, isso inclui os relatórios e criação de laudos;
+    Todo o visual e design da página web foram feitos utilizando essa tecnologia, incluindo os relatórios e a criação de laudos;
   <br><br>
   
-- TypeScript:
+- **TypeScript**:
   <br>
-    Lógica das páginas, seja restrições das mesmas, preenchimentos ou a filtragem dos dados selecionados pelos usuários e para tal a conexão e utilização das APIs criadas em java/springboot;
+    Lógica das páginas, incluindo restrições, preenchimentos e filtragem dos dados selecionados pelos usuários, conectando e utilizando as APIs criadas em Java/Spring Boot;
   <br>
 
 <h4>Contribuições Individuais</h4>
