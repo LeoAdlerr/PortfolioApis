@@ -569,7 +569,7 @@ The implemented features ensure simple navigation and agile data manipulation, p
 <!-- Navigation Links -->
 <a href="#top">Back to top</a>
 
-
+<br>
 
 <div id="portfolio5Tecsus">
 	<h1>API Project with Academic Partner TecSUS (2024-1)</h1>
