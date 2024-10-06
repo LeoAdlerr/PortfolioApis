@@ -3,6 +3,8 @@
     <h1>Bem-vindo ao Meu Portfólio dos Projetos API's (Aprendizagem de Projetos Integradores) by FATEC São José dos Campos - Jessen Vidal</h1>
 </div>
 
+<h2><a href ="https://github.com/LeoAdlerr/PortfolioApis/blob/main/english/README.md"> English Portfolio </a><h2>
+
 ## Leonardo Adler da Silva
 
 Olá, sou **Leonardo Adler da Silva**, estudante de Banco de Dados na Fatec FATEC São José dos Campos - Jessen Vidal. Ao longo da minha jornada acadêmica, tive a oportunidade de trabalhar com metodologias ágeis e diversas tecnologias, resultando em projetos empolgantes que compartilho abaixo. 
