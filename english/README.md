@@ -424,7 +424,9 @@ The project developed in partnership with IACIT was an enriching experience, pro
 
 <br><br>
 
-<h3> id="portfolio4Jaia">In 2023-2, an API project was developed with the academic partner Jaia </h3>
+<div id="portfolio4Jaia">
+<h3> In 2023-2, an API project was developed with the academic partner Jaia </h3>
+</div>
 
 * [Link to the Project Repository](https://github.com/Great-Pretender/GreatPretender-API)
 
