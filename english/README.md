@@ -3,7 +3,7 @@
     <h1>Welcome to My API Project Portfolio (Learning through Integrative Projects) by FATEC São José dos Campos - Jessen Vidal</h1>
 </div>
 
-<h2 href ="https://github.com/LeoAdlerr/PortfolioApis/blob/main/README.md" > PT/BR Portfolio <h2>
+<h2><a href ="https://github.com/LeoAdlerr/PortfolioApis/blob/main/README.md"> PT/BR Portfolio </a><h2>
 
 ## Leonardo Adler da Silva
 
