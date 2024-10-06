@@ -64,6 +64,7 @@ Olá, sou **Leonardo Adler da Silva**, estudante de Banco de Dados na Fatec FATE
 
 #### Feito com entusiasmo por Leonardo Adler da Silva
 
+<br>
 
 <div id="portfolio1Covid">
 	<h2>Em 2021-2 foi trabalhado um projeto API com cliente interno (Fatec)</h2>
@@ -573,6 +574,8 @@ As funcionalidades implementadas garantem uma navegação simples e a manipulaç
 <!-- Links para navegação -->
 <a href="#topo">Voltar ao topo</a>
 
+<br>
+
 <div id="portfolio5Tecsus">
 	<h1> Projeto API com o Parceiro Acadêmico TecSUS (2024-1) </h1>
 </div>
@@ -822,6 +825,8 @@ A implementação de uma esteira de DevOps garantiu um ciclo de desenvolvimento 
 
 <!-- Links para navegação -->
 <a href="#topo">Voltar ao topo</a>
+
+<br>
 
 <div id="portfolio6SpcGrafeno">
 	<h1>Em 2024-2 foi trabalhado um projeto API com o parceiro acadêmico SPC Grafeno</h1>
