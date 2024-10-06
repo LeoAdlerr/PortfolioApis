@@ -42,13 +42,13 @@ Hello, I am **Leonardo Adler da Silva**, a Database student at FATEC São José 
         <tr>
             <td><a href="#portfolio4Jaia">4th Semester Vue.JS - SpringBoot (JAIA)</a></td>
             <td>Development of a system to control anomalies in Building Inspection Reports, managing preventive and corrective maintenance to ensure the safety and quality of properties.</td>
-            <td>Vue.js, SpringBoot, Oracle Cloud</td>
+            <td>Vue.js, SpringBoot, Oracle Cloud, Docker</td>
             <td>JAIA</td>
         </tr>
         <tr>
             <td><a href="#portfolio5Tecsus">5th Semester Node.js - PowerBi (TECSUS)</a></td>
             <td>Development of a web dashboard for analyzing energy and water bills, aiming to optimize contracts and reduce costs for TecSUS's client companies.</td>
-            <td>Node.js, Power BI, ETL, MySQL</td>
+            <td>Node.js, Power BI, MySQL, Railway, Docker/Docker Compose</td>
             <td>TECSUS</td>
         </tr>
         <tr>
@@ -594,6 +594,9 @@ The main objective of this project was to develop a **Web Dashboard** of high co
   
 - **Docker/Docker Compose**: 
   - Used for containerizing the application, ensuring a consistent development and production environment. Docker simplifies dependency management and application deployment, allowing for seamless integration and scalability.
+
+- **Railway**: 
+  - Chosen for deploying the application, Railway enables fast and efficient deployment in production environments. It offers CI/CD automation, simplifying the management of deployments and ensuring continuous system availability.
 
 - **Power BI**: 
   - Integrated for data visualization and reporting. Power BI enables the creation of interactive dashboards that help stakeholders make informed decisions based on real-time data insights.
