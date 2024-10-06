@@ -413,7 +413,7 @@ public interface RadiacaoRepository extends JpaRepository<RadiacaoGlobal, Long> 
 <summary>Polimorfismo:</summary>
 - A separação das classes em Interfaces, Services, Entities (Repositories) e Controllers facilitou a herança de funcionalidades e o controle das partes do processo, economizando linhas de código.
 
-<summary>Persistência:</summary>
+<summary>Persistência/ETL:</summary>
 - Utilizando orientação a objeto/polimorfismo, implementamos todo o processo desde o download dos CSVs com dados meteorológicos, tratamento desses arquivos e inserção no banco, considerando a quantidade massiva de informações.
 
 <h4>Conclusão</h4>
@@ -539,12 +539,11 @@ Exemplo de uso da requisição no Vue.js:
 </select>
 ```
 
-
 Utilizando o framework Vue.js, foi possível armazenar a lista de setores para que fossem visualizados na view do projeto utilizando o `v-model`. No caso de uso acima, aparecem os setores para serem selecionados dentro de um HTML select. Ao selecionar através da anotação `@change`, o ID do setor em questão é salvo para atualizar o registro no banco de dados.
 	</details>
 </details>
 
-  
+ 
 <h4>Aprendizado Efetivo:</h4>
 
 <summary>Requisição Rests:</summary>
@@ -581,6 +580,27 @@ As funcionalidades implementadas garantem uma navegação simples e a manipulaç
 ## Objetivo
 
 O principal objetivo deste projeto foi desenvolver um **Dashboard Web** de alta complexidade, capaz de processar e analisar faturas de energia e água de diversas unidades de clientes. O sistema permite que as empresas identifiquem oportunidades de redução de custos e otimização de contratos com concessionárias. Além disso, o dashboard oferece funcionalidades de geração de relatórios detalhados e alertas com base no consumo, possibilitando uma visão clara sobre o desempenho e os custos de cada unidade ou contrato.
+
+## Tecnologias Utilizadas
+
+- **Node.js**: 
+  - Utilizado para construir uma API backend escalável, o Node.js permite o manuseio de múltiplas requisições simultaneamente, tornando-o ideal para processamento de dados em tempo real e interação com o frontend.
+  
+- **MySQL**: 
+  - Um sistema de gerenciamento de banco de dados relacional escolhido por sua robustez e eficiência em armazenar e consultar dados estruturados, garantindo integridade dos dados e facilitando consultas complexas.
+  
+- **Vue.js**: 
+  - Empregado como o framework frontend para criar uma interface de usuário dinâmica e responsiva. O Vue.js oferece uma arquitetura baseada em componentes que melhora a reutilização de código e simplifica o processo de desenvolvimento.
+  
+- **Docker/Docker Compose**: 
+  - Usado para containerizar a aplicação, garantindo um ambiente de desenvolvimento e produção consistente. O Docker simplifica o gerenciamento de dependências e a implantação da aplicação, permitindo uma integração e escalabilidade contínuas.
+
+- **Power BI**: 
+  - Integrado para visualização e relatórios de dados. O Power BI permite a criação de dashboards interativos que ajudam os stakeholders a tomar decisões informadas com base em insights de dados em tempo real.
+
+- **TypeScript**: 
+  - Adotado para aprimorar o JavaScript com tipagem estática, melhorando a qualidade e a manutenibilidade do código. O TypeScript permite uma melhor ferramenta e detecção de erros durante o desenvolvimento, contribuindo para uma aplicação mais robusta.
+
 
 ## Minhas Contribuições
 
