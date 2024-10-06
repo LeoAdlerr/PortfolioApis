@@ -569,6 +569,8 @@ The implemented features ensure simple navigation and agile data manipulation, p
 <!-- Navigation Links -->
 <a href="#top">Back to top</a>
 
+
+
 <div id="portfolio5Tecsus">
 	<h1>API Project with Academic Partner TecSUS (2024-1)</h1>
 </div>
@@ -599,27 +601,6 @@ The main objective of this project was to develop a **Web Dashboard** of high co
 - **TypeScript**: 
   - Adopted to enhance JavaScript with static typing, improving code quality and maintainability. TypeScript allows for better tooling and error detection during development, contributing to a more robust application.
 
-
-## My Contributions
-
-### Dimensional Modeling
-- I participated in dimensional modeling, creating a database that facilitated the analysis of large volumes of data. This architecture allowed for the generation of quick and efficient reports, essential for handling multiple bills per unit, contract, and supplier without compromising performance.
-- I was involved in all phases of modeling: initial conception, construction, and implementation of fact and dimension tables. I worked on defining how the tables would relate to each other, considering the specificities of energy and water data. I also developed the queries for loading data into the fact tables, ensuring integrity and efficiency during the ETL process.
-
-<details>
-<summary>Dimensional Modeling</summary>
-<img src="https://github.com/quarks-team/Projeto-Integrador-TecSUS-Database/blob/main/modelagem_banco_API_v.06.png">
-</details>
-
-<div id="portfolio5Tecsus">
-	<h1>API Project with Academic Partner TecSUS (2024-1)</h1>
-</div>
-
-[Link to Project Repository](https://github.com/quarks-team/Projeto-Integrador-TecSUS)
-
-## Objective
-
-The main objective of this project was to develop a **Web Dashboard** of high complexity, capable of processing and analyzing energy and water bills from various customer units. The system allows companies to identify opportunities for cost reduction and optimization of contracts with suppliers. Additionally, the dashboard offers functionalities for generating detailed reports and alerts based on consumption, providing a clear view of the performance and costs of each unit or contract.
 
 ## My Contributions
 
