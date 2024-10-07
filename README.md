@@ -77,9 +77,13 @@ Olá, sou **Leonardo Adler da Silva**, estudante de Banco de Dados na Fatec FATE
                 <strong>Objetivos:</strong> Coleta de dados necessários para criação do programa com gráficos, sendo eles o conjuntivo de pessoas que foram a óbito e casos de pessoas que contrairam o COVID-19. Sendo assim acessível e simples, comparando dados precisos da região e data de preferência do usuário.
 
 ## Tecnologias Utilizadas
-- Python
-- Pandas
-- Matplotlib
+
+- **Python:** Uma linguagem de programação versátil, bem adaptada para tarefas de análise e visualização de dados devido à sua simplicidade e legibilidade, tornando-a uma escolha ideal para desenvolvimento rápido.
+
+- **Pandas:** Uma poderosa biblioteca de manipulação de dados que oferece estruturas e funções necessárias para lidar de forma eficiente com dados estruturados, permitindo a fácil filtragem, agregação e limpeza de conjuntos de dados.
+
+- **Matplotlib:** Uma biblioteca abrangente de criação de gráficos que permite a produção de visualizações estáticas, animadas e interativas em Python. É usada para gerar gráficos de qualidade de publicação e oferece uma variedade de opções de personalização para a representação visual dos dados.
+
 
 ## Minhas Contribuições
 Durante o desenvolvimento do projeto, participei ativamente das seguintes atividades:
