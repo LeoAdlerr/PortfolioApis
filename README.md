@@ -75,7 +75,6 @@ Olá, sou **Leonardo Adler da Silva**, estudante de Banco de Dados na Fatec FATE
   <strong>Resumo do Projeto:</strong> Este projeto tem como objetivo desenvolver um programa que forneça e informe as estatísticas através de gráficos dos dados relacionados a Covid-19 no estado de São Paulo. A ideia é criar um programa com sistema eficaz e simples no terminal.<br><br>
                 <strong>Relevância do projeto:</strong> O projeto é relevante para sociedade, para que assim as pessoas tomem noção das proporções da pandemia nos últimos tempos. Mostrando dados precisos de pessoas contaminadas e que foram a óbito pela Covid-19, o que é muito importante a população saber sobre e a partir desses dados tomar suas conclusões sobre a Doença e sobre a eficácia das medidas tomadas no estado de SP.<br><br>
                 <strong>Objetivos:</strong> Coleta de dados necessários para criação do programa com gráficos, sendo eles o conjuntivo de pessoas que foram a óbito e casos de pessoas que contrairam o COVID-19. Sendo assim acessível e simples, comparando dados precisos da região e data de preferência do usuário.
-           
 
 ## Tecnologias Utilizadas
 - Python
@@ -131,6 +130,14 @@ Durante o desenvolvimento do projeto, participei ativamente das seguintes ativid
     </code>
     </pre>
   </details>
+
+  <br>
+
+<h3> Resultado/Aplicação: <h3>
+
+  ![image](https://github.com/user-attachments/assets/31e93d12-b673-421d-aa16-1c8d2556a579)  
+
+  <br>
 
 ## Aprendizados Efetivos
 Este projeto me proporcionou uma valiosa experiência em programação e análise de dados. Aprendi:
@@ -275,6 +282,14 @@ O desafio consiste na gestão de ativação de clientes na plataforma Dom Rock. 
   </p>
 </details>
 
+<br>
+
+<h3> Resultado/Aplicação: <h3>
+
+  <img src="https://github.com/DatatechOffice/datatech_api/blob/main/Wireframes/Escopo.png"> 
+
+<br>
+
 ## Aprendizado Efetivo:
 ### Orientação a Objeto:
 - O principal aprendizado foi a criação de classes que representam as tabelas do banco de dados com os mesmos atributos; essa tarefa de mapear e representar os registros na aplicação se tornou muito mais prática.
@@ -400,6 +415,14 @@ public interface RadiacaoRepository extends JpaRepository<RadiacaoGlobal, Long> 
 }
 </code></pre>
 </details>
+
+<br>
+
+<h3> Resultado/Aplicação: <h3>
+
+  <img src="https://github.com/DatatechOffice/Api_Iacit/blob/Sprint4/Imagens/Wireframes/HomeCalendario.png"> 
+
+<br>
 
 
 <h4>Aprendizado Efetivo:</h4>
@@ -550,6 +573,14 @@ Exemplo de uso da requisição no Vue.js:
 Utilizando o framework Vue.js, foi possível armazenar a lista de setores para que fossem visualizados na view do projeto utilizando o `v-model`. No caso de uso acima, aparecem os setores para serem selecionados dentro de um HTML select. Ao selecionar através da anotação `@change`, o ID do setor em questão é salvo para atualizar o registro no banco de dados.
 	</details>
 </details>
+
+<br>
+
+<h3> Resultado/Aplicação: <h3>
+	
+![image](https://github.com/user-attachments/assets/8796f280-f6d8-447d-a208-ee9f5eb530a4)
+
+<br>
 
  
 <h4>Aprendizado Efetivo:</h4>
@@ -807,6 +838,14 @@ async execute() {
 A estratégia de **Trunk-Based Development** foi implementada para garantir que toda a equipe trabalhasse a partir da versão mais atualizada do código. Com isso, todas as novas funcionalidades e correções eram desenvolvidas a partir de uma branch clonada da main, permitindo uma colaboração mais fluida entre os membros do time.
 
 Essa abordagem não apenas assegurou que todos os desenvolvedores estivessem alinhados com a última versão do código, mas também facilitou a identificação dos requisitos sendo abordados em cada tarefa. Cada branch criada incluía o ID da task, permitindo relacioná-la diretamente à User Story correspondente, a qual descrevia quais requisitos seriam atendidos. Dessa forma, a equipe conseguiu acompanhar o progresso e a implementação dos requisitos de forma clara e organizada, garantindo um fluxo de trabalho eficiente e a entrega de soluções alinhadas às necessidades do projeto.
+
+<br>
+
+<h3> Resultado/Aplicação: <h3>
+	
+<img src="https://github.com/quarks-team/Projeto-Integrador-TecSUS/blob/main/Documents/Gifs/gif-dash-agua.gif">
+
+<br>
 
 ## Aprendizado Efetivo
 
