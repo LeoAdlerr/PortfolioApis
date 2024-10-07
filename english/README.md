@@ -42,13 +42,13 @@ Hello, I am **Leonardo Adler da Silva**, a Database student at FATEC São José 
         <tr>
             <td><a href="#portfolio4Jaia">4th Semester Vue.JS - SpringBoot (JAIA)</a></td>
             <td>Development of a system to control anomalies in Building Inspection Reports, managing preventive and corrective maintenance to ensure the safety and quality of properties.</td>
-            <td>Vue.js, SpringBoot, Oracle Cloud, Docker</td>
+            <td>Vue.js, SpringBoot, Oracle Cloud/Database, Docker</td>
             <td>JAIA</td>
         </tr>
         <tr>
             <td><a href="#portfolio5Tecsus">5th Semester Node.js - PowerBi (TECSUS)</a></td>
             <td>Development of a web dashboard for analyzing energy and water bills, aiming to optimize contracts and reduce costs for TecSUS's client companies.</td>
-            <td>Node.js, Vue.js Power BI, MySQL, Docker/Docker Compose, Railway</td>
+            <td>Node.js, Vue.js, Power BI, MySQL, Docker/Docker Compose, Railway</td>
             <td>TECSUS</td>
         </tr>
         <tr>
