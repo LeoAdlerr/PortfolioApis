@@ -48,13 +48,13 @@ Hello, I am **Leonardo Adler da Silva**, a Database student at FATEC São José 
         <tr>
             <td><a href="#portfolio5Tecsus">5th Semester Node.js - PowerBi (TECSUS)</a></td>
             <td>Development of a web dashboard for analyzing energy and water bills, aiming to optimize contracts and reduce costs for TecSUS's client companies.</td>
-            <td>Node.js, Power BI, MySQL, Railway, Docker/Docker Compose</td>
+            <td>Node.js, Vue.js Power BI, MySQL, Docker/Docker Compose, Railway</td>
             <td>TECSUS</td>
         </tr>
         <tr>
             <td><a href="#portfolio6SPCGrafeno">6th Semester Artificial Intelligence - Node.js (SPC Grafeno)</a></td>
             <td>Development of innovative financial products using machine learning to analyze the reliability of endorsers and predict financial asset trends.</td>
-            <td>Node.js, Machine Learning, AI, PostgreSQL, Railway</td>
+            <td>Node.js, Vue.js, Machine Learning, AI/TensorFlow, PostgreSQL, Railway, Docker/Docker Compose</td>
             <td>SPC Grafeno</td>
         </tr>
     </tbody>
