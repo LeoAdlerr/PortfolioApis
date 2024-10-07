@@ -129,6 +129,15 @@ During the development of the project, I actively participated in the following 
     </code>
     </pre>
   </details>
+
+<br>
+
+<h3> Result/Application: <h3>
+
+  ![image](https://github.com/user-attachments/assets/31e93d12-b673-421d-aa16-1c8d2556a579)  
+
+<br>
+
   
 ## Effective Learnings
 This project provided me with valuable experience in programming and data analysis. I learned:
@@ -272,6 +281,14 @@ The challenge involves managing customer activation on the Dom Rock platform. We
   </p>
 </details>
 
+<br>
+
+<h3> Result/Application: <h3>
+
+  <img src="https://github.com/DatatechOffice/datatech_api/blob/main/Wireframes/Escopo.png"> 
+
+<br>
+
 ## Effective Learning
 
 ### Object-Oriented Programming:
@@ -398,6 +415,14 @@ public interface RadiacaoRepository extends JpaRepository<RadiacaoGlobal, Long> 
 }
 </code></pre>
 </details>
+
+<br>
+
+<h3> Result/Application: <h3>
+
+  <img src="https://github.com/DatatechOffice/Api_Iacit/blob/Sprint4/Imagens/Wireframes/HomeCalendario.png">
+
+<br>
 
 <h4>Effective Learning:</h4>
 
@@ -546,6 +571,14 @@ Example of using the request in Vue.js:
 Using the Vue.js framework, it was possible to store the list of sectors to be displayed in the project view using `v-model`. In the example above, the sectors appear for selection within an HTML select. By selecting via the `@change` annotation, the ID of the relevant sector is saved to update the record in the database.
 	</details>
 </details>
+
+<br>
+
+<h3> Result/Application: <h3>
+
+  ![image](https://github.com/user-attachments/assets/8796f280-f6d8-447d-a208-ee9f5eb530a4)
+
+<br>
 
 <h4>Effective Learning:</h4>
 
@@ -801,6 +834,14 @@ async execute() {
 The **Trunk-Based Development** strategy was implemented to ensure that the entire team worked from the most up-to-date version of the code. This way, all new features and bug fixes were developed from a branch cloned from the main, allowing for smoother collaboration among team members.
 
 This approach not only ensured that all developers were aligned with the latest version of the code but also facilitated the identification of the requirements being addressed in each task. Each branch created included the task ID, allowing it to be directly linked to the corresponding User Story, which described which requirements would be met. This way, the team was able to track the progress and implementation of requirements clearly and organized, ensuring an efficient workflow and delivery of solutions aligned with the project needs.
+
+<br>
+
+<h3> Result/Application: <h3>
+
+  <img src="https://github.com/quarks-team/Projeto-Integrador-TecSUS/blob/main/Documents/Gifs/gif-dash-agua.gif">
+
+<br>
 
 ## Effective Learning
 
