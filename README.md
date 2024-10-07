@@ -44,19 +44,19 @@ Olá, sou **Leonardo Adler da Silva**, estudante de Banco de Dados na Fatec FATE
        <tr>
 	    <td><a href="#portfolio4Jaia">4º Semestre Vue.JS - SpringBoot (JAIA)</a></td>
 	    <td>Desenvolvimento de um sistema para controlar anomalias em Laudos de Inspeção Predial, gerenciando manutenções preventivas e corretivas para garantir a segurança e qualidade dos patrimônios.</td>
-	    <td>Vue.js, SpringBoot, Oracle Cloud, Docker</td>
+	    <td>Vue.js, SpringBoot, Oracle Cloud/Database, Docker</td>
 	    <td>JAIA</td>
 	</tr>
         <tr>
 	    <td><a href="#portfolio5Tecsus">5º Semestre Node.js - PowerBi (TECSUS)</a></td>
 	    <td>Desenvolvimento de um dashboard web para análise de faturas de energia e água, com o objetivo de otimizar contratos e reduzir custos para empresas clientes da TecSUS.</td>
-	    <td>Node.js, Power BI, MySQL, Docker/Docker Compose, Railway</td>
+	    <td>Node.js, Vue.js Power BI, MySQL, Docker/Docker Compose, Railway</td>
 	    <td>TECSUS</td>
 	</tr>
         <tr>
 		<td><a href="#portfolio6SPCGrafeno">6º Semestre Inteligência Artificial - Node.js (SPC Grafeno)</a></td>
 		    <td>Desenvolvimento de produtos financeiros inovadores utilizando aprendizado de máquina para analisar a confiabilidade de endossantes e prever tendências de ativos financeiros.</td>
-		    <td>Node.js, Machine Learning, IA/TensorFlow, PostgreSQL, Railway, Docker/Docker Compose</td>
+		    <td>Node.js, Vue.js, Machine Learning, IA/TensorFlow, PostgreSQL, Railway, Docker/Docker Compose</td>
 		<td>SPC Grafeno</td>
 	</tr>
     </tbody>
