@@ -160,9 +160,6 @@ Este projeto marcou meu primeiro contato com programação e análise de dados, 
 <div id="portfolio2DomRock">
 	<h2> Em 2022-1 foi trabalhado um projeto API com o parceiro acadêmico DomRock </h2> 
 </div>
-
-<!-- Links para navegação -->
-<a href="#topo">Voltar ao topo</a>
  
 # Projeto de Gestão de Ativação de Clientes - Dom Rock
 
