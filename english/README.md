@@ -9,6 +9,8 @@
 
 Hello, I am **Leonardo Adler da Silva**, a Database student at FATEC São José dos Campos - Jessen Vidal. Throughout my academic journey, I have had the opportunity to work with agile methodologies and various technologies, resulting in exciting projects that I share below.
 
+Linkedin: https://www.linkedin.com/in/leonardo-adler-6b4a37228/
+
 ### 🚀 Projects by Semester
 
 <table style="width:100%; border-collapse: collapse; margin-top: 20px;">
