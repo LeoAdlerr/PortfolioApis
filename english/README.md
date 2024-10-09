@@ -42,7 +42,7 @@ Hello, I am **Leonardo Adler da Silva**, a Database student at FATEC São José 
         <tr>
             <td><a href="#portfolio4Jaia">4th Semester Vue.JS - SpringBoot (JAIA)</a></td>
             <td>Development of a system to control anomalies in Building Inspection Reports, managing preventive and corrective maintenance to ensure the safety and quality of properties.</td>
-            <td>Vue.js, SpringBoot, Oracle Cloud/Database, Docker</td>
+            <td>Vue.js, Java, SpringBoot, Oracle Cloud/Database, Docker</td>
             <td>JAIA</td>
         </tr>
         <tr>
