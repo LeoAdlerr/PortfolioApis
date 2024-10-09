@@ -44,7 +44,7 @@ Olá, sou **Leonardo Adler da Silva**, estudante de Banco de Dados na Fatec FATE
        <tr>
 	    <td><a href="#portfolio4Jaia">4º Semestre Vue.JS - SpringBoot (JAIA)</a></td>
 	    <td>Desenvolvimento de um sistema para controlar anomalias em Laudos de Inspeção Predial, gerenciando manutenções preventivas e corretivas para garantir a segurança e qualidade dos patrimônios.</td>
-	    <td>Vue.js, SpringBoot, Oracle Cloud/Database, Docker</td>
+	    <td>Vue.js, Java, SpringBoot, Oracle Cloud/Database, Docker</td>
 	    <td>JAIA</td>
 	</tr>
         <tr>
