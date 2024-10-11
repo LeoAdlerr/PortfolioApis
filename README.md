@@ -9,7 +9,6 @@
 
 Olá, sou **Leonardo Adler da Silva**, estudante de Banco de Dados na Fatec FATEC São José dos Campos - Jessen Vidal. Ao longo da minha jornada acadêmica, tive a oportunidade de trabalhar com metodologias ágeis e diversas tecnologias, resultando em projetos empolgantes que compartilho abaixo. 
 
-Linkedin: https://www.linkedin.com/in/leonardo-adler-6b4a37228/
 
 ### 🚀 Projetos por Semestre
 
