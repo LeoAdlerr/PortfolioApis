@@ -444,6 +444,9 @@ public interface RadiacaoRepository extends JpaRepository<RadiacaoGlobal, Long> 
 <summary>Persistência/ETL:</summary>
 - Utilizando orientação a objeto/polimorfismo, implementamos todo o processo desde o download dos CSVs com dados meteorológicos, tratamento desses arquivos e inserção no banco, considerando a quantidade massiva de informações.
 
+<summary> Soft Skills: </summary>
+-Durante um projeto integrador com a empresa IACIT, o desafio mais significativo foi lidar com uma base de dados meteorológicos enorme, com mais de 2 GB, e a restrição de usar Java e Spring Boot. Minha equipe e eu decidimos usar a biblioteca Spark para Java para gerenciar o volume de dados, uma tecnologia com a qual eu não tinha experiência anterior. Tivemos que aprender rapidamente e resolver problemas inesperados dentro da equipe. No entanto, conseguimos entregar um projeto que permitiu a extração, tratamento e visualização dos dados em gráficos interativos com filtros personalizados. Esse projeto me deu uma excelente oportunidade de desenvolver habilidades técnicas e de gestão de tempo, resultando em uma entrega bem-sucedida
+
 <h4>Conclusão</h4>
 O projeto desenvolvido em parceria com a IACIT foi uma experiência enriquecedora, proporcionando uma compreensão profunda sobre o uso de APIs, a manipulação de dados e a implementação de soluções web eficientes. O aprendizado do framework Spring foi crucial para estruturar as aplicações, permitindo o desenvolvimento de sistemas robustos e escaláveis, alinhando teoria e prática de forma significativa.
 
