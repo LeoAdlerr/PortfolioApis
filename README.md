@@ -67,7 +67,7 @@ Olá, sou **Leonardo Adler da Silva**, estudante de Banco de Dados na Fatec FATE
 
 <br>
 
-<div id="#portfolio1Covid"></div>div>
+<div id="portfolio1Covid"></div>div>
 ## Projeto API - Estatísticas Covid-19 (Fatec, 2021-2)
 
 [Link para o Repositório](https://github.com/LeoAdlerr/Projeto-Integrador-2021-2-Grupo3)
