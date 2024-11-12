@@ -72,13 +72,13 @@ Olá, sou **Leonardo Adler da Silva**, estudante de Banco de Dados na Fatec FATE
 [Link para o Repositório](https://github.com/LeoAdlerr/Projeto-Integrador-2021-2-Grupo3)
 
 ### Resumo do Projeto
-Este projeto teve como objetivo desenvolver uma aplicação para fornecer e informar estatísticas sobre a Covid-19 em São Paulo através de gráficos. O projeto visou criar uma ferramenta simples e eficaz, com interface no terminal.
+Este projeto marcou minha primeira experiência com programação e análise de dados. Apesar da minha falta de experiência inicial, consegui desenvolver uma aplicação competente que fornece e informa estatísticas sobre a Covid-19 em São Paulo através de gráficos, facilitando a compreensão dos dados. Com uma interface simples no terminal, o projeto foi desenvolvido com foco em acessibilidade e precisão na análise dos dados.
 
 ### Relevância do Projeto
-O projeto teve impacto social, ajudando a população a entender melhor a evolução da pandemia, com dados sobre casos confirmados e óbitos, incentivando uma análise crítica sobre as medidas tomadas no estado de SP.
+Este projeto teve um impacto social significativo, ajudando a população a entender a evolução da pandemia. Através dos dados de casos confirmados e óbitos, a aplicação incentiva uma análise crítica sobre as medidas tomadas no estado de SP, contribuindo para uma visão mais informada sobre a pandemia.
 
 ### Objetivos
-Criar gráficos para mostrar dados de óbitos e casos confirmados de Covid-19, filtrados pela região e data preferida do usuário, de forma acessível e direta.
+O objetivo principal foi criar uma ferramenta acessível que permitisse ao usuário visualizar gráficos sobre dados de óbitos e casos confirmados de Covid-19, filtrados pela região e data de interesse. A aplicação foi desenvolvida para ser direta e intuitiva, facilitando o acesso e análise das informações.
 
 ---
 
@@ -111,11 +111,8 @@ Durante o desenvolvimento, desempenhei um papel ativo nas seguintes atividades:
 - **Estruturas de controle:** Desenvolvi a habilidade de construir uma interface interativa utilizando laços e condicionais.
 - **Análise de dados:** Transformei dados brutos em informações significativas, criando insights relevantes para o público.
 
----
 
-### Considerações Finais
-Este projeto marcou minha primeira experiência em programação e análise de dados. Foi gratificante desenvolver uma ferramenta que não só fornece dados, mas oferece insights relevantes. A experiência foi essencial para meu crescimento pessoal e profissional, motivando-me a seguir aprendendo e aprimorando minhas habilidades na área de tecnologia.
-
+<br><br>
 
 
 <!-- Links para navegação -->
