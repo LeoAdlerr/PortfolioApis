@@ -67,91 +67,56 @@ Olá, sou **Leonardo Adler da Silva**, estudante de Banco de Dados na Fatec FATE
 
 <br>
 
-<div id="portfolio1Covid">
-	<h2>Em 2021-2 foi trabalhado um projeto API com cliente interno (Fatec)</h2>
-</div>
+## Projeto API - Estatísticas Covid-19 (Fatec, 2021-2)
 
-* [Link para o Repositório](https://github.com/LeoAdlerr/Projeto-Integrador-2021-2-Grupo3)
+[Link para o Repositório](https://github.com/LeoAdlerr/Projeto-Integrador-2021-2-Grupo3)
 
-  <strong>Resumo do Projeto:</strong> Este projeto tem como objetivo desenvolver um programa que forneça e informe as estatísticas através de gráficos dos dados relacionados a Covid-19 no estado de São Paulo. A ideia é criar um programa com sistema eficaz e simples no terminal.<br><br>
-                <strong>Relevância do projeto:</strong> O projeto é relevante para sociedade, para que assim as pessoas tomem noção das proporções da pandemia nos últimos tempos. Mostrando dados precisos de pessoas contaminadas e que foram a óbito pela Covid-19, o que é muito importante a população saber sobre e a partir desses dados tomar suas conclusões sobre a Doença e sobre a eficácia das medidas tomadas no estado de SP.<br><br>
-                <strong>Objetivos:</strong> Coleta de dados necessários para criação do programa com gráficos, sendo eles o conjuntivo de pessoas que foram a óbito e casos de pessoas que contrairam o COVID-19. Sendo assim acessível e simples, comparando dados precisos da região e data de preferência do usuário.
+### Resumo do Projeto
+Este projeto teve como objetivo desenvolver uma aplicação para fornecer e informar estatísticas sobre a Covid-19 em São Paulo através de gráficos. O projeto visou criar uma ferramenta simples e eficaz, com interface no terminal.
 
-## Tecnologias Utilizadas
+### Relevância do Projeto
+O projeto teve impacto social, ajudando a população a entender melhor a evolução da pandemia, com dados sobre casos confirmados e óbitos, incentivando uma análise crítica sobre as medidas tomadas no estado de SP.
 
-- **Python:** Uma linguagem de programação versátil, bem adaptada para tarefas de análise e visualização de dados devido à sua simplicidade e legibilidade, tornando-a uma escolha ideal para desenvolvimento rápido.
+### Objetivos
+Criar gráficos para mostrar dados de óbitos e casos confirmados de Covid-19, filtrados pela região e data preferida do usuário, de forma acessível e direta.
 
-- **Pandas:** Uma poderosa biblioteca de manipulação de dados que oferece estruturas e funções necessárias para lidar de forma eficiente com dados estruturados, permitindo a fácil filtragem, agregação e limpeza de conjuntos de dados.
+---
 
-- **Matplotlib:** Uma biblioteca abrangente de criação de gráficos que permite a produção de visualizações estáticas, animadas e interativas em Python. É usada para gerar gráficos de qualidade de publicação e oferece uma variedade de opções de personalização para a representação visual dos dados.
+### Tecnologias Utilizadas
+- **Python:** Para desenvolvimento rápido e intuitivo de análise e visualização de dados.
+- **Pandas:** Para manipulação eficiente de grandes volumes de dados.
+- **Matplotlib:** Para visualização de dados com gráficos interativos e personalizáveis.
+
+---
+
+### Minhas Contribuições
+Durante o desenvolvimento, desempenhei um papel ativo nas seguintes atividades:
+
+- **Coleta e Manipulação de Dados:** Extraí e filtrei dados relevantes do CSV usando Pandas, concentrando informações no estado de São Paulo.
+- **Criação de Gráficos:** Utilizei Matplotlib para gerar visualizações claras e intuitivas, promovendo uma compreensão acessível dos dados.
+- **Interatividade do Programa:** Implementei um sistema de menus, tornando o programa dinâmico e ajustável às necessidades do usuário.
+- **Liderança como Scrum Master:** Atuei como Scrum Master, onde aprendi a conduzir reuniões e a coordenar a equipe para atingir os objetivos do projeto.
+
+---
+
+### Soft Skills Desenvolvidas
+- **Resiliência:** Como iniciante em programação, aprendi a resolver problemas e a lidar com desafios técnicos, persistindo até superar obstáculos.
+- **Autonomia e Autodidatismo:** Fui o membro com maior entrega no projeto, e aprendi a maior parte das tecnologias utilizadas de forma autônoma.
+- **Comunicação e Gestão de Equipe:** Minha experiência como Scrum Master permitiu-me melhorar minhas habilidades de comunicação, organizando o fluxo de trabalho e facilitando o engajamento da equipe.
+
+---
+
+### Aprendizados Efetivos
+- **Uso de bibliotecas em Python:** Compreendi a importância de Pandas e Matplotlib para manipulação e visualização de dados.
+- **Estruturas de controle:** Desenvolvi a habilidade de construir uma interface interativa utilizando laços e condicionais.
+- **Análise de dados:** Transformei dados brutos em informações significativas, criando insights relevantes para o público.
+
+---
+
+### Considerações Finais
+Este projeto marcou minha primeira experiência em programação e análise de dados. Foi gratificante desenvolver uma ferramenta que não só fornece dados, mas oferece insights relevantes. A experiência foi essencial para meu crescimento pessoal e profissional, motivando-me a seguir aprendendo e aprimorando minhas habilidades na área de tecnologia.
 
 
-## Minhas Contribuições
-Durante o desenvolvimento do projeto, participei ativamente das seguintes atividades:
-- **Coleta e manipulação de dados:** Utilizei a biblioteca Pandas para extrair dados relevantes do arquivo CSV, filtrando informações específicas sobre o estado de São Paulo.
-  <details>
-    <summary>Exemplo de código de Coleta e Manipulação de Dados</summary>
-    <pre>
-    <code>
-    import pandas as pd
-
-    # Carregar os dados
-    df = pd.read_csv('caso_full.csv')
-
-    # Filtrar dados para o estado de SP
-    df_sp = df[df['estado'] == 'SP']
-    </code>
-    </pre>
-  </details>
-- **Criação de gráficos:** Implementei visualizações utilizando Matplotlib para apresentar as estatísticas de forma clara e intuitiva, facilitando a compreensão dos dados pelo usuário.
-  <details>
-    <summary>Exemplo de código de Criação de Gráficos</summary>
-    <pre>
-    <code>
-    import matplotlib.pyplot as plt
-
-    # Gráfico de casos confirmados
-    plt.plot(df_sp['data'], df_sp['casos_confirmados'])
-    plt.title('Casos Confirmados de Covid-19 em SP')
-    plt.xlabel('Data')
-    plt.ylabel('Casos Confirmados')
-    plt.show()
-    </code>
-    </pre>
-  </details>
-- **Interatividade do programa:** Estruturei um sistema de menus que permite ao usuário selecionar diferentes opções de análise, tornando a experiência interativa e dinâmica.
-  <details>
-    <summary>Exemplo de código de Interatividade</summary>
-    <pre>
-    <code>
-    def menu():
-        print("1. Ver dados")
-        print("2. Gerar gráfico")
-        choice = input("Escolha uma opção: ")
-        return choice
-
-    # Exemplo de chamada do menu
-    option = menu()
-    </code>
-    </pre>
-  </details>
-
-  <br>
-
-<h3> Resultado/Aplicação: <h3>
-
-  ![image](https://github.com/user-attachments/assets/31e93d12-b673-421d-aa16-1c8d2556a579)  
-
-  <br>
-
-## Aprendizados Efetivos
-Este projeto me proporcionou uma valiosa experiência em programação e análise de dados. Aprendi:
-- **Uso de bibliotecas em Python:** A importância das bibliotecas Pandas e Matplotlib na manipulação e visualização de dados.
-- **Estruturas de controle:** A utilização de laços e condicionais para criar uma interface interativa.
-- **Análise de dados:** Como transformar dados brutos em informações úteis e significativas para o público.
-
-## Considerações Finais
-Este projeto marcou meu primeiro contato com programação e análise de dados, e mesmo sendo um iniciante, foi gratificante ver a criação de uma ferramenta que não apenas reúne informações, mas também fornece insights reais e relevantes aos usuários. A experiência adquirida foi essencial para meu desenvolvimento pessoal e profissional, e me motivou a continuar aprendendo e aprimorando minhas habilidades na área de tecnologia e ciência de dados.
 
 <!-- Links para navegação -->
 <a href="#topo">Voltar ao topo</a>
