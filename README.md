@@ -391,6 +391,81 @@ public interface RadiacaoRepository extends JpaRepository<RadiacaoGlobal, Long> 
 <h4>Conclusão</h4>
 O projeto desenvolvido em parceria com a IACIT foi uma experiência enriquecedora, proporcionando uma compreensão profunda sobre o uso de APIs, a manipulação de dados e a implementação de soluções web eficientes. O aprendizado do framework Spring foi crucial para estruturar as aplicações, permitindo o desenvolvimento de sistemas robustos e escaláveis, alinhando teoria e prática de forma significativa.
 
+
+ <h1> atualizacao em construcao </h1>
+ ### Projeto API com Parceiro Acadêmico IACIT (2023-1)
+
+**Link para o Repositório**
+
+---
+
+### Visão e Objetivo do Projeto
+
+Desenvolvemos um sistema web em parceria com a IACIT, com o objetivo de realizar a extração e tratamento de dados meteorológicos provenientes do site INEP. O sistema permitiu a persistência desses dados e sua visualização em gráficos interativos, facilitando a tomada de decisões. O projeto também possibilitou a filtragem de dados por usuários, oferecendo uma interface amigável e flexível. Esse projeto proporcionou um entendimento prático de APIs e manipulação de dados em uma aplicação web, especialmente com a utilização do framework Spring, uma das hard skills mais importantes adquiridas. 
+
+---
+
+### Tecnologias Utilizadas no Projeto
+
+- **HTML, CSS e Bootstrap:** Criaram o design da interface web e gráficos de dados meteorológicos, com lógicas implementadas em JavaScript.
+- **JavaScript:** Manipulação das páginas, restrições, preenchimentos e filtragem de dados, interagindo com as APIs criadas em Java/Spring Boot.
+- **Java e Spring Boot:** Persistência dos dados meteorológicos e criação de APIs REST conectadas ao banco de dados para enviar os dados em formato JSON, utilizados pelo JavaScript.
+- **Python:** Script para captação e tratamento de dados meteorológicos em CSV, consolidando os dados para persistência em Java.
+- **PostgreSQL:** Banco de dados escolhido pela IACIT para armazenar os dados meteorológicos, tornando-os acessíveis e facilitando sua manipulação.
+- **Maven:** Versionamento e manutenção de bibliotecas Java, facilitando o desenvolvimento colaborativo e atualizado.
+
+---
+
+### Contribuições Individuais
+
+- **API Rest:** Desenvolvimento de endpoints para comunicação entre frontend e backend.
+- **Manipulação de Dados:** Persistência de dados meteorológicos tratados no banco de dados.
+- **Orientação a Objeto e Modelagem:** Utilização de classes Java para representar tabelas, facilitando o mapeamento dos dados.
+- **Polimorfismo:** Organização do código em Interfaces, Services, Entities (Repositories) e Controllers, promovendo reutilização e clareza de funcionalidades.
+
+---
+
+### Aprendizado Efetivo
+
+#### API's REST
+- Entendimento dos fundamentos de APIs REST, especialmente com o framework Spring Boot, para criar aplicações web que utilizam mecanismos de busca e apresentação de dados, como gráficos.
+
+#### Protocolo HTTP e APIs REST
+- Conhecimento sobre o protocolo HTTP, que fundamenta a comunicação entre cliente e servidor, e aplicação dos métodos HTTP (GET, POST, PUT e DELETE) para operações em APIs REST, essenciais para aplicativos que trocam dados JSON entre frontend e backend.
+
+#### Orientação a Objeto
+- Implementação de classes Entity com o auxílio do Hibernate para representar as tabelas do banco de dados, promovendo correspondência com entidades da vida real.
+
+#### Polimorfismo
+- Estruturação do código em camadas com Interfaces, Services, Entities (Repositories) e Controllers, permitindo a herança de funcionalidades e facilitando o controle das etapas do processo.
+
+#### Persistência/ETL
+- Processo de download, tratamento e inserção de dados meteorológicos massivos no banco de dados, com orientação a objeto e uso de polimorfismo.
+
+---
+
+### Hard Skills Adquiridas
+
+- **Spring Boot:** A tecnologia mais relevante, utilizada para estruturação das APIs e persistência de dados no banco de dados.
+- **Arquitetura em Camadas:** Organização do projeto em interfaces, serviços, entidades e controladores.
+- **Tecnologias Complementares:** HTML, CSS, Bootstrap, JavaScript, Java, Python, PostgreSQL, Maven.
+
+---
+
+### Soft Skills
+
+- **Scrum Master:** Atuei como Scrum Master no projeto, liderando a organização das tasks e user stories, e garantindo que o projeto seguisse as metodologias ágeis.
+- **Mediação de Conflitos:** A mediação de conflitos foi fundamental para alinhar o trabalho da equipe, especialmente durante momentos críticos de entregas mal sucedidas.
+- **Resiliência e Entrega Final:** Superamos dificuldades iniciais (tanto pelos conflitos quanto pela necessidade de aprender hard skills durante o projeto) e conseguimos entregar um sistema funcional, atendendo aos requisitos combinados com a IACIT e nosso PO.
+- **Comunicação e Autodidatismo:** O projeto impulsionou minha habilidade de comunicação e melhorou significativamente meu autodidatismo.
+
+---
+
+### Conclusão
+
+O projeto realizado com a IACIT foi uma experiência enriquecedora, permitindo-me compreender profundamente o uso de APIs, manipulação de dados e implementação de soluções web eficientes. O aprendizado do framework Spring foi essencial para estruturar aplicações robustas e escaláveis, proporcionando uma integração prática entre teoria e execução. A experiência como Scrum Master e a mediação de conflitos dentro da equipe foram habilidades igualmente valiosas para o sucesso do projeto, aprimorando não só as entregas, mas também minha capacidade de comunicação e resolução de problemas em equipe.
+
+
 <!-- Links para navegação -->
 <a href="#topo">Voltar ao topo</a>
 
