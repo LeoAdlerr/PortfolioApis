@@ -240,12 +240,6 @@ Neste semestre, atuei novamente como Scrum Master e fui o principal desenvolvedo
 
 <br>
 
-<h3> Resultado/Aplicação: <h3>
-
-  <img src="https://github.com/DatatechOffice/datatech_api/blob/main/Wireframes/Escopo.png">
-
-<br>
-
 #### Aprendizado Efetivo
 
 **Soft Skills**
@@ -371,12 +365,6 @@ public interface RadiacaoRepository extends JpaRepository<RadiacaoGlobal, Long> 
 }
 </code></pre>
 </details>
-
-<br>
-
-<h3> Resultado/Aplicação: <h3>
-
-  <img src="https://github.com/DatatechOffice/Api_Iacit/blob/Sprint4/Imagens/Wireframes/HomeCalendario.png">
 
 <br>
 
