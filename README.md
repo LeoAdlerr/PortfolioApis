@@ -271,30 +271,54 @@ A experiência nesse projeto foi enriquecedora, e aprendemos a adaptar o escopo 
 
 - [Link para o Repositório](https://github.com/DatatechOffice/Api_Iacit)
 
-<h4> Visão e objetivo do projeto </h4>
-Desenvolver um sistema web, onde fosse possível realizar a extração e tratamento de dados meteorológicos através do site INEP fornecido pelo parceiro, além da persistência dos mesmos e, por fim, a visualização dos dados de forma que decisões pudessem ser realizadas. Para tal, foram utilizados gráficos e a filtragem dos dados pelo usuário.
+ <h1> atualizacao em construção(adicionar imgs e códigos necessárrios nas contribuições individuais)  </h1>
 
-<h4>Tecnologias utilizadas no Projeto</h4>
+---
 
-- HTML, CSS e Bootstrap:
-  Todo o visual e design da página web foram feitos utilizando essas tecnologias, isso inclui os gráficos com os dados meteorológicos, auxiliando-se das lógicas do JavaScript para tal.
-  
-- JavaScript:
-  Lógica das páginas, seja restrições das mesmas, preenchimentos ou a filtragem dos dados selecionados pelos usuários, conectando e utilizando as APIs criadas em Java/Spring Boot.
-  
-- Java e Spring Boot:
-  Foram feitas rotinas para persistir a base de dados meteorológicos e a criação das APIs REST conectando o banco de dados que contém os dados meteorológicos com as páginas, permitindo que os resultados sejam enviados em formato JSON para serem tratados pelo JavaScript.
-  
-- Python:
-  Uma rotina para captação dos dados em CSV fornecidos pelo cliente foi criada, permitindo a criação de um CSV com os valores de todos os períodos agregados, possibilitando sua persistência usando Java.
-  
-- PostgreSQL:
-  Foi o banco de dados de preferência da empresa contratante e utilizado para armazenar os dados meteorológicos de forma que fosse possível utilizá-los num programa, além de apresentá-los em um formato e tipo que facilitassem o uso.
-  
-- Maven:
-  Utilizado para versionar e enviar o código no Git, facilitando a todos os desenvolvedores e usuários a utilização do código mais atualizado, principalmente na manutenção de bibliotecas Java utilizadas.
+### Visão e Objetivo do Projeto
 
-<h4>Contribuições Individuais</h4>
+Desenvolvemos um sistema web em parceria com a IACIT, com o objetivo de realizar a extração e tratamento de dados meteorológicos provenientes do site INEP. O sistema permitiu a persistência desses dados e sua visualização em gráficos interativos, facilitando a tomada de decisões. O projeto também possibilitou a filtragem de dados por usuários, oferecendo uma interface amigável e flexível. Esse projeto proporcionou um entendimento prático de APIs e manipulação de dados em uma aplicação web, especialmente com a utilização do framework Spring, uma das hard skills mais importantes adquiridas. 
+
+---
+
+### Tecnologias Utilizadas no Projeto
+
+- **HTML, CSS e Bootstrap:** Criaram o design da interface web e gráficos de dados meteorológicos, com lógicas implementadas em JavaScript.
+- **JavaScript:** Manipulação das páginas, restrições, preenchimentos e filtragem de dados, interagindo com as APIs criadas em Java/Spring Boot.
+- **Java e Spring Boot:** Persistência dos dados meteorológicos e criação de APIs REST conectadas ao banco de dados para enviar os dados em formato JSON, utilizados pelo JavaScript.
+- **Python:** Script para captação e tratamento de dados meteorológicos em CSV, consolidando os dados para persistência em Java.
+- **PostgreSQL:** Banco de dados escolhido pela IACIT para armazenar os dados meteorológicos, tornando-os acessíveis e facilitando sua manipulação.
+- **Maven:** Versionamento e manutenção de bibliotecas Java, facilitando o desenvolvimento colaborativo e atualizado.
+
+---
+
+### Contribuições Individuais
+
+- **API Rest:** Desenvolvimento de endpoints para comunicação entre frontend e backend.
+- **Manipulação de Dados:** Persistência de dados meteorológicos tratados no banco de dados.
+- **Orientação a Objeto e Modelagem:** Utilização de classes Java para representar tabelas, facilitando o mapeamento dos dados.
+- **Polimorfismo:** Organização do código em Interfaces, Services, Entities (Repositories) e Controllers, promovendo reutilização e clareza de funcionalidades.
+
+---
+
+### Aprendizado Efetivo
+
+#### API's REST
+- Entendimento dos fundamentos de APIs REST, especialmente com o framework Spring Boot, para criar aplicações web que utilizam mecanismos de busca e apresentação de dados, como gráficos.
+
+#### Protocolo HTTP e APIs REST
+- Conhecimento sobre o protocolo HTTP, que fundamenta a comunicação entre cliente e servidor, e aplicação dos métodos HTTP (GET, POST, PUT e DELETE) para operações em APIs REST, essenciais para aplicativos que trocam dados JSON entre frontend e backend.
+
+#### Orientação a Objeto
+- Implementação de classes Entity com o auxílio do Hibernate para representar as tabelas do banco de dados, promovendo correspondência com entidades da vida real.
+
+#### Polimorfismo
+- Estruturação do código em camadas com Interfaces, Services, Entities (Repositories) e Controllers, permitindo a herança de funcionalidades e facilitando o controle das etapas do processo.
+
+#### Persistência/ETL
+- Processo de download, tratamento e inserção de dados meteorológicos massivos no banco de dados, com orientação a objeto e uso de polimorfismo.
+
+- <h4>Contribuições Individuais</h4>
 
 <details>
 <summary>API Rest</summary>
@@ -365,82 +389,6 @@ public interface RadiacaoRepository extends JpaRepository<RadiacaoGlobal, Long> 
 }
 </code></pre>
 </details>
-
-<br>
-
-<h4>Aprendizado Efetivo:</h4>
-
-<summary>API's Rest:</summary>
-- Foi o principal aprendizado, permitindo a criação de diversos tipos de aplicativos web que necessitam de mecanismos de busca ou apresentação de dados, como gráficos. O mais importante foi entender como construir uma API REST em Spring Boot.
-
-<summary>Protocolo HTTP e APIs REST:</summary>
-- Aprendi sobre o protocolo HTTP e como ele serve como a base para a comunicação entre o cliente e o servidor. As APIs REST utilizam os métodos HTTP (como GET, POST, PUT e DELETE) para realizar operações em recursos, permitindo a troca de dados em formato JSON. Essa interligação é fundamental para a construção de aplicativos web que se comunicam de forma eficiente com o backend.
-
-<summary>Orientação a Objeto:</summary>
-- As classes da pasta Entity, com o auxílio do Hibernate, representam as tabelas do banco de dados e suas correspondências com entidades da vida real.
-
-<summary>Polimorfismo:</summary>
-- A separação das classes em Interfaces, Services, Entities (Repositories) e Controllers facilitou a herança de funcionalidades e o controle das partes do processo, economizando linhas de código.
-
-<summary>Persistência/ETL:</summary>
-- Utilizando orientação a objeto/polimorfismo, implementamos todo o processo desde o download dos CSVs com dados meteorológicos, tratamento desses arquivos e inserção no banco, considerando a quantidade massiva de informações.
-
-<summary> Soft Skills: </summary>
-- O desafio mais significativo foi lidar com uma base de dados meteorológicos enorme, com mais de 2 GB, e a restrição de usar Java e Spring Boot. Minha equipe e eu decidimos usar a biblioteca TableSaw para Java para gerenciar o volume de dados, uma tecnologia com a qual eu não tinha experiência anterior. Tivemos que aprender rapidamente e resolver problemas inesperados dentro da equipe. No entanto, conseguimos entregar um projeto que permitiu a extração, tratamento e visualização dos dados em gráficos interativos com filtros personalizados. Esse projeto me deu uma excelente oportunidade de desenvolver habilidades técnicas e de gestão de tempo, resultando em uma entrega bem-sucedida
-
-<h4>Conclusão</h4>
-O projeto desenvolvido em parceria com a IACIT foi uma experiência enriquecedora, proporcionando uma compreensão profunda sobre o uso de APIs, a manipulação de dados e a implementação de soluções web eficientes. O aprendizado do framework Spring foi crucial para estruturar as aplicações, permitindo o desenvolvimento de sistemas robustos e escaláveis, alinhando teoria e prática de forma significativa.
-
-
- <h1> atualizacao em construcao </h1>
- ### Projeto API com Parceiro Acadêmico IACIT (2023-1)
-
-**Link para o Repositório**
-
----
-
-### Visão e Objetivo do Projeto
-
-Desenvolvemos um sistema web em parceria com a IACIT, com o objetivo de realizar a extração e tratamento de dados meteorológicos provenientes do site INEP. O sistema permitiu a persistência desses dados e sua visualização em gráficos interativos, facilitando a tomada de decisões. O projeto também possibilitou a filtragem de dados por usuários, oferecendo uma interface amigável e flexível. Esse projeto proporcionou um entendimento prático de APIs e manipulação de dados em uma aplicação web, especialmente com a utilização do framework Spring, uma das hard skills mais importantes adquiridas. 
-
----
-
-### Tecnologias Utilizadas no Projeto
-
-- **HTML, CSS e Bootstrap:** Criaram o design da interface web e gráficos de dados meteorológicos, com lógicas implementadas em JavaScript.
-- **JavaScript:** Manipulação das páginas, restrições, preenchimentos e filtragem de dados, interagindo com as APIs criadas em Java/Spring Boot.
-- **Java e Spring Boot:** Persistência dos dados meteorológicos e criação de APIs REST conectadas ao banco de dados para enviar os dados em formato JSON, utilizados pelo JavaScript.
-- **Python:** Script para captação e tratamento de dados meteorológicos em CSV, consolidando os dados para persistência em Java.
-- **PostgreSQL:** Banco de dados escolhido pela IACIT para armazenar os dados meteorológicos, tornando-os acessíveis e facilitando sua manipulação.
-- **Maven:** Versionamento e manutenção de bibliotecas Java, facilitando o desenvolvimento colaborativo e atualizado.
-
----
-
-### Contribuições Individuais
-
-- **API Rest:** Desenvolvimento de endpoints para comunicação entre frontend e backend.
-- **Manipulação de Dados:** Persistência de dados meteorológicos tratados no banco de dados.
-- **Orientação a Objeto e Modelagem:** Utilização de classes Java para representar tabelas, facilitando o mapeamento dos dados.
-- **Polimorfismo:** Organização do código em Interfaces, Services, Entities (Repositories) e Controllers, promovendo reutilização e clareza de funcionalidades.
-
----
-
-### Aprendizado Efetivo
-
-#### API's REST
-- Entendimento dos fundamentos de APIs REST, especialmente com o framework Spring Boot, para criar aplicações web que utilizam mecanismos de busca e apresentação de dados, como gráficos.
-
-#### Protocolo HTTP e APIs REST
-- Conhecimento sobre o protocolo HTTP, que fundamenta a comunicação entre cliente e servidor, e aplicação dos métodos HTTP (GET, POST, PUT e DELETE) para operações em APIs REST, essenciais para aplicativos que trocam dados JSON entre frontend e backend.
-
-#### Orientação a Objeto
-- Implementação de classes Entity com o auxílio do Hibernate para representar as tabelas do banco de dados, promovendo correspondência com entidades da vida real.
-
-#### Polimorfismo
-- Estruturação do código em camadas com Interfaces, Services, Entities (Repositories) e Controllers, permitindo a herança de funcionalidades e facilitando o controle das etapas do processo.
-
-#### Persistência/ETL
-- Processo de download, tratamento e inserção de dados meteorológicos massivos no banco de dados, com orientação a objeto e uso de polimorfismo.
 
 ---
 
