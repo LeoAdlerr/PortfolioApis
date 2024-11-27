@@ -322,42 +322,36 @@ Desenvolvemos um sistema web em parceria com a IACIT, com o objetivo de realizar
 
 <details>
 <summary>API Rest</summary>
-- Usando Spring Boot, criei as APIs a serem consumidas, conectando-as ao banco SQL para buscar os dados filtrados pelo frontend. A lógica foi pensada para contemplar quaisquer pesquisas feitas, além do CRUD com as telas de login.
+- Nesse exemplo, foi criado um endpoint para filtrar dados de temperatura por intervalo de data, usando a anotação @PostMapping para receber os dados via JSON e processá-los com o serviço de temperatura. A resposta é gerada conforme a existência de dados no filtro.
+
+Resumo do Fluxo de Execução:
+O cliente envia uma requisição POST com um corpo JSON que contém filtros de estação e intervalo de datas.
+O servidor filtra os dados de temperatura com base nesses filtros.
+Se a lista de temperaturas não estiver vazia, o servidor retorna os dados com o status 201 CREATED.
+Se a lista estiver vazia, o servidor retorna uma resposta vazia com o status 400 BAD REQUEST, indicando que não foi possível encontrar dados com os parâmetros fornecidos.
 
 <pre><code>
-@RestController
-@RequestMapping("/api/v1/dados")
-public class DadosController {
-
-    @Autowired
-    private DadosService dadosService;
-
-    @GetMapping
-    public List<Dados> getDados(@RequestParam(required = false) String filtro) {
-        return dadosService.buscarDadosFiltrados(filtro);
-    }
-
-    @PostMapping
-    public Dados criarDados(@RequestBody Dados dados) {
-        return dadosService.salvarDados(dados);
-    }
-}
+@PostMapping(value = { "/temperatura" }, consumes = MediaType.APPLICATION_JSON_VALUE)
+  public ResponseEntity<List<Temperatura>> postFiltroPorData(@RequestBody FilterDataVo data) throws ParseException {
+  
+      List<Temperatura> listTemperatura = temperaturaService.getByFilter(data.getEstacao(), data.getDataInicio(), data.getDataFim());
+  
+      return listTemperatura != null && listTemperatura.size() > 0 
+          ? new ResponseEntity<List<Temperatura>>(listTemperatura, HttpStatus.CREATED)
+          : new ResponseEntity<List<Temperatura>>(listTemperatura, HttpStatus.BAD_REQUEST);
+  }
 </code></pre>
 </details>
 
 <details>
-<summary>Manipulação de dados - Na persistência</summary>
-- Desenvolvi scripts em Java para popular o banco com os dados vindos do CSV, garantindo que apenas uma instância de cada Estado fosse inserida nas tabelas.
-
-<pre><code>
-public void popularBancoComCSV(String caminhoCSV) {
-    List<Estado> estados = lerCSV(caminhoCSV);
-    for (Estado estado : estados) {
-        if (!estadoRepository.existsById(estado.getId())) {
-            estadoRepository.save(estado);
-        }
-    }
-}
+<summary>ETL/Manipulação de dados</summary>
+Resumo do Fluxo do ETL
+Extração:
+O arquivo CSV original é lido e convertido em uma tabela usando a função tableCsv().
+Transformação:
+A partir da tabela extraída, as funções listaTempMax() e listaTempMin() processam as colunas específicas para extrair e transformar os valores de temperatura (substituindo vírgulas por pontos).
+Carga:
+As listas de dados transformados são organizadas em um novo arquivo CSV de saída, temperatura.csv, que é gerado e gravado com os dados filtrados e transformados.
 </code></pre>
 </details>
 
