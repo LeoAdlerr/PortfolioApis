@@ -294,10 +294,10 @@ Desenvolvemos um sistema web em parceria com a IACIT, com o objetivo de realizar
 
 ### Contribuições Individuais
 
-- **API Rest:** Desenvolvimento de endpoints para comunicação entre frontend e backend.
-- **Manipulação de Dados:** Persistência de dados meteorológicos tratados no banco de dados.
-- **Orientação a Objeto e Modelagem:** Utilização de classes Java para representar tabelas, facilitando o mapeamento dos dados.
-- **Polimorfismo:** Organização do código em Interfaces, Services, Entities (Repositories) e Controllers, promovendo reutilização e clareza de funcionalidades.
+- **API Rest:** Desenvolvimento de endpoints para comunicação entre frontend e backend.  
+- **Manipulação de Dados:** Persistência de dados meteorológicos tratados no banco de dados.  
+- **ETL:** Construção de pipelines para extração, transformação e carga de dados meteorológicos usando Java (TableSaw) e Python.  
+- **Arquitetura:** Organização do código em interfaces, serviços, entidades (repositories) e controladores, promovendo clareza e reutilização de funcionalidades.
 
 ---
 
@@ -568,6 +568,58 @@ Utilizando o framework Vue.js, foi possível armazenar a lista de setores para q
 <br><br>
 <summary>Spring e JPA: </summary>
 - A função save() funciona tanto para o Insert quanto para um Update, ou seja, um objeto que não existe não vai ter ID, logo é um novo registro. Agora um objeto com um ID existente substituirá os valores registrados no banco pelos atributos que ele contém, se baseando no ID para realizar o update (where do update é o próprio ID do objeto em questão), isso é feito automaticamente na função save() do Spring.
+
+### **Hard Skills Desenvolvidas:**
+
+1. **Desenvolvimento Backend:**
+   - Criação de APIs RESTful usando Java e Spring Boot.
+   - Implementação de Spring Security para autenticação, autorização, e criptografia de senhas com hash.
+   - Uso de JPA (Java Persistence API) para gerenciamento de dados, incluindo operações de CRUD e mapeamento objeto-relacional.
+   - Integração de banco de dados na nuvem via Wallet Oracle para conexão com AWS.
+
+2. **Versionamento e Gerenciamento de Dependências:**
+   - Configuração e uso do Maven para versionamento e gerenciamento de bibliotecas.
+
+3. **Containerização e DevOps:**
+   - Uso do Docker para containerizar a aplicação, garantindo consistência entre ambientes.
+   - Configuração de Docker Compose para gerenciar múltiplos containers.
+
+4. **Desenvolvimento Frontend:**
+   - Utilização do Vue.js para criação de interfaces web interativas e responsivas.
+   - Aplicação de TypeScript para lógica de página, validação de dados e integração com APIs.
+   - Implementação de `v-model` e métodos dinâmicos em componentes Vue.js para manipulação de dados do backend.
+
+5. **Consumo de APIs:**
+   - Configuração de requisições HTTP com Axios para consumo de APIs REST, incluindo tratamento de erros e integração de dados no frontend.
+
+6. **Gestão de Projetos e Relatórios:**
+   - Geração de relatórios customizados e manipulação de dados para exportação em formatos específicos.
+
+---
+
+### **Soft Skills Desenvolvidas:**
+
+1. **Trabalho em Equipe:**
+   - Colaboração em um ambiente acadêmico com diferentes perfis de desenvolvedores e funções.
+   - Comunicação clara para alinhar funcionalidades e solucionar problemas técnicos.
+
+2. **Gestão de Projetos:**
+   - Priorização de tarefas e divisão eficiente do trabalho para atender prazos e metas.
+
+3. **Resolução de Problemas:**
+   - Solução de desafios técnicos, como conexão de banco via Wallet, mapeamento de dados complexos, e tratamento de erros em APIs.
+
+4. **Adaptação e Aprendizado Rápido:**
+   - Uso de novas tecnologias como Vue.js e Spring Boot em um prazo limitado.
+   - Adaptação ao uso de DevOps e metodologias modernas para deployment e gestão.
+
+5. **Pensamento Crítico e Analítico:**
+   - Avaliação contínua de melhorias no código, tanto no backend quanto no frontend, visando eficiência e manutenção futura.
+
+6. **Foco no Usuário:**
+   - Design de interface pensando na simplicidade de uso e experiência fluida para o cliente final.
+
+---
 
 ## Conclusão
 
