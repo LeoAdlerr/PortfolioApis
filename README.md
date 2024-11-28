@@ -387,19 +387,24 @@ public interface RadiacaoRepository extends JpaRepository<RadiacaoGlobal, Long> 
 ---
 
 ### Hard Skills Adquiridas
+ 
+- **Spring Boot:** Estruturação de APIs REST e integração com banco de dados.  
+- **TableSaw:** Criação de pipelines ETL para manipulação de grandes volumes de dados.   
+- **HTML, CSS, Bootstrap:**  Para a criacao das paginas web
+- **JavaScript:** Manipulação de dados e integração com APIs.  
+- **Python:** Scripts de tratamento de dados e transformação em CSV.  
+- **PostgreSQL:** Persistência e consulta de dados meteorológicos.  
+- **Maven:** Gerenciamento de dependências no backend.
 
-- **Spring Boot:** A tecnologia mais relevante, utilizada para estruturação das APIs e persistência de dados no banco de dados.
-- **Arquitetura em Camadas:** Organização do projeto em interfaces, serviços, entidades e controladores.
-- **Tecnologias Complementares:** HTML, CSS, Bootstrap, JavaScript, Java, Python, PostgreSQL, Maven.
+## Soft Skills
 
----
+- **Gestão de Equipes e Organização de Tarefas**: Assumi um papel de liderança na organização das atividades, definindo prioridades e garantindo o cumprimento de prazos dentro da metodologia ágil Scrum.  
+- **Resolução de Conflitos**: Atuei como mediador em momentos críticos, promovendo o alinhamento entre membros da equipe e garantindo um ambiente colaborativo para superar desafios.  
+- **Trabalho em Equipe**: Coordenei esforços coletivos para integrar o trabalho técnico entre backend, frontend e ETL, garantindo coesão no desenvolvimento do sistema.  
+- **Adaptação e Resiliência**: Enfrentei e superei desafios técnicos e organizacionais, adquirindo novas habilidades e garantindo a entrega de um sistema funcional de acordo com as expectativas do cliente.  
+- **Comunicação Eficiente**: Realizei apresentações e documentações claras e objetivas, promovendo um entendimento mútuo entre a equipe e o parceiro acadêmico IACIT.  
+- **Aprendizado Rápido e Proatividade**: Demonstrei autodidatismo ao dominar novas tecnologias (como Spring Boot e APIs REST) e implementar soluções práticas no projeto em um curto período de tempo.
 
-### Soft Skills
-
-- **Scrum Master:** Atuei como Scrum Master no projeto, liderando a organização das tasks e user stories, e garantindo que o projeto seguisse as metodologias ágeis.
-- **Mediação de Conflitos:** A mediação de conflitos foi fundamental para alinhar o trabalho da equipe, especialmente durante momentos críticos de entregas mal sucedidas.
-- **Resiliência e Entrega Final:** Superamos dificuldades iniciais (tanto pelos conflitos quanto pela necessidade de aprender hard skills durante o projeto) e conseguimos entregar um sistema funcional, atendendo aos requisitos combinados com a IACIT e nosso PO.
-- **Comunicação e Autodidatismo:** O projeto impulsionou minha habilidade de comunicação e melhorou significativamente meu autodidatismo.
 
 ---
 
