@@ -890,6 +890,35 @@ Durante o desenvolvimento deste projeto, aprendi muito sobre várias áreas fund
 
 - Aprendi sobre os princípios e práticas do DevOps, que enfatizam a colaboração entre as equipes de desenvolvimento e operações para automatizar e melhorar o ciclo de vida do desenvolvimento de software. A implementação de uma esteira DevOps permitiu integrar testes automatizados, integração contínua e entrega contínua (CI/CD), garantindo que as atualizações e implementações fossem mais rápidas, seguras e confiáveis. Isso não apenas melhorou a qualidade do código, mas também aumentou a eficiência do processo de desenvolvimento como um todo.
 
+  ## **Hard Skills**
+
+- **Modelagem Dimensional:** Criação e implementação de tabelas de fato e dimensão para análise de grandes volumes de dados, garantindo eficiência em relatórios e consultas.
+- **Backend com Node.js:** Desenvolvimento de APIs escaláveis, incluindo lógica de ETL (Extração, Transformação e Carga) para processamento de arquivos e integração com bancos de dados.
+- **Banco de Dados Relacional (MySQL):** Design, consulta e otimização de queries complexas para manter alta performance e integridade de dados.
+- **Frontend com Vue.js:** Desenvolvimento de interfaces dinâmicas e responsivas utilizando arquitetura baseada em componentes.
+- **TypeScript:** Uso de tipagem estática para melhorar a qualidade, legibilidade e manutenção do código.
+- **Power BI:** Criação de dashboards interativos para análise de dados e geração de insights estratégicos.
+- **Containerização com Docker:** Configuração de ambientes consistentes para desenvolvimento e produção, facilitando a escalabilidade e o gerenciamento de dependências.
+- **Railway:** Deploy de aplicações utilizando automação CI/CD para garantir disponibilidade e eficiência.
+- **DevOps:** Implementação de pipelines de CI/CD, integração de testes automatizados e uso da estratégia **Trunk-Based Development** para sincronização e rastreabilidade.
+- **ETL (Extração, Transformação e Carga):** Design e execução de processos de carga de dados com foco em eficiência e coerência.
+- **Gestão de Projetos e Rastreabilidade:** Utilização de estratégias para relacionar branches de desenvolvimento a User Stories e requisitos.
+
+---
+
+## **Soft Skills**
+
+- **Comunicação Eficaz:** Colaboração com equipes multidisciplinares para alinhar objetivos técnicos e de negócios.
+- **Trabalho em Equipe:** Integração e cooperação com diferentes áreas para garantir entregas de qualidade.
+- **Gestão de Tempo:** Organização eficiente para lidar com entregas complexas e prazos desafiadores.
+- **Adaptabilidade:** Rápida assimilação de novas tecnologias e frameworks, como Node.js e Vue.js.
+- **Resolução de Problemas:** Identificação e solução de desafios técnicos, incluindo otimização de consultas SQL e manutenção da integridade dos dados.
+- **Pensamento Analítico:** Estruturação de dados para análise, extraindo insights valiosos para clientes.
+- **Atenção aos Detalhes:** Garantia de precisão na implementação de processos de ETL e na configuração de pipelines de CI/CD.
+- **Proatividade:** Iniciativa em sugerir e implementar melhorias no fluxo de trabalho e no desenvolvimento do projeto.
+- **Rastreamento de Requisitos:** Organização e monitoramento do progresso do projeto com foco nos objetivos do cliente.
+
+
 ### Conclusão
 
 Este projeto foi uma grande oportunidade para expandir minhas habilidades como desenvolvedor, especialmente ao trabalhar com tecnologias novas para mim, como Node.js e modelagem dimensional. O uso de Node.js no backend permitiu criar APIs eficientes e escaláveis, o que me proporcionou um aprendizado valioso em uma stack que eu ainda não dominava. Além disso, a modelagem dimensional aprimorou minha capacidade de organizar e estruturar dados para análises mais poderosas, otimizando o desempenho de visualizações no Power BI.
