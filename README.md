@@ -858,7 +858,33 @@ Desenvolver produtos financeiros baseados em IA para a **SPC Grafeno**, com foco
 **Principais Objetivos:**  
 1. Analisar grandes volumes de dados financeiros para identificar padrões acionáveis.  
 2. Criar soluções financeiras inovadoras e de valor agregado para a SPC Grafeno e seus clientes.  
-3. Entregar um sistema escalável e compatível com regulamentações que melhore a tomada de decisão.  
+3. Entregar um sistema escalável e compatível com regulamentações que melhore a tomada de decisão.
+
+   ## Tecnologias Utilizadas
+
+Aqui estão as **tecnologias** com as quais trabalhei no projeto:
+
+- **Frontend:**  
+  - **Vue.js:** Desenvolvimento de interfaces dinâmicas e interativas para o usuário.  
+  - **Typescript:** Garantia de um código robusto e escalável para o frontend.  
+
+- **Backend:**  
+  - **Node.js:** Construção de rotas de API para gerenciar o consentimento de usuários e outras funcionalidades do sistema.
+  - **FastAPI:** Utilizado para as pipelines de ETL e para as APIs das nossas Inteligencias Artificiais.
+  - **PostgreSQL:** Armazenamento de dados relacionais, como informações de usuários e histórico de consentimentos.  
+  - **MongoDB:** Gerenciamento do histórico de consentimentos dos usuários e versionamento de políticas.  
+
+- **IA e Processamento de Dados:**  
+  - **Python:** Desenvolvimento de modelos de machine learning para análise de crédito e geração de recomendações personalizadas.  
+  - **Sklearn:** Utilização de **árvore de decisão** e **random forest** para criar modelos preditivos de comportamento de usuários.  
+
+- **Infraestrutura e Deploy:**  
+  - **Docker/Docker Compose:** Criação de containers para orquestrar e isolar os serviços de backend.  
+  - **Railway:** Hospedagem e automação de fluxos de CI/CD para integração contínua e deploys ágeis.  
+
+- **Arquitetura:**  
+  - **Microsserviços:** Divisão do backend em serviços independentes, com separação entre IA/ETL e login/segurança.
+---
 
 ---
 
@@ -896,32 +922,6 @@ Desenvolver produtos financeiros baseados em IA para a **SPC Grafeno**, com foco
 - Criei uma **API REST em FastAPI** para fornecer recomendações personalizadas de melhorias no **score de crédito** do usuário:  
   - A API recebe os dados que geraram o **score** de um usuário específico e retorna quais mudanças teriam o maior impacto positivo e quais poderiam impactar negativamente o score.
 
-
-## Tecnologias Utilizadas
-
-Aqui estão as **tecnologias** com as quais trabalhei no projeto:
-
-- **Frontend:**  
-  - **Vue.js:** Desenvolvimento de interfaces dinâmicas e interativas para o usuário.  
-  - **Typescript:** Garantia de um código robusto e escalável para o frontend.  
-
-- **Backend:**  
-  - **Node.js:** Construção de rotas de API para gerenciar o consentimento de usuários e outras funcionalidades do sistema.
-  - **FastAPI:** Utilizado para as pipelines de ETL e para as APIs das nossas Inteligencias Artificiais.
-  - **PostgreSQL:** Armazenamento de dados relacionais, como informações de usuários e histórico de consentimentos.  
-  - **MongoDB:** Gerenciamento do histórico de consentimentos dos usuários e versionamento de políticas.  
-
-- **IA e Processamento de Dados:**  
-  - **Python:** Desenvolvimento de modelos de machine learning para análise de crédito e geração de recomendações personalizadas.  
-  - **Sklearn:** Utilização de **árvore de decisão** e **random forest** para criar modelos preditivos de comportamento de usuários.  
-
-- **Infraestrutura e Deploy:**  
-  - **Docker/Docker Compose:** Criação de containers para orquestrar e isolar os serviços de backend.  
-  - **Railway:** Hospedagem e automação de fluxos de CI/CD para integração contínua e deploys ágeis.  
-
-- **Arquitetura:**  
-  - **Microsserviços:** Divisão do backend em serviços independentes, com separação entre IA/ETL e login/segurança.
----
 
 ## Principais Funcionalidades Entregues  
 
