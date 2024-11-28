@@ -846,9 +846,11 @@ A implementação de uma esteira de DevOps garantiu um ciclo de desenvolvimento 
 
 <div id="portfolio6SpcGrafeno">
  <h1>Em 2024-2 foi trabalhado um projeto API com o parceiro acadêmico SPC Grafeno</h1>
- * [Link para Repositório do Projeto](https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno)
-  # Projeto do 6º Semestre - Equipe Quarks
 
+ # Projeto do 6º Semestre - Equipe Quarks
+    
+ * [Link para Repositório do Projeto](https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno)
+  
 ## Resumo do Repositório
 **Propósito:**  
 Desenvolver produtos financeiros baseados em IA para a **SPC Grafeno**, com foco em análise de crédito, previsões de tendências de mercado e análise de risco.  
@@ -860,7 +862,9 @@ Desenvolver produtos financeiros baseados em IA para a **SPC Grafeno**, com foco
 
 ---
 
-## Minha Função como PO (Product Owner)  
+## Minhas Contribuições  
+
+### Na Função de PO (Product Owner)  
 
 **Interação com o Cliente:**  
 - Conduzi discussões com o cliente para alinhar expectativas e esclarecer requisitos.  
@@ -870,9 +874,6 @@ Desenvolver produtos financeiros baseados em IA para a **SPC Grafeno**, com foco
 - Colaborei com a equipe para refinar e priorizar o backlog com base na viabilidade e prioridades do cliente.  
 - Criei requisitos funcionais e não funcionais claros e acionáveis.  
 
----
-
-## Minhas Contribuições  
 
 ### Desenvolvimento Frontend  
 - Projetei e desenvolvi a **interface de transparência para histórico de consentimentos dos usuários**, permitindo que eles visualizassem e gerenciassem seus históricos de consentimento e políticas.  
