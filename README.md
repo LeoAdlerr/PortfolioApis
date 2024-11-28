@@ -892,9 +892,10 @@ Desenvolver produtos financeiros baseados em IA para a **SPC Grafeno**, com foco
 ### Desenvolvimento Backend  
 - Implementei rotas de API em **Node.js**, incluindo:  
   - **Rota de Histórico de Consentimentos do Usuário:** Desenvolvi o endpoint para retornar o histórico detalhado de consentimentos, garantindo conformidade com as regulamentações da **LGPD**.  
-- Apliquei princípios de segurança, garantindo que o sistema estivesse alinhado com as normas da **LGPD**, incluindo gestão de consentimento, rastreamento e exclusão segura de dados.  
+- Apliquei princípios de segurança, garantindo que o sistema estivesse alinhado com as normas da **LGPD**, incluindo rastreamento de dados relativos ao consentimento.  
+- Criei uma **API REST em FastAPI** para fornecer recomendações personalizadas de melhorias no **score de crédito** do usuário:  
+  - A API recebe os dados que geraram o **score** de um usuário específico e retorna quais mudanças teriam o maior impacto positivo e quais poderiam impactar negativamente o score.
 
----
 
 ## Tecnologias Utilizadas
 
