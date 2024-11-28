@@ -847,5 +847,131 @@ A implementação de uma esteira de DevOps garantiu um ciclo de desenvolvimento 
 <div id="portfolio6SpcGrafeno">
  <h1>Em 2024-2 foi trabalhado um projeto API com o parceiro acadêmico SPC Grafeno</h1>
  * [Link para Repositório do Projeto](https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno)
-  <h2> LOADING .... </h2>
+  # Projeto do 6º Semestre - Equipe Quarks
+
+## Resumo do Repositório
+**Propósito:**  
+Desenvolver produtos financeiros baseados em IA para a **SPC Grafeno**, com foco em análise de crédito, previsões de tendências de mercado e análise de risco.  
+
+**Principais Objetivos:**  
+1. Analisar grandes volumes de dados financeiros para identificar padrões acionáveis.  
+2. Criar soluções financeiras inovadoras e de valor agregado para a SPC Grafeno e seus clientes.  
+3. Entregar um sistema escalável e compatível com regulamentações que melhore a tomada de decisão.  
+
+---
+
+## Minha Função como PO (Product Owner)  
+
+**Interação com o Cliente:**  
+- Conduzi discussões com o cliente para alinhar expectativas e esclarecer requisitos.  
+- Traduzi as necessidades do cliente em um backlog detalhado com histórias de usuários e tarefas.  
+
+**Gestão de Requisitos:**  
+- Colaborei com a equipe para refinar e priorizar o backlog com base na viabilidade e prioridades do cliente.  
+- Criei requisitos funcionais e não funcionais claros e acionáveis.  
+
+---
+
+## Minhas Contribuições  
+
+### Desenvolvimento Frontend  
+- Projetei e desenvolvi a **interface de transparência para histórico de consentimentos dos usuários**, permitindo que eles visualizassem e gerenciassem seus históricos de consentimento e políticas.  
+
+### Desenvolvimento de IA  
+- **Sistema de Recomendação para Melhoria de Score:**  
+  - Criei um modelo de IA utilizando **árvore de decisão** e **random forest** para fornecer recomendações personalizadas para melhorar os scores de crédito.  
+  - Foco em oferecer insights acionáveis sobre variáveis que influenciam os scores dos usuários.  
+
+### Arquitetura de ETL em Python  
+- Projetei e implementei a arquitetura do pipeline ETL utilizando **FastAPI**.  
+- Separei os serviços de **IA** e **ETL** no backend Python, adotando uma arquitetura de **microsserviços**.  
+- Desenvolvi o **Dicionário de Dados**, garantindo uma abordagem consistente e estruturada para o processamento de dados.  
+- Pré-processamento e transformação de conjuntos de dados para uso em modelos de IA e relatórios de conformidade.  
+
+### Desenvolvimento Backend  
+- Implementei rotas de API em **Node.js**, incluindo:  
+  - **Rota de Histórico de Consentimentos do Usuário:** Desenvolvi o endpoint para retornar o histórico detalhado de consentimentos, garantindo conformidade com as regulamentações da **LGPD**.  
+- Apliquei princípios de segurança, garantindo que o sistema estivesse alinhado com as normas da **LGPD**, incluindo gestão de consentimento, rastreamento e exclusão segura de dados.  
+
+---
+
+## Tecnologias Utilizadas
+
+Aqui estão as **tecnologias** com as quais trabalhei no projeto:
+
+- **Frontend:**  
+  - **Vue.js:** Desenvolvimento de interfaces dinâmicas e interativas para o usuário.  
+  - **Typescript:** Garantia de um código robusto e escalável para o frontend.  
+
+- **Backend:**  
+  - **Node.js:** Construção de rotas de API para gerenciar o consentimento de usuários e outras funcionalidades do sistema.
+  - **FastAPI:** Utilizado para as pipelines de ETL e para as APIs das nossas Inteligencias Artificiais.
+  - **PostgreSQL:** Armazenamento de dados relacionais, como informações de usuários e histórico de consentimentos.  
+  - **MongoDB:** Gerenciamento do histórico de consentimentos dos usuários e versionamento de políticas.  
+
+- **IA e Processamento de Dados:**  
+  - **Python:** Desenvolvimento de modelos de machine learning para análise de crédito e geração de recomendações personalizadas.  
+  - **Sklearn:** Utilização de **árvore de decisão** e **random forest** para criar modelos preditivos de comportamento de usuários.  
+
+- **Infraestrutura e Deploy:**  
+  - **Docker/Docker Compose:** Criação de containers para orquestrar e isolar os serviços de backend.  
+  - **Railway:** Hospedagem e automação de fluxos de CI/CD para integração contínua e deploys ágeis.  
+
+- **Arquitetura:**  
+  - **Microsserviços:** Divisão do backend em serviços independentes, com separação entre IA/ETL e login/segurança.
+---
+
+## Principais Funcionalidades Entregues  
+
+**Análises de Crédito Baseadas em IA:**  
+- Atualizações de score em tempo real.  
+- Insights detalhados sobre o impacto de variáveis nos scores.  
+
+**Conformidade com a LGPD:**  
+- Rastreamento de consentimento e políticas claras de uso de dados.  
+- Mecanismos avançados para exclusão de dados após revogação de consentimento.  
+
+**Modelagem Preditiva:**  
+- Previsão de comportamentos de contratos duplicados.  
+- Análise de tendências de coortes para compreender dinâmicas de mercado.  
+
+**Empoderamento do Usuário:**  
+- Recomendações acionáveis para atingir scores desejados.  
+- Destaque de variáveis que influenciam o score.  
+
+---
+
+## Resultados Obtidos  
+- Entreguei um sistema escalável e compatível com regulamentações, baseado em IA para análise de crédito.  
+- Garanti transparência no consentimento dos usuários e gestão robusta de dados.  
+- Forneci insights acionáveis sobre comportamentos financeiros, capacitando stakeholders para tomar melhores decisões.  
+
+---
+
+## Hard Skills
+
+Aqui estão as **hard skills** que adquiri experiência prática durante o desenvolvimento deste projeto:
+
+- **MongoDB:** Gerenciamento de histórico de consentimentos e versionamento de políticas.
+- **FastAPI:** Estruturação de backend Python, incluindo serviços de ETL e APIs para processamento de dados.
+- **Sklearn/IA (Árvore de Decisão e Random Forest):** Desenvolvimento de modelos de IA para fornecer recomendações de melhoria de score e análise de dados.
+- **LGPD (Lei Geral de Proteção de Dados):** Implementação de sistemas compatíveis com LGPD, incluindo rastreamento de consentimentos, políticas de privacidade e exclusão de dados.
+- **Docker/Docker Compose:** Criação de containers para facilitar o deploy e integração contínua, além de otimizar o desenvolvimento.
+- **Microsserviços:** Arquitetura dividida entre os serviços de IA e ETL no backend Python, e funcionalidades de login e segurança no backend Node.js.
+
+---
+
+## Soft Skills Desenvolvidas
+
+Durante este projeto, além das **hard skills** técnicas, desenvolvi diversas **soft skills** essenciais para o sucesso da entrega e para o meu crescimento profissional:
+
+- **Gestão de Time:** Como **PO**, aprendi a liderar e coordenar uma equipe multidisciplinar, alinhando as expectativas do cliente com os desenvolvedores e garantindo a execução das tarefas dentro do prazo e da qualidade esperada.  
+- **Comunicação Clara e Eficiente:** Fui responsável por traduzir as necessidades do cliente em requisitos técnicos, o que exigiu uma comunicação assertiva e objetiva com os stakeholders e com a equipe.  
+- **Tomada de Decisão:** Em várias ocasiões, tomei decisões críticas sobre a priorização do backlog, avaliando a viabilidade técnica e as prioridades do cliente.  
+- **Resolução de Conflitos:** Como **PO**, mediei discussões sobre prioridades e necessidades entre os membros da equipe, buscando soluções que beneficiassem o andamento do projeto como um todo.  
+- **Gestão de Expectativas:** Trabalhei no alinhamento contínuo das expectativas do cliente, garantindo que todos estivessem cientes dos prazos, entregas e possíveis limitações do projeto.  
+- **Visão Estratégica:** Desenvolvi a capacidade de visualizar o panorama geral do projeto e a jornada do usuário, o que foi essencial para entregar um produto final que atendesse às necessidades dos clientes e às regulamentações.  
+- **Adaptabilidade e Flexibilidade:** Durante o projeto, foi necessário ajustar o planejamento várias vezes para lidar com mudanças nos requisitos ou obstáculos inesperados, o que me ensinou a ser flexível e adaptar rapidamente as estratégias conforme necessário.  
+
+---
 </div>
