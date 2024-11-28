@@ -954,9 +954,9 @@ Aqui estão as **tecnologias** com as quais trabalhei no projeto:
 
 Aqui estão as **hard skills** que adquiri experiência prática durante o desenvolvimento deste projeto:
 
-- **MongoDB:** Gerenciamento de histórico de consentimentos e versionamento de políticas.
+- **MongoDB:** Modelagem Top Down e Crud, utilizados no gerenciamento de histórico de consentimentos e versionamento de políticas.
 - **FastAPI:** Estruturação de backend Python, incluindo serviços de ETL e APIs para processamento de dados.
-- **Sklearn/IA (Árvore de Decisão e Random Forest):** Desenvolvimento de modelos de IA para fornecer recomendações de melhoria de score e análise de dados.
+- **Sklearn/IA (Árvore de Decisão e Random Forest):** Desenvolvimento de modelos IA de classificacao, utilizados para fornecer recomendações de melhoria de score e análise de dados.
 - **LGPD (Lei Geral de Proteção de Dados):** Implementação de sistemas compatíveis com LGPD, incluindo rastreamento de consentimentos, políticas de privacidade e exclusão de dados.
 - **Docker/Docker Compose:** Criação de containers para facilitar o deploy e integração contínua, além de otimizar o desenvolvimento.
 - **Microsserviços:** Arquitetura dividida entre os serviços de IA e ETL no backend Python, e funcionalidades de login e segurança no backend Node.js.
