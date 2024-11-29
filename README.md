@@ -259,10 +259,6 @@ Neste semestre, atuei novamente como Scrum Master e fui o principal desenvolvedo
 - **Modelagem Relacional:** Implementação de uma modelagem adequada para relacionamentos 1 e 1:1 entre clientes e pedidos/produtos, conforme os requisitos de negócio.
 - **Java:** Utilização da linguagem Java como principal stack de desenvolvimento para a aplicação.
 
-### Conclusão Integrada no Resumo
-
-A experiência nesse projeto foi enriquecedora, e aprendemos a adaptar o escopo e prioridades com feedback contínuo. As metodologias ágeis nos permitiram realizar entregas constantes e manter o alinhamento com as expectativas do cliente. A comunicação eficaz entre a equipe e stakeholders foi essencial para o sucesso do projeto e para a superação dos desafios que surgiram.
-
 
 <!-- Links para navegação -->
 <a href="#topo">Voltar ao topo</a>
@@ -304,23 +300,6 @@ Desenvolvemos um sistema web em parceria com a IACIT, com o objetivo de realizar
 - **Arquitetura:** Organização do código em interfaces, serviços, entidades (repositories) e controladores, promovendo clareza e reutilização de funcionalidades.
 
 ---
-
-### Aprendizado Efetivo
-
-#### API's REST
-- Entendimento dos fundamentos de APIs REST, especialmente com o framework Spring Boot, para criar aplicações web que utilizam mecanismos de busca e apresentação de dados, como gráficos.
-
-#### Protocolo HTTP e APIs REST
-- Conhecimento sobre o protocolo HTTP, que fundamenta a comunicação entre cliente e servidor, e aplicação dos métodos HTTP (GET, POST, PUT e DELETE) para operações em APIs REST, essenciais para aplicativos que trocam dados JSON entre frontend e backend.
-
-#### Orientação a Objeto
-- Implementação de classes Entity com o auxílio do Hibernate para representar as tabelas do banco de dados, promovendo correspondência com entidades da vida real.
-
-#### Polimorfismo
-- Estruturação do código em camadas com Interfaces, Services, Entities (Repositories) e Controllers, permitindo a herança de funcionalidades e facilitando o controle das etapas do processo.
-
-#### Persistência/ETL
-- Processo de download, tratamento e inserção de dados meteorológicos massivos no banco de dados, com orientação a objeto e uso de polimorfismo.
 
 - <h4>Contribuições Individuais</h4>
 
@@ -389,16 +368,16 @@ public interface RadiacaoRepository extends JpaRepository<RadiacaoGlobal, Long> 
 </details>
 
 ---
+## **Hard Skills**
 
-### Hard Skills Adquiridas
- 
-- **Spring Boot:** Estruturação de APIs REST e integração com banco de dados.  
-- **TableSaw:** Criação de pipelines ETL para manipulação de grandes volumes de dados.   
-- **HTML, CSS, Bootstrap:**  Para a criacao das paginas web
-- **JavaScript:** Manipulação de dados e integração com APIs.  
-- **Python:** Scripts de tratamento de dados e transformação em CSV.  
-- **PostgreSQL:** Persistência e consulta de dados meteorológicos.  
+- **Spring Boot:** Desenvolvimento de APIs REST e integração com banco de dados.
+- **TableSaw:** Criação de pipelines ETL para processamento e manipulação de grandes volumes de dados.
+- **HTML, CSS, Bootstrap:** Desenvolvimento de interfaces web responsivas.
+- **JavaScript:** Manipulação de dados e integração com APIs no frontend.
+- **Python:** Scripts para tratamento de dados e conversão em CSV para análise.
+- **PostgreSQL:** Criação e otimização de banco de dados para persistência e consulta de dados.
 - **Maven:** Gerenciamento de dependências no backend.
+
 
 ## Soft Skills
 
@@ -408,13 +387,7 @@ public interface RadiacaoRepository extends JpaRepository<RadiacaoGlobal, Long> 
 - **Adaptação e Resiliência**: Enfrentei e superei desafios técnicos e organizacionais, adquirindo novas habilidades e garantindo a entrega de um sistema funcional de acordo com as expectativas do cliente.  
 - **Comunicação Eficiente**: Realizei apresentações e documentações claras e objetivas, promovendo um entendimento mútuo entre a equipe e o parceiro acadêmico IACIT.  
 - **Aprendizado Rápido e Proatividade**: Demonstrei autodidatismo ao dominar novas tecnologias (como Spring Boot e APIs REST) e implementar soluções práticas no projeto em um curto período de tempo.
-
-
 ---
-
-### Conclusão
-
-O projeto realizado com a IACIT foi uma experiência enriquecedora, permitindo-me compreender profundamente o uso de APIs, manipulação de dados e implementação de soluções web eficientes. O aprendizado do framework Spring foi essencial para estruturar aplicações robustas e escaláveis, proporcionando uma integração prática entre teoria e execução. A experiência como Scrum Master e a mediação de conflitos dentro da equipe foram habilidades igualmente valiosas para o sucesso do projeto, aprimorando não só as entregas, mas também minha capacidade de comunicação e resolução de problemas em equipe.
 
 
 <!-- Links para navegação -->
@@ -555,49 +528,30 @@ Utilizando o framework Vue.js, foi possível armazenar a lista de setores para q
 
 <br>
 
-<h4>Aprendizado Efetivo:</h4>
-
-<summary>Requisição Rests:</summary>
-- Como consumir e utilizar uma API Rest através do envio de um corpo de requisição adequado e como utilizar as respostas foi um dos principais aprendizados;
-<br><br>
-<summary>Vue.js:</summary>
-- O framework possibilitou o uso de routers, ou seja, dentro da mesma view é possível adicionar múltiplas interfaces para o usuário;
-- O uso de constantes diretamente no HTML através do v-model;
-<br><br>
-<summary>Conexão de banco de dados através de Wallet AWS:</summary>
-- Utilizamos uma wallet AWS no repositório para que, sem configurações extensas no application properties, a conexão com o banco de dados fosse possível em qualquer máquina que a possuísse.
-<br><br>
-<summary>Spring Security: </summary>
-- Utilizando o security, validações de nível de usuário na aplicação foi possível ao adicionar a senha criptografada em hash e separando os usuários por nível de acesso.
-<br><br>
-<summary>Spring e JPA: </summary>
-- A função save() funciona tanto para o Insert quanto para um Update, ou seja, um objeto que não existe não vai ter ID, logo é um novo registro. Agora um objeto com um ID existente substituirá os valores registrados no banco pelos atributos que ele contém, se baseando no ID para realizar o update (where do update é o próprio ID do objeto em questão), isso é feito automaticamente na função save() do Spring.
-
 ### **Hard Skills Desenvolvidas:**
 
 1. **Desenvolvimento Backend:**
-   - Criação de APIs RESTful usando Java e Spring Boot.
-   - Implementação de Spring Security para autenticação, autorização, e criptografia de senhas com hash.
-   - Uso de JPA (Java Persistence API) para gerenciamento de dados, incluindo operações de CRUD e mapeamento objeto-relacional.
-   - Integração de banco de dados na nuvem via Wallet Oracle para conexão com AWS.
+   - Criação de APIs RESTful com Spring Boot.
+   - Implementação de Spring Security para autenticação e criptografia de senhas.
+   - Uso de JPA para operações CRUD e mapeamento objeto-relacional.
+   - Conexão com banco de dados usando Wallet AWS.
 
 2. **Versionamento e Gerenciamento de Dependências:**
-   - Configuração e uso do Maven para versionamento e gerenciamento de bibliotecas.
+   - Configuração e uso de Maven para gerenciamento de dependências.
 
 3. **Containerização e DevOps:**
-   - Uso do Docker para containerizar a aplicação, garantindo consistência entre ambientes.
-   - Configuração de Docker Compose para gerenciar múltiplos containers.
+   - Uso de Docker e Docker Compose para containerizar e gerenciar ambientes.
 
 4. **Desenvolvimento Frontend:**
-   - Utilização do Vue.js para criação de interfaces web interativas e responsivas.
-   - Aplicação de TypeScript para lógica de página, validação de dados e integração com APIs.
-   - Implementação de `v-model` e métodos dinâmicos em componentes Vue.js para manipulação de dados do backend.
+   - Desenvolvimento de interfaces interativas com Vue.js e TypeScript.
+   - Integração com APIs usando `v-model` e métodos dinâmicos.
 
 5. **Consumo de APIs:**
-   - Configuração de requisições HTTP com Axios para consumo de APIs REST, incluindo tratamento de erros e integração de dados no frontend.
+   - Consumo de APIs REST com Axios, incluindo tratamento de erros e integração no frontend.
 
 6. **Gestão de Projetos e Relatórios:**
-   - Geração de relatórios customizados e manipulação de dados para exportação em formatos específicos.
+   - Geração e manipulação de relatórios customizados em formatos específicos.
+
 
 ---
 
@@ -624,13 +578,6 @@ Utilizando o framework Vue.js, foi possível armazenar a lista de setores para q
    - Design de interface pensando na simplicidade de uso e experiência fluida para o cliente final.
 
 ---
-
-## Conclusão
-
-O projeto desenvolvido em parceria com a JAIA resultou em um sistema eficaz para gerenciar inspeções prediais e manutenções. Utilizando tecnologias como Java, Spring Boot, e Vue.js, criamos uma API robusta e uma interface intuitiva que atende às necessidades do cliente.
-
-As funcionalidades implementadas garantem uma navegação simples e a manipulação ágil de dados, promovendo segurança e eficiência na gestão de patrimônios. Assim, o sistema não só atende aos requisitos, mas também estabelece uma base sólida para futuras melhorias.
-
 <!-- Links para navegação -->
 <a href="#topo">Voltar ao topo</a>
 
@@ -874,39 +821,40 @@ Essa abordagem não apenas assegurou que todos os desenvolvedores estivessem ali
 
 <br>
 
-## Aprendizado Efetivo
+### **Hard Skills Desenvolvidas:**
 
-Durante o desenvolvimento deste projeto, aprendi muito sobre várias áreas fundamentais da construção de sistemas complexos, como:
+1. **Modelagem Dimensional:**
+   - Criação de tabelas de fato e dimensão para análise de grandes volumes de dados, otimizando relatórios e consultas.
 
-### Modelagem Dimensional
+2. **Backend com Node.js:**
+   - Desenvolvimento de APIs escaláveis e lógica de ETL para processamento de dados e integração com bancos.
 
-- Trabalhei intensamente com modelagem dimensional, essencial para lidar com grandes volumes de dados e para garantir relatórios ágeis.
+3. **Banco de Dados Relacional (MySQL):**
+   - Design, otimização e execução de queries complexas para garantir performance e integridade.
 
-### Node.js
+4. **Frontend com Vue.js:**
+   - Desenvolvimento de interfaces dinâmicas e responsivas com arquitetura baseada em componentes.
 
-- O uso de Node.js em backends escaláveis foi vantajoso tanto pela performance quanto pela facilidade de integração com bibliotecas de processamento de dados.
+5. **TypeScript:**
+   - Uso de tipagem estática para melhorar a manutenção e legibilidade do código.
 
-### SQL e Consultas Otimizadas
+6. **Power BI:**
+   - Criação de dashboards interativos para análise e geração de insights.
 
-- A otimização de queries para grandes bases de dados, principalmente aquelas relacionadas ao cálculo de métricas e agregações, foi crucial para manter a eficiência do sistema.
+7. **Containerização com Docker:**
+   - Configuração de ambientes consistentes para facilitar o desenvolvimento, escalabilidade e gerenciamento.
 
-### DevOps
+8. **Railway:**
+   - Automação de deploys e integração com CI/CD para garantir disponibilidade e eficiência.
 
-- Aprendi sobre os princípios e práticas do DevOps, que enfatizam a colaboração entre as equipes de desenvolvimento e operações para automatizar e melhorar o ciclo de vida do desenvolvimento de software. A implementação de uma esteira DevOps permitiu integrar testes automatizados, integração contínua e entrega contínua (CI/CD), garantindo que as atualizações e implementações fossem mais rápidas, seguras e confiáveis. Isso não apenas melhorou a qualidade do código, mas também aumentou a eficiência do processo de desenvolvimento como um todo.
+9. **DevOps:**
+   - Implementação de pipelines de CI/CD, testes automatizados e uso de **Trunk-Based Development**.
 
-  ## **Hard Skills**
+10. **ETL (Extração, Transformação e Carga):**
+    - Design e execução de processos eficientes e coerentes de carga de dados.
 
-- **Modelagem Dimensional:** Criação e implementação de tabelas de fato e dimensão para análise de grandes volumes de dados, garantindo eficiência em relatórios e consultas.
-- **Backend com Node.js:** Desenvolvimento de APIs escaláveis, incluindo lógica de ETL (Extração, Transformação e Carga) para processamento de arquivos e integração com bancos de dados.
-- **Banco de Dados Relacional (MySQL):** Design, consulta e otimização de queries complexas para manter alta performance e integridade de dados.
-- **Frontend com Vue.js:** Desenvolvimento de interfaces dinâmicas e responsivas utilizando arquitetura baseada em componentes.
-- **TypeScript:** Uso de tipagem estática para melhorar a qualidade, legibilidade e manutenção do código.
-- **Power BI:** Criação de dashboards interativos para análise de dados e geração de insights estratégicos.
-- **Containerização com Docker:** Configuração de ambientes consistentes para desenvolvimento e produção, facilitando a escalabilidade e o gerenciamento de dependências.
-- **Railway:** Deploy de aplicações utilizando automação CI/CD para garantir disponibilidade e eficiência.
-- **DevOps:** Implementação de pipelines de CI/CD, integração de testes automatizados e uso da estratégia **Trunk-Based Development** para sincronização e rastreabilidade.
-- **ETL (Extração, Transformação e Carga):** Design e execução de processos de carga de dados com foco em eficiência e coerência.
-- **Gestão de Projetos e Rastreabilidade:** Utilização de estratégias para relacionar branches de desenvolvimento a User Stories e requisitos.
+11. **Gestão de Projetos e Rastreabilidade:**
+    - Relacionamento de branches de desenvolvimento com User Stories e requisitos para rastreabilidade.
 
 ---
 
@@ -921,13 +869,6 @@ Durante o desenvolvimento deste projeto, aprendi muito sobre várias áreas fund
 - **Atenção aos Detalhes:** Garantia de precisão na implementação de processos de ETL e na configuração de pipelines de CI/CD.
 - **Proatividade:** Iniciativa em sugerir e implementar melhorias no fluxo de trabalho e no desenvolvimento do projeto.
 - **Rastreamento de Requisitos:** Organização e monitoramento do progresso do projeto com foco nos objetivos do cliente.
-
-
-### Conclusão
-
-Este projeto foi uma grande oportunidade para expandir minhas habilidades como desenvolvedor, especialmente ao trabalhar com tecnologias novas para mim, como Node.js e modelagem dimensional. O uso de Node.js no backend permitiu criar APIs eficientes e escaláveis, o que me proporcionou um aprendizado valioso em uma stack que eu ainda não dominava. Além disso, a modelagem dimensional aprimorou minha capacidade de organizar e estruturar dados para análises mais poderosas, otimizando o desempenho de visualizações no Power BI.
-
-A implementação de uma esteira de DevOps garantiu um ciclo de desenvolvimento contínuo e rastreável, permitindo um processo ágil e confiável. No final, o sistema desenvolvido oferece insights importantes para o cliente, melhorando a gestão de contratos e a tomada de decisões estratégicas. O projeto me transformou em um desenvolvedor mais completo, integrando habilidades de backend, ETL e visualização de dados em um único ecossistema eficiente e bem estruturado.
 
 <!-- Links para navegação -->
 <a href="#topo">Voltar ao topo</a>
