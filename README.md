@@ -8,7 +8,7 @@
 ## Leonardo Adler da Silva
 
  adicionar uma foto minha aqui
-<img src="https://github.com/LeoAdlerr/PortfolioApis/">  
+<img src="https://github.com/LeoAdlerr/PortfolioApis/blob/main/leoimg.jpg">  
 
 Olá, sou **Leonardo Adler da Silva**, estudante de Banco de Dados na Fatec FATEC São José dos Campos - Jessen Vidal. Ao longo da minha jornada acadêmica, tive a oportunidade de trabalhar com metodologias ágeis e diversas tecnologias, resultando em projetos empolgantes que compartilho abaixo.
 
