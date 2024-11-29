@@ -6,9 +6,7 @@
 <h2><a href ="https://github.com/LeoAdlerr/PortfolioApis/blob/main/english/README.md"> English Portfolio </a><h2>
 
 ## Leonardo Adler da Silva
-
- adicionar uma foto minha aqui
-<img src="https://github.com/LeoAdlerr/PortfolioApis/blob/main/leoimg.jpg">  
+<img src="https://github.com/LeoAdlerr/PortfolioApis/blob/main/leoimg.jpg" width="300" height="auto">
 
 Olá, sou **Leonardo Adler da Silva**, estudante de Banco de Dados na Fatec FATEC São José dos Campos - Jessen Vidal. Ao longo da minha jornada acadêmica, tive a oportunidade de trabalhar com metodologias ágeis e diversas tecnologias, resultando em projetos empolgantes que compartilho abaixo.
 
