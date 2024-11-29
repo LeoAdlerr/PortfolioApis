@@ -108,7 +108,7 @@ Durante o desenvolvimento, desempenhei um papel ativo nas seguintes atividades:
 
 ---
 
-### Soft Skills Desenvolvidas
+## **Soft Skills Desenvolvidas**
 
 - **Resiliência:** Como iniciante em programação, aprendi a resolver problemas e a lidar com desafios técnicos, persistindo até superar obstáculos.
 - **Autonomia e Autodidatismo:** Fui o membro com maior entrega no projeto, e aprendi a maior parte das tecnologias utilizadas de forma autônoma.
@@ -116,11 +116,15 @@ Durante o desenvolvimento, desempenhei um papel ativo nas seguintes atividades:
 
 ---
 
-### Aprendizados Efetivos
+## **Hard Skills**
 
-- **Uso de bibliotecas em Python:** Compreendi a importância de Pandas e Matplotlib para manipulação e visualização de dados.
-- **Estruturas de controle:** Desenvolvi a habilidade de construir uma interface interativa utilizando laços e condicionais.
-- **Análise de dados:** Transformei dados brutos em informações significativas, criando insights relevantes para o público.
+- **Python:** Primeira linguagem de programação utilizada, onde aprendi conceitos fundamentais de desenvolvimento, como sintaxe, controle de fluxo e funções, além de começar a aplicar lógica de programação de forma prática.
+- **Pandas:** Utilizado para manipulação e análise de grandes volumes de dados, onde aprendi a filtrar, agrupar e transformar dados de forma eficiente, aplicando funções e métodos avançados da biblioteca.
+- **Matplotlib:** Aprendi a criar gráficos interativos e personalizados, transformando dados brutos em visualizações acessíveis e compreensíveis para o público-alvo.
+- **Lógica de Programação:** Desenvolvi minha compreensão de algoritmos e estruturas de controle (como loops e condicionais) para criar um sistema de menus interativo e adaptável às necessidades do usuário.
+- **Análise de Dados:** Transformei dados brutos de casos de Covid-19 em insights significativos, contribuindo para a criação de visualizações que ajudaram a entender a evolução da pandemia de forma prática.
+- **Desenvolvimento de Interfaces Interativas:** Construção de uma interface simples e funcional no terminal, proporcionando uma experiência de usuário intuitiva e acessível.
+
 
 <br><br>
 
