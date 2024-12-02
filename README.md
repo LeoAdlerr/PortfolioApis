@@ -965,8 +965,6 @@ Aqui estão as **tecnologias** com as quais trabalhei no projeto:
   - **Microsserviços:** Divisão do backend em serviços independentes, com separação entre IA/ETL e login/segurança.
 ---
 
----
-
 ## Minhas Contribuições
 
 ### Papel e Responsabilidades como PO e Desenvolvedor
@@ -992,6 +990,7 @@ Com isso, contribuí para:
 - **IA de Random Forest**: Desenvolvi uma solução para recomendações de melhorias no **SCORE**, uma das entregas mais relevantes da sprint.
 - **IA de Séries Temporais**: Apoiei nosso engenheiro de dados na entrega de um modelo para prever o padrão de duplicatas finalizadas ou canceladas.
 - **Segurança do Projeto**: Auxiliei nossa desenvolvedora frontend na implementação de requisitos de segurança e o desenvolvedor backend Node.js com critérios de aceite das histórias de usuário relacionados à conformidade com os requisitos de segurança.
+- **Dicionário de Dados**: Criei o dicionário de dados para as IAs, tanto para o modelo de **SCORE** quanto para a previsão de **duplicatas finalizadas**. Esse trabalho foi realizado nas duas primeiras sprints, assegurando que os dados fossem bem compreendidos e padronizados para a aplicação das IAs.
 
 ---
 
@@ -1021,7 +1020,8 @@ Essa mudança de abordagem resultou em uma entrega muito mais relevante na **ter
 | **Critérios de Segurança de Software** | Implementação de requisitos para conformidade de sistemas.   | Auxiliei o backend e frontend nos critérios de segurança do projeto.                   | Sei fazer sozinho     |
 | **Node.js (Backend)**         | Plataforma para construção de APIs e sistemas backend.      | Apoiei na validação de critérios de aceite de APIs relacionadas à segurança.            | Sei fazer sozinho     |
 | **Vue.js (Frontend)**         | Framework JavaScript para construção de interfaces de usuário. | Apoiei no desenvolvimento do frontend relacionado à IA de recomendações para melhoria de **SCORE** e requisitos de segurança. | Sei fazer com ajuda   |
-| Criação de Dicionários de Dados |	Estruturação e padronização dos dados utilizados em modelos de IA e sistema. |	Criei os dicionários de dados para as tabelas de usuários e IA, garantindo clareza na definição dos dados de score e previsão de finalização de duplicatas. |	Sei fazer sozinho |
+| **Dicionário de Dados**       | Definição e padronização dos dados para IAs.                | Criei o dicionário de dados para as IAs de **SCORE** e **Previsão de Duplicatas**.       | Sei fazer sozinho     |
+
 
 
 ---
