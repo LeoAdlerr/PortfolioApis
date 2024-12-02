@@ -919,90 +919,69 @@ Aqui estão as **tecnologias** com as quais trabalhei no projeto:
 
 ## Minhas Contribuições  
 
-### Na Função de PO (Product Owner)  
+# Papel e Responsabilidades como PO e Desenvolvedor
 
-**Interação com o Cliente:**  
-- Conduzi discussões com o cliente para alinhar expectativas e esclarecer requisitos.  
-- Traduzi as necessidades do cliente em um backlog detalhado com histórias de usuários e tarefas.  
-
-**Gestão de Requisitos:**  
-- Colaborei com a equipe para refinar e priorizar o backlog com base na viabilidade e prioridades do cliente.  
-- Criei requisitos funcionais e não funcionais claros e acionáveis.  
-
-
-### Desenvolvimento Frontend  
-- Projetei e desenvolvi a **interface de transparência para histórico de consentimentos dos usuários**, permitindo que eles visualizassem e gerenciassem seus históricos de consentimento e políticas.  
-
-### Desenvolvimento de IA  
-- **Sistema de Recomendação para Melhoria de Score:**  
-  - Criei um modelo de IA utilizando **árvore de decisão** e **random forest** para fornecer recomendações personalizadas para melhorar os scores de crédito.  
-  - Foco em oferecer insights acionáveis sobre variáveis que influenciam os scores dos usuários.  
-
-### Arquitetura de ETL em Python  
-- Projetei e implementei a arquitetura do pipeline ETL utilizando **FastAPI**.  
-- Separei os serviços de **IA** e **ETL** no backend Python, adotando uma arquitetura de **microsserviços**.  
-- Desenvolvi o **Dicionário de Dados**, garantindo uma abordagem consistente e estruturada para o processamento de dados.  
-- Pré-processamento e transformação de conjuntos de dados para uso em modelos de IA e relatórios de conformidade.  
-
-### Desenvolvimento Backend  
-- Implementei rotas de API em **Node.js**, incluindo:  
-  - **Rota de Histórico de Consentimentos do Usuário:** Desenvolvi o endpoint para retornar o histórico detalhado de consentimentos, garantindo conformidade com as regulamentações da **LGPD**.  
-- Apliquei princípios de segurança, garantindo que o sistema estivesse alinhado com as normas da **LGPD**, incluindo rastreamento de dados relativos ao consentimento.  
-- Criei uma **API REST em FastAPI** para fornecer recomendações personalizadas de melhorias no **score de crédito** do usuário:  
-  - A API recebe os dados que geraram o **score** de um usuário específico e retorna quais mudanças teriam o maior impacto positivo e quais poderiam impactar negativamente o score.
-
-
-## Principais Funcionalidades Entregues  
-
-**Análises de Crédito Baseadas em IA:**  
-- Atualizações de score em tempo real.  
-- Insights detalhados sobre o impacto de variáveis nos scores.  
-
-**Conformidade com a LGPD:**  
-- Rastreamento de consentimento e políticas claras de uso de dados.  
-- Mecanismos avançados para exclusão de dados após revogação de consentimento.  
-
-**Modelagem Preditiva:**  
-- Previsão de comportamentos de contratos duplicados.  
-- Análise de tendências de coortes para compreender dinâmicas de mercado.  
-
-**Empoderamento do Usuário:**  
-- Recomendações acionáveis para atingir scores desejados.  
-- Destaque de variáveis que influenciam o score.  
+Minha principal responsabilidade como **Product Owner** foi servir como o elo entre o cliente e a equipe, capturando requisitos, alinhando expectativas e priorizando um backlog claro e funcional. Além disso, assumi tarefas de desenvolvimento, o que exigiu equilíbrio entre essas responsabilidades, especialmente nas primeiras sprints.
 
 ---
 
-## Resultados Obtidos  
-- Entreguei um sistema escalável e compatível com regulamentações, baseado em IA para análise de crédito.  
-- Garanti transparência no consentimento dos usuários e gestão robusta de dados.  
-- Forneci insights acionáveis sobre comportamentos financeiros, capacitando stakeholders para tomar melhores decisões.  
+## Desafios e Aprendizados
+
+Nas primeiras sprints, enfrentei dificuldades em manter o backlog bem definido, principalmente em relação à clareza dos critérios de aceitação (**DoR e DoD**). Isso ocorreu porque, além do papel de PO, também executei tasks como desenvolvedor, o que desviou meu foco do refinamento constante do backlog. Como resultado, houve bloqueios que atrasaram entregas na primeira sprint, comprometendo parcialmente a fluidez do desenvolvimento.
+
+Apesar desses desafios iniciais, as entregas atenderam às expectativas do cliente, mas foi claro que um backlog mais claro teria permitido entregas ainda mais relevantes. Esse problema foi resolvido gradualmente, e na **terceira sprint**, as prioridades foram completamente ajustadas.
 
 ---
 
-## Hard Skills
+## Resolução e Resultados
 
-Aqui estão as **hard skills** que adquiri experiência prática durante o desenvolvimento deste projeto:
+Na **terceira sprint**, adotei uma abordagem mais estruturada para priorizar o backlog e garantir que todos tivessem total clareza sobre os critérios de aceitação. Só voltei a focar em desenvolvimento na última semana da sprint, quando todos estavam alinhados com os **DoR** e **DoD** de suas tarefas e histórias de usuário.
 
-- **MongoDB:** Modelagem Top Down e Crud, utilizados no gerenciamento de histórico de consentimentos e versionamento de políticas.
-- **FastAPI:** Estruturação de backend Python, incluindo serviços de ETL e APIs para processamento de dados.
-- **Sklearn/IA (Árvore de Decisão e Random Forest):** Desenvolvimento de modelos IA de classificacao, utilizados para fornecer recomendações de melhoria de score e análise de dados.
-- **LGPD (Lei Geral de Proteção de Dados):** Implementação de sistemas compatíveis com LGPD, incluindo rastreamento de consentimentos, políticas de privacidade e exclusão de dados.
-- **Docker/Docker Compose:** Criação de containers para facilitar o deploy e integração contínua, além de otimizar o desenvolvimento.
-- **Microsserviços:** Arquitetura dividida entre os serviços de IA e ETL no backend Python, e funcionalidades de login e segurança no backend Node.js.
+Com isso, contribuí para:
+
+- **IA de Random Forest**: Desenvolvi uma solução para recomendações de melhorias no **SCORE**, uma das entregas mais relevantes da sprint.
+- **IA de Séries Temporais**: Apoiei nosso engenheiro de dados na entrega de um modelo para prever o padrão de duplicatas finalizadas ou canceladas.
+- **Segurança do Projeto**: Auxiliei nossa desenvolvedora frontend na implementação de requisitos de segurança e o desenvolvedor backend Node.js com critérios de aceite das histórias de usuário relacionados à conformidade com os requisitos de segurança.
 
 ---
 
-## Soft Skills Desenvolvidas
+## Lições Aprendidas
 
-Durante este projeto, além das **hard skills** técnicas, desenvolvi diversas **soft skills** essenciais para o sucesso da entrega e para o meu crescimento profissional:
+Essa experiência reforçou para mim a importância de:
 
-- **Gestão de Time:** Como **PO**, aprendi a liderar e coordenar uma equipe multidisciplinar, alinhando as expectativas do cliente com os desenvolvedores e garantindo a execução das tarefas dentro do prazo e da qualidade esperada.  
-- **Comunicação Clara e Eficiente:** Fui responsável por traduzir as necessidades do cliente em requisitos técnicos, o que exigiu uma comunicação assertiva e objetiva com os stakeholders e com a equipe.  
-- **Tomada de Decisão:** Em várias ocasiões, tomei decisões críticas sobre a priorização do backlog, avaliando a viabilidade técnica e as prioridades do cliente.  
-- **Resolução de Conflitos:** Como **PO**, mediei discussões sobre prioridades e necessidades entre os membros da equipe, buscando soluções que beneficiassem o andamento do projeto como um todo.  
-- **Gestão de Expectativas:** Trabalhei no alinhamento contínuo das expectativas do cliente, garantindo que todos estivessem cientes dos prazos, entregas e possíveis limitações do projeto.  
-- **Visão Estratégica:** Desenvolvi a capacidade de visualizar o panorama geral do projeto e a jornada do usuário, o que foi essencial para entregar um produto final que atendesse às necessidades dos clientes e às regulamentações.  
-- **Adaptabilidade e Flexibilidade:** Durante o projeto, foi necessário ajustar o planejamento várias vezes para lidar com mudanças nos requisitos ou obstáculos inesperados, o que me ensinou a ser flexível e adaptar rapidamente as estratégias conforme necessário.  
+- **Priorizar o papel de PO** antes de assumir outras responsabilidades para garantir que o backlog esteja sempre claro e priorizado.
+- Entender o impacto direto de um **backlog bem estruturado** no fluxo de desenvolvimento e na eliminação de bloqueios.
+- Planejar o envolvimento em atividades de desenvolvimento de forma estratégica, após garantir que a equipe tenha autonomia para avançar.
+
+---
+
+## Conclusão
+
+Essa mudança de abordagem resultou em uma entrega muito mais relevante na **terceira sprint**, que incluiu dois produtos com **IA** e melhorias significativas na segurança e funcionalidade do projeto. Além de atender às expectativas do cliente, essa experiência aprimorou minhas habilidades como PO e destacou a importância de **foco**, **planejamento** e **comunicação clara**.
+
+---
+
+## Tabela de Hard Skills
+
+| **Hard Skill**               | **Descrição**                                               | **O que fiz no projeto**                                                               | **Nível adquirido**   |
+|-------------------------------|------------------------------------------------------------|----------------------------------------------------------------------------------------|-----------------------|
+| **Random Forest (Python)**    | Modelo de aprendizado de máquina para classificação e regressão.  | Desenvolvi uma IA para recomendações de melhorias no **SCORE**.                        | Sei fazer sozinho     |
+| **Séries Temporais (Python)** | Modelagem estatística para análise e previsão de padrões temporais. | Apoiei no desenvolvimento de uma IA para prever duplicatas finalizadas/canceladas.     | Sei fazer com ajuda   |
+| **Gestão de Backlog (Scrum)** | Organização e priorização de tarefas em projetos ágeis.     | Criei e refinei o backlog, ajustando **DoR** e **DoD** para clareza nas entregas.       | Sei fazer sozinho   |
+| **Critérios de Segurança de Software** | Implementação de requisitos para conformidade de sistemas.   | Auxiliei o backend e frontend nos critérios de segurança do projeto.                   | Sei fazer sozinho     |
+| **Node.js**                   | Plataforma para construção de APIs e sistemas backend.      | Apoiei na validação de critérios de aceite de APIs relacionadas à segurança.            | Sei fazer sozinho   |
+
+---
+
+## Tabela de Soft Skills
+
+| **Soft Skill**      | **Descrição**                                              | **Como usei no projeto**                                                               | **Nível (%)**        |
+|---------------------|------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------|
+| **Organização**     | Capacidade de estruturar tarefas e prioridades de forma eficiente. | Estruturei o backlog, garantindo clareza nos requisitos e alinhamento com o cliente.    | 80%                 |
+| **Comunicação**     | Capacidade de se expressar claramente e alinhar expectativas.      | Traduzi requisitos do cliente para a equipe e garanti entendimento mútuo.              | 80%                 |
+| **Colaboração**     | Habilidade de trabalhar em equipe para alcançar objetivos comuns.  | Colaborei com desenvolvedores, fornecendo suporte técnico e de entendimento do backlog. | 99%                 |
+| **Adaptabilidade**  | Flexibilidade para lidar com mudanças inesperadas.                | Ajustei o planejamento frente a mudanças de escopo e priorizei entregas estratégicas.   | 99%                 |
+
 
 ---
 </div>
