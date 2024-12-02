@@ -906,7 +906,12 @@ Desenvolvemos um sistema inteligente que gera um score de confiabilidade para en
 4. **Análise de Impacto nas Variáveis do Score (Random Forest)**  
    Implementamos um modelo de Random Forest para analisar o impacto das variáveis que influenciam o score de endossantes. A IA gera recomendações sobre como aumentar ou diminuir o score com base em variáveis como duplicatas finalizadas ou canceladas.
 
-5. **Plataforma Web e Requisitos de Segurança (LGPD)**  
+   <details>
+       <summary>Plataforma web contendo a recomendação para melhoria do Score: </summary>
+       <img src="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/IMGS/HomeSprint3.png">
+   </details>
+
+6. **Plataforma Web e Requisitos de Segurança (LGPD)**  
    Para disponibilizar as soluções, criamos uma plataforma web onde os usuários podem acessar os produtos desenvolvidos. Em conformidade com a Lei Geral de Proteção de Dados (LGPD), implementamos os seguintes requisitos de segurança:
    - **Transparência/CRUD dos dados pessoais**: O usuário tem total visibilidade e controle sobre os dados pessoais utilizados no sistema e nas IA's.
    - **Backup e Delete dos dados pessoais**: Garantimos a segurança e integridade dos dados pessoais, com a possibilidade de exclusão dos mesmos quando necessário.
