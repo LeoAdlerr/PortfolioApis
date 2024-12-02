@@ -874,7 +874,8 @@ Essa abordagem não apenas assegurou que todos os desenvolvedores estivessem ali
 <br>
 
 <div id="portfolio6SpcGrafeno">
- # Projeto SPC Grafeno - Equipe Quarks (6º Semestre)
+    
+# Projeto SPC Grafeno - Equipe Quarks (6º Semestre)
 
 **Parceiro Acadêmico:** SPC Grafeno  
 **Link para Repositório do Projeto:** [Repositório do Projeto](https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno)
@@ -904,6 +905,13 @@ Desenvolvemos um sistema inteligente que gera um score de confiabilidade para en
 
 4. **Análise de Impacto nas Variáveis do Score (Random Forest)**  
    Implementamos um modelo de Random Forest para analisar o impacto das variáveis que influenciam o score de endossantes. A IA gera recomendações sobre como aumentar ou diminuir o score com base em variáveis como duplicatas finalizadas ou canceladas.
+
+5. **Plataforma Web e Requisitos de Segurança (LGPD)**  
+   Para disponibilizar as soluções, criamos uma plataforma web onde os usuários podem acessar os produtos desenvolvidos. Em conformidade com a Lei Geral de Proteção de Dados (LGPD), implementamos os seguintes requisitos de segurança:
+   - **Transparência/CRUD dos dados pessoais**: O usuário tem total visibilidade e controle sobre os dados pessoais utilizados no sistema e nas IA's.
+   - **Backup e Delete dos dados pessoais**: Garantimos a segurança e integridade dos dados pessoais, com a possibilidade de exclusão dos mesmos quando necessário.
+   - **Aceite de Termos de Consentimento**: A plataforma exige o aceite claro dos termos de consentimento para o uso dos dados pessoais, garantindo a conformidade com a LGPD.
+
 
 
 ---
