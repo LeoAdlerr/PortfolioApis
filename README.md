@@ -874,32 +874,37 @@ Essa abordagem não apenas assegurou que todos os desenvolvedores estivessem ali
 <br>
 
 <div id="portfolio6SpcGrafeno">
- <h1>Em 2024-2 foi trabalhado um projeto API com o parceiro acadêmico SPC Grafeno</h1>
+ # Projeto SPC Grafeno - Equipe Quarks (6º Semestre)
 
-Equipe: Quarks (6º Semestre)
-Parceiro Acadêmico: SPC Grafeno
-* [Link para Repositório do Projeto](https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno)
+**Parceiro Acadêmico:** SPC Grafeno  
+**Link para Repositório do Projeto:** [Repositório do Projeto](https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno)
 
-Propósito:
-Desenvolver soluções inovadoras baseadas em Inteligência Artificial (IA) para a SPC Grafeno, com foco na análise de crédito, previsões de tendências de mercado e avaliação de risco, a fim de ajudar a empresa e seus clientes a tomarem decisões mais informadas e precisas.
+## Propósito
+Desenvolver soluções baseadas em Inteligência Artificial (IA) para a SPC Grafeno, focando na análise de crédito, previsões de tendências de mercado e avaliação de risco, visando melhorar as decisões financeiras da empresa e de seus clientes.
 
-Contexto:
-A SPC Grafeno é uma plataforma especializada no registro financeiro de ativos. Com o objetivo de aprimorar seus serviços e oferecer novas soluções financeiras, fomos contratados para desenvolver produtos que utilizam técnicas avançadas de aprendizado de máquina. A empresa nos forneceu dados históricos relacionados a transações financeiras, ativos e comportamentos de mercado.
+## Contexto
+A SPC Grafeno, especializada em registros financeiros de ativos, contratou nossa equipe para criar produtos financeiros inovadores utilizando técnicas de aprendizado de máquina, com dados históricos sobre ativos financeiros, transações e comportamentos de mercado.
 
-Desafio:
-Nosso desafio foi explorar esse vasto banco de dados para identificar padrões e criar produtos financeiros úteis para a SPC Grafeno. A meta era não apenas analisar e prever tendências de duplicatas, mas também desenvolver ferramentas que ajudassem tanto credores quanto endossantes a entender melhor a probabilidade de finalização de contratos e a confiabilidade dos mesmos.
+## Desafio
+Explorar e analisar um grande banco de dados para identificar padrões e desenvolver ferramentas que ajudem credores e endossantes a avaliar a probabilidade de finalização de contratos de duplicatas e a confiabilidade dos mesmos.
 
-Solução Proposta:
-Propomos o desenvolvimento de um sistema inteligente que gera um score de confiabilidade para endossantes, baseado no histórico de duplicatas. Essa solução ajudará credores e a SPC Grafeno a avaliarem a probabilidade de uma duplicata ser finalizada, utilizando modelos de IA que levam em consideração uma série de variáveis como o ramo de atividade, segmento da empresa, e o comportamento histórico das duplicatas.
+## Solução Proposta
+Desenvolvemos um sistema inteligente que gera um score de confiabilidade para endossantes, baseado no histórico de duplicatas, permitindo que a SPC Grafeno e os credores avaliem a probabilidade de finalização de contratos com base em variáveis como ramo de atividade e comportamento histórico.
 
-Produtos Desenvolvidos:
-Score de Confiabilidade para Endossantes (Regressão Linear): Criamos um sistema baseado em regressão linear que calcula um score para endossantes, indicando a probabilidade de um endossante finalizar seus contratos de duplicatas com base em seu histórico. Esse score foi projetado para ajudar a SPC Grafeno e os credores a avaliarem melhor a confiabilidade de um endossante.
+## Produtos Desenvolvidos
 
-Previsão de Finalização de Contratos (Random Forest): Além do score de confiabilidade, desenvolvemos uma IA que permite aos usuários, como credores e a SPC Grafeno, fornecerem variáveis relacionadas a um contrato de duplicata. Com isso, a IA gera uma previsão de 0% a 100% sobre a probabilidade de um contrato ser finalizado, com base em fatores como ramo de atividade, segmento da empresa e datas de início e finalização do contrato.
+1. **Score de Confiabilidade para Endossantes (Regressão Linear)**  
+   Criamos um sistema de IA baseado em regressão linear para calcular um score de confiabilidade de endossantes, ajudando a avaliar a probabilidade de finalização de contratos de duplicatas.
 
-Previsão de Comportamento de Duplicatas (Séries Temporais): Para analisar o comportamento das duplicatas a partir de dados históricos, criamos um modelo baseado em séries temporais. Esse modelo permite que os usuários carreguem arquivos CSV com dados históricos e obtenham previsões sobre como as duplicatas podem se comportar no futuro, oferecendo insights valiosos sobre tendências do mercado de duplicatas.
+2. **Previsão de Finalização de Contratos (Random Forest)**  
+   Desenvolvemos um modelo em IA que, ao inserir variáveis de um contrato de duplicata (como ramo, segmento, datas), gera uma previsão de 0% a 100% sobre a probabilidade de finalização do contrato.
 
-Análise de Impacto nas Variáveis do Score (Random Forest): Implementamos uma IA de Random Forest que analisa o impacto das variáveis que influenciam o score de cada endossante. O sistema gera recomendações detalhadas, indicando ao usuário quais ações podem melhorar ou piorar seu score. Exemplo de retorno da IA: se o número de duplicatas finalizadas aumentar, o score do endossante pode aumentar em X pontos, enquanto o aumento de duplicatas canceladas pode diminuir o score em Y pontos.
+3. **Previsão de Comportamento de Duplicatas (Séries Temporais)**  
+   Criamos um modelo de séries temporais que permite a previsão de como as duplicatas se comportarão no futuro, a partir de dados históricos fornecidos pelo usuário em formato CSV.
+
+4. **Análise de Impacto nas Variáveis do Score (Random Forest)**  
+   Implementamos um modelo de Random Forest para analisar o impacto das variáveis que influenciam o score de endossantes. A IA gera recomendações sobre como aumentar ou diminuir o score com base em variáveis como duplicatas finalizadas ou canceladas.
+
 
 ---
 
