@@ -1019,7 +1019,7 @@ Essa mudança de abordagem resultou em uma entrega muito mais relevante na **ter
 | **Séries Temporais (Python)** | Modelagem estatística para análise e previsão de padrões temporais. | Apoiei no desenvolvimento de uma IA para prever duplicatas finalizadas/canceladas.     | Sei fazer com ajuda   |
 | **Gestão de Backlog (Scrum)** | Organização e priorização de tarefas em projetos ágeis.     | Criei e refinei o backlog, ajustando **DoR** e **DoD** para clareza nas entregas.       | Sei fazer sozinho   |
 | **Critérios de Segurança de Software** | Implementação de requisitos para conformidade de sistemas.   | Auxiliei o backend e frontend nos critérios de segurança do projeto.                   | Sei fazer sozinho     |
-| **Node.js**                   | Plataforma para construção de APIs e sistemas backend.      | Apoiei na validação de critérios de aceite de APIs relacionadas à segurança.            | Sei fazer sozinho     |
+| **Node.js (Backend)**                   | Plataforma para construção de APIs e sistemas backend.      | Apoiei na validação de critérios de aceite de APIs relacionadas à segurança.            | Sei fazer sozinho     |
 | **Vue.js (Frontend)**         | Framework JavaScript para construção de interfaces de usuário. | Apoiei no desenvolvimento do frontend relacionado à IA de recomendações para melhoria de **SCORE** e requisitos de segurança. | Sei fazer com ajuda   |
 
 ---
