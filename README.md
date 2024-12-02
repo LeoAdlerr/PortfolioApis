@@ -967,15 +967,15 @@ Aqui estão as **tecnologias** com as quais trabalhei no projeto:
 
 ---
 
-## Minhas Contribuições  
+## Minhas Contribuições
 
-# Papel e Responsabilidades como PO e Desenvolvedor
+### Papel e Responsabilidades como PO e Desenvolvedor
 
 Minha principal responsabilidade como **Product Owner** foi servir como o elo entre o cliente e a equipe, capturando requisitos, alinhando expectativas e priorizando um backlog claro e funcional. Além disso, assumi tarefas de desenvolvimento, o que exigiu equilíbrio entre essas responsabilidades, especialmente nas primeiras sprints.
 
 ---
 
-## Desafios e Aprendizados
+### Desafios e Aprendizados
 
 Nas primeiras sprints, enfrentei dificuldades em manter o backlog bem definido, principalmente em relação à clareza dos critérios de aceitação (**DoR e DoD**). Isso ocorreu porque, além do papel de PO, também executei tasks como desenvolvedor, o que desviou meu foco do refinamento constante do backlog. Como resultado, houve bloqueios que atrasaram entregas na primeira sprint, comprometendo parcialmente a fluidez do desenvolvimento.
 
@@ -983,7 +983,7 @@ Apesar desses desafios iniciais, as entregas atenderam às expectativas do clien
 
 ---
 
-## Resolução e Resultados
+### Resolução e Resultados
 
 Na **terceira sprint**, adotei uma abordagem mais estruturada para priorizar o backlog e garantir que todos tivessem total clareza sobre os critérios de aceitação. Só voltei a focar em desenvolvimento na última semana da sprint, quando todos estavam alinhados com os **DoR** e **DoD** de suas tarefas e histórias de usuário.
 
@@ -995,7 +995,7 @@ Com isso, contribuí para:
 
 ---
 
-## Lições Aprendidas
+### Lições Aprendidas
 
 Essa experiência reforçou para mim a importância de:
 
@@ -1005,13 +1005,13 @@ Essa experiência reforçou para mim a importância de:
 
 ---
 
-## Conclusão
+### Conclusão
 
 Essa mudança de abordagem resultou em uma entrega muito mais relevante na **terceira sprint**, que incluiu dois produtos com **IA** e melhorias significativas na segurança e funcionalidade do projeto. Além de atender às expectativas do cliente, essa experiência aprimorou minhas habilidades como PO e destacou a importância de **foco**, **planejamento** e **comunicação clara**.
 
 ---
 
-## Tabela de Hard Skills
+### Tabela de Hard Skills
 
 | **Hard Skill**               | **Descrição**                                               | **O que fiz no projeto**                                                               | **Nível adquirido**   |
 |-------------------------------|------------------------------------------------------------|----------------------------------------------------------------------------------------|-----------------------|
@@ -1019,8 +1019,10 @@ Essa mudança de abordagem resultou em uma entrega muito mais relevante na **ter
 | **Séries Temporais (Python)** | Modelagem estatística para análise e previsão de padrões temporais. | Apoiei no desenvolvimento de uma IA para prever duplicatas finalizadas/canceladas.     | Sei fazer com ajuda   |
 | **Gestão de Backlog (Scrum)** | Organização e priorização de tarefas em projetos ágeis.     | Criei e refinei o backlog, ajustando **DoR** e **DoD** para clareza nas entregas.       | Sei fazer sozinho   |
 | **Critérios de Segurança de Software** | Implementação de requisitos para conformidade de sistemas.   | Auxiliei o backend e frontend nos critérios de segurança do projeto.                   | Sei fazer sozinho     |
-| **Node.js (Backend)**                   | Plataforma para construção de APIs e sistemas backend.      | Apoiei na validação de critérios de aceite de APIs relacionadas à segurança.            | Sei fazer sozinho     |
+| **Node.js (Backend)**         | Plataforma para construção de APIs e sistemas backend.      | Apoiei na validação de critérios de aceite de APIs relacionadas à segurança.            | Sei fazer sozinho     |
 | **Vue.js (Frontend)**         | Framework JavaScript para construção de interfaces de usuário. | Apoiei no desenvolvimento do frontend relacionado à IA de recomendações para melhoria de **SCORE** e requisitos de segurança. | Sei fazer com ajuda   |
+| Criação de Dicionários de Dados |	Estruturação e padronização dos dados utilizados em modelos de IA e sistema. |	Criei os dicionários de dados para as tabelas de usuários e IA, garantindo clareza na definição dos dados de score e previsão de finalização de duplicatas. |	Sei fazer sozinho |
+
 
 ---
 
