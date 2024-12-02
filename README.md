@@ -880,16 +880,66 @@ Essa abordagem não apenas assegurou que todos os desenvolvedores estivessem ali
     
  * [Link para Repositório do Projeto](https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno)
   
-## Resumo do Repositório
-**Propósito:**  
-Desenvolver produtos financeiros baseados em IA para a **SPC Grafeno**, com foco em análise de crédito, previsões de tendências de mercado e análise de risco.  
+## Propósito
 
-**Principais Objetivos:**  
-1. Analisar grandes volumes de dados financeiros para identificar padrões acionáveis.  
-2. Criar soluções financeiras inovadoras e de valor agregado para a SPC Grafeno e seus clientes.  
-3. Entregar um sistema escalável e compatível com regulamentações que melhore a tomada de decisão.
+Desenvolver produtos financeiros baseados em IA para a SPC Grafeno, com foco em análise de crédito, previsões de tendências de mercado e análise de risco.
 
-   ## Tecnologias Utilizadas
+## Contexto
+
+Fomos contratados pela SPC Grafeno, um registro financeiro de ativos, para desenvolver produtos financeiros inovadores utilizando técnicas de aprendizado de máquina. A empresa nos forneceu um conjunto diversificado de dados históricos relacionados a ativos financeiros, transações e comportamentos de mercado.
+
+## Desafio
+
+Nosso desafio é explorar esse extenso banco de dados, identificar padrões e oportunidades e criar produtos financeiros que agreguem valor à SPC Grafeno e seus clientes.  
+
+O projeto culminará em uma prova de conceito que demonstre a viabilidade do produto proposto, incluindo:  
+- Uma descrição detalhada do modelo utilizado.  
+- Justificativa das técnicas selecionadas.  
+- Avaliação de desempenho do modelo.  
+
+No final, entregaremos um relatório com os resultados, complementado por uma apresentação que descreva como nossa solução pode ser utilizada pela SPC Grafeno e os benefícios oferecidos.
+
+## Solução Proposta
+
+Propomos o desenvolvimento de um sistema que analise a confiabilidade de endossantes utilizando algoritmos e modelos de IA. Este sistema gerará um score que reflete a capacidade de uma empresa de honrar compromissos de crédito. Nossa solução busca aprimorar o processo de avaliação para a empresa e seus clientes.
+
+---
+
+### Detalhes do Desenvolvimento por Sprint
+
+#### **Sprint 1**
+Objetivo: Desenvolver os componentes fundamentais do modelo de IA que gera scores de crédito com base em dados de CNPJ e disponibilizar aos usuários acesso aos seus scores.
+
+**Entregas da Sprint 1:**  
+- Desenvolvimento do modelo de IA inicial para geração de scores.  
+- Plataforma web com autenticação para usuários CNPJ e visualização de scores com dados históricos.  
+- Processamento, armazenamento e preparação dos dados para uso nos modelos de IA.  
+- Testes para validação e refinamento do sistema.
+
+---
+
+#### **Sprint 2**
+Objetivo: Prever a finalização de duplicatas e implementar o mecanismo de consentimento em conformidade com a LGPD.
+
+**Entregas da Sprint 2:**  
+- Modelo de IA para previsão de finalização de duplicatas.  
+- Mecanismo de consentimento.  
+- Melhorias no modelo de score de IA para maior precisão.  
+
+---
+
+#### **Sprint 3**
+Objetivo: Introduzir melhorias em recomendações personalizadas, prever comportamento de duplicatas e implementar um histórico detalhado de consentimentos.
+
+**Entregas da Sprint 3:**  
+- Sistema de recomendação baseado em IA para destacar variáveis que influenciam o score.  
+- Modelo avançado de previsão do comportamento de duplicatas com análise de tendências.  
+- Estrutura completa de versionamento e histórico de consentimento com rastreamento em MongoDB.  
+- Recursos aprimorados de transparência para gestão de dados pelos usuários.  
+
+---
+
+## Tecnologias Utilizadas
 
 Aqui estão as **tecnologias** com as quais trabalhei no projeto:
 
@@ -977,6 +1027,7 @@ Essa mudança de abordagem resultou em uma entrega muito mais relevante na **ter
 
 | **Soft Skill**      | **Descrição**                                              | **Como usei no projeto**                                                               | **Nível (%)**        |
 |---------------------|------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------|
+| **Planejamento**    | Capacidade de definir objetivos, organizar recursos e traçar estratégias. | Reestruturei prioridades e criei um roadmap ajustado para maximizar entregas.           | 85%                 |
 | **Organização**     | Capacidade de estruturar tarefas e prioridades de forma eficiente. | Estruturei o backlog, garantindo clareza nos requisitos e alinhamento com o cliente.    | 80%                 |
 | **Comunicação**     | Capacidade de se expressar claramente e alinhar expectativas.      | Traduzi requisitos do cliente para a equipe e garanti entendimento mútuo.              | 80%                 |
 | **Colaboração**     | Habilidade de trabalhar em equipe para alcançar objetivos comuns.  | Colaborei com desenvolvedores, fornecendo suporte técnico e de entendimento do backlog. | 99%                 |
