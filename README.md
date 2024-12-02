@@ -907,7 +907,7 @@ Desenvolvemos um sistema inteligente que gera um score de confiabilidade para en
    Implementamos um modelo de Random Forest para analisar o impacto das variáveis que influenciam o score de endossantes. A IA gera recomendações sobre como aumentar ou diminuir o score com base em variáveis como duplicatas finalizadas ou canceladas.
 
    <details>
-       <summary>Plataforma web contendo a recomendação para melhoria do Score: </summary>
+       <summary> Tela home contendo a recomendação para melhoria do Score: </summary>
        <img src="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/IMGS/HomeSprint3.png">
    </details>
 
