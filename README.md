@@ -942,7 +942,7 @@ Aqui estão as **tecnologias** com as quais trabalhei no projeto:
 
 ## Minhas Contribuições
 
-### Papel e Responsabilidades como PO e Desenvolvedor
+### Como PO e como Desenvolvedor
 
 Minha principal responsabilidade como **Product Owner** foi servir como o elo entre o cliente e a equipe, capturando requisitos, alinhando expectativas e priorizando um backlog claro e funcional. Além disso, assumi tarefas de desenvolvimento, o que exigiu equilíbrio entre essas responsabilidades, especialmente nas primeiras sprints.
 
