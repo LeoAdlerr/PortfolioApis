@@ -895,7 +895,7 @@ Desenvolvemos um sistema inteligente que gera um score de confiabilidade para en
 ## Produtos Desenvolvidos
 
 1. **Score de Confiabilidade para Endossantes (Regressão Linear)**  
-   Criamos um sistema de IA baseado em regressão linear para calcular um score de confiabilidade de endossantes, ajudando a avaliar a probabilidade de finalização de contratos de duplicatas.
+   Criamos um sistema de IA baseado em regressão linear para calcular um score de confiabilidade de endossantes, ajudando a avaliar a probabilidade de finalização de contratos de duplicatas relativas a um endossante.
 
 2. **Previsão de Finalização de Contratos (Random Forest)**  
    Desenvolvemos um modelo em IA que, ao inserir variáveis de um contrato de duplicata (como ramo, segmento, datas), gera uma previsão de 0% a 100% sobre a probabilidade de finalização do contrato.
@@ -911,8 +911,6 @@ Desenvolvemos um sistema inteligente que gera um score de confiabilidade para en
    - **Transparência/CRUD dos dados pessoais**: O usuário tem total visibilidade e controle sobre os dados pessoais utilizados no sistema e nas IA's.
    - **Backup e Delete dos dados pessoais**: Garantimos a segurança e integridade dos dados pessoais, com a possibilidade de exclusão dos mesmos quando necessário.
    - **Aceite de Termos de Consentimento**: A plataforma exige o aceite claro dos termos de consentimento para o uso dos dados pessoais, garantindo a conformidade com a LGPD.
-
-
 
 ---
 
