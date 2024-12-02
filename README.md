@@ -876,66 +876,30 @@ Essa abordagem não apenas assegurou que todos os desenvolvedores estivessem ali
 <div id="portfolio6SpcGrafeno">
  <h1>Em 2024-2 foi trabalhado um projeto API com o parceiro acadêmico SPC Grafeno</h1>
 
- # Projeto do 6º Semestre - Equipe Quarks
-    
- * [Link para Repositório do Projeto](https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno)
-  
-## Propósito
+Equipe: Quarks (6º Semestre)
+Parceiro Acadêmico: SPC Grafeno
+* [Link para Repositório do Projeto](https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno)
 
-Desenvolver produtos financeiros baseados em IA para a SPC Grafeno, com foco em análise de crédito, previsões de tendências de mercado e análise de risco.
+Propósito:
+Desenvolver soluções inovadoras baseadas em Inteligência Artificial (IA) para a SPC Grafeno, com foco na análise de crédito, previsões de tendências de mercado e avaliação de risco, a fim de ajudar a empresa e seus clientes a tomarem decisões mais informadas e precisas.
 
-## Contexto
+Contexto:
+A SPC Grafeno é uma plataforma especializada no registro financeiro de ativos. Com o objetivo de aprimorar seus serviços e oferecer novas soluções financeiras, fomos contratados para desenvolver produtos que utilizam técnicas avançadas de aprendizado de máquina. A empresa nos forneceu dados históricos relacionados a transações financeiras, ativos e comportamentos de mercado.
 
-Fomos contratados pela SPC Grafeno, um registro financeiro de ativos, para desenvolver produtos financeiros inovadores utilizando técnicas de aprendizado de máquina. A empresa nos forneceu um conjunto diversificado de dados históricos relacionados a ativos financeiros, transações e comportamentos de mercado.
+Desafio:
+Nosso desafio foi explorar esse vasto banco de dados para identificar padrões e criar produtos financeiros úteis para a SPC Grafeno. A meta era não apenas analisar e prever tendências de duplicatas, mas também desenvolver ferramentas que ajudassem tanto credores quanto endossantes a entender melhor a probabilidade de finalização de contratos e a confiabilidade dos mesmos.
 
-## Desafio
+Solução Proposta:
+Propomos o desenvolvimento de um sistema inteligente que gera um score de confiabilidade para endossantes, baseado no histórico de duplicatas. Essa solução ajudará credores e a SPC Grafeno a avaliarem a probabilidade de uma duplicata ser finalizada, utilizando modelos de IA que levam em consideração uma série de variáveis como o ramo de atividade, segmento da empresa, e o comportamento histórico das duplicatas.
 
-Nosso desafio é explorar esse extenso banco de dados, identificar padrões e oportunidades e criar produtos financeiros que agreguem valor à SPC Grafeno e seus clientes.  
+Produtos Desenvolvidos:
+Score de Confiabilidade para Endossantes (Regressão Linear): Criamos um sistema baseado em regressão linear que calcula um score para endossantes, indicando a probabilidade de um endossante finalizar seus contratos de duplicatas com base em seu histórico. Esse score foi projetado para ajudar a SPC Grafeno e os credores a avaliarem melhor a confiabilidade de um endossante.
 
-O projeto culminará em uma prova de conceito que demonstre a viabilidade do produto proposto, incluindo:  
-- Uma descrição detalhada do modelo utilizado.  
-- Justificativa das técnicas selecionadas.  
-- Avaliação de desempenho do modelo.  
+Previsão de Finalização de Contratos (Random Forest): Além do score de confiabilidade, desenvolvemos uma IA que permite aos usuários, como credores e a SPC Grafeno, fornecerem variáveis relacionadas a um contrato de duplicata. Com isso, a IA gera uma previsão de 0% a 100% sobre a probabilidade de um contrato ser finalizado, com base em fatores como ramo de atividade, segmento da empresa e datas de início e finalização do contrato.
 
-No final, entregaremos um relatório com os resultados, complementado por uma apresentação que descreva como nossa solução pode ser utilizada pela SPC Grafeno e os benefícios oferecidos.
+Previsão de Comportamento de Duplicatas (Séries Temporais): Para analisar o comportamento das duplicatas a partir de dados históricos, criamos um modelo baseado em séries temporais. Esse modelo permite que os usuários carreguem arquivos CSV com dados históricos e obtenham previsões sobre como as duplicatas podem se comportar no futuro, oferecendo insights valiosos sobre tendências do mercado de duplicatas.
 
-## Solução Proposta
-
-Propomos o desenvolvimento de um sistema que analise a confiabilidade de endossantes utilizando algoritmos e modelos de IA. Este sistema gerará um score que reflete a capacidade de uma empresa de honrar compromissos de crédito. Nossa solução busca aprimorar o processo de avaliação para a empresa e seus clientes.
-
----
-
-### Detalhes do Desenvolvimento por Sprint
-
-#### **Sprint 1**
-Objetivo: Desenvolver os componentes fundamentais do modelo de IA que gera scores de crédito com base em dados de CNPJ e disponibilizar aos usuários acesso aos seus scores.
-
-**Entregas da Sprint 1:**  
-- Desenvolvimento do modelo de IA inicial para geração de scores.  
-- Plataforma web com autenticação para usuários CNPJ e visualização de scores com dados históricos.  
-- Processamento, armazenamento e preparação dos dados para uso nos modelos de IA.  
-- Testes para validação e refinamento do sistema.
-
----
-
-#### **Sprint 2**
-Objetivo: Prever a finalização de duplicatas e implementar o mecanismo de consentimento em conformidade com a LGPD.
-
-**Entregas da Sprint 2:**  
-- Modelo de IA para previsão de finalização de duplicatas.  
-- Mecanismo de consentimento.  
-- Melhorias no modelo de score de IA para maior precisão.  
-
----
-
-#### **Sprint 3**
-Objetivo: Introduzir melhorias em recomendações personalizadas, prever comportamento de duplicatas e implementar um histórico detalhado de consentimentos.
-
-**Entregas da Sprint 3:**  
-- Sistema de recomendação baseado em IA para destacar variáveis que influenciam o score.  
-- Modelo avançado de previsão do comportamento de duplicatas com análise de tendências.  
-- Estrutura completa de versionamento e histórico de consentimento com rastreamento em MongoDB.  
-- Recursos aprimorados de transparência para gestão de dados pelos usuários.  
+Análise de Impacto nas Variáveis do Score (Random Forest): Implementamos uma IA de Random Forest que analisa o impacto das variáveis que influenciam o score de cada endossante. O sistema gera recomendações detalhadas, indicando ao usuário quais ações podem melhorar ou piorar seu score. Exemplo de retorno da IA: se o número de duplicatas finalizadas aumentar, o score do endossante pode aumentar em X pontos, enquanto o aumento de duplicatas canceladas pode diminuir o score em Y pontos.
 
 ---
 
