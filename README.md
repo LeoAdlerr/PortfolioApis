@@ -955,38 +955,32 @@ Minha principal responsabilidade como **Product Owner** foi servir como o elo en
 
 ### Desafios e Aprendizados
 
-Nas primeiras sprints, enfrentei dificuldades em manter o backlog bem definido, principalmente em relação à clareza dos critérios de aceitação (**DoR e DoD**). Isso ocorreu porque, além do papel de PO, também executei tasks como desenvolvedor, o que desviou meu foco do refinamento constante do backlog. Como resultado, houve bloqueios que atrasaram entregas na primeira sprint, comprometendo parcialmente a fluidez do desenvolvimento.
+Como Product Owner, enfrentei um desafio significativo: a necessidade de desenvolver uma organização mais elevada para manter o backlog claro, bem priorizado e em constante refinamento. Inicialmente, a falta de experiência nesse nível de organização comprometeu a clareza dos critérios de aceitação (**DoR e DoD**) e resultou em bloqueios durante a primeira sprint, atrasando algumas entregas.
 
-Apesar desses desafios iniciais, as entregas atenderam às expectativas do cliente, mas foi claro que um backlog mais claro teria permitido entregas ainda mais relevantes. Esse problema foi resolvido gradualmente, e na **terceira sprint**, as prioridades foram completamente ajustadas.
+Além disso, acumulei responsabilidades de PO e desenvolvedor, o que desviou meu foco do acompanhamento e refinamento contínuo do backlog. Essa sobrecarga impactou parcialmente o fluxo da equipe, evidenciando que um backlog mais bem estruturado teria permitido entregas mais relevantes desde o início.  
+
+No decorrer do projeto, especialmente na **terceira sprint**, aprimorei minha organização como PO. Adotei práticas mais estruturadas para garantir clareza e priorização, alinhando a equipe aos critérios de aceitação antes de voltar a focar em desenvolvimento. Essa mudança trouxe resultados expressivos:  
+
+- **Melhor planejamento e autonomia da equipe:** O refinamento adequado do backlog garantiu um fluxo de trabalho mais eficiente e evitou novos bloqueios.  
+- **Entrega de soluções impactantes:** Desenvolvemos IAs robustas e priorizamos entregas alinhadas com as expectativas do cliente, como o modelo de **SCORE** e a previsão de comportamento de duplicatas.  
+
+Essa experiência reforçou a importância de priorizar o papel de PO e aplicar práticas organizacionais consistentes para guiar o time de forma eficaz.
 
 ---
 
 ### Resolução e Resultados
 
-Na **terceira sprint**, adotei uma abordagem mais estruturada para priorizar o backlog e garantir que todos tivessem total clareza sobre os critérios de aceitação. Só voltei a focar em desenvolvimento na última semana da sprint, quando todos estavam alinhados com os **DoR** e **DoD** de suas tarefas e histórias de usuário.
+Na **terceira sprint**, aprimorei minha organização como Product Owner, adotando uma abordagem mais estruturada para o refinamento do backlog. Priorizei garantir que todos os membros da equipe tivessem total clareza sobre os critérios de aceitação (**DoR** e **DoD**) antes de retomar o foco no desenvolvimento. Essa mudança foi essencial para otimizar o fluxo do projeto e evitar novos bloqueios.
 
-Com isso, contribuí para:
+Com essa abordagem, contribui diretamente para:  
 
-- **IA de Random Forest**: Desenvolvi uma solução para recomendações de melhorias no **SCORE**, uma das entregas mais relevantes da sprint.
-- **IA de Séries Temporais**: Apoiei nosso engenheiro de dados na entrega de um modelo para prever o padrão de duplicatas finalizadas ou canceladas.
-- **Segurança do Projeto**: Auxiliei nossa desenvolvedora frontend na implementação de requisitos de segurança e o desenvolvedor backend Node.js com critérios de aceite das histórias de usuário relacionados à conformidade com os requisitos de segurança.
-- **Dicionário de Dados**: Criei o dicionário de dados para as IAs, tanto para o modelo de **SCORE** quanto para a previsão de **duplicatas finalizadas**. Esse trabalho foi realizado nas duas primeiras sprints, assegurando que os dados fossem bem compreendidos e padronizados para a aplicação das IAs.
+- **Refinamento de requisitos:** Assegurei que os critérios de aceitação estivessem claros e bem definidos, alinhando a equipe às prioridades do cliente.  
+- **IA de Random Forest:** Desenvolvi uma solução para recomendações de melhorias no **SCORE**, uma das entregas mais relevantes e impactantes do projeto.  
+- **IA de Séries Temporais:** Apoiei nosso engenheiro de dados na entrega de um modelo que prevê o padrão de duplicatas finalizadas ou canceladas, utilizando dados históricos.  
+- **Segurança do Projeto:** Auxiliei nossa desenvolvedora frontend na implementação de requisitos de segurança, além de colaborar com o desenvolvedor backend Node.js para garantir conformidade com os critérios de aceite relacionados à **LGPD**.  
+- **Dicionário de Dados:** Criei um dicionário de dados para padronizar e facilitar a aplicação das IAs, com foco no modelo de **SCORE** e na previsão de comportamento de duplicatas. Esse trabalho foi realizado nas duas primeiras sprints e foi fundamental para a organização do projeto.  
 
----
-
-### Lições Aprendidas
-
-Essa experiência reforçou para mim a importância de:
-
-- **Priorizar o papel de PO** antes de assumir outras responsabilidades para garantir que o backlog esteja sempre claro e priorizado.
-- Entender o impacto direto de um **backlog bem estruturado** no fluxo de desenvolvimento e na eliminação de bloqueios.
-- Planejar o envolvimento em atividades de desenvolvimento de forma estratégica, após garantir que a equipe tenha autonomia para avançar.
-
----
-
-### Conclusão
-
-Essa mudança de abordagem resultou em uma entrega muito mais relevante na **terceira sprint**, que incluiu dois produtos com **IA** e melhorias significativas na segurança e funcionalidade do projeto. Além de atender às expectativas do cliente, essa experiência aprimorou minhas habilidades como PO e destacou a importância de **foco**, **planejamento** e **comunicação clara**.
+Essa abordagem estruturada e organizada na gestão do backlog não apenas evitou novos bloqueios, mas também garantiu entregas de alta qualidade e alinhadas às expectativas do cliente.
 
 ---
 
