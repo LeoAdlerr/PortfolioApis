@@ -894,29 +894,29 @@ Desenvolvemos um sistema inteligente que gera um score de confiabilidade para en
 
 ## Produtos Desenvolvidos
 
-1. **Score de Confiabilidade para Endossantes (Regressão Linear)**  
+<details><summary> 1. Score de Confiabilidade para Endossantes (Regressão Linear) </summary>  
    Criamos um sistema de IA baseado em regressão linear para calcular um score de confiabilidade de endossantes, ajudando a avaliar a probabilidade de finalização de contratos de duplicatas relativas a um endossante.
-
-2. **Previsão de Finalização de Contratos (Random Forest)**  
+</details>
+<details><summary> 2. Previsão de Finalização de Contratos (Random Forest)  </summary>
    Desenvolvemos um modelo em IA que, ao inserir variáveis de um contrato de duplicata (como ramo, segmento, datas), gera uma previsão de 0% a 100% sobre a probabilidade de finalização do contrato.
-
-3. **Previsão de Comportamento de Duplicatas (Séries Temporais)**  
+</details>
+<details><summary> 3. Previsão de Comportamento de Duplicatas (Séries Temporais) </summary>
    Criamos um modelo de séries temporais que permite a previsão de como as duplicatas se comportarão no futuro, a partir de dados históricos fornecidos pelo usuário em formato CSV.
-
-4. **Análise de Impacto nas Variáveis do Score (Random Forest)**  
+</details>
+<details><summary> 4. Análise de Impacto nas Variáveis do Score (Random Forest)  </summary>
    Implementamos um modelo de Random Forest para analisar o impacto das variáveis que influenciam o score de endossantes. A IA gera recomendações sobre como aumentar ou diminuir o score com base em variáveis como duplicatas finalizadas ou canceladas.
-
    <details>
        <summary> Tela home contendo a recomendação para melhoria do Score: </summary>
        <img src="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/IMGS/HomeSprint3.png">
    </details>
+    </details>
 
-6. **Plataforma Web e Requisitos de Segurança (LGPD)**  
-   Para disponibilizar as soluções, criamos uma plataforma web onde os usuários podem acessar os produtos desenvolvidos. Em conformidade com a Lei Geral de Proteção de Dados (LGPD), implementamos os seguintes requisitos de segurança:
-   - **Transparência/CRUD dos dados pessoais**: O usuário tem total visibilidade e controle sobre os dados pessoais utilizados no sistema e nas IA's.
-   - **Backup e Delete dos dados pessoais**: Garantimos a segurança e integridade dos dados pessoais, com a possibilidade de exclusão dos mesmos quando necessário.
-   - **Aceite de Termos de Consentimento**: A plataforma exige o aceite claro dos termos de consentimento para o uso dos dados pessoais, garantindo a conformidade com a LGPD.
-
+<details><summary> 5. Plataforma Web e Requisitos de Segurança (LGPD)  </summary>
+   <h3>Para disponibilizar as soluções, criamos uma plataforma web onde os usuários podem acessar os produtos desenvolvidos. Em conformidade com a Lei Geral de Proteção de Dados (LGPD), implementamos os seguintes requisitos de segurança: </h3>
+   <p>- Transparência/CRUD dos dados pessoais: O usuário tem total visibilidade e controle sobre os dados pessoais utilizados no sistema e nas IA's.</p>
+   <p>- Backup e Delete dos dados pessoais: Garantimos a segurança e integridade dos dados pessoais, com a possibilidade de exclusão dos mesmos quando necessário.</p>
+   <p>- Aceite de Termos de Consentimento: A plataforma exige o aceite claro dos termos de consentimento para o uso dos dados pessoais, garantindo a conformidade com a LGPD.</p>
+</details>
 ---
 
 ## Tecnologias Utilizadas
