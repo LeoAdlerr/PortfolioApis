@@ -139,71 +139,59 @@ Durante o desenvolvimento, desempenhei um papel ativo nas seguintes atividades:
 
 - [Link para o Repositório](https://github.com/DatatechOffice/datatech_api)
 
-## Visão e Objetivo do Projeto
+## Descrição do Projeto
 
-O desafio consiste na gestão de ativação de clientes na plataforma Dom Rock. Precisamos de uma solução que seja orientada a entrada de dados de parâmetros e variáveis de cada cliente para alocar recursos na plataforma Dom Rock, entrada de dados e estimativa de consumo de recursos (baseado em volume de dados de cliente, quantidade de usuários e outros) e gere relatórios e consultas, mas, principalmente, tenha a base de dados modelada adequadamente para futuras integrações com outros sistemas. Para realizar o desafio, foi necessária a criação de interfaces para cada etapa do programa visando facilitar a ativação delas e dos cadastros posteriormente, além de tornar o processo visível aos clientes.
+O projeto consistiu na **gestão de ativação de clientes** na plataforma Dom Rock. O objetivo principal foi desenvolver uma solução orientada à entrada de dados dos parâmetros e variáveis de cada cliente, para permitir: 
 
-Neste semestre, atuei novamente como Scrum Master e fui o principal desenvolvedor backend do projeto.
+1. **Alocação de recursos na plataforma Dom Rock.**
+2. **Estimativa de consumo de recursos**, com base no volume de dados, número de usuários e outras variáveis.
+3. **Geração de relatórios e consultas.**
+4. Criação de uma base de dados modelada adequadamente para futuras integrações com outros sistemas.
+
+Adicionalmente, o projeto incluiu a criação de **interfaces para cada etapa do programa**, visando:
+- Facilitar a ativação e o cadastro de clientes.
+- Tornar o processo mais visível e compreensível para os clientes.
+
+Durante o semestre, atuei como **Scrum Master** e **principal desenvolvedor backend**, contribuindo para o sucesso do projeto ao eliminar bloqueios e implementar funcionalidades críticas.
+
+---
+
+## Objetivo do Projeto
+
+O objetivo do projeto foi a criação de **interfaces** para cada etapa do processo de ativação, visando:
+
+- Facilitar o processo de ativação e cadastro dos clientes.
+- Tornar o processo visível para os clientes e permitir a consulta e acompanhamento em tempo real.
+- Prover uma solução escalável que possa ser integrada a outros sistemas no futuro.
+
+---
 
 ## Tecnologias Utilizadas no Projeto
 
-- **Java:** Linguagem de programação utilizada para as lógicas de inserção, seleção, exclusão e conexão do banco de dados à aplicação Desktop.
-- **SqlServer:** Banco de dados na nuvem Azure (SqlServer), onde foram armazenados os dados de login e dos pedidos dos clientes.
-- **JavaSwing:** Tecnologia usada para todo o design da aplicação, desde a tela de login até a tela principal.
-- **Maven:** Utilizado para versionar e enviar o código no Git, facilitando o uso do código mais atualizado e o gerenciamento das bibliotecas Java.
-
-## Contribuições Individuais
-
-<details>
-<summary>Classes DAO de Conexão com BD</summary>
-- Criação da classe `ConnectionManager`, contendo o objeto de conexão com o Banco de Dados utilizado por todas as classes DAO. Isso evita abrir novas conexões a cada evento:
-  <pre></code>
-  public static Connection getConnection() throws SQLException {
-      return DriverManager.getConnection(
-          "jdbc:sqlserver://XXXXXX.DDDDDD.WWWWWW.net;databaseName=DDDD;user=SSSSSS;password=***********"
-      );
-  }
-  </code></pre>
-  </p>
+<details><summary>Java</summary>
+  Utilizado para a implementação das lógicas de inserção, seleção, exclusão e conexão do banco de dados à aplicação desktop.
 </details>
 
-<details>
-  <summary>Classes DAO dos Objetos</summary>
-  
-- Criação da classe `DaoCliente` para manipular o banco de dados na tabela `Cliente`, por exemplo:
-
-<pre></code>
-  ```java
-  public void criarCl(Cliente c1) {
-      Connection con = null;
-      try {
-          con = ConnectionManager.getConnection();
-          String insert_sql = "insert into cliente (cnpj, entrega_minimas, entregas_possiveis, nome_cliente, objetivo, setor, razao_social, id_solucao) values (?, ?, ?, ?, ?, ?, ?, ?)";
-          PreparedStatement pst = con.prepareStatement(insert_sql);
-          pst.setObject(1, c1.getvCNPJ_Cliente());
-          pst.setObject(2, c1.getvEntregaM_Cliente());
-          pst.setObject(3, c1.getvEntregaP_Cliente());
-          pst.setObject(4, c1.getvNome_Cliente());
-          pst.setObject(5, c1.getvObjetivo_Cliente());
-          pst.setObject(6, c1.getvSetor_Cliente());
-          pst.setObject(7, c1.getvSocial_Cliente());
-          pst.setObject(8, c1.getvId_Solucao());
-          pst.executeUpdate();
-      } catch (SQLException e) {
-          e.printStackTrace();
-          throw new RuntimeException("Erro ao inserir os dados!", e);
-      } finally {
-          try {
-              if (con != null) con.close();
-          } catch (SQLException e) {
-              throw new RuntimeException("Erro ao fechar conexão", e);
-          }
-      }
-  }
-    </code></pre>
-  Neste exemplo, o método criarCl() recebe um objeto da entidade Cliente que, por sua vez, utiliza os getters presentes nos atributos do objeto da Classe Cliente para criar um novo registro na tabela cliente com os valores especificados na view.
-  </p>
+<details><summary>SQL Server</summary>
+  Banco de dados na nuvem Azure, utilizado para armazenar informações de login e pedidos dos clientes.
 </details>
+
+<details><summary>Java Swing</summary>
+  Framework responsável pelo design da aplicação, incluindo telas de login, cadastros e a interface principal.
+</details>
+
+<details><summary>Maven</summary>
+  Ferramenta para versionamento e gerenciamento de bibliotecas, garantindo integração com o Git e acesso ao código atualizado.
+</details>
+
+
+## Minhas Contribuições
+
+### Papel de Scrum Master e Desenvolvedor
+
+Durante o projeto, atuei como **Scrum Master** e **Desenvolvedor**. Como Scrum Master, minha principal função era garantir que não houvesse bloqueios no progresso do desenvolvimento, ajudando a remover impedimentos e facilitando o andamento das tarefas. Planejava as reuniões semanais (não conseguimos realizar as dailys, então usamos o WhatsApp de forma assíncrona para acompanhar o progresso). Embora não tenha sido líder de equipe, busquei estar atualizado sobre o andamento das tasks e garantir que todas as questões fossem resolvidas sem prejudicar o andamento do projeto.
+
+Como **Desenvolvedor**, meu papel foi crucial para a entrega do projeto. Enfrentamos desafios técnicos, principalmente relacionados à criação de uma aplicação desktop e à modelagem de dados. Trabalhei intensamente na **modelagem de dados da aplicação**, revisando e validando constantemente a estrutura dos dados conforme o progresso de cada sprint. A modelagem foi um dos maiores desafios, especialmente nas fases iniciais do projeto, quando não havia conexão com o banco de dados. Com o tempo, conseguimos solidificar uma modelagem robusta, que foi finalizada com a migração para o **SQL Server** na última sprint. Isso envolveu ajustes constantes para garantir que a estrutura do banco de dados fosse eficiente e escalável, atendendo aos requisitos da aplicação.
 
 <details>
 <summary>Modelagem Relacional</summary>
@@ -214,48 +202,51 @@ Neste semestre, atuei novamente como Scrum Master e fui o principal desenvolvedo
     <br><br>
    <img src="https://github.com/LeoAdlerr/PortfolioApis/assets/88751032/5c21e53a-fb14-468f-8472-d8ed36985de5">  
 </details>
+<br>
 
-<details>
-  <summary>Orientação a Objeto e Classes que Representam Algo na Vida Real</summary>
-  
-  Representação da tabela `Cliente` na aplicação:
+Além disso, fui responsável pela **conexão com o banco de dados**, utilizando uma abordagem orientada a objetos para integrar as classes com as tabelas do banco de dados. Trabalhei na criação de **classes DAO (Data Access Object)** que facilitavam o acesso e manipulação dos dados de forma organizada e eficiente, permitindo que a aplicação interagisse diretamente com o banco de dados sem a necessidade de scripts SQL repetitivos. Isso garantiu uma maior flexibilidade e manutenibilidade ao código.
 
- <pre><code>
-  public class Cliente {
-      private String vNome_Cliente;
-      private String vCNPJ_Cliente;
-      private String vNome_Cliente2;
-      private String vCNPJ_Cliente2;
-      private String vSocial_Cliente;
-      private String vSetor_Cliente;
-      private String vSolucao_Cliente;
-      private String vObjetivo_Cliente;
-      private String vEntregaM_Cliente;
-      private String vEntregaP_Cliente;
-      private int vId_Cliente;
-      private int vId_Solucao;
-      private int vId_Produto;
-      private int vId_Escolha;
-  }
-</code></pre>
-</details>
+Embora a entrega final não tenha sido exatamente como o planejado inicialmente, conseguimos concluir o projeto com sucesso, aprendendo bastante sobre técnicas de **modelagem de dados**, **integração com bancos de dados** e **desenvolvimento de aplicações desktop**.
+
+---
+
+## Aprendizados e Lições
+
+Este projeto foi uma experiência valiosa, proporcionando vários aprendizados tanto no aspecto técnico quanto na parte de gestão de equipe. Como **Scrum Master**, aprendi a importância de **evitar bloqueios e facilitar a comunicação** dentro da equipe, principalmente em um ambiente de trabalho remoto ou com comunicação assíncrona. A falta de dailys presenciais me ensinou que, embora as reuniões possam ser virtuais, a clareza na comunicação e o acompanhamento contínuo das tarefas são essenciais para o sucesso do time.
+
+No lado técnico, a **modelagem de dados** foi um dos maiores desafios. Inicialmente, tivemos dificuldades com a falta de conexão com o banco de dados, mas isso me ensinou a importância de **validar constantemente a modelagem de dados** em cada sprint para garantir que a estrutura estivesse alinhada com os requisitos do projeto. O processo de migração para o SQL Server foi um ponto de aprendizado importante, pois exigiu uma reavaliação da estrutura e da eficiência do banco de dados.
+
+Além disso, a **integração com o banco de dados** através de **orientação a objetos** me mostrou que a criação de **DAO** pode tornar o código mais flexível e manutenível, além de melhorar a clareza e a organização do sistema. Isso também ajudou a evitar duplicação de código e facilitou a manutenção do projeto a longo prazo.
+
+Uma lição importante que aprendi foi que, embora seja tentador tentar resolver problemas sozinho, a colaboração constante e a **comunicação aberta** com o time são fundamentais para o sucesso a longo prazo. Resolver problemas de forma isolada pode levar a soluções que não estão alinhadas com o restante do projeto e gerar dificuldades no futuro.
+
+Finalmente, a entrega do projeto me ensinou que a **flexibilidade e a adaptação** são essenciais, pois o resultado final pode não ser exatamente o esperado, mas o aprendizado e as melhorias ao longo do caminho são o que realmente contam.
 
 <br>
 
-#### Aprendizado Efetivo
+### Tabela de Hard Skills
 
-**Soft Skills**
+| **Hard Skill**               | **Descrição**                                                | **O que fiz no projeto**                                                               | **Nível adquirido**   |
+|------------------------------|--------------------------------------------------------------|----------------------------------------------------------------------------------------|-----------------------|
+| **Java**                      | Linguagem de programação orientada a objetos.                | Desenvolvi a lógica de inserção, consulta e exclusão de dados utilizando Java.          | Sei fazer sozinho     |
+| **SQL (SQL Server)**          | Linguagem para consulta e manipulação de dados em bancos relacionais. | Criei e otimizei queries SQL para manipulação dos dados de clientes e pedidos, além de realizar a migração de dados para o SQL Server.          | Sei fazer sozinho     |
+| **Modelagem Relacional**      | Processo de design de banco de dados relacionais.            | Projetei e validei o modelo de dados para suportar o cadastro de clientes e pedidos, ajustando-o constantemente a cada sprint para atender aos requisitos do projeto.              | Sei fazer sozinho     |
+| **MVC (Model, View, Controller)** | Arquitetura de desenvolvimento que separa a lógica de negócios da interface. | Estruturei o código do projeto utilizando a arquitetura MVC para organização clara, garantindo escalabilidade e flexibilidade.     | Sei fazer sozinho     |
+| **DAO (Data Access Object)**  | Padrão de design para abstração de acesso a dados.          | Implementei as classes DAO para acessar e manipular os dados do banco de dados, proporcionando um código mais modular e reutilizável.         | Sei fazer sozinho     |
+| **Jira & Burndown**           | Ferramenta para gestão de projetos ágeis e acompanhamento do progresso. | Utilize o Jira para planejar sprints, organizar tarefas e acompanhar o progresso, apesar das dificuldades com a comunicação assíncrona.      | Sei fazer com ajuda   |
 
-- **Utilização de Metodologia Ágil e Scrum:** Atuei como Scrum Master e organizei as user stories e tasks com clareza, melhorando a organização e eficiência do projeto.
-- **Resiliência:** Mantivemos a produtividade em meio a prazos apertados, garantindo as entregas no prazo.
-- **Mediação e Feedback:** Receber feedbacks sobre bloqueios e propostas de mudança, discutindo amigavelmente com o time para alinhar as soluções.
+---
 
-**Hard Skills**
+### Tabela de Soft Skills
 
-- **Orientação a Objeto:** Criação de classes para representar tabelas do banco de dados, facilitando o mapeamento dos registros na aplicação.
-- **MVC (Model, View, Controller):** Estruturação do código com classes para modelagem de BD, visão e conexão, tornando-o compreensível e organizado.
-- **Modelagem Relacional:** Implementação de uma modelagem adequada para relacionamentos 1 e 1:1 entre clientes e pedidos/produtos, conforme os requisitos de negócio.
-- **Java:** Utilização da linguagem Java como principal stack de desenvolvimento para a aplicação.
+| **Soft Skill**      | **Descrição**                                              | **Como usei no projeto**                                                               | **Nível (%)**        |
+|---------------------|------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------|
+| **Proatividade**     | Capacidade de iniciar tarefas e antecipar necessidades sem esperar instruções. | Assumi a liderança em momentos críticos para eliminar bloqueios e garantir entregas, principalmente nas fases iniciais quando surgiram dificuldades com a integração e modelagem de dados.   | 70%                  |
+| **Comunicação**      | Capacidade de se expressar claramente e alinhar expectativas. | Facilitei a comunicação entre o time de desenvolvimento e stakeholders para alinhar objetivos, especialmente em um ambiente com comunicação assíncrona via WhatsApp. | 70%                  |
+| **Colaboração**      | Habilidade de trabalhar em equipe para alcançar objetivos comuns. | Colaborei com a equipe para resolver problemas técnicos e melhorar a performance da aplicação, garantindo que o progresso não fosse interrompido. | 90%                  |
+| **Adaptabilidade**   | Flexibilidade para lidar com mudanças inesperadas.        | Ajustei a arquitetura e ferramentas quando mudanças no escopo ocorreram durante o desenvolvimento, principalmente durante a migração para o SQL Server e ajustes na modelagem de dados. | 75%                  |
+
+
 
 
 <!-- Links para navegação -->
@@ -341,7 +332,8 @@ Como **Scrum Master**, meu principal objetivo foi identificar e remover bloqueio
 Durante a **Sprint 1**, enfrentamos atrasos significativos no backend, principalmente devido à inexperiência da equipe com tecnologias como **Spring Boot** e **Hibernate**. Isso resultou em uma entrega parcial com um **dashboard mockado**, sem consumo de APIs ou funcionalidade real.
 
 Na **Sprint 2**, as dificuldades continuaram devido à insistência no uso de tecnologias complexas como o **Spark**, o que gerou mais bloqueios. Para mitigar essas dificuldades, assumi a responsabilidade pelo desenvolvimento de funcionalidades backend críticas, incluindo a implementação de um **endpoint de API REST** para filtrar dados de temperatura com base em intervalos de datas, permitindo integração com o frontend. Esse endpoint foi essencial para tornar os dados dinâmicos acessíveis à aplicação. O código foi implementado da seguinte forma:
-
+<br>
+<details> <summary> API REST </summary>
 ```java
 @PostMapping(value = { "/temperatura" }, consumes = MediaType.APPLICATION_JSON_VALUE)
 public ResponseEntity<List<Temperatura>> postFiltroPorData(@RequestBody FilterDataVo data) throws ParseException {
@@ -351,6 +343,8 @@ public ResponseEntity<List<Temperatura>> postFiltroPorData(@RequestBody FilterDa
         : new ResponseEntity<>(listTemperatura, HttpStatus.BAD_REQUEST);
 }
 ```
+</details>
+<br>
 
 Esse endpoint recebia filtros no corpo da requisição, processava os dados e retornava as temperaturas dentro do intervalo especificado, com os códigos de resposta apropriados (**201** para sucesso ou **400** para erro).
 
