@@ -3,7 +3,6 @@
     <h1>Bem-vindo ao Meu Portfólio dos Projetos API's (Aprendizagem de Projetos Integradores) by FATEC São José dos Campos - Jessen Vidal</h1>
 </div>
 
-<h2><a href ="https://github.com/LeoAdlerr/PortfolioApis/blob/main/english/README.md"> English Portfolio </a><h2>
 
 ## Leonardo Adler da Silva
 <img src="https://github.com/LeoAdlerr/PortfolioApis/blob/main/imgs/leoimg.jpg" width="300" height="auto">
