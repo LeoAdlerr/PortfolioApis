@@ -95,33 +95,39 @@ O objetivo principal foi criar uma ferramenta acessível que permitisse ao usuá
 
 ---
 
-### Minhas Contribuições
+## **Minha Perspectiva**
 
-Durante o desenvolvimento, desempenhei um papel ativo nas seguintes atividades:
+Este projeto foi uma experiência única e marcante. Ele me proporcionou uma visão mais ampla de como a tecnologia pode ser utilizada para abordar questões sociais relevantes, como a pandemia de Covid-19. Ao longo do processo, pude perceber a importância de persistir e de estar sempre aberto a aprender novas habilidades. Mesmo com a falta de experiência inicial, fomos capazes de desenvolver uma aplicação significativa que contribui para uma melhor compreensão dos dados sobre a pandemia. 
 
-- **Coleta e Manipulação de Dados:** Extraí e filtrei dados relevantes do CSV usando Pandas, concentrando informações no estado de São Paulo.
-- **Criação de Gráficos:** Utilizei Matplotlib para gerar visualizações claras e intuitivas, promovendo uma compreensão acessível dos dados.
-- **Interatividade do Programa:** Implementei um sistema de menus, tornando o programa dinâmico e ajustável às necessidades do usuário.
-- **Liderança como Scrum Master:** Atuei como Scrum Master, onde aprendi a conduzir reuniões e a coordenar a equipe para atingir os objetivos do projeto.
+Além disso, a experiência de atuar como Scrum Master foi fundamental para o meu crescimento, pois me ajudou a perceber a importância da comunicação dentro da equipe e de manter todos focados nos objetivos comuns. Trabalhar de forma independente, mas também coordenar esforços coletivos, foi essencial para o sucesso do projeto, ja que percebi os gargalos vindos de alguns membros do time.
 
----
+## **Liçôes Aprendidas em Desafios e Aprendizados**
 
-## **Soft Skills Desenvolvidas**
+Durante o desenvolvimento deste projeto, enfrentei vários desafios técnicos. O primeiro deles foi aprender a lidar com grandes volumes de dados e entender como processá-los corretamente. A biblioteca **Pandas** foi fundamental para filtrar e manipular esses dados de forma eficiente, mas houve momentos em que a complexidade das operações parecia um obstáculo. No entanto, essas dificuldades me ensinaram a importância de dividir grandes problemas em tarefas menores e mais gerenciáveis.
 
-- **Resiliência:** Como iniciante em programação, aprendi a resolver problemas e a lidar com desafios técnicos, persistindo até superar obstáculos.
-- **Autonomia e Autodidatismo:** Fui o membro com maior entrega no projeto, e aprendi a maior parte das tecnologias utilizadas de forma autônoma.
-- **Comunicação e Gestão de Equipe:** Minha experiência como Scrum Master permitiu-me melhorar minhas habilidades de comunicação, organizando o fluxo de trabalho e facilitando o engajamento da equipe.
+Outro grande desafio foi criar gráficos interativos e visualmente atraentes utilizando **Matplotlib**. A complexidade das visualizações e a necessidade de apresentar os dados de forma clara e acessível me forçaram a estudar profundamente a documentação da biblioteca, o que me deu mais confiança para trabalhar com visualizações de dados em projetos futuros.
 
----
+Como Scrum Master, aprendi a gerenciar o fluxo de trabalho e a importância de garantir que as reuniões fossem produtivas. A comunicação entre os membros da equipe foi essencial para superar bloqueios e alinhar expectativas. A experiência me ensinou que, mesmo em um ambiente remoto, é possível manter a produtividade e alcançar os objetivos quando se tem uma boa organização e comunicação.
 
-## **Hard Skills**
+Ao final, este projeto não apenas me ensinou novas tecnologias e práticas de programação, mas também me fez compreender o impacto que uma boa análise de dados pode ter na sociedade, especialmente em momentos críticos. A análise e visualização de dados podem ser ferramentas poderosas para informar, educar e tomar decisões mais fundamentadas.
 
-- **Python:** Primeira linguagem de programação utilizada, onde aprendi conceitos fundamentais de desenvolvimento, como sintaxe, controle de fluxo e funções, além de começar a aplicar lógica de programação de forma prática.
-- **Pandas:** Utilizado para manipulação e análise de grandes volumes de dados, onde aprendi a filtrar, agrupar e transformar dados de forma eficiente, aplicando funções e métodos avançados da biblioteca.
-- **Matplotlib:** Aprendi a criar gráficos interativos e personalizados, transformando dados brutos em visualizações acessíveis e compreensíveis para o público-alvo.
-- **Lógica de Programação:** Desenvolvi minha compreensão de algoritmos e estruturas de controle (como loops e condicionais) para criar um sistema de menus interativo e adaptável às necessidades do usuário.
-- **Análise de Dados:** Transformei dados brutos de casos de Covid-19 em insights significativos, contribuindo para a criação de visualizações que ajudaram a entender a evolução da pandemia de forma prática.
-- **Desenvolvimento de Interfaces Interativas:** Construção de uma interface simples e funcional no terminal, proporcionando uma experiência de usuário intuitiva e acessível.
+| **Hard Skill**   | **Descrição**                                         | **O que fiz no projeto**                                                                | **Nível adquirido** |
+|------------------|-------------------------------------------------------|-----------------------------------------------------------------------------------------|---------------------|
+| **Pandas**       | Biblioteca para manipulação e análise de dados.       | Utilize para processar grandes volumes de dados, filtrando e manipulando-os para análise. | Sei fazer sozinho   |
+| **Matplotlib**   | Biblioteca para criação de gráficos e visualizações.  | Criei gráficos interativos e visualizações para apresentar dados sobre a pandemia de forma clara e acessível. | Sei fazer com ajuda |
+| **Scrum**        | Metodologia ágil para gestão de projetos.             | Atuei como Scrum Master, organizando sprints, reuniões e garantindo o andamento do projeto. | Sei fazer sozinho   |
+| **Python**       | Linguagem de programação para análise de dados e automação. | Desenvolvi scripts para automatizar a coleta e análise de dados da pandemia.             | Sei fazer sozinho   |
+| **Jira**         | Ferramenta de gestão de projetos ágeis.               | Utilize para planejar sprints, organizar tarefas e acompanhar o progresso do time.       | Sei fazer com ajuda |
+
+
+| **Soft Skill**      | **Descrição**                                              | **Como usei no projeto**                                                                 | **Nível (%)**        |
+|---------------------|------------------------------------------------------------|------------------------------------------------------------------------------------------|----------------------|
+| **Persistência**     | Capacidade de continuar trabalhando diante de desafios.    | Mantive o foco mesmo com as dificuldades técnicas e de aprendizado, buscando soluções para superar obstáculos, como a manipulação de grandes volumes de dados. | 99%                  |
+| **Comunicação**      | Capacidade de se expressar claramente e alinhar expectativas. | Facilitei a comunicação entre a equipe e stakeholders, especialmente para manter o foco nos objetivos, mesmo em um ambiente remoto. | 70%                  |
+| **Colaboração**      | Habilidade de trabalhar em equipe para alcançar objetivos comuns. | Trabalhei com a equipe para resolver desafios técnicos, promovendo uma colaboração contínua para a melhoria do projeto. | 85%                  |
+| **Adaptabilidade**   | Flexibilidade para lidar com mudanças inesperadas.        | Ajustei planos e estratégias à medida que surgiam novas necessidades e mudanças no escopo do projeto, garantindo que as entregas fossem realizadas. | 75%                  |
+| **Resolução de Problemas** | Capacidade de analisar problemas e encontrar soluções práticas. | Dividi grandes problemas técnicos em tarefas menores, resolvendo cada parte para evitar sobrecarga, como ao enfrentar dificuldades na visualização de dados. | 70%                  |
+
 
 
 <br><br>
@@ -135,7 +141,7 @@ Durante o desenvolvimento, desempenhei um papel ativo nas seguintes atividades:
  <h2> Em 2022-1 foi trabalhado um projeto API com o parceiro acadêmico DomRock </h2>
 </div>
 
-# Projeto de Gestão de Ativação de Clientes - Dom Rock
+# Projeto de Gestão de Ativação de Clientes - Dom Rock (Equipe DataTech)
 
 - [Link para o Repositório](https://github.com/DatatechOffice/datatech_api)
 
@@ -255,7 +261,7 @@ Finalmente, a entrega do projeto me ensinou que a **flexibilidade e a adaptaçã
 <br><br>
 
 <div id="portfolio3IACIT">
- <h1> Em 2023-1 foi trabalhado um projeto API com o parceiro acadêmico IACIT </h1>  
+ <h1> Em 2023-1 foi trabalhado um projeto API com o parceiro acadêmico IACIT (Equipe DataTech)</h1>  
 </div>
 
 - [Link para o Repositório](https://github.com/DatatechOffice/Api_Iacit)
@@ -383,7 +389,7 @@ Ao final da **Sprint 4**, conseguimos validar a entrega final, com todas as func
 <br><br>
 
 <div id="portfolio4Jaia">
- <h2>Em 2023-2 foi trabalhado um projeto API com o parceiro acadêmico JAIA</h2>
+ <h2>Em 2023-2 foi trabalhado um projeto API com o parceiro acadêmico JAIA (Equipe Great Pretender)</h2>
 </div>
 
 - [Link para o Repositório do projeto](https://github.com/Great-Pretender/GreatPretender-API)
@@ -732,38 +738,38 @@ Desenvolvemos um sistema inteligente que gera um score de confiabilidade para en
 
 Aqui estão as **tecnologias** com as quais trabalhei no projeto:
 
-- **Frontend:**  
 <br>
- <details><summary> - **Vue.js:** </summary>  Desenvolvimento de interfaces dinâmicas e interativas para o usuário.  </details>
+ <details><summary> - Vue.js: </summary>  Desenvolvimento de interfaces dinâmicas e interativas para o usuário.  </details>
  <br>
- <details><summary> - **Typescript:** </summary> Garantia de um código robusto e escalável para o frontend. </details> 
+ <details><summary> - Typescript: </summary> Garantia de um código robusto e escalável para o frontend. </details> 
 <br>
  
- - **Backend:**  
+   <details><summary>  - Node.js: </summary> Construção de rotas de API para gerenciar o consentimento de usuários e outras funcionalidades do sistema. </details>
+   <br>
+   <details><summary> - FastAPI: </summary> Utilizado para as pipelines de ETL e para as APIs das nossas Inteligencias Artificiais. </details>
+   <br>
+   <details><summary> - PostgreSQL: </summary> Armazenamento de dados relacionais, como informações de usuários e histórico de consentimentos.  </details>
+   <br>
+   <details><summary> - MongoDB: </summary> Gerenciamento do histórico de consentimentos dos usuários e versionamento de políticas.  </details>
     <br>
-   <details><summary>  - **Node.js:**</summary> Construção de rotas de API para gerenciar o consentimento de usuários e outras funcionalidades do sistema. </details>
-   <br>
-   <details><summary> - **FastAPI:** </summary> Utilizado para as pipelines de ETL e para as APIs das nossas Inteligencias Artificiais. </details>
-   <br>
-   <details><summary> - **PostgreSQL:** </summary> Armazenamento de dados relacionais, como informações de usuários e histórico de consentimentos.  </details>
-   <br>
-   <details><summary> - **MongoDB:** </summary> Gerenciamento do histórico de consentimentos dos usuários e versionamento de políticas.  </details>
-    <br>
+
 - **IA e Processamento de Dados:**  
   <br>
-  <details><summary>  - **Python:**  </summary> Desenvolvimento de modelos de machine learning para análise de crédito e geração de recomendações personalizadas.  </details>
+  <details><summary>  - Python:  </summary> Desenvolvimento de modelos de machine learning para análise de crédito e geração de recomendações personalizadas.  </details>
   <br>
-  <details><summary>  - **Sklearn:** </summary> Utilização de **árvore de decisão** e **random forest** para criar modelos preditivos de comportamento de usuários.  </details>
+  <details><summary>  - Sklearn: </summary> Utilização de **árvore de decisão** e **random forest** para criar modelos preditivos de comportamento de usuários.  </details>
   <br>
-- **Infraestrutura e Deploy:**  
+
+- **Infraestrutura e Deploy**: 
   <br>
-  <details><summary>  - **Docker/Docker Compose:** </summary> Criação de containers para orquestrar e isolar os serviços de backend.  </details>
+  <details><summary>  -Docker/Docker Compose: </summary> Criação de containers para orquestrar e isolar os serviços de backend.  </details>
   <br>
-  <details><summary>  - **Railway:** </summary> Hospedagem e automação de fluxos de CI/CD para integração contínua e deploys ágeis.  </details>
+  <details><summary>  - Railway: </summary> Hospedagem e automação de fluxos de CI/CD para integração contínua e deploys ágeis.  </details>
   <br>
-- **Arquitetura:**  
+
+- **Arquitetura**:  
   <br>
-  <details><summary> - **Microsserviços:** </summary> Divisão do backend em serviços independentes, com separação entre IA/ETL e login/segurança. </details>
+  <details><summary> - Microsserviços: </summary> Divisão do backend em serviços independentes, com separação entre IA/ETL e login/segurança. </details>
 ---
 
 ## Minhas Contribuições
