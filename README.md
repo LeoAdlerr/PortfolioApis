@@ -107,14 +107,17 @@ Como Scrum Master, aprendi a gerenciar o fluxo de trabalho e a importância de g
 
 Ao final, este projeto não apenas me ensinou novas tecnologias e práticas de programação, mas também me fez compreender o impacto que uma boa análise de dados pode ter na sociedade, especialmente em momentos críticos. A análise e visualização de dados podem ser ferramentas poderosas para informar, educar e tomar decisões mais fundamentadas.
 
+## Tabela de Hard Skills:
+
 | **Hard Skill**   | **Descrição**                                         | **O que fiz no projeto**                                                                | **Nível adquirido** |
 |------------------|-------------------------------------------------------|-----------------------------------------------------------------------------------------|---------------------|
-| **Pandas**       | Biblioteca para manipulação e análise de dados.       | Utilize para processar grandes volumes de dados, filtrando e manipulando-os para análise. | Sei fazer sozinho   |
+| **Pandas**       | Biblioteca para manipulação e análise de dados.       | Utilizei para processar grandes volumes de dados, filtrando e manipulando-os para análise. | Sei fazer sozinho   |
 | **Matplotlib**   | Biblioteca para criação de gráficos e visualizações.  | Criei gráficos interativos e visualizações para apresentar dados sobre a pandemia de forma clara e acessível. | Sei fazer com ajuda |
 | **Scrum**        | Metodologia ágil para gestão de projetos.             | Atuei como Scrum Master, organizando sprints, reuniões e garantindo o andamento do projeto. | Sei fazer sozinho   |
 | **Python**       | Linguagem de programação para análise de dados e automação. | Desenvolvi scripts para automatizar a coleta e análise de dados da pandemia.             | Sei fazer sozinho   |
 | **Jira**         | Ferramenta de gestão de projetos ágeis.               | Utilize para planejar sprints, organizar tarefas e acompanhar o progresso do time.       | Sei fazer com ajuda |
 
+## Tabela de SoftSkills:
 
 | **Soft Skill**      | **Descrição**                                              | **Como usei no projeto**                                                                 | **Nível (%)**        |
 |---------------------|------------------------------------------------------------|------------------------------------------------------------------------------------------|----------------------|
