@@ -6,7 +6,7 @@
 <h2><a href ="https://github.com/LeoAdlerr/PortfolioApis/blob/main/english/README.md"> English Portfolio </a><h2>
 
 ## Leonardo Adler da Silva
-<img src="https://github.com/LeoAdlerr/PortfolioApis/blob/main/leoimg.jpg" width="300" height="auto">
+<img src="https://github.com/LeoAdlerr/PortfolioApis/blob/main/imgs/leoimg.jpg" width="300" height="auto">
 
 Olá, sou **Leonardo Adler da Silva**, estudante de Banco de Dados na Fatec FATEC São José dos Campos - Jessen Vidal. Ao longo da minha jornada acadêmica, tive a oportunidade de trabalhar com metodologias ágeis e diversas tecnologias, resultando em projetos empolgantes que compartilho abaixo.
 
@@ -269,123 +269,118 @@ Neste semestre, atuei novamente como Scrum Master e fui o principal desenvolvedo
 
 - [Link para o Repositório](https://github.com/DatatechOffice/Api_Iacit)
 
- <h1> atualizacao em construção(adicionar imgs e códigos necessárrios nas contribuições individuais)  </h1>
+
+# Descrição do Projeto
+
+O projeto foi desenvolvido para a Iacit, uma empresa de consultoria meteorológica, que precisava otimizar a forma como processa e gera relatórios customizados de dados meteorológicos para seus clientes. O sistema tem como objetivo a importação e o armazenamento eficiente dos dados do Instituto Nacional de Meteorologia (INMET) e a geração de relatórios a partir desses dados. Com isso, a empresa pode melhorar sua produtividade, eliminando processos manuais e evitando desperdício de recursos.
+
+O sistema permite a consulta das informações meteorológicas a partir de filtros como data, região, estado, estação e variável. Além disso, possibilita a geração e o salvamento de relatórios contendo gráficos de linha e planilhas, facilitando a análise dos dados meteorológicos. O sistema também oferece funcionalidades de controle de acesso, permitindo que alguns funcionários com permissões administrativas gerenciem usuários e relatórios.
 
 ---
 
-### Visão e Objetivo do Projeto
+# Objetivo do Projeto
 
-Desenvolvemos um sistema web em parceria com a IACIT, com o objetivo de realizar a extração e tratamento de dados meteorológicos provenientes do site INEP. O sistema permitiu a persistência desses dados e sua visualização em gráficos interativos, facilitando a tomada de decisões. O projeto também possibilitou a filtragem de dados por usuários, oferecendo uma interface amigável e flexível. Esse projeto proporcionou um entendimento prático de APIs e manipulação de dados em uma aplicação web, especialmente com a utilização do framework Spring, uma das hard skills mais importantes adquiridas. 
+O objetivo deste projeto é criar uma plataforma web que permita à Iacit importar dados meteorológicos do INMET (2020 até o mês atual) e proporcionar aos funcionários a capacidade de filtrar as informações meteorológicas de maneira rápida e intuitiva. A plataforma também deve permitir a geração de relatórios personalizados, compostos por gráficos e planilhas, e o gerenciamento de usuários e relatórios por administradores da plataforma.
 
+---
+
+# Requisitos Entregues
+
+- **Cadastro de Estações**: O sistema deve permitir o cadastro das estações meteorológicas de onde os dados são coletados.
+- **Cadastro de Estado e Regiões**: O sistema deve permitir o cadastro das regiões e estados para filtrar os dados meteorológicos.
+- **Importação de Dados**: O sistema deve ser capaz de importar dados do INMET, garantindo que as informações sejam atualizadas corretamente.
+- **Geração de Relatórios**: O sistema deve gerar relatórios customizados com gráficos de linha e planilhas, baseados nos dados filtrados por diferentes critérios.
+- **Sistema Web**: A aplicação deve ser acessível via web.
 ---
 
 ### Tecnologias Utilizadas no Projeto
 
-- **HTML, CSS e Bootstrap:** Criaram o design da interface web e gráficos de dados meteorológicos, com lógicas implementadas em JavaScript.
-- **JavaScript:** Manipulação das páginas, restrições, preenchimentos e filtragem de dados, interagindo com as APIs criadas em Java/Spring Boot.
-- **Java e Spring Boot:** Persistência dos dados meteorológicos e criação de APIs REST conectadas ao banco de dados para enviar os dados em formato JSON, utilizados pelo JavaScript.
-- **Python:** Script para captação e tratamento de dados meteorológicos em CSV, consolidando os dados para persistência em Java.
-- **PostgreSQL:** Banco de dados escolhido pela IACIT para armazenar os dados meteorológicos, tornando-os acessíveis e facilitando sua manipulação.
-- **Maven:** Versionamento e manutenção de bibliotecas Java, facilitando o desenvolvimento colaborativo e atualizado.
-
----
-
-### Contribuições Individuais
-
-- **API Rest:** Desenvolvimento de endpoints para comunicação entre frontend e backend.  
-- **Manipulação de Dados:** Persistência de dados meteorológicos tratados no banco de dados.  
-- **ETL:** Construção de pipelines para extração, transformação e carga de dados meteorológicos usando Java (TableSaw) e Python.  
-- **Arquitetura:** Organização do código em interfaces, serviços, entidades (repositories) e controladores, promovendo clareza e reutilização de funcionalidades.
-
----
-
-- <h4>Contribuições Individuais</h4>
+<details>
+  <summary>HTML, CSS e Bootstrap</summary>
+  Foram usados para criar o design da interface web, garantindo a responsividade e a visualização adequada dos gráficos de dados meteorológicos. O Bootstrap facilitou a criação de layouts flexíveis e componentes visuais, enquanto o CSS foi utilizado para ajustes de estilo e apresentação.
+</details>
 
 <details>
-<summary>API Rest</summary>
-- Nesse exemplo, foi criado um endpoint para filtrar dados de temperatura por intervalo de data, usando a anotação @PostMapping para receber os dados via JSON e processá-los com o serviço de temperatura. A resposta é gerada conforme a existência de dados no filtro.
+  <summary>JavaScript</summary>
+  O JavaScript foi responsável pela manipulação dinâmica das páginas, incluindo restrições, preenchimento de formulários, filtragem de dados e interação com as APIs criadas em Java/Spring Boot. Foi essencial para garantir a interatividade da plataforma, permitindo que os usuários filtrassem e visualizassem os dados meteorológicos de forma intuitiva.
+</details>
 
-Resumo do Fluxo de Execução:
-O cliente envia uma requisição POST com um corpo JSON que contém filtros de estação e intervalo de datas.
-O servidor filtra os dados de temperatura com base nesses filtros.
-Se a lista de temperaturas não estiver vazia, o servidor retorna os dados com o status 201 CREATED.
-Se a lista estiver vazia, o servidor retorna uma resposta vazia com o status 400 BAD REQUEST, indicando que não foi possível encontrar dados com os parâmetros fornecidos.
+<details>
+  <summary>Java e Spring Boot</summary>
+  O Java, juntamente com o Spring Boot, foi utilizado para o desenvolvimento do backend, incluindo a persistência dos dados meteorológicos. APIs REST foram criadas para permitir a comunicação entre o frontend e o banco de dados, enviando dados em formato JSON para o JavaScript manipular e exibir no frontend.
+</details>
 
-<pre><code>
+<details>
+  <summary>Python</summary>
+  Foi utilizado para criar scripts que captam e tratam os dados meteorológicos, inicialmente em arquivos CSV. Esses scripts consolidaram os dados antes de serem inseridos no banco de dados através do backend Java, garantindo a integridade e organização dos dados antes da persistência.
+</details>
+
+<details>
+  <summary>PostgreSQL</summary>
+  PostgreSQL foi escolhido como banco de+ dados para armazenar os dados meteorológicos, facilitando sua consulta e manipulação. A escolha de um banco de dados relacional permitiu organizar as informações de forma eficiente, com facilidade de acesso para a aplicação e para a geração de relatórios.
+</details>
+
+<details>
+  <summary>Maven</summary>
+  Maven foi utilizado para o gerenciamento de dependências e versionamento das bibliotecas Java utilizadas no backend. Ele garantiu que o ambiente de desenvolvimento fosse padronizado e ajudou na manutenção do código ao longo do tempo, além de facilitar a integração com outras ferramentas e a equipe de desenvolvimento.
+</details>
+
+
+---
+
+# Minhas Contribuições
+
+## Perspectiva no Projeto IACIT como Scrum Master e Desenvolvedor Backend
+
+No projeto **IACIT**, atuei como **Scrum Master** e **desenvolvedor backend**, desempenhando um papel fundamental para garantir o andamento do projeto e superando diversos desafios técnicos e organizacionais.
+
+### Scrum Master & Desenvolvimento Backend
+
+Como **Scrum Master**, meu principal objetivo foi identificar e remover bloqueios, garantindo que o progresso da equipe fosse acompanhado de forma consistente por meio do burndown. No entanto, devido às demandas técnicas do projeto, acabei assumindo um papel ativo no desenvolvimento backend, o que impactou minha capacidade de acompanhar de forma mais ampla os impedimentos do time.  
+
+Durante a **Sprint 1**, enfrentamos atrasos significativos no backend, principalmente devido à inexperiência da equipe com tecnologias como **Spring Boot** e **Hibernate**. Isso resultou em uma entrega parcial com um **dashboard mockado**, sem consumo de APIs ou funcionalidade real.
+
+Na **Sprint 2**, as dificuldades continuaram devido à insistência no uso de tecnologias complexas como o **Spark**, o que gerou mais bloqueios. Para mitigar essas dificuldades, assumi a responsabilidade pelo desenvolvimento de funcionalidades backend críticas, incluindo a implementação de um **endpoint de API REST** para filtrar dados de temperatura com base em intervalos de datas, permitindo integração com o frontend. Esse endpoint foi essencial para tornar os dados dinâmicos acessíveis à aplicação. O código foi implementado da seguinte forma:
+
+```java
 @PostMapping(value = { "/temperatura" }, consumes = MediaType.APPLICATION_JSON_VALUE)
-  public ResponseEntity<List<Temperatura>> postFiltroPorData(@RequestBody FilterDataVo data) throws ParseException {
-  
-      List<Temperatura> listTemperatura = temperaturaService.getByFilter(data.getEstacao(), data.getDataInicio(), data.getDataFim());
-  
-      return listTemperatura != null && listTemperatura.size() > 0 
-          ? new ResponseEntity<List<Temperatura>>(listTemperatura, HttpStatus.CREATED)
-          : new ResponseEntity<List<Temperatura>>(listTemperatura, HttpStatus.BAD_REQUEST);
-  }
-</code></pre>
-</details>
-
-<details>
-<summary>ETL/Manipulação de dados</summary>
-Resumo do Fluxo do ETL
-Extração:
-O arquivo CSV original é lido e convertido em uma tabela usando a função tableCsv().
-Transformação:
-A partir da tabela extraída, as funções listaTempMax() e listaTempMin() processam as colunas específicas para extrair e transformar os valores de temperatura (substituindo vírgulas por pontos).
-Carga:
-As listas de dados transformados são organizadas em um novo arquivo CSV de saída, temperatura.csv, que é gerado e gravado com os dados filtrados e transformados.
-</code></pre>
-</details>
-
-<details>
-<summary>Orientação a Objeto e classes que representam algo da vida real</summary>
-- As classes foram estruturadas para representar a Radiação Global das cidades, com atributos que refletem o horário da coleta e o valor da radiação.
-
-<pre><code>
-@Entity
-public class RadiacaoGlobal {
-    @Id
-    private Long id;
-    private String cidade;
-    private LocalDateTime horarioColeta;
-    private Double valorRadiacao;
-
-    // Getters e Setters
+public ResponseEntity<List<Temperatura>> postFiltroPorData(@RequestBody FilterDataVo data) throws ParseException {
+    List<Temperatura> listTemperatura = temperaturaService.getByFilter(data.getEstacao(), data.getDataInicio(), data.getDataFim());
+    return listTemperatura != null && listTemperatura.size() > 0 
+        ? new ResponseEntity<>(listTemperatura, HttpStatus.CREATED)
+        : new ResponseEntity<>(listTemperatura, HttpStatus.BAD_REQUEST);
 }
-</code></pre>
-</details>
+```
 
-<details>
-<summary>Polimorfismo</summary>
-- Utilizando interfaces do Hibernate, foi possível mapear as colunas e tabelas do banco de dados com as classes que representam cada respectiva entidade.
+Esse endpoint recebia filtros no corpo da requisição, processava os dados e retornava as temperaturas dentro do intervalo especificado, com os códigos de resposta apropriados (**201** para sucesso ou **400** para erro).
 
-<pre><code>
-public interface RadiacaoRepository extends JpaRepository<RadiacaoGlobal, Long> {
-    List<RadiacaoGlobal> findByCidade(String cidade);
-}
-</code></pre>
-</details>
+Na **Sprint 3**, para resolver os bloqueios contínuos no processo de **ETL**, optamos por substituir o **Spark** pela biblioteca **TableSaw**, o que viabilizou o funcionamento do pipeline de dados.
+
+Durante todo o projeto, percebi a importância de monitorar o progresso da equipe de maneira mais próxima, confiando em métricas como o **burndown** e não apenas nas expectativas ou garantias dos desenvolvedores.
+
+Ao final da **Sprint 4**, conseguimos validar a entrega final, com todas as funcionalidades integradas e os filtros dinâmicos implementados. Essa experiência destacou a necessidade de priorizar o acompanhamento do progresso do projeto e a remoção de bloqueios em tempo hábil.
+
+### Tabela de Hard Skills
+
+| **Hard Skill**         | **Descrição**                                                | **O que fiz no projeto**                                                               | **Nível adquirido**   |
+|-------------------------|--------------------------------------------------------------|----------------------------------------------------------------------------------------|-----------------------|
+| **Spring Boot + API REST** | Framework Java para desenvolvimento de aplicações backend e construção de APIs RESTful. | Desenvolvi endpoints para integração backend-frontend, incluindo filtros dinâmicos.    | Sei fazer sozinho     |
+| **ETL (TableSaw)**      | Processo de extração, transformação e carregamento de dados. | Substituí o Spark pela biblioteca TableSaw, otimizando o pipeline de dados.           | Sei fazer sozinho     |
+| **Hibernate**           | Framework ORM para mapeamento objeto-relacional em Java.     | Trabalhei na integração de dados do backend utilizando Hibernate para persistência.    | Sei fazer sozinho     |
+| **Burndown (JIRA)**     | Ferramenta para acompanhamento do progresso do projeto.      | Utilizei o burndown no JIRA para monitorar a sprint e identificar bloqueios.           | Sei fazer com ajuda   |
 
 ---
-## **Hard Skills**
 
-- **Spring Boot:** Desenvolvimento de APIs REST e integração com banco de dados.
-- **TableSaw:** Criação de pipelines ETL para processamento e manipulação de grandes volumes de dados.
-- **HTML, CSS, Bootstrap:** Desenvolvimento de interfaces web responsivas.
-- **JavaScript:** Manipulação de dados e integração com APIs no frontend.
-- **Python:** Scripts para tratamento de dados e conversão em CSV para análise.
-- **PostgreSQL:** Criação e otimização de banco de dados para persistência e consulta de dados.
-- **Maven:** Gerenciamento de dependências no backend.
+### Tabela de Soft Skills
+
+| **Soft Skill**      | **Descrição**                                              | **Como usei no projeto**                                                               | **Nível (%)**        |
+|---------------------|------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------|
+| **Proatividade**    | Capacidade de iniciar tarefas e antecipar necessidades sem esperar instruções. | Assumi a responsabilidade por desenvolver funcionalidades críticas durante bloqueios da equipe. | 70%                 |
+| **Comunicação**     | Capacidade de se expressar claramente e alinhar expectativas. | Facilitei a comunicação entre as equipes, alinhando prioridades e removendo bloqueios. | 80%                 |
+| **Colaboração**     | Habilidade de trabalhar em equipe para alcançar objetivos comuns. | Trabalhei com a equipe de backend para solucionar problemas técnicos complexos.         | 90%                 |
+| **Adaptabilidade**  | Flexibilidade para lidar com mudanças inesperadas.                | Ajustei abordagens técnicas e ferramentas (ex.: Spark para TableSaw) conforme necessário. | 75%                 |
 
 
-## Soft Skills
-
-- **Gestão de Equipes e Organização de Tarefas**: Assumi um papel de liderança na organização das atividades, definindo prioridades e garantindo o cumprimento de prazos dentro da metodologia ágil Scrum.  
-- **Resolução de Conflitos**: Atuei como mediador em momentos críticos, promovendo o alinhamento entre membros da equipe e garantindo um ambiente colaborativo para superar desafios.  
-- **Trabalho em Equipe**: Coordenei esforços coletivos para integrar o trabalho técnico entre backend, frontend e ETL, garantindo coesão no desenvolvimento do sistema.  
-- **Adaptação e Resiliência**: Enfrentei e superei desafios técnicos e organizacionais, adquirindo novas habilidades e garantindo a entrega de um sistema funcional de acordo com as expectativas do cliente.  
-- **Comunicação Eficiente**: Realizei apresentações e documentações claras e objetivas, promovendo um entendimento mútuo entre a equipe e o parceiro acadêmico IACIT.  
-- **Aprendizado Rápido e Proatividade**: Demonstrei autodidatismo ao dominar novas tecnologias (como Spring Boot e APIs REST) e implementar soluções práticas no projeto em um curto período de tempo.
----
 
 
 <!-- Links para navegação -->
@@ -451,6 +446,7 @@ Sistema desenvolvido para controlar anomalias apontadas em um **Laudo de Inspeç
   <summary>TypeScript</summary>
   A lógica das páginas foi implementada com **TypeScript**, incluindo restrições, preenchimentos e filtragem de dados pelos usuários. A lógica também conecta e consome as APIs desenvolvidas em **Java/Spring Boot**.
 </details>
+<br>
 
 # Minhas Contribuições
 
@@ -460,7 +456,7 @@ No projeto, atuei principalmente como desenvolvedor frontend, mas também contri
 
 Minha principal contribuição no frontend foi implementar interfaces dinâmicas utilizando **Vue.js**, como exemplo no uso de **v-model** e **@change** para garantir que os dados fossem atualizados corretamente. Além disso, a integração com o backend foi essencial para alimentar as interfaces com os dados necessários, o que me levou a trabalhar de perto com as APIs e assegurar que estivessem prontas para o consumo do frontend. 
 
-Embora minha função inicial fosse mais focada no frontend, percebi que para que a integração entre frontend e backend fosse mais eficiente, precisávamos alinhar melhor a equipe desde o início, especialmente para evitar bloqueios relacionados ao conhecimento de tecnologias específicas.
+Embora minha função inicial fosse mais focada no frontend, percebi que para que a integração entre frontend e backend fosse mais eficiente, precisávamos alinhar melhor a equipe desde o início, especialmente para evitar bloqueios relacionados ao conhecimento de tecnologias específicas, mas devido ao mal planejamento eu comecei a trabalhar em tasks backend e auxiliar outros desenvolvedores com o Spring Boot.
 
 ### Exemplos de Contribuições
 
@@ -472,7 +468,7 @@ Esse componente ajudou a vincular o valor selecionado em um dropdown ao estado d
 
 ### Reflexões e Melhorias
 
-O maior aprendizado no projeto foi a importância de um planejamento claro desde o início, especialmente no que diz respeito à distribuição das tarefas entre frontend e backend. Isso evitou bloqueios e problemas de integração, como a falta de padronização que ocorreu nas fases iniciais. A colaboração entre as equipes de frontend e backend foi essencial, e com o tempo conseguimos otimizar as entregas. 
+O maior aprendizado no projeto foi a importância de um planejamento claro desde o início relativo ao nivel de conhecimento tecnico de cada membro da equipe, afim de evitar gargalos. Isso evitaria bloqueios e problemas de integração, como a falta de padronização e conhecimento tecnico que ocorreu nas fases iniciais do projeto. A colaboração entre as equipes de frontend e backend foi essencial, e com o tempo conseguimos otimizar as entregas. 
 
 **Melhorias para o Futuro**:
 - **Planejamento inicial de tecnologia**: Definir claramente como a equipe trabalhará com as tecnologias desde o início.
@@ -484,8 +480,8 @@ O maior aprendizado no projeto foi a importância de um planejamento claro desde
 | **Hard Skill**               | **Descrição**                                                | **O que fiz no projeto**                                                               | **Nível adquirido**   |
 |------------------------------|--------------------------------------------------------------|----------------------------------------------------------------------------------------|-----------------------|
 | **Vue.js**                    | Framework JavaScript para construção de interfaces de usuário dinâmicas. | Desenvolvi interfaces reativas utilizando componentes como **v-model** e **@change** do Vue.js para garantir a atualização dinâmica dos dados no frontend. | Sei fazer sozinho     |
-| **Spring Boot**               | Framework Java para desenvolvimento de aplicações backend.  | Contribuí com o desenvolvimento de APIs robustas e eficientes, integrando backend e frontend. | Sei fazer com ajuda   |
-| **APIs RESTful**              | Construção e consumo de APIs utilizando o padrão REST.        | Desenvolvi e consumi APIs RESTful para garantir que os dados fossem entregues corretamente ao frontend. | Sei fazer sozinho     |
+| **Spring Boot**               | Framework Java para desenvolvimento de aplicações backend.  | Contribuí com o desenvolvimento de APIs robustas e eficientes, integrando backend e frontend. | Sei fazer sozinho   |
+| **APIs RESTful**              | Construção e consumo de APIs utilizando o padrão REST.        | Desenvolvi e consumi APIs RESTful para garantir que os dados fossem entregues corretamente ao frontend. | Sei fazer ensinando     |
 
 
 ---
@@ -494,8 +490,7 @@ O maior aprendizado no projeto foi a importância de um planejamento claro desde
 
 | **Soft Skill**      | **Descrição**                                              | **Como usei no projeto**                                                               | **Nível (%)**        |
 |---------------------|------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------|
-| **Proatividade**    | Capacidade de iniciar tarefas e antecipar necessidades sem esperar instruções. | Proativamente iniciei o desenvolvimento das tarefas backend, priorizando a criação de APIs para integração com o frontend. | 90%                 |
-| **Organização**     | Capacidade de estruturar tarefas e prioridades de forma eficiente. | Organizei o fluxo de trabalho entre as equipes de frontend e backend para garantir entregas rápidas e sem retrabalho. | 85%                 |
+| **Proatividade**    | Capacidade de iniciar tarefas e antecipar necessidades sem esperar instruções. | Proativamente iniciei o desenvolvimento das tarefas backend, priorizando a criação de APIs para integração com o frontend. | 70%                 |
 | **Comunicação**     | Capacidade de se expressar claramente e alinhar expectativas. | Comuniquei de forma clara os requisitos entre as equipes e garanti o alinhamento entre backend e frontend. | 80%                 |
 | **Colaboração**     | Habilidade de trabalhar em equipe para alcançar objetivos comuns. | Trabalhei de forma colaborativa com a equipe de backend para garantir que as APIs atendessem às necessidades do frontend. | 95%                 |
 | **Adaptabilidade**  | Flexibilidade para lidar com mudanças inesperadas.                | Ajustei o planejamento conforme novas necessidades e mudanças de escopo do projeto.   | 90%                 |
@@ -672,8 +667,8 @@ Esses ajustes teriam permitido que o projeto fluísse de maneira mais ágil e ef
 
 | **Soft Skill**      | **Descrição**                                              | **Como usei no projeto**                                                             | **Nível (%)**        |
 |---------------------|------------------------------------------------------------|--------------------------------------------------------------------------------------|----------------------|
-| **Planejamento**    | Capacidade de definir objetivos, organizar recursos e traçar estratégias. | Estruturei prioridades técnicas e alinhei entregas com o roadmap do projeto.         | 85%                 |
-| **Organização**     | Capacidade de estruturar tarefas e prioridades de forma eficiente. | Padronizei commits, estruturei estratégias de branch e organizei tarefas no backlog. | 90%                 |
+| **Planejamento**    | Capacidade de definir objetivos, organizar recursos e traçar estratégias. | Estruturei prioridades técnicas e alinhei entregas com o roadmap do projeto.         | 75%                 |
+| **Organização**     | Capacidade de estruturar tarefas e prioridades de forma eficiente. | Padronizei commits, estruturei estratégias de branch e organizei tarefas no backlog. | 80%                 |
 | **Comunicação**     | Capacidade de se expressar claramente e alinhar expectativas. | Traduzi necessidades técnicas para soluções claras e alinhadas com a equipe e clientes. | 80%                 |
 | **Colaboração**     | Habilidade de trabalhar em equipe para alcançar objetivos comuns.  | Trabalhei junto a outros desenvolvedores para unificar modelos e refinar estratégias. | 95%                 |
 | **Adaptabilidade**  | Flexibilidade para lidar com mudanças inesperadas.                | Refatorei pipelines para novos padrões técnicos e adaptei entregas frente a desafios. | 95%                 |
