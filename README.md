@@ -526,55 +526,6 @@ Utilizando o framework Vue.js, foi possível armazenar a lista de setores para q
 
 <br>
 
-### **Hard Skills Desenvolvidas:**
-
-1. **Desenvolvimento Backend:**
-   - Criação de APIs RESTful com Spring Boot.
-   - Implementação de Spring Security para autenticação e criptografia de senhas.
-   - Uso de JPA para operações CRUD e mapeamento objeto-relacional.
-   - Conexão com banco de dados usando Wallet AWS.
-
-2. **Versionamento e Gerenciamento de Dependências:**
-   - Configuração e uso de Maven para gerenciamento de dependências.
-
-3. **Containerização e DevOps:**
-   - Uso de Docker e Docker Compose para containerizar e gerenciar ambientes.
-
-4. **Desenvolvimento Frontend:**
-   - Desenvolvimento de interfaces interativas com Vue.js e TypeScript.
-   - Integração com APIs usando `v-model` e métodos dinâmicos.
-
-5. **Consumo de APIs:**
-   - Consumo de APIs REST com Axios, incluindo tratamento de erros e integração no frontend.
-
-6. **Gestão de Projetos e Relatórios:**
-   - Geração e manipulação de relatórios customizados em formatos específicos.
-
-
----
-
-### **Soft Skills Desenvolvidas:**
-
-1. **Trabalho em Equipe:**
-   - Colaboração em um ambiente acadêmico com diferentes perfis de desenvolvedores e funções.
-   - Comunicação clara para alinhar funcionalidades e solucionar problemas técnicos.
-
-2. **Gestão de Projetos:**
-   - Priorização de tarefas e divisão eficiente do trabalho para atender prazos e metas.
-
-3. **Resolução de Problemas:**
-   - Solução de desafios técnicos, como conexão de banco via Wallet, mapeamento de dados complexos, e tratamento de erros em APIs.
-
-4. **Adaptação e Aprendizado Rápido:**
-   - Uso de novas tecnologias como Vue.js e Spring Boot em um prazo limitado.
-   - Adaptação ao uso de DevOps e metodologias modernas para deployment e gestão.
-
-5. **Pensamento Crítico e Analítico:**
-   - Avaliação contínua de melhorias no código, tanto no backend quanto no frontend, visando eficiência e manutenção futura.
-
-6. **Foco no Usuário:**
-   - Design de interface pensando na simplicidade de uso e experiência fluida para o cliente final.
-
 ---
 <!-- Links para navegação -->
 <a href="#topo">Voltar ao topo</a>
@@ -587,286 +538,175 @@ Utilizando o framework Vue.js, foi possível armazenar a lista de setores para q
 
 [Link para Repositório do Projeto](https://github.com/quarks-team/Projeto-Integrador-TecSUS)
 
+# API 5° Semestre - Quarks Team
+
+## Tema
+
+**Dashboard Web de Análise de Faturas de Energia, Água e Gás**
+
+---
+
+## Contexto
+
+A **TecSUS** atua na coleta e processamento de contas de energia, água e gás para empresas dos setores de atacado e varejo. Essas contas são processadas para identificar oportunidades de redução de custos e otimização de contratos com concessionárias. 
+
+Cada unidade cliente pode possuir múltiplos contratos (água, energia ou gás), e cada contrato pode conter diversas faturas mensais. O projeto aborda a organização desses dados, atualmente desestruturados em arquivos texto, e sua centralização em um banco de dados, aplicando processos de **ETL** e ferramentas de visualização de dados.
+
+---
+
 ## Objetivo
 
-O principal objetivo deste projeto foi desenvolver um **Dashboard Web** de alta complexidade, capaz de processar e analisar faturas de energia e água de diversas unidades de clientes. O sistema permite que as empresas identifiquem oportunidades de redução de custos e otimização de contratos com concessionárias. Além disso, o dashboard oferece funcionalidades de geração de relatórios detalhados e alertas com base no consumo, possibilitando uma visão clara sobre o desempenho e os custos de cada unidade ou contrato.
+Desenvolver um **dashboard web de alta complexidade** que permita:
+
+- Processar e analisar faturas de energia e água para múltiplas unidades.
+- Identificar oportunidades de redução de custos e ajustes contratuais.
+- Gerar relatórios detalhados e alertas baseados em consumo.
+- Oferecer uma visão clara e estratégica sobre o desempenho e custos de cada unidade e contrato.
+
+---
+
+## Requisitos Implementados
+<br>
+<details>
+<summary> ETL (Extrair, Transformar e Carregar) de Dados </summary>
+
+**Descrição**: Processos para extrair dados desestruturados, transformá-los e centralizá-los em um banco de dados organizado.
+
+**Funcionalidades Implementadas**:
+- Estruturação do banco de dados para armazenar informações de unidades, concessionárias, contratos e contas.
+- Desenvolvimento de scripts para extrair dados de fontes como arquivos CSV e APIs.
+- Limpeza e normalização dos dados para uniformidade.
+- Automatização do processo ETL.
+</details>
+
+---
+
+<details>
+<summary> Dashboards de Consumo </summary>
+
+**Descrição**: Criação de dashboards detalhados para exibir consumo de recursos.
+
+**Funcionalidades Implementadas**:
+- Dashboards de consumo mensal, anual e média para água e energia.
+- Relatórios e visualizações interativas integradas com ferramentas como **Power BI**.
+  </details>
+
+---
+
+<details>
+<summary> Relatórios de Consumo </summary>
+
+**Descrição**: Relatórios detalhados com dados de consumo de água e energia.
+
+**Funcionalidades Implementadas**:
+- Relatórios com insights sobre consumo médio e variações significativas.
+- Plataforma web para acesso e visualização de relatórios e dados carregados via ETL.
+</details>
+
+---
+
+<details>
+<summary> Alertas de Consumo </summary>
+
+**Descrição**: Implementação de alertas para consumo acima da média dos últimos 3 meses.
+
+**Funcionalidades Implementadas**:
+- Notificações automáticas no dashboard sobre consumos fora do padrão.
+- Implementação de lógica para cálculo da média de consumo e critérios de alerta.
+</details> 
+
+---
+
+<details>
+<summary> Esteira de DevOps </summary>
+
+**Descrição**: Infraestrutura e automação para gerenciar o desenvolvimento e deploy da aplicação.
+
+**Funcionalidades Implementadas**:
+- Integração contínua (**CI**) com **GitHub Actions**.
+- Containerização com **Docker/Docker Compose** para consistência entre ambientes.
+- Deploy e monitoramento utilizando **Railway**.
+- Estratégia de controle de versão (**Git**) e rastreabilidade das tarefas de desenvolvimento.
+</details> 
+
+---
 
 ## Tecnologias Utilizadas
 
-- **Node.js**:
-  - Utilizado para construir uma API backend escalável, o Node.js permite o manuseio de múltiplas requisições simultaneamente, tornando-o ideal para processamento de dados em tempo real e interação com o frontend.
+- **Node.js**: Backend escalável para processamento de dados.
+- **MySQL**: Banco de dados relacional para consultas complexas.
+- **Vue.js**: Interface web dinâmica e responsiva.
+- **TypeScript**: Melhor estruturação e tipagem estática para JavaScript.
+- **Power BI**: Dashboards interativos para análise de dados.
+- **Docker/Docker Compose**: Containerização e consistência de ambiente.
+- **Railway**: Plataforma de deploy com automação de CI/CD.
 
-- **MySQL**:
-  - Um sistema de gerenciamento de banco de dados relacional escolhido por sua robustez e eficiência em armazenar e consultar dados estruturados, garantindo integridade dos dados e facilitando consultas complexas.
+# Minhas Contribuições  
 
-- **Vue.js**:
-  - Empregado como o framework frontend para criar uma interface de usuário dinâmica e responsiva. O Vue.js oferece uma arquitetura baseada em componentes que melhora a reutilização de código e simplifica o processo de desenvolvimento.
+## Perspectiva no Projeto TecSUS  
 
-- **Docker/Docker Compose**:
-  - Usado para containerizar a aplicação, garantindo um ambiente de desenvolvimento e produção consistente. O Docker simplifica o gerenciamento de dependências e a implantação da aplicação, permitindo uma integração e escalabilidade contínuas.
+No projeto **TecSUS**, atuei como desenvolvedor, contribuindo para a implementação de soluções técnicas que viabilizassem dashboards confiáveis e estruturados para os clientes. Minhas entregas envolveram desde a modelagem de dados e pipelines de ETL até a adoção de práticas de DevOps para otimizar o fluxo de trabalho da equipe.  
 
-- **Railway**:
-  - Escolhido para o deploy da aplicação, o Railway permite uma implementação rápida e eficiente em ambientes de produção. Oferece automação de CI/CD, facilitando o gerenciamento de deploys e garantindo a disponibilidade contínua do sistema.
-
-- **Power BI**:
-  - Integrado para visualização e relatórios de dados. O Power BI permite a criação de dashboards interativos que ajudam os stakeholders a tomar decisões informadas com base em insights de dados em tempo real.
-
-- **TypeScript**:
-  - Adotado para aprimorar o JavaScript com tipagem estática, melhorando a qualidade e a manutenibilidade do código. O TypeScript permite uma melhor ferramenta e detecção de erros durante o desenvolvimento, contribuindo para uma aplicação mais robusta.
-
-## Minhas Contribuições
-
-### Modelagem Dimensional
-
-- Participei da modelagem dimensional, criando um banco de dados que facilitou a análise de grandes volumes de dados. Essa arquitetura permitiu gerar relatórios rápidos e eficientes, essenciais para lidar com múltiplas faturas por unidade, contrato e concessionária, sem comprometer a performance.
-- Atuei em todas as fases da modelagem: concepção inicial, construção e implementação das tabelas de fato e dimensão. Trabalhei na definição de como as tabelas se relacionariam, levando em conta as especificidades dos dados de energia e água. Também desenvolvi as queries para carga de dados nas tabelas de fato, garantindo integridade e eficiência durante o processo de ETL.
-
+Meu trabalho inicial foi focado na modelagem dimensional do banco de dados e na criação de pipelines de ETL para alimentar as tabelas fato com dados limpos e organizados. Desenvolvi o modelo estrela para contas de água, integrando dimensões comuns como "QUEM?", "QUANDO?" e "ONDE?", enquanto outros membros da equipe trabalharam nas contas de energia. As tabelas fato foram separadas em **Fato Contas de Água** e **Fato Contas de Energia**.  
+<br>
 <details>
 <summary>Modelagem Dimensional</summary>
 <img src="https://github.com/quarks-team/Projeto-Integrador-TecSUS-Database/blob/main/modelagem_banco_API_v.06.png">
 </details>
-
-### Backend com Node.js
-
-Neste exemplo, desenvolvi um **controller** em Node.js que permitiu ao usuário carregar seus arquivos através do frontend e acompanhar o progresso do upload e do processo de ETL. Como o carregamento dos arquivos podia demorar até 5 minutos, era essencial manter o usuário informado sobre o tempo restante para a conclusão da carga.
-
-<details>
-<summary>Exemplo de Controller em Node.js</summary>
-<pre><code>
-@Controller('billing')
-export class BillingController {
-  constructor(private readonly service: BillingService) {}
-
-  @Post('upload')
-  @UseInterceptors(FilesInterceptor('files'))
-  async uploadFiles(@UploadedFiles() files: Express.Multer.File[]) {
-    const folderPath = path.join(__dirname, 'files');
-    await mkdir(folderPath, { recursive: true });
-    const filePromises = files.map(async (file) => {
-      const filePath = path.join(folderPath, file.originalname);
-      await writeFile(filePath, file.buffer);
-      const log = (message: string) => {
-        if (global.sseResponse) {
-          global.sseResponse.write(
-            `event: user-log\ndata: ${JSON.stringify({ message })}\n\n`,
-          );
-        }
-      };
-      await this.service.transform(file.originalname, filePath, log);
-      if (global.sseResponse) {
-        global.sseResponse.write(
-          `event: user-log\ndata: ${JSON.stringify({
-            message: \`O arquivo "\${file.originalname}" foi processado com sucesso.\`,
-          })}\n\n`,
-        );
-      }
-    });
-    await Promise.all(filePromises);
-    if (global.sseResponse) {
-      global.sseResponse.write(
-        `event: user-log\ndata: ${JSON.stringify({
-          message: 'Todos os arquivos foram processados com sucesso.',
-        })}\n\n`,
-      );
-      global.sseResponse.end();
-    }
-    return { message: 'Todos os arquivos foram processados com sucesso.' };
-  }
-}
-</code></pre>
-</details>
-
-### ETL com Node.js
-
-Implementei a lógica de **ETL** (Extração, Transformação e Carga) para inserir dados nas tabelas, verificando quais arquivos o usuário carregou e processando-os adequadamente. O sistema verificava se os dados carregados pertenciam a contratos ou contas de água ou energia, e só realizava a carga nas respectivas tabelas fato, garantindo a integridade e a coerência dos dados.
-
-<details>
-<summary>Exemplo de Transformação e Carga de Dados</summary>
-<pre><code>
-import { InjectRepository } from '@nestjs/typeorm';
-import { Repository, In } from 'typeorm';
-import { Time } from '../entity/time.entity';
-import { WatterBill } from '../entity/watter-bill.entity';
-import { WatterBillPayload } from '../request/watter-bill-payload';
-
-export class IngestWatterBill {
-  constructor(
-    @InjectRepository(Time) private readonly timeRepo: Repository<Time>,
-    @InjectRepository(WatterBill)
-    private readonly billRepo: Repository<WatterBill>,
-  ) {}
-
-  async execute(watterBills: WatterBillPayload[]) {
-    const times: Partial<Time>[] = [];
-    const bills: Partial<WatterBill>[] = [];
-    watterBills.forEach((bill) => {
-      const [day, month, year] = bill['Conta do Mês'].split('/').map(Number);
-      const billDate = new Date(year, month - 1, day);
-      bills.push({
-        rgiCode: bill['Código de Ligação (RGI)'],
-        billDate: billDate,
-        hidrometer: bill.Hidrômetro,
-        watterConsume: Number.parseFloat(
-          bill['Consumo de Água m³'].replace(',', ''),
-        ),
-        wastePipeConsume: Number.parseFloat(
-          bill['Consumo de Esgoto m³'].replace(',', ''),
-        ),
-        watterValue: Number.parseFloat(bill['Valor Água R$'].replace(',', '')),
-        wastePipeValue: Number.parseFloat(
-          bill['Valor Esgoto R$'].replace(',', ''),
-        ),
-        total: Number.parseFloat(bill['Total R$'].replace(',', '')),
-        plant: bill.Planta,
-        provider: 'null',
-      });
-      times.push({
-        month: month.toString(),
-        year: year.toString(),
-      });
-    });
-    // Processa dados, verifica duplicidade e insere dados nas tabelas de tempo e conta
-    // Carga nas tabelas de fato ocorre somente após verificações necessárias
-    try {
-      const distinctTimes = this.getDistinctObjects(times);
-      const existingTimes = await this.timeRepo.find({
-        where: {
-          month: In(distinctTimes.map((time) => time.month)),
-          year: In(distinctTimes.map((time) => time.year)),
-        },
-      });
-      const newTimes = distinctTimes.filter(
-        (time) => !existingTimes.find((existing) => existing.month === time.month && existing.year === time.year),
-      );
-      await this.timeRepo.save(newTimes);
-    } catch (error) {
-      console.error('Error saving times:', error);
-    }
-  }
-
-  // Função auxiliar para remover duplicidade de objetos
-  getDistinctObjects(array) {
-    return array.filter(
-      (obj, index, self) =>
-        index ===
-        self.findIndex((t) => t.month === obj.month && t.year === obj.year),
-    );
-  }
-}
-</code></pre>
-</details>
-
-### Verificação e Carga nas Tabelas Fato
-
-Após as transformações, o processo de carga nas tabelas fato de água ou energia era executado. A carga só ocorria se houvesse novos dados relevantes, garantindo eficiência e evitando duplicidades.
-
-<details>
-<summary>Carga nas Tabelas Fato</summary>
-<pre><code>
-async execute() {
-  const hasSomeContract = await this.contractRepo.count();
-  const hasSomeBill = await this.billRepo.count();
-  if (hasSomeBill > 0 && hasSomeContract > 0) {
-    await this.factRepo.clear();
-    await this.factRepo.query(
-      `INSERT INTO fato_conta_agua (
-        contrato_agua_id,
-        conta_agua_id,
-        unidade_cliente_id,
-        tempo_id,
-        local_planta_id,
-        total_conta_agua,
-        total_consumo_agua,
-        total_consumo_esgoto,
-        total_valor_agua,
-        total_valor_esgoto
-      )
-      SELECT
-        c.contrato_agua_id,
-        conta.conta_agua_id,
-        u.unidade_cliente_id,
-        t.tempo_id,
-        l.local_planta_id,
-        SUM(conta.total_conta_agua) AS total_conta_agua,
-        SUM(conta.consumo_agua) AS total_consumo_agua,
-        SUM(conta.consumo_esgoto) AS total_consumo_esgoto,
-        SUM(conta.valor_agua) AS total_valor_agua,
-        SUM(conta.valor_esgoto) AS total_valor_esgoto
-      FROM conta_agua conta
-      INNER JOIN contrato_agua c ON conta.codigo_rgi = c.codigo_rgi
-      INNER JOIN unidade_cliente u ON c.cnpj = u.cnpj
-      INNER JOIN local_planta l ON l.planta = conta.planta_agua
-      INNER JOIN tempo t ON t.tempo_mes = DATE_FORMAT(conta.agua_conta_mes, '%m')
-                          AND t.tempo_ano = DATE_FORMAT(conta.agua_conta_mes, '%Y')
-      GROUP BY c.contrato_agua_id, conta.conta_agua_id, u.unidade_cliente_id, t.tempo_id, l.local_planta_id;`
-    );
-  }
-}
-</code></pre>
-</details>
-
-### Estratégia de Branches e Rastreabilide de requisitos
-
-A estratégia de **Trunk-Based Development** foi implementada para garantir que toda a equipe trabalhasse a partir da versão mais atualizada do código. Com isso, todas as novas funcionalidades e correções eram desenvolvidas a partir de uma branch clonada da main, permitindo uma colaboração mais fluida entre os membros do time.
-
-Essa abordagem não apenas assegurou que todos os desenvolvedores estivessem alinhados com a última versão do código, mas também facilitou a identificação dos requisitos sendo abordados em cada tarefa. Cada branch criada incluía o ID da task, permitindo relacioná-la diretamente à User Story correspondente, a qual descrevia quais requisitos seriam atendidos. Dessa forma, a equipe conseguiu acompanhar o progresso e a implementação dos requisitos de forma clara e organizada, garantindo um fluxo de trabalho eficiente e a entrega de soluções alinhadas às necessidades do projeto.
-
 <br>
 
-<h3> Resultado/Aplicação: <h3>
+Como não dominávamos **Node.js** no início, as pipelines de ETL foram implementadas temporariamente em **Python**, garantindo que os dashboards recebessem dados para as primeiras entregas. Apesar disso, ficou evidente a necessidade de maior alinhamento técnico e estratégico para evitar retrabalho.  
 
-<img src="https://github.com/quarks-team/Projeto-Integrador-TecSUS/blob/main/Documents/Gifs/gif-dash-agua.gif">
+Com base nesse aprendizado, migrei as pipelines para **Node.js**, desenvolvendo verificações robustas que diferenciaram contas de energia e água, validando os dados antes de inseri-los nas tabelas fato. Também implementei logs detalhados para acompanhamento em tempo real, aumentando a confiabilidade dos processos e melhorando a qualidade dos dados nos dashboards.  
 
-<br>
+Outro aspecto importante da minha atuação foi a implementação de uma estratégia de branches baseada em **Trunk-Based Development**, visando minimizar conflitos de merge e manter o código sempre atualizado. No entanto, enfrentei dificuldades significativas no início:  
+- **Falta de padronização:** Não havia clareza sobre padrões de commits, o que resultou em inconsistências como o uso alternado de `feat` e `feature`.  
+- **Ausência de rastreabilidade:** A falta de identificação das tasks nos nomes das branches dificultava o alinhamento entre requisitos e entregas, atrasando a adoção de uma esteira de **DevOps** eficaz.  
 
-### **Hard Skills Desenvolvidas:**
+Para solucionar esses problemas, priorizei a padronização dos commits e a introdução de rastreabilidade por meio de IDs de tasks nos nomes das branches. Essa mudança aumentou a colaboração entre os membros da equipe e garantiu maior aderência aos requisitos.  
 
-1. **Modelagem Dimensional:**
-   - Criação de tabelas de fato e dimensão para análise de grandes volumes de dados, otimizando relatórios e consultas.
-
-2. **Backend com Node.js:**
-   - Desenvolvimento de APIs escaláveis e lógica de ETL para processamento de dados e integração com bancos.
-
-3. **Banco de Dados Relacional (MySQL):**
-   - Design, otimização e execução de queries complexas para garantir performance e integridade.
-
-4. **Frontend com Vue.js:**
-   - Desenvolvimento de interfaces dinâmicas e responsivas com arquitetura baseada em componentes.
-
-5. **TypeScript:**
-   - Uso de tipagem estática para melhorar a manutenção e legibilidade do código.
-
-6. **Power BI:**
-   - Criação de dashboards interativos para análise e geração de insights.
-
-7. **Containerização com Docker:**
-   - Configuração de ambientes consistentes para facilitar o desenvolvimento, escalabilidade e gerenciamento.
-
-8. **Railway:**
-   - Automação de deploys e integração com CI/CD para garantir disponibilidade e eficiência.
-
-9. **DevOps:**
-   - Implementação de pipelines de CI/CD, testes automatizados e uso de **Trunk-Based Development**.
-
-10. **ETL (Extração, Transformação e Carga):**
-    - Design e execução de processos eficientes e coerentes de carga de dados.
-
-11. **Gestão de Projetos e Rastreabilidade:**
-    - Relacionamento de branches de desenvolvimento com User Stories e requisitos para rastreabilidade.
+Com a base sólida do backend e uma estratégia de branches madura, dediquei-me a aprimorar a esteira de **DevOps**, facilitando a integração contínua e reduzindo gargalos no processo de entregas.  
 
 ---
 
-## **Soft Skills**
+## Reflexão e Melhorias  
 
-- **Comunicação Eficaz:** Colaboração com equipes multidisciplinares para alinhar objetivos técnicos e de negócios.
-- **Trabalho em Equipe:** Integração e cooperação com diferentes áreas para garantir entregas de qualidade.
-- **Gestão de Tempo:** Organização eficiente para lidar com entregas complexas e prazos desafiadores.
-- **Adaptabilidade:** Rápida assimilação de novas tecnologias e frameworks, como Node.js e Vue.js.
-- **Resolução de Problemas:** Identificação e solução de desafios técnicos, incluindo otimização de consultas SQL e manutenção da integridade dos dados.
-- **Pensamento Analítico:** Estruturação de dados para análise, extraindo insights valiosos para clientes.
-- **Atenção aos Detalhes:** Garantia de precisão na implementação de processos de ETL e na configuração de pipelines de CI/CD.
-- **Proatividade:** Iniciativa em sugerir e implementar melhorias no fluxo de trabalho e no desenvolvimento do projeto.
-- **Rastreamento de Requisitos:** Organização e monitoramento do progresso do projeto com foco nos objetivos do cliente.
+Embora o projeto tenha sido bem-sucedido, alguns problemas poderiam ter sido evitados com ações mais proativas e alinhamento técnico desde o início. Por exemplo:  
+- **Definição de ferramentas e linguagens:** Se a equipe tivesse definido o uso de **Node.js** desde o início, a necessidade de refatorar as pipelines de ETL poderia ter sido evitada.  
+- **Padronização e rastreabilidade:** Um padrão claro de commits e rastreabilidade desde o início teria reduzido o tempo gasto em ajustes durante as primeiras entregas.  
+- **Alinhamento técnico:** Um maior esforço inicial para nivelar o conhecimento técnico da equipe teria minimizado os atrasos causados por limitações em ferramentas e linguagens desconhecidas.  
+
+Esses ajustes teriam permitido que o projeto fluísse de maneira mais ágil e eficiente, evitando retrabalho e otimizando as entregas. Mesmo assim, os desafios enfrentados foram valiosos para o meu amadurecimento técnico e profissional, destacando a importância de um planejamento sólido e práticas organizacionais consistentes.  
+
+---
+
+### Tabela de Hard Skills
+
+| **Hard Skill**              | **Descrição**                                               | **O que fiz no projeto**                                                             | **Nível adquirido**   |
+|------------------------------|------------------------------------------------------------|--------------------------------------------------------------------------------------|-----------------------|
+| **Modelagem Dimensional**    | Criação de esquemas estrela e snowflake para bancos de dados analíticos. | Desenvolvi modelos estrela para contas de água e energia, separando dimensões e fatos. | Sei fazer sozinho     |
+| **ETL (Python/Node.js)**     | Processos para extração, transformação e carga de dados.   | Implementei pipelines temporárias em Python e depois refatorei em Node.js para maior eficiência. | Sei fazer sozinho     |
+| **Trunk-Based Development**  | Estratégia de versionamento que reduz conflitos de merge.  | Implementei estratégias de branches e padronizei commits com rastreabilidade de tasks. | Sei fazer sozinho     |
+| **DevOps (Integração Contínua)** | Automação do processo de desenvolvimento e entrega de software. | Estruturei a esteira de CI/CD para garantir entregas ágeis e confiáveis.             | Sei fazer com ajuda   |
+| **Node.js (Backend)**        | Plataforma para construção de APIs e sistemas backend.     | Refatorei pipelines de ETL e implementei práticas para validação e performance.       | Sei fazer sozinho     |
+
+---
+
+### Tabela de Soft Skills
+
+| **Soft Skill**      | **Descrição**                                              | **Como usei no projeto**                                                             | **Nível (%)**        |
+|---------------------|------------------------------------------------------------|--------------------------------------------------------------------------------------|----------------------|
+| **Planejamento**    | Capacidade de definir objetivos, organizar recursos e traçar estratégias. | Estruturei prioridades técnicas e alinhei entregas com o roadmap do projeto.         | 85%                 |
+| **Organização**     | Capacidade de estruturar tarefas e prioridades de forma eficiente. | Padronizei commits, estruturei estratégias de branch e organizei tarefas no backlog. | 90%                 |
+| **Comunicação**     | Capacidade de se expressar claramente e alinhar expectativas. | Traduzi necessidades técnicas para soluções claras e alinhadas com a equipe e clientes. | 80%                 |
+| **Colaboração**     | Habilidade de trabalhar em equipe para alcançar objetivos comuns.  | Trabalhei junto a outros desenvolvedores para unificar modelos e refinar estratégias. | 95%                 |
+| **Adaptabilidade**  | Flexibilidade para lidar com mudanças inesperadas.                | Refatorei pipelines para novos padrões técnicos e adaptei entregas frente a desafios. | 95%                 |
+| **Resolução de Problemas** | Capacidade de analisar e resolver desafios de forma eficiente. | Solucionei problemas de performance e inconsistências nos ETLs, garantindo dados confiáveis. | 90%                 |
+
+---
+
+
+
 
 <!-- Links para navegação -->
 <a href="#topo">Voltar ao topo</a>
@@ -893,16 +733,19 @@ Explorar e analisar um grande banco de dados para identificar padrões e desenvo
 Desenvolvemos um sistema inteligente que gera um score de confiabilidade para endossantes, baseado no histórico de duplicatas, permitindo que a SPC Grafeno e os credores avaliem a probabilidade de finalização de contratos com base em variáveis como ramo de atividade e comportamento histórico.
 
 ## Produtos Desenvolvidos
-
+<br>
 <details><summary> 1. Score de Confiabilidade para Endossantes (Regressão Linear) </summary>  
    Criamos um sistema de IA baseado em regressão linear para calcular um score de confiabilidade de endossantes, ajudando a avaliar a probabilidade de finalização de contratos de duplicatas relativas a um endossante.
 </details>
+<br>
 <details><summary> 2. Previsão de Finalização de Contratos (Random Forest)  </summary>
    Desenvolvemos um modelo em IA que, ao inserir variáveis de um contrato de duplicata (como ramo, segmento, datas), gera uma previsão de 0% a 100% sobre a probabilidade de finalização do contrato.
 </details>
+<br>
 <details><summary> 3. Previsão de Comportamento de Duplicatas (Séries Temporais) </summary>
    Criamos um modelo de séries temporais que permite a previsão de como as duplicatas se comportarão no futuro, a partir de dados históricos fornecidos pelo usuário em formato CSV.
 </details>
+<br>
 <details><summary> 4. Análise de Impacto nas Variáveis do Score (Random Forest)  </summary>
    Implementamos um modelo de Random Forest para analisar o impacto das variáveis que influenciam o score de endossantes. A IA gera recomendações sobre como aumentar ou diminuir o score com base em variáveis como duplicatas finalizadas ou canceladas.
    <details>
@@ -910,13 +753,14 @@ Desenvolvemos um sistema inteligente que gera um score de confiabilidade para en
        <img src="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/IMGS/HomeSprint3.png">
    </details>
     </details>
-
+<br>
 <details><summary> 5. Plataforma Web e Requisitos de Segurança (LGPD)  </summary>
    <h3>Para disponibilizar as soluções, criamos uma plataforma web onde os usuários podem acessar os produtos desenvolvidos. Em conformidade com a Lei Geral de Proteção de Dados (LGPD), implementamos os seguintes requisitos de segurança: </h3>
    <p>- Transparência/CRUD dos dados pessoais: O usuário tem total visibilidade e controle sobre os dados pessoais utilizados no sistema e nas IA's.</p>
    <p>- Backup e Delete dos dados pessoais: Garantimos a segurança e integridade dos dados pessoais, com a possibilidade de exclusão dos mesmos quando necessário.</p>
    <p>- Aceite de Termos de Consentimento: A plataforma exige o aceite claro dos termos de consentimento para o uso dos dados pessoais, garantindo a conformidade com a LGPD.</p>
 </details>
+
 ---
 
 ## Tecnologias Utilizadas
@@ -924,25 +768,37 @@ Desenvolvemos um sistema inteligente que gera um score de confiabilidade para en
 Aqui estão as **tecnologias** com as quais trabalhei no projeto:
 
 - **Frontend:**  
-  - **Vue.js:** Desenvolvimento de interfaces dinâmicas e interativas para o usuário.  
-  - **Typescript:** Garantia de um código robusto e escalável para o frontend.  
-
-- **Backend:**  
-  - **Node.js:** Construção de rotas de API para gerenciar o consentimento de usuários e outras funcionalidades do sistema.
-  - **FastAPI:** Utilizado para as pipelines de ETL e para as APIs das nossas Inteligencias Artificiais.
-  - **PostgreSQL:** Armazenamento de dados relacionais, como informações de usuários e histórico de consentimentos.  
-  - **MongoDB:** Gerenciamento do histórico de consentimentos dos usuários e versionamento de políticas.  
-
+<br>
+ <details><summary> - **Vue.js:** </summary>  Desenvolvimento de interfaces dinâmicas e interativas para o usuário.  </details>
+ <br>
+ <details><summary> - **Typescript:** </summary> Garantia de um código robusto e escalável para o frontend. </details> 
+<br>
+ 
+ - **Backend:**  
+    <br>
+   <details><summary>  - **Node.js:**</summary> Construção de rotas de API para gerenciar o consentimento de usuários e outras funcionalidades do sistema. </details>
+   <br>
+   <details><summary> - **FastAPI:** </summary> Utilizado para as pipelines de ETL e para as APIs das nossas Inteligencias Artificiais. </details>
+   <br>
+   <details><summary> - **PostgreSQL:** </summary> Armazenamento de dados relacionais, como informações de usuários e histórico de consentimentos.  </details>
+   <br>
+   <details><summary> - **MongoDB:** </summary> Gerenciamento do histórico de consentimentos dos usuários e versionamento de políticas.  </details>
+    <br>
 - **IA e Processamento de Dados:**  
-  - **Python:** Desenvolvimento de modelos de machine learning para análise de crédito e geração de recomendações personalizadas.  
-  - **Sklearn:** Utilização de **árvore de decisão** e **random forest** para criar modelos preditivos de comportamento de usuários.  
-
+  <br>
+  <details><summary>  - **Python:**  </summary> Desenvolvimento de modelos de machine learning para análise de crédito e geração de recomendações personalizadas.  </details>
+  <br>
+  <details><summary>  - **Sklearn:** </summary> Utilização de **árvore de decisão** e **random forest** para criar modelos preditivos de comportamento de usuários.  </details>
+  <br>
 - **Infraestrutura e Deploy:**  
-  - **Docker/Docker Compose:** Criação de containers para orquestrar e isolar os serviços de backend.  
-  - **Railway:** Hospedagem e automação de fluxos de CI/CD para integração contínua e deploys ágeis.  
-
+  <br>
+  <details><summary>  - **Docker/Docker Compose:** </summary> Criação de containers para orquestrar e isolar os serviços de backend.  </details>
+  <br>
+  <details><summary>  - **Railway:** </summary> Hospedagem e automação de fluxos de CI/CD para integração contínua e deploys ágeis.  </details>
+  <br>
 - **Arquitetura:**  
-  - **Microsserviços:** Divisão do backend em serviços independentes, com separação entre IA/ETL e login/segurança.
+  <br>
+  <details><summary> - **Microsserviços:** </summary> Divisão do backend em serviços independentes, com separação entre IA/ETL e login/segurança. </details>
 ---
 
 ## Minhas Contribuições
