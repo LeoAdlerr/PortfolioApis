@@ -92,8 +92,6 @@ O objetivo principal foi criar uma ferramenta acessível que permitisse ao usuá
 
 ## **Minha Perspectiva**
 
-Este projeto marcou minha primeira experiência com programação e análise de dados. Apesar da minha falta de experiência inicial, consegui desenvolver uma aplicação competente que fornece e informa estatísticas sobre a Covid-19 em São Paulo através de gráficos, facilitando a compreensão dos dados. Com uma interface simples no terminal, o projeto foi desenvolvido com foco em acessibilidade e precisão na análise dos dados.
-
 Este projeto foi uma experiência única e marcante. Ele me proporcionou uma visão mais ampla de como a tecnologia pode ser utilizada para abordar questões sociais relevantes, como a pandemia de Covid-19. Ao longo do processo, pude perceber a importância de persistir e de estar sempre aberto a aprender novas habilidades. Mesmo com a falta de experiência inicial, fomos capazes de desenvolver uma aplicação significativa que contribui para uma melhor compreensão dos dados sobre a pandemia. 
 
 Além disso, a experiência de atuar como Scrum Master foi fundamental para o meu crescimento, pois me ajudou a perceber a importância da comunicação dentro da equipe e de manter todos focados nos objetivos comuns. Trabalhar de forma independente, mas também coordenar esforços coletivos, foi essencial para o sucesso do projeto, ja que percebi os gargalos vindos de alguns membros do time.
