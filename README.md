@@ -92,11 +92,12 @@ O objetivo principal foi criar uma ferramenta acessível que permitisse ao usuá
 
 ## **Minha Perspectiva**
 
-Este projeto foi uma experiência única e marcante. Ele me proporcionou uma visão mais ampla de como a tecnologia pode ser utilizada para abordar questões sociais relevantes, como a pandemia de Covid-19. Ao longo do processo, pude perceber a importância de persistir e de estar sempre aberto a aprender novas habilidades. Mesmo com a falta de experiência inicial, fomos capazes de desenvolver uma aplicação significativa que contribui para uma melhor compreensão dos dados sobre a pandemia. 
+A experiência de atuar como Scrum Master foi fundamental para o meu crescimento, pois me ajudou a perceber a importância da comunicação dentro da equipe e de manter todos focados nos objetivos comuns. Trabalhar de forma independente, mas também coordenar esforços coletivos, foi essencial para o sucesso do projeto, ja que percebi os gargalos vindos de alguns membros do time.
 
-Além disso, a experiência de atuar como Scrum Master foi fundamental para o meu crescimento, pois me ajudou a perceber a importância da comunicação dentro da equipe e de manter todos focados nos objetivos comuns. Trabalhar de forma independente, mas também coordenar esforços coletivos, foi essencial para o sucesso do projeto, ja que percebi os gargalos vindos de alguns membros do time.
+Este projeto foi uma experiência única e marcante. Ele me proporcionou uma visão mais ampla de como a tecnologia pode ser utilizada para abordar questões sociais relevantes, como a pandemia de Covid-19. Ao longo do processo, pude perceber a importância de persistir e de estar sempre aberto a aprender novas habilidades. Mesmo com a falta de experiência inicial, fomos capazes de desenvolver uma aplicação significativa que contribui para uma melhor compreensão dos dados sobre a pandemia.
 
-## **Liçôes Aprendidas em Desafios e Aprendizados**
+
+## **Liçõees Aprendidas e Desafios e Aprendizados**
 
 Durante o desenvolvimento deste projeto, enfrentamos vários desafios técnicos. O primeiro deles foi aprender a lidar com grandes volumes de dados e entender como processá-los corretamente. A biblioteca **Pandas** foi fundamental para filtrar e manipular esses dados de forma eficiente, mas houve momentos em que a complexidade das operações parecia um obstáculo. No entanto, essas dificuldades me ensinaram a importância de dividir grandes problemas em tarefas menores e mais gerenciáveis.
 
