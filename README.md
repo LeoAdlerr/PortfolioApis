@@ -98,7 +98,7 @@ Além disso, a experiência de atuar como Scrum Master foi fundamental para o me
 
 ## **Liçôes Aprendidas em Desafios e Aprendizados**
 
-Durante o desenvolvimento deste projeto, enfrentei vários desafios técnicos. O primeiro deles foi aprender a lidar com grandes volumes de dados e entender como processá-los corretamente. A biblioteca **Pandas** foi fundamental para filtrar e manipular esses dados de forma eficiente, mas houve momentos em que a complexidade das operações parecia um obstáculo. No entanto, essas dificuldades me ensinaram a importância de dividir grandes problemas em tarefas menores e mais gerenciáveis.
+Durante o desenvolvimento deste projeto, enfrentamos vários desafios técnicos. O primeiro deles foi aprender a lidar com grandes volumes de dados e entender como processá-los corretamente. A biblioteca **Pandas** foi fundamental para filtrar e manipular esses dados de forma eficiente, mas houve momentos em que a complexidade das operações parecia um obstáculo. No entanto, essas dificuldades me ensinaram a importância de dividir grandes problemas em tarefas menores e mais gerenciáveis.
 
 Outro grande desafio foi criar gráficos interativos e visualmente atraentes utilizando **Matplotlib**. A complexidade das visualizações e a necessidade de apresentar os dados de forma clara e acessível me forçaram a estudar profundamente a documentação da biblioteca, o que me deu mais confiança para trabalhar com visualizações de dados em projetos futuros.
 
