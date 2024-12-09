@@ -462,7 +462,10 @@ Embora minha função inicial fosse mais focada no frontend, percebi que para qu
 
 Um exemplo prático de como utilizei **Vue.js** para criar uma interface dinâmica foi com o seguinte código:
 
-``` <label>Setor: </label> <select class="setor" id="setor" v-model="setor" @change="getSetor()"> <option v-for="s in setores" :key="s.id" v-bind:value="s.id">{{ s.nome }}</option> </select> ```
+
+``` <label> Setor: </label><select class="setor" id="setor" v-model="setor" @change="getSetor()"> <option v-for="s in setores" :key="s.id" v-bind:value="s.id">{{ s.nome }}</option> </select> ```
+
+<br>
 
 Esse componente ajudou a vincular o valor selecionado em um dropdown ao estado da aplicação de forma reativa, permitindo que o frontend se atualizasse dinamicamente sempre que o usuário selecionasse uma nova opção.
 
