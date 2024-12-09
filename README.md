@@ -399,134 +399,110 @@ public interface RadiacaoRepository extends JpaRepository<RadiacaoGlobal, Long> 
 
 - [Link para o Repositório do projeto](https://github.com/Great-Pretender/GreatPretender-API)
 
-<h4>Visão e objetivo do projeto</h4>
+### Descrição do Projeto
 
-Um Sistema desenvolvido para controlar o estado de um imóvel em, com os resultados exportados num Laudo de Inspeção Predial, além de gerenciar manutenções preventivas e corretivas de não conformidades que possam estar colocando em risco um patrimônio, garantindo assim a segurança, qualidade e manutenção ou gerenciamento de riscos.
+Sistema desenvolvido para controlar anomalias apontadas em um **Laudo de Inspeção Predial** e gerenciar manutenções preventivas e corretivas de não conformidades, garantindo a segurança, qualidade e a manutenção ou gerenciamento de riscos de um patrimônio.
 
-<h4>Tecnologias utilizadas no Projeto</h4>
+### **Requisitos entregues**  
+- **Gerenciamento de Ordem de Serviços (OS)**
+- **Perfis para usuários**: responsável pelo cadastro, abertura de OS, supervisor de serviço e executor.
+- **Confirmação de cada etapa**: garantido por meio de processos e notificações.
+- **Método e regra**: seguir as etapas padrão na operação, incluindo o cadastro do cliente, níveis de inspeções, laudo de inspeção e controle de níveis.
+- **Alçadas por responsáveis(nivel de acesso)**: exemplo: Síndico, Zelador, engenheiro e outros.
+- **Solicitação de prestação de serviço**: feita por meio de uma landing page/QR Code.
+- **Recepção da prestação de serviço e direcionamento** para o técnico responsável.
+- **Agendamento e envio da demanda** aos responsáveis.
+- **Navegabilidade e Comunicação visuais**: interface user-friendly, garantindo a facilidade de uso para todos os envolvidos no processo.
 
-<h5>Backend: </h5>
+### Tecnologias utilizadas no Projeto
 
-- **Java e Spring Boot**:
-  <br><br>
-  - As API's Rest para o CRUD da aplicação foram feitas em Spring Boot;
-  
-    - Segurança de Logins e geração de relatórios através do Spring Security;
-  <br><br>
-  
-- **Oracle Cloud (AWS)**:
-  <br><br>
-    Foi adotado um banco de dados na nuvem para sustentar os dados da aplicação com conexão através da Wallet Oracle;
-  <br><br>
-  
-- **Maven**:
-  <br>  
-    Utilizado para versionar e gerenciar as bibliotecas, facilitando que todos os desenvolvedores e usuários utilizem o código mais atualizado no momento, principalmente na manutenção de bibliotecas Java utilizadas, algo que durante o processo e na instalação do código final simplifica o uso do mesmo;
-  <br><br>
-
-- **Docker/Docker Compose**:
-  <br><br>
-    Docker foi utilizado para containerizar toda a aplicação, garantindo consistência entre os ambientes de desenvolvimento, teste e produção. Docker Compose foi empregado para gerenciar setups de múltiplos containers, facilitando a implantação e garantindo que os ambientes sejam mantidos de forma consistente ao longo do ciclo de vida do projeto.
-  <br><br>
-
-<h5>Frontend: </h5>
-
-- **Vue.js**:
-  <br>
-    Todo o visual e design da página web foram feitos utilizando essa tecnologia, incluindo os relatórios e a criação de laudos;
-  <br><br>
-  
-- **TypeScript**:
-  <br>
-    Lógica das páginas, incluindo restrições, preenchimentos e filtragem dos dados selecionados pelos usuários, conectando e utilizando as APIs criadas em Java/Spring Boot;
-  <br>
-
-<h4>Contribuições Individuais</h4>
+#### Backend
 
 <details>
-<summary>Backend</summary>
-  <details>
-<summary>API Rest</summary>
-  
-- Usando Spring Boot, criei as APIs a serem consumidas, tanto as de criação dos laudos quanto as de seleção de valores dos clientes e seus laudos já registrados.
-
-Exemplo:
-
-<pre><code>
-@RestController
-@RequestMapping(value = "/setor")
-public class SetorController {
-    @Autowired
-    private ISetorService service;
-
-    @GetMapping
-    public List<Setor> buscarTodosSetores() {
-        return service.buscarTodosSetores();
-    }
-
-    @PostMapping
-    public Setor novoSetor(@RequestBody Setor setor) {
-        return service.novoSetor(setor);
-    }
-
-    @GetMapping(value = "/{setor}")
-    public Setor buscarPorId(@PathVariable("setor") Long id) {
-        return service.buscarPorId(id);
-    }
-}
-</code></pre>
-
-Neste exemplo, utilizei métodos GET e POST para receber os dados vindos do frontend. Como o frontend envia os dados em formato JSON, o Vue.js envia seus objetos e atributos de acordo com o banco, assim como estão feitas as entidades no backend. No caso do método `GET /setor/{setor}`, um objeto do tipo Setor está sendo recebido pela API, utilizando o parâmetro ID para a pesquisa presente no service utilizado (buscar o registro com o ID em específico). Já o método `POST /setor` é utilizado para receber o objeto Setor com os parâmetros inseridos no frontend, com o intuito de criar um novo registro de setor. O método `GET /setor` seleciona todos os registros de setores.
-  </details>
+  <summary>Java e Spring Boot</summary>
+  A API REST para o CRUD da aplicação foi desenvolvida utilizando **Spring Boot**.  
+  - Implementação de segurança de logins e geração de relatórios com **Spring Security**.
 </details>
 
 <details>
-<summary>Frontend</summary>
-  <details>
- <summary>Requisição das APIs Rest</summary>
+  <summary>Oracle Cloud (AWS)</summary>
+  Utilização de banco de dados na nuvem para sustentar os dados da aplicação, com conexão configurada via **Wallet Oracle**.
+</details>
 
-Exemplo de requisição Rest que consome a API do backend Spring Boot:
+<details>
+  <summary>Maven</summary>
+  Ferramenta usada para versionamento e gerenciamento de dependências da aplicação Java, garantindo que todos os desenvolvedores e usuários utilizem as bibliotecas mais atualizadas.
+</details>
 
-<pre><code>
-// Função para buscar os setores do banco
-async function buscarSetor() {
-    try {
-        const response = await axios.get('setor');
-        SelectionSection.value = response.data;
-    } catch (error) {
-        console.error('Error fetching servico:', error);
-    }  
-}
-</code></pre>
+<details>
+  <summary>Docker/Docker Compose</summary>
+  - **Docker** foi utilizado para containerizar toda a aplicação, garantindo consistência entre os ambientes de desenvolvimento, teste e produção.  
+  - **Docker Compose** foi empregado para gerenciar setups de múltiplos containers, facilitando a implantação e manutenção consistente dos ambientes durante o ciclo de vida do projeto.
+</details>
 
-Nessa função estou consumindo a rota `'/setor'` que retorna um objeto com a lista de setores cadastrados.
-  </details>
+#### Frontend
 
 <details>
   <summary>Vue.js</summary>
-  
-Exemplo de uso da requisição no Vue.js:
-
-```
-<label>Setor: </label>
-<select class="setor" id="setor" v-model="setor" @change="getSetor()">
-    <option v-for="s in setores" :key="s.id" v-bind:value="s.id">{{ s.nome }}</option>
-</select>
-```
-
-Utilizando o framework Vue.js, foi possível armazenar a lista de setores para que fossem visualizados na view do projeto utilizando o `v-model`. No caso de uso acima, aparecem os setores para serem selecionados dentro de um HTML select. Ao selecionar através da anotação `@change`, o ID do setor em questão é salvo para atualizar o registro no banco de dados.
- </details>
+  A interface do usuário foi construída utilizando **Vue.js**, incluindo a criação de relatórios e laudos de inspeção.
 </details>
 
-<br>
+<details>
+  <summary>TypeScript</summary>
+  A lógica das páginas foi implementada com **TypeScript**, incluindo restrições, preenchimentos e filtragem de dados pelos usuários. A lógica também conecta e consome as APIs desenvolvidas em **Java/Spring Boot**.
+</details>
 
-<h3> Resultado/Aplicação: <h3>
+# Minhas Contribuições
 
-![image](https://github.com/user-attachments/assets/8796f280-f6d8-447d-a208-ee9f5eb530a4)
+## Perspectiva no Projeto como desenvolvedor
 
-<br>
+No projeto, atuei principalmente como desenvolvedor frontend, mas também contribui no backend devido à minha experiência com **Spring Boot**. Desde o início, meu foco foi garantir uma integração eficiente entre as APIs e o frontend, trabalhando de forma colaborativa com a equipe para garantir que as entregas fossem ágeis e sem bloqueios.
+
+Minha principal contribuição no frontend foi implementar interfaces dinâmicas utilizando **Vue.js**, como exemplo no uso de **v-model** e **@change** para garantir que os dados fossem atualizados corretamente. Além disso, a integração com o backend foi essencial para alimentar as interfaces com os dados necessários, o que me levou a trabalhar de perto com as APIs e assegurar que estivessem prontas para o consumo do frontend. 
+
+Embora minha função inicial fosse mais focada no frontend, percebi que para que a integração entre frontend e backend fosse mais eficiente, precisávamos alinhar melhor a equipe desde o início, especialmente para evitar bloqueios relacionados ao conhecimento de tecnologias específicas.
+
+### Exemplos de Contribuições
+
+Um exemplo prático de como utilizei **Vue.js** para criar uma interface dinâmica foi com o seguinte código:
+
+``` <label>Setor: </label> <select class="setor" id="setor" v-model="setor" @change="getSetor()"> <option v-for="s in setores" :key="s.id" v-bind:value="s.id">{{ s.nome }}</option> </select> ```
+
+Esse componente ajudou a vincular o valor selecionado em um dropdown ao estado da aplicação de forma reativa, permitindo que o frontend se atualizasse dinamicamente sempre que o usuário selecionasse uma nova opção.
+
+### Reflexões e Melhorias
+
+O maior aprendizado no projeto foi a importância de um planejamento claro desde o início, especialmente no que diz respeito à distribuição das tarefas entre frontend e backend. Isso evitou bloqueios e problemas de integração, como a falta de padronização que ocorreu nas fases iniciais. A colaboração entre as equipes de frontend e backend foi essencial, e com o tempo conseguimos otimizar as entregas. 
+
+**Melhorias para o Futuro**:
+- **Planejamento inicial de tecnologia**: Definir claramente como a equipe trabalhará com as tecnologias desde o início.
+- **Padronização e alinhamento técnico**: Alinhar as habilidades técnicas entre os membros da equipe para acelerar a integração do sistema.
+
+
+### Tabela de Hard Skills
+
+| **Hard Skill**               | **Descrição**                                                | **O que fiz no projeto**                                                               | **Nível adquirido**   |
+|------------------------------|--------------------------------------------------------------|----------------------------------------------------------------------------------------|-----------------------|
+| **Vue.js**                    | Framework JavaScript para construção de interfaces de usuário dinâmicas. | Desenvolvi interfaces reativas utilizando componentes como **v-model** e **@change** do Vue.js para garantir a atualização dinâmica dos dados no frontend. | Sei fazer sozinho     |
+| **Spring Boot**               | Framework Java para desenvolvimento de aplicações backend.  | Contribuí com o desenvolvimento de APIs robustas e eficientes, integrando backend e frontend. | Sei fazer com ajuda   |
+| **APIs RESTful**              | Construção e consumo de APIs utilizando o padrão REST.        | Desenvolvi e consumi APIs RESTful para garantir que os dados fossem entregues corretamente ao frontend. | Sei fazer sozinho     |
+
 
 ---
+
+### Tabela de Soft Skills
+
+| **Soft Skill**      | **Descrição**                                              | **Como usei no projeto**                                                               | **Nível (%)**        |
+|---------------------|------------------------------------------------------------|----------------------------------------------------------------------------------------|----------------------|
+| **Proatividade**    | Capacidade de iniciar tarefas e antecipar necessidades sem esperar instruções. | Proativamente iniciei o desenvolvimento das tarefas backend, priorizando a criação de APIs para integração com o frontend. | 90%                 |
+| **Organização**     | Capacidade de estruturar tarefas e prioridades de forma eficiente. | Organizei o fluxo de trabalho entre as equipes de frontend e backend para garantir entregas rápidas e sem retrabalho. | 85%                 |
+| **Comunicação**     | Capacidade de se expressar claramente e alinhar expectativas. | Comuniquei de forma clara os requisitos entre as equipes e garanti o alinhamento entre backend e frontend. | 80%                 |
+| **Colaboração**     | Habilidade de trabalhar em equipe para alcançar objetivos comuns. | Trabalhei de forma colaborativa com a equipe de backend para garantir que as APIs atendessem às necessidades do frontend. | 95%                 |
+| **Adaptabilidade**  | Flexibilidade para lidar com mudanças inesperadas.                | Ajustei o planejamento conforme novas necessidades e mudanças de escopo do projeto.   | 90%                 |
+
+
+
+
 <!-- Links para navegação -->
 <a href="#topo">Voltar ao topo</a>
 
@@ -643,7 +619,7 @@ Desenvolver um **dashboard web de alta complexidade** que permita:
 
 # Minhas Contribuições  
 
-## Perspectiva no Projeto TecSUS  
+## Perspectiva no Projeto TecSUS como desenvolvedor 
 
 No projeto **TecSUS**, atuei como desenvolvedor, contribuindo para a implementação de soluções técnicas que viabilizassem dashboards confiáveis e estruturados para os clientes. Minhas entregas envolveram desde a modelagem de dados e pipelines de ETL até a adoção de práticas de DevOps para otimizar o fluxo de trabalho da equipe.  
 
