@@ -73,10 +73,9 @@ Olá, sou **Leonardo Adler da Silva**, estudante de Banco de Dados na Fatec FATE
 
 [Link para o Repositório](https://github.com/LeoAdlerr/Projeto-Integrador-2021-2-Grupo3)
 
+## Descrição do projeto
 
-### Descrição do Projeto
-
-Este projeto teve um impacto social significativo, ajudando a população a entender a evolução da pandemia. Através dos dados de casos confirmados e óbitos, a aplicação incentiva uma análise crítica sobre as medidas tomadas no estado de SP, contribuindo para uma visão mais informada sobre a pandemia.
+Este projeto teve como objetivo desenvolver um programa que forneça e informe as estatísticas através de gráficos dos dados relacionados a Covid-19 no estado de São Paulo. A ideia é criar um programa com sistema eficaz e simples no terminal.
 
 ### Objetivos
 
