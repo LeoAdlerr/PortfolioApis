@@ -43,7 +43,7 @@ Sempre fui interessado por tecnologia, desde montar meu próprio PC na infância
                     <li>Controle de Anomalias Prediais (JAIA)</li>
                 </ul>
             </td>
-            <td>Intermediário</td>
+            <td>Avançado</td>
         </tr>
         <tr>
             <td>Vue.js</td>
@@ -57,8 +57,8 @@ Sempre fui interessado por tecnologia, desde montar meu próprio PC na infância
             <td>Intermediário</td>
         </tr>
         <tr>
-            <td>Node.js</td>
-            <td>Plataforma para execução de código JavaScript no backend, ideal para aplicações escaláveis.</td>
+            <td>Node.js(Nest.js)</td>
+            <td>Plataforma para execução de código JavaScript no backend, ideal para aplicações escaláveis. Experiência avançada no uso do framework Nest.js para criação de APIs RESTful estruturadas e eficientes.</td>
             <td>
                 <ul>
                     <li>Dashboard para Faturas (TECSUS)</li>
@@ -79,6 +79,26 @@ Sempre fui interessado por tecnologia, desde montar meu próprio PC na infância
             <td>Avançado</td>
         </tr>
         <tr>
+            <td>Modelagem Relacional</td>
+            <td>Desenho de bancos de dados relacionais, garantindo integridade e normalização das tabelas.</td>
+            <td>
+                <ul>
+                    <li>Todos os projetos a partir da Gestão de Ativação de Clientes (Dom Rock)</li>
+                </ul>
+            </td>
+            <td>Avançado</td>
+        </tr>
+        <tr>
+            <td>Modelagem Estrela/Dimensional</td>
+            <td>Desenvolvimento de modelos dimensionais para suporte a análises e geração de insights.</td>
+            <td>
+                <ul>
+                    <li>Dashboard para Faturas (TECSUS)</li>
+                </ul>
+            </td>
+            <td>Intermediário</td>
+        </tr>
+        <tr>
             <td>PHP</td>
             <td>Desenvolvimento de soluções backend, principalmente em ambiente empresarial, com foco em eficiência e integração.</td>
             <td>
@@ -86,7 +106,7 @@ Sempre fui interessado por tecnologia, desde montar meu próprio PC na infância
                     <li>Estagiário de Desenvolvimento de Software (Vivo Telefônica - 2 anos)</li>
                 </ul>
             </td>
-            <td>Intermediário</td>
+            <td>Avançado</td>
         </tr>
         <tr>
             <td>Docker</td>
@@ -117,7 +137,7 @@ Sempre fui interessado por tecnologia, desde montar meu próprio PC na infância
                     <li>Análise de Endossantes (SPC Grafeno)</li>
                 </ul>
             </td>
-            <td>Básico</td>
+            <td>Intermediário</td>
         </tr>
     </tbody>
 </table>
