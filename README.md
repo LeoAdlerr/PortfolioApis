@@ -162,7 +162,7 @@ Sempre fui interessado por tecnologia, desde montar meu próprio PC na infância
      <td><a href="#portfolio2DomRock">2º Semestre Java Desktop (DomRock)</a></td>
      <td>Desenvolvimento de uma solução para gestão da ativação de clientes na plataforma Dom Rock, permitindo a entrada de dados sobre parâmetros e variáveis de cada cliente, com modelagem de dados para futuras
       integrações e geração de relatórios.</td>
-     <td>Java, Swing, SqlServer</td>
+     <td>Java, Swing, SqlServer/Azure</td>
      <td>DomRock</td>
  </tr>
         <tr>
@@ -187,7 +187,7 @@ Sempre fui interessado por tecnologia, desde montar meu próprio PC na infância
         <tr>
   <td><a href="#portfolio6SPCGrafeno">6º Semestre Inteligência Artificial - Node.js (SPC Grafeno)</a></td>
       <td>Desenvolvimento de produtos financeiros inovadores utilizando aprendizado de máquina para analisar a confiabilidade de endossantes e prever tendências de ativos financeiros.</td>
-      <td>Node.js, Vue.js, Machine Learning, IA/TensorFlow, PostgreSQL, Railway, Docker/Docker Compose</td>
+      <td>Node.js, Vue.js, Machine Learning, IA/TensorFlow, MongoDB, PostgreSQL, Railway, Docker/Docker Compose</td>
   <td>SPC Grafeno</td>
  </tr>
     </tbody>
