@@ -11,7 +11,7 @@ Sou **Leonardo Adler da Silva**, de **São José dos Campos**, apaixonado por **
 
 Sempre fui interessado por tecnologia, desde montar meu próprio PC na infância, o que me motivou a seguir a carreira em **Banco de Dados** na **Fatec São José dos Campos**. Atualmente, sou **estagiário de Desenvolvimento de Software** na **Vivo - Telefônica**, com foco em **PHP**, e continuo aprendendo e aplicando novas tecnologias e práticas no meu dia a dia profissional.
 
-### Minhas Principais Tecnologias 
+### Minhas Principais Tecnologias e Habilidades
 
 <table style="width:100%; border-collapse: collapse; margin-top: 20px;">
     <thead>
@@ -23,6 +23,18 @@ Sempre fui interessado por tecnologia, desde montar meu próprio PC na infância
         </tr>
     </thead>
     <tbody>
+        <tr>
+            <td>Git</td>
+            <td>Versionamento de código utilizando os workflows <b>Git Flow</b> e <b>Trunk-Based Development</b> para gerenciamento eficiente de branches e deploy contínuo. Utilizado consistentemente nos projetos da FATEC nos últimos 3 anos.</td>
+            <td>
+                <ul>
+                    <li>Controle de Anomalias Prediais (JAIA)</li>
+                    <li>Dashboard para Faturas (TECSUS)</li>
+                    <li>Análise de Endossantes (SPC Grafeno)</li>
+                </ul>
+            </td>
+            <td>Avançado</td>
+        </tr>
         <tr>
             <td>Java</td>
             <td>Programação orientada a objetos para desenvolvimento de aplicações robustas, tanto desktop quanto backend.</td>
@@ -52,13 +64,14 @@ Sempre fui interessado por tecnologia, desde montar meu próprio PC na infância
                 <ul>
                     <li>Controle de Anomalias Prediais (JAIA)</li>
                     <li>Dashboard para Faturas (TECSUS)</li>
+                    <li>Análise de Endossantes (SPC Grafeno)</li>
                 </ul>
             </td>
             <td>Intermediário</td>
         </tr>
         <tr>
-            <td>Node.js(Nest.js)</td>
-            <td>Plataforma para execução de código JavaScript no backend, ideal para aplicações escaláveis. Experiência avançada no uso do framework Nest.js para criação de APIs RESTful estruturadas e eficientes.</td>
+            <td>Node.js (Nest.js)</td>
+            <td>Plataforma para execução de código JavaScript no backend. Experiência avançada no uso do framework <b>Nest.js</b> para criação de APIs RESTful estruturadas e eficientes.</td>
             <td>
                 <ul>
                     <li>Dashboard para Faturas (TECSUS)</li>
@@ -84,26 +97,6 @@ Sempre fui interessado por tecnologia, desde montar meu próprio PC na infância
             <td>
                 <ul>
                     <li>Todos os projetos a partir da Gestão de Ativação de Clientes (Dom Rock)</li>
-                </ul>
-            </td>
-            <td>Avançado</td>
-        </tr>
-        <tr>
-            <td>Modelagem Estrela/Dimensional</td>
-            <td>Desenvolvimento de modelos dimensionais para suporte a análises e geração de insights.</td>
-            <td>
-                <ul>
-                    <li>Dashboard para Faturas (TECSUS)</li>
-                </ul>
-            </td>
-            <td>Intermediário</td>
-        </tr>
-        <tr>
-            <td>PHP</td>
-            <td>Desenvolvimento de soluções backend, principalmente em ambiente empresarial, com foco em eficiência e integração.</td>
-            <td>
-                <ul>
-                    <li>Estagiário de Desenvolvimento de Software (Vivo Telefônica - 2 anos)</li>
                 </ul>
             </td>
             <td>Avançado</td>
@@ -141,6 +134,7 @@ Sempre fui interessado por tecnologia, desde montar meu próprio PC na infância
         </tr>
     </tbody>
 </table>
+
 
 
 
