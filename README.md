@@ -7,9 +7,123 @@
 
 ## Sobre Mim
 
-Sou **Leonardo Adler da Silva**, de **São José dos Campos**, apaixonado por **tecnologia** e **esportes**. Minha jornada começou no **Banco do Brasil**, onde fui aprendiz bancário durante o ensino médio, e continuei buscando desafios, como tentar ingressar no time de **vôlei** da cidade. 
+Sou **Leonardo Adler da Silva**, de **São José dos Campos**, apaixonado por **tecnologia** e **esportes**. Minha jornada profissional começou no **Banco do Brasil**, onde fui aprendiz bancário durante o ensino médio, e continuei buscando desafios nesse meio tempo, como tentar ingressar no time de **vôlei** da minha. 
 
-Sempre fui fascinado por tecnologia, desde montar meu próprio PC na infância, o que me motivou a seguir a carreira em **Banco de Dados** na **Fatec São José dos Campos**. Atualmente, sou **estagiário de Desenvolvimento de Software** na **Vivo - Telefônica**, com foco em **PHP**, e continuo aprendendo e aplicando novas tecnologias e práticas no meu dia a dia profissional.
+Sempre fui interessado por tecnologia, desde montar meu próprio PC na infância, o que me motivou a seguir a carreira em **Banco de Dados** na **Fatec São José dos Campos**. Atualmente, sou **estagiário de Desenvolvimento de Software** na **Vivo - Telefônica**, com foco em **PHP**, e continuo aprendendo e aplicando novas tecnologias e práticas no meu dia a dia profissional.
+
+### Minhas Principais Tecnologias 
+
+<table style="width:100%; border-collapse: collapse; margin-top: 20px;">
+    <thead>
+        <tr>
+            <th style="border: 1px solid #ccc; padding: 10px; text-align: left;">Tecnologia</th>
+            <th style="border: 1px solid #ccc; padding: 10px; text-align: left;">Descrição</th>
+            <th style="border: 1px solid #ccc; padding: 10px; text-align: left;">Projetos Destacados</th>
+            <th style="border: 1px solid #ccc; padding: 10px; text-align: left;">Nível de Proficiência</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Java</td>
+            <td>Programação orientada a objetos para desenvolvimento de aplicações robustas, tanto desktop quanto backend.</td>
+            <td>
+                <ul>
+                    <li>Gestão de Ativação de Clientes (Dom Rock)</li>
+                    <li>Automação de Dados Meteorológicos (IACIT)</li>
+                </ul>
+            </td>
+            <td>Avançado</td>
+        </tr>
+        <tr>
+            <td>Spring Boot</td>
+            <td>Framework Java para construção de APIs RESTful e serviços escaláveis.</td>
+            <td>
+                <ul>
+                    <li>Automação de Dados Meteorológicos (IACIT)</li>
+                    <li>Controle de Anomalias Prediais (JAIA)</li>
+                </ul>
+            </td>
+            <td>Intermediário</td>
+        </tr>
+        <tr>
+            <td>Vue.js</td>
+            <td>Framework JavaScript para desenvolvimento de interfaces de usuário interativas e reativas.</td>
+            <td>
+                <ul>
+                    <li>Controle de Anomalias Prediais (JAIA)</li>
+                    <li>Dashboard para Faturas (TECSUS)</li>
+                </ul>
+            </td>
+            <td>Intermediário</td>
+        </tr>
+        <tr>
+            <td>Node.js</td>
+            <td>Plataforma para execução de código JavaScript no backend, ideal para aplicações escaláveis.</td>
+            <td>
+                <ul>
+                    <li>Dashboard para Faturas (TECSUS)</li>
+                    <li>Análise de Endossantes (SPC Grafeno)</li>
+                </ul>
+            </td>
+            <td>Avançado</td>
+        </tr>
+        <tr>
+            <td>SQL</td>
+            <td>Manipulação e gerenciamento de dados utilizando bancos como PostgreSQL, MySQL e SQL Server.</td>
+            <td>
+                <ul>
+                    <li>Gestão de Ativação de Clientes (Dom Rock)</li>
+                    <li>Análise de Endossantes (SPC Grafeno)</li>
+                </ul>
+            </td>
+            <td>Avançado</td>
+        </tr>
+        <tr>
+            <td>PHP</td>
+            <td>Desenvolvimento de soluções backend, principalmente em ambiente empresarial, com foco em eficiência e integração.</td>
+            <td>
+                <ul>
+                    <li>Estagiário de Desenvolvimento de Software (Vivo Telefônica - 2 anos)</li>
+                </ul>
+            </td>
+            <td>Intermediário</td>
+        </tr>
+        <tr>
+            <td>Docker</td>
+            <td>Ferramenta para criação de ambientes isolados e consistentes para desenvolvimento e deploy.</td>
+            <td>
+                <ul>
+                    <li>Controle de Anomalias Prediais (JAIA)</li>
+                    <li>Análise de Endossantes (SPC Grafeno)</li>
+                </ul>
+            </td>
+            <td>Intermediário</td>
+        </tr>
+        <tr>
+            <td>Machine Learning</td>
+            <td>Criação de modelos de aprendizado de máquina para análise de dados e geração de insights preditivos.</td>
+            <td>
+                <ul>
+                    <li>Análise de Endossantes (SPC Grafeno)</li>
+                </ul>
+            </td>
+            <td>Básico</td>
+        </tr>
+        <tr>
+            <td>MongoDB</td>
+            <td>Banco de dados NoSQL para armazenamento de dados não estruturados e flexíveis.</td>
+            <td>
+                <ul>
+                    <li>Análise de Endossantes (SPC Grafeno)</li>
+                </ul>
+            </td>
+            <td>Básico</td>
+        </tr>
+    </tbody>
+</table>
+
+
+
 
 
 ### 🚀 Projetos por Semestre
