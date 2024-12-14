@@ -11,6 +11,12 @@ Sou **Leonardo Adler da Silva**, de **São José dos Campos**, apaixonado por **
 
 Sempre fui interessado por tecnologia, desde montar meu próprio PC na infância, o que me motivou a seguir a carreira em **Banco de Dados** na **Fatec São José dos Campos**. Atualmente, sou **estagiário de Desenvolvimento de Software** na **Vivo - Telefônica**, com foco em **PHP**, e continuo aprendendo e aplicando novas tecnologias e práticas no meu dia a dia profissional.
 
+### Contato
+
+- **Email**: [leonardoadlersilva@gmail.com](mailto:leonardoadlersilva@gmail.com)  
+- **LinkedIn**: [https://www.linkedin.com/in/leonardo-adler-6b4a37228/](https://www.linkedin.com/in/leonardo-adler-6b4a37228/)
+
+
 ### Minhas Principais Tecnologias e Habilidades
 
 <table style="width:100%; border-collapse: collapse; margin-top: 20px;">
