@@ -108,11 +108,22 @@ Sempre fui interessado por tecnologia, desde montar meu próprio PC na infância
             <td>Avançado</td>
         </tr>
         <tr>
+            <td>Modelagem Dimensional</td>
+            <td>Construção de esquemas estrela e floco de neve para projetos de Data Warehouse, otimizando consultas analíticas.</td>
+            <td>
+                <ul>
+                    <li>Dashboard para Faturas (TECSUS)</li>
+                </ul>
+            </td>
+            <td>Intermediário</td>
+        </tr>
+        <tr>
             <td>Docker</td>
             <td>Ferramenta para criação de ambientes isolados e consistentes para desenvolvimento e deploy.</td>
             <td>
                 <ul>
                     <li>Controle de Anomalias Prediais (JAIA)</li>
+                    <li>Dashboard Web para Faturas (TECSUS)</li>
                     <li>Análise de Endossantes (SPC Grafeno)</li>
                 </ul>
             </td>
