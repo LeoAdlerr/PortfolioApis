@@ -89,7 +89,7 @@
                         <li>Dashboard para Faturas (TECSUS)</li>
                     </ul>
                 </td>
-                <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Avançado</td>
+                <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Intermediario</td>
             </tr>
         <tr>
                 <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Testes Automatizados</td>
@@ -99,7 +99,7 @@
                         <li>App de Inspeção 8/18</li>
                     </ul>
                 </td>
-                <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Avançado (Unitários)<br>Intermediário (E2E)</td>
+                <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Intermediario (Unitários)<br>Intermediário (E2E)</td>
             </tr>
         </tbody>
 </table>
