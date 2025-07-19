@@ -1,216 +1,144 @@
-<!-- Seções do portfólio -->
-<div id="topo">
-    <h1>Bem-vindo ao Meu Portfólio dos Projetos API's (Aprendizagem de Projetos Integradores) by FATEC São José dos Campos - Jessen Vidal</h1>
-</div>
+<div id="topo" style="font-family: Arial, sans-serif; color: #333; line-height: 1.6;">
 
-<img src="https://github.com/LeoAdlerr/PortfolioApis/blob/main/imgs/leoimg.jpg" width="300" height="auto">
+<h1 style="color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; margin-top: 20px;">
+    Bem-vindo ao Meu Portfólio de Projetos
+</h1>
+<p style="text-align: center; font-style: italic; color: #555;">by Leonardo Adler da Silva</p>
 
-## Sobre Mim
+<img src="https://github.com/LeoAdlerr/PortfolioApis/blob/main/imgs/leoimg.jpg" alt="Leonardo Adler" style="display: block; margin: 30px auto; border-radius: 50%; width: 200px; height: 200px; object-fit: cover; border: 5px solid #3498db;">
 
-Sou **Leonardo Adler da Silva**, de **São José dos Campos**, apaixonado por **tecnologia** e **esportes**. Minha jornada profissional começou no **Banco do Brasil**, onde fui aprendiz bancário durante o ensino médio, e continuei buscando desafios nesse meio tempo, como tentar ingressar no time de **vôlei** da minha. 
+<h2 style="color: #2c3e50; border-bottom: 1px solid #ccc; padding-bottom: 5px; margin-top: 40px;">Sobre Mim</h2>
+<p>
+    Sou <strong>Leonardo Adler da Silva</strong>, de <strong>São José dos Campos</strong>, apaixonado por <strong>tecnologia</strong> e <strong>esportes</strong>. Minha jornada profissional começou no <strong>Banco do Brasil</strong> e, desde então, venho buscando desafios que me permitam crescer.
+</p>
+<p>
+    Meu interesse por tecnologia começou na infância, ao montar meu próprio PC, e me levou a cursar <strong>Banco de Dados</strong> na <strong>Fatec São José dos Campos</strong>. Atualmente, sou <strong>Analista de Sistemas e Desenvolvedor Full-Stack</strong> na <strong>Universal Armazéns Gerais e Alfandegados</strong>, onde lidero projetos de software e aplico meu conhecimento em tecnologias como <strong>Node.js (NestJS)</strong> e <strong>Java (Spring Boot)</strong> para criar soluções de alto impacto.
+</p>
 
-Sempre fui interessado por tecnologia, desde montar meu próprio PC na infância, o que me motivou a seguir a carreira em **Banco de Dados** na **Fatec São José dos Campos**. Atualmente, sou **estagiário de Desenvolvimento de Software** na **Vivo - Telefônica**, com foco em **PHP**, e continuo aprendendo e aplicando novas tecnologias e práticas no meu dia a dia profissional.
+<h3 style="color: #2c3e50; margin-top: 30px;">Contato</h3>
+<ul style="list-style-type: none; padding-left: 0;">
+    <li style="margin-bottom: 10px;"><strong>Email:</strong> <a href="mailto:leonardoadlersilva@gmail.com" style="color: #3498db; text-decoration: none;">leonardoadlersilva@gmail.com</a></li>
+    <li style="margin-bottom: 10px;"><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/leonardo-adler-6b4a37228/" target="_blank" style="color: #3498db; text-decoration: none;">https://www.linkedin.com/in/leonardo-adler-6b4a37228/</a></li>
+</ul>
 
-### Contato
-
-- **Email**: [leonardoadlersilva@gmail.com](mailto:leonardoadlersilva@gmail.com)  
-- **LinkedIn**: [https://www.linkedin.com/in/leonardo-adler-6b4a37228/](https://www.linkedin.com/in/leonardo-adler-6b4a37228/)
-
-
-### Minhas Principais Tecnologias e Habilidades
-
+<h3 style="color: #2c3e50; margin-top: 30px;">Minhas Principais Tecnologias e Habilidades</h3>
 <table style="width:100%; border-collapse: collapse; margin-top: 20px;">
     <thead>
-        <tr>
-            <th style="border: 1px solid #ccc; padding: 10px; text-align: left;">Tecnologia</th>
-            <th style="border: 1px solid #ccc; padding: 10px; text-align: left;">Descrição</th>
-            <th style="border: 1px solid #ccc; padding: 10px; text-align: left;">Projetos Destacados</th>
-            <th style="border: 1px solid #ccc; padding: 10px; text-align: left;">Nível de Proficiência</th>
+        <tr style="background-color: #f2f2f2;">
+            <th style="border: 1px solid #ddd; padding: 12px; text-align: left;">Tecnologia</th>
+            <th style="border: 1px solid #ddd; padding: 12px; text-align: left;">Descrição</th>
+            <th style="border: 1px solid #ddd; padding: 12px; text-align: left;">Projetos Destacados</th>
+            <th style="border: 1px solid #ddd; padding: 12px; text-align: left;">Nível de Proficiência</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td>Git</td>
-            <td>Versionamento de código utilizando os workflows <b>Git Flow</b> e <b>Trunk-Based Development</b> para gerenciamento eficiente de branches e deploy contínuo. Utilizado consistentemente nos projetos da FATEC nos últimos 3 anos.</td>
-            <td>
-                <ul>
-                    <li>Controle de Anomalias Prediais (JAIA)</li>
-                    <li>Dashboard para Faturas (TECSUS)</li>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Git</td>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Versionamento de código utilizando os workflows <b>Git Flow</b> e <b>Trunk-Based Development</b> para gerenciamento eficiente de branches e deploy contínuo.</td>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">
+                <ul style="margin: 0; padding-left: 20px;">
+                    <li>App de Inspeção 8/18</li>
                     <li>Análise de Endossantes (SPC Grafeno)</li>
-                </ul>
-            </td>
-            <td>Avançado</td>
-        </tr>
-        <tr>
-            <td>Java</td>
-            <td>Programação orientada a objetos para desenvolvimento de aplicações robustas, tanto desktop quanto backend.</td>
-            <td>
-                <ul>
-                    <li>Gestão de Ativação de Clientes (Dom Rock)</li>
-                    <li>Automação de Dados Meteorológicos (IACIT)</li>
-                </ul>
-            </td>
-            <td>Avançado</td>
-        </tr>
-        <tr>
-            <td>Spring Boot</td>
-            <td>Framework Java para construção de APIs RESTful e serviços escaláveis.</td>
-            <td>
-                <ul>
-                    <li>Automação de Dados Meteorológicos (IACIT)</li>
-                    <li>Controle de Anomalias Prediais (JAIA)</li>
-                </ul>
-            </td>
-            <td>Avançado</td>
-        </tr>
-        <tr>
-            <td>Vue.js</td>
-            <td>Framework JavaScript para desenvolvimento de interfaces de usuário interativas e reativas.</td>
-            <td>
-                <ul>
-                    <li>Controle de Anomalias Prediais (JAIA)</li>
-                    <li>Dashboard para Faturas (TECSUS)</li>
-                    <li>Análise de Endossantes (SPC Grafeno)</li>
-                </ul>
-            </td>
-            <td>Intermediário</td>
-        </tr>
-        <tr>
-            <td>Node.js (Nest.js)</td>
-            <td>Plataforma para execução de código JavaScript no backend. Experiência avançada no uso do framework <b>Nest.js</b> para criação de APIs RESTful estruturadas e eficientes.</td>
-            <td>
-                <ul>
-                    <li>Dashboard para Faturas (TECSUS)</li>
-                    <li>Análise de Endossantes (SPC Grafeno)</li>
-                </ul>
-            </td>
-            <td>Avançado</td>
-        </tr>
-        <tr>
-            <td>SQL</td>
-            <td>Manipulação e gerenciamento de dados utilizando bancos como PostgreSQL, MySQL e SQL Server.</td>
-            <td>
-                <ul>
-                    <li>Gestão de Ativação de Clientes (Dom Rock)</li>
-                    <li>Análise de Endossantes (SPC Grafeno)</li>
-                </ul>
-            </td>
-            <td>Avançado</td>
-        </tr>
-        <tr>
-            <td>Modelagem Relacional</td>
-            <td>Desenho de bancos de dados relacionais, garantindo integridade e normalização das tabelas.</td>
-            <td>
-                <ul>
-                    <li>Todos os projetos a partir da Gestão de Ativação de Clientes (Dom Rock)</li>
-                </ul>
-            </td>
-            <td>Avançado</td>
-        </tr>
-        <tr>
-            <td>Modelagem Dimensional</td>
-            <td>Construção de esquemas estrela e floco de neve para projetos de Data Warehouse, otimizando consultas analíticas.</td>
-            <td>
-                <ul>
                     <li>Dashboard para Faturas (TECSUS)</li>
                 </ul>
             </td>
-            <td>Intermediário</td>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Avançado</td>
         </tr>
         <tr>
-            <td>Docker</td>
-            <td>Ferramenta para criação de ambientes isolados e consistentes para desenvolvimento e deploy.</td>
-            <td>
-                <ul>
-                    <li>Controle de Anomalias Prediais (JAIA)</li>
-                    <li>Dashboard Web para Faturas (TECSUS)</li>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Node.js (Nest.js)</td>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Framework backend para criação de APIs RESTful estruturadas, escaláveis e eficientes, aplicando princípios de Injeção de Dependência e arquitetura modular.</td>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">
+                <ul style="margin: 0; padding-left: 20px;">
+                    <li>App de Inspeção 8/18</li>
                     <li>Análise de Endossantes (SPC Grafeno)</li>
+                    <li>Dashboard para Faturas (TECSUS)</li>
                 </ul>
             </td>
-            <td>Intermediário</td>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Avançado</td>
         </tr>
         <tr>
-            <td>Machine Learning</td>
-            <td>Criação de modelos de aprendizado de máquina para análise de dados e geração de insights preditivos.</td>
-            <td>
-                <ul>
-                    <li>Análise de Endossantes (SPC Grafeno)</li>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Java / Spring Boot</td>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Programação orientada a objetos e desenvolvimento de APIs RESTful robustas e serviços escaláveis.</td>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">
+                <ul style="margin: 0; padding-left: 20px;">
+                     <li>Controle de Anomalias Prediais (JAIA)</li>
+                     <li>Automação de Dados Meteorológicos (IACIT)</li>
                 </ul>
             </td>
-            <td>Básico</td>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Avançado</td>
         </tr>
-        <tr>
-            <td>MongoDB</td>
-            <td>Banco de dados NoSQL para armazenamento de dados não estruturados e flexíveis.</td>
-            <td>
-                <ul>
+         <tr>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Vue.js</td>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Framework JavaScript para desenvolvimento de interfaces de usuário interativas e reativas.</td>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">
+                <ul style="margin: 0; padding-left: 20px;">
+                    <li>App de Inspeção 8/18</li>
                     <li>Análise de Endossantes (SPC Grafeno)</li>
+                    <li>Dashboard para Faturas (TECSUS)</li>
                 </ul>
             </td>
-            <td>Intermediário</td>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Intermediário</td>
         </tr>
-    </tbody>
+        </tbody>
 </table>
 
-
-
-
-
-
-### 🚀 Projetos por Semestre
-
+<h2 style="color: #2c3e50; border-bottom: 1px solid #ccc; padding-bottom: 5px; margin-top: 40px;">🚀 Projetos</h2>
 <table style="width:100%; border-collapse: collapse; margin-top: 20px;">
     <thead>
-        <tr>
-            <th style="border: 1px solid #ccc; padding: 10px; text-align: left;">Projeto</th>
-            <th style="border: 1px solid #ccc; padding: 10px; text-align: left;">Descrição</th>
-            <th style="border: 1px solid #ccc; padding: 10px; text-align: left;">Tecnologias</th>
-            <th style="border: 1px solid #ccc; padding: 10px; text-align: left;">Cliente</th>
+        <tr style="background-color: #f2f2f2;">
+            <th style="border: 1px solid #ddd; padding: 12px; text-align: left;">Projeto</th>
+            <th style="border: 1px solid #ddd; padding: 12px; text-align: left;">Descrição</th>
+            <th style="border: 1px solid #ddd; padding: 12px; text-align: left;">Tecnologias</th>
+            <th style="border: 1px solid #ddd; padding: 12px; text-align: left;">Cliente</th>
         </tr>
     </thead>
     <tbody>
-        <tr>
-            <td><a href="#portfolio1Covid">1º Semestre Python (Fatec/Interno)</a></td>
-            <td>Desenvolvimento de um programa que apresenta estatísticas da Covid-19 em SP, ajudando a população a entender a pandemia através de gráficos e dados acessíveis.</td>
-            <td>Python</td>
-            <td>Fatec</td>
+        <tr style="background-color: #e8f4fd;">
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;"><strong><a href="https://github.com/LeoAdlerr/checklistBalanca" style="color: #3498db; text-decoration: none;">App de Inspeção 8/18 (2025)</a></strong></td>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Desenvolvimento de uma solução full-stack para digitalizar e otimizar o processo de inspeção de cargas, atuando como o principal desenvolvedor e gestor do projeto.</td>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">NestJS, Vue.js, Docker, TypeORM, MySQL</td>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Universal Armazéns (Interno)</td>
         </tr>
         <tr>
-     <td><a href="#portfolio2DomRock">2º Semestre Java Desktop (DomRock)</a></td>
-     <td>Desenvolvimento de uma solução para gestão da ativação de clientes na plataforma Dom Rock, permitindo a entrada de dados sobre parâmetros e variáveis de cada cliente, com modelagem de dados para futuras
-      integrações e geração de relatórios.</td>
-     <td>Java, Swing, SqlServer/Azure</td>
-     <td>DomRock</td>
- </tr>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;"><a href="#portfolio6SPCGrafeno" style="color: #3498db; text-decoration: none;">Análise de Crédito com IA (2024)</a></td>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Desenvolvimento de produtos financeiros inovadores utilizando aprendizado de máquina para analisar a confiabilidade de endossantes e prever tendências de ativos financeiros.</td>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Node.js, Vue.js, FastAPI, Machine Learning, MongoDB, PostgreSQL, Docker</td>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">SPC Grafeno</td>
+        </tr>
         <tr>
-     <td><a href="#portfolio3IACIT">3º Semestre Java - SpringBoot (IACIT)</a></td>
-     <td>Desenvolvimento de um sistema para automatizar a importação e o armazenamento de dados meteorológicos, permitindo a geração de relatórios customizados e reduzindo a perda de tempo e recursos na
-      consultoria meteorológica.</td>
-     <td>Java, SpringBoot, PostgreSQL</td>
-     <td>IACIT</td>
- </tr>
-       <tr>
-     <td><a href="#portfolio4Jaia">4º Semestre Vue.JS - SpringBoot (JAIA)</a></td>
-     <td>Desenvolvimento de um sistema para controlar anomalias em Laudos de Inspeção Predial, gerenciando manutenções preventivas e corretivas para garantir a segurança e qualidade dos patrimônios.</td>
-     <td>Vue.js, Java, SpringBoot, Oracle Cloud/Database, Docker</td>
-     <td>JAIA</td>
- </tr>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;"><a href="#portfolio5Tecsus" style="color: #3498db; text-decoration: none;">Dashboard de Faturas (2024)</a></td>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Desenvolvimento de um dashboard web para análise de faturas de energia e água, com o objetivo de otimizar contratos e reduzir custos para empresas clientes da TecSUS.</td>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Node.js, Vue.js, Power BI, MySQL, Docker</td>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">TECSUS</td>
+        </tr>
         <tr>
-     <td><a href="#portfolio5Tecsus">5º Semestre Node.js - PowerBi (TECSUS)</a></td>
-     <td>Desenvolvimento de um dashboard web para análise de faturas de energia e água, com o objetivo de otimizar contratos e reduzir custos para empresas clientes da TecSUS.</td>
-     <td>Node.js, Vue.js Power BI, MySQL, Docker/Docker Compose, Railway</td>
-     <td>TECSUS</td>
- </tr>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;"><a href="#portfolio4Jaia" style="color: #3498db; text-decoration: none;">Controle de Anomalias Prediais (2023)</a></td>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Desenvolvimento de um sistema para controlar anomalias em Laudos de Inspeção Predial, gerenciando manutenções preventivas e corretivas.</td>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Vue.js, Java, SpringBoot, Oracle Cloud, Docker</td>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">JAIA</td>
+        </tr>
         <tr>
-  <td><a href="#portfolio6SPCGrafeno">6º Semestre Inteligência Artificial - Node.js (SPC Grafeno)</a></td>
-      <td>Desenvolvimento de produtos financeiros inovadores utilizando aprendizado de máquina para analisar a confiabilidade de endossantes e prever tendências de ativos financeiros.</td>
-      <td>Node.js, Vue.js, Machine Learning, IA/TensorFlow, MongoDB, PostgreSQL, Railway, Docker/Docker Compose</td>
-  <td>SPC Grafeno</td>
- </tr>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;"><a href="#portfolio3IACIT" style="color: #3498db; text-decoration: none;">Automação de Dados Meteorológicos (2023)</a></td>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Desenvolvimento de um sistema para automatizar a importação e o armazenamento de dados meteorológicos, permitindo a geração de relatórios customizados.</td>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Java, SpringBoot, PostgreSQL</td>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">IACIT</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;"><a href="#portfolio2DomRock" style="color: #3498db; text-decoration: none;">Gestão de Ativação de Clientes (2022)</a></td>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Desenvolvimento de uma solução desktop para gestão da ativação de clientes, permitindo a entrada de dados e modelagem para futuras integrações.</td>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Java, Swing, SQL Server</td>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">DomRock</td>
+        </tr>
+         <tr>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;"><a href="#portfolio1Covid" style="color: #3498db; text-decoration: none;">Análise de Dados da Covid-19 (2021)</a></td>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Desenvolvimento de um programa que apresenta estatísticas da Covid-19 em SP, ajudando a população a entender a pandemia através de gráficos e dados.</td>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Python, Pandas, Matplotlib</td>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Fatec (Interno)</td>
+        </tr>
     </tbody>
 </table>
 
-#### Feito com entusiasmo por Leonardo Adler da Silva
+<p style="text-align: center; margin-top: 30px; font-style: italic; color: #555;">Feito com entusiasmo por Leonardo Adler da Silva</p>
 
 <br>
 
