@@ -94,7 +94,7 @@
     </thead>
     <tbody>
         <tr style="background-color: #e8f4fd;">
-            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;"><strong><a href="https://github.com/LeoAdlerr/checklistBalanca" style="color: #3498db; text-decoration: none;">App de Inspeção 8/18 (2025)</a></strong></td>
+            <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;"><strong><a href="#portfolio7Checklist" style="color: #3498db; text-decoration: none;">App de Inspeção 8/18 (2025)</a></strong></td>
             <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Desenvolvimento de uma solução full-stack para digitalizar e otimizar o processo de inspeção de cargas, atuando como o principal desenvolvedor e gestor do projeto.</td>
             <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">NestJS, Vue.js, Docker, TypeORM, MySQL</td>
             <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Universal Armazéns (Interno)</td>
@@ -139,6 +139,162 @@
 </table>
 
 <p style="text-align: center; margin-top: 30px; font-style: italic; color: #555;">Feito com entusiasmo por Leonardo Adler da Silva</p>
+
+<br>
+
+<div id="portfolio7Checklist" style="font-family: Arial, sans-serif; color: #333; line-height: 1.6;">
+
+<hr style="border: 0; height: 1px; background-color: #ccc; margin: 60px 0;">
+
+<h2 style="color: #2c3e50; border-bottom: 1px solid #ccc; padding-bottom: 5px;">
+    Projeto App de Inspeção Digital 8/18 (Universal Armazéns, 2025)
+</h2>
+<p>
+    <strong>Parceiro Corporativo:</strong> Universal Armazéns Gerais e Alfandegados (Projeto Interno)<br>
+    <strong>Link para Repositório do Projeto:</strong> <a href="xxxx" style="color: #3498db; text-decoration: none; font-weight: bold;">Repositório do Projeto (Open Source)</a>
+</p>
+
+<h3 style="color: #2c3e50; margin-top: 30px;">Propósito</h3>
+<p>Digitalizar e otimizar um processo de inspeção de cargas 100% manual e baseado em papel, visando aumentar a agilidade, garantir a rastreabilidade das informações e transformar dados operacionais em insights estratégicos para o negócio.</p>
+
+<h3 style="color: #2c3e50; margin-top: 30px;">Contexto</h3>
+<p>A Universal Armazéns dependia de um formulário físico ("Form. 24") para realizar inspeções de unidades de carga, um processo lento, suscetível a erros e que não gerava dados para análise posterior. Como um desafio proposto pela liderança de TI, recebi a autonomia e a responsabilidade de conceber e desenvolver do zero uma solução de melhoria para este processo crítico.</p>
+
+<h3 style="color: #2c3e50; margin-top: 30px;">Desafio</h3>
+<p>O desafio foi multifacetado: além da complexidade técnica de construir uma aplicação full-stack com funcionalidades como upload de arquivos e geração de PDFs, o maior obstáculo era criar uma solução sustentável, que pudesse ser mantida e evoluída pela equipe interna. Isso exigiu uma abordagem que considerasse não apenas o código, mas também o nivelamento técnico do time.</p>
+
+<h3 style="color: #2c3e50; margin-top: 30px;">Solução Proposta</h3>
+<p>Uma aplicação web full-stack, responsiva e de alta performance, que permite aos inspetores realizar o checklist de 18 pontos em qualquer dispositivo. A solução conta com um backend robusto em <strong>NestJS</strong> e um frontend reativo em <strong>Vue.js</strong>, permitindo o preenchimento dos dados, anexo de evidências fotográficas, captura de assinaturas digitais e a geração automática de um relatório PDF idêntico ao formulário físico, garantindo conformidade e eficiência.</p>
+
+<hr style="border: 0; height: 1px; background-color: #eee; margin: 40px 0;">
+
+<details>
+  <summary><strong>Visualizar Arquitetura do Sistema e Modelo de Dados</strong></summary>
+  <p>A aplicação foi projetada com uma arquitetura desacoplada, seguindo os princípios de Clean Architecture e Domain-Driven Design (DDD) para garantir separação de responsabilidades e escalabilidade.</p>
+  <p><em>Nota: Os diagramas abaixo são representados como código e podem precisar do suporte nativo do GitHub ou extensão para renderizar visualmente.</em></p>
+
+  <h4>Diagrama de Arquitetura</h4>
+  
+```mermaid
+graph TD
+    subgraph "Cliente"
+        A[/"Vue.js Web App (Desktop/Mobile)"/]
+    end
+    subgraph "Servidor Backend (NestJS)"
+        B(API Gateway / Controllers)
+        C{Auth Service}
+        D[Inspection Service]
+        E[PDF Service]
+        F[File Service]
+        G((TypeORM))
+    end
+    subgraph "Infraestrutura"
+        H[(MySQL Database)]
+        I[(File Storage)]
+    end
+    A --> B
+    B --> C
+    B --> D
+    B --> F
+    D --> E
+    D --> G
+    F --> I
+    E --> I
+    G --> H
+ ```
+<h4 style="color: #2c3e50; margin-top: 20px;">Modelo de Entidade-Relacionamento (MER)</h4>
+
+```mermaid
+    erDiagram
+        INSPECTIONS ||--o{ INSPECTION_CHECKLIST_ITEMS : "contém"
+        INSPECTION_CHECKLIST_ITEMS ||--o{ ITEM_EVIDENCES : "tem"
+        MASTER_INSPECTION_POINTS ||--o{ INSPECTION_CHECKLIST_ITEMS : "é ponto de"
+        LOOKUP_STATUSES ||--o{ INSPECTIONS : "tem status"
+```
+</details>
+
+<p>As principais tecnologias utilizadas foram:</p>
+<ul style="list-style-type: disc; padding-left: 20px;">
+    <li style="margin-bottom: 5px;"><strong>Backend:</strong> Node.js, NestJS, TypeORM, JWT para segurança.</li>
+    <li style="margin-bottom: 5px;"><strong>Frontend:</strong> Vue.js, Pinia para gerenciamento de estado.</li>
+    <li style="margin-bottom: 5px;"><strong>Banco de Dados:</strong> MySQL.</li>
+    <li style="margin-bottom: 5px;"><strong>Infraestrutura e DevOps:</strong> Docker, Docker Compose para ambiente de desenvolvimento e simulação de CI.</li>
+    <li style="margin-bottom: 5px;"><strong>Testes:</strong> Jest para testes unitários e de integração.</li>
+</ul>
+
+<hr style="border: 0; height: 1px; background-color: #eee; margin: 40px 0;">
+
+<h3 style="color: #2c3e50; margin-top: 30px;">Minhas Contribuições e Aprendizados</h3>
+<p>Neste projeto, atuei em múltiplas frentes: como <strong>Product Owner (PO)</strong>, planejando o escopo; como <strong>Scrum Master</strong>, gerenciando o fluxo de trabalho; e como <strong>único Desenvolvedor</strong>, implementando a solução.</p>
+
+<h4 style="color: #34495e; margin-top: 20px;">A Tomada de Decisão Estratégica: O "Pivot" Tecnológico</h4>
+<p>Inicialmente, comecei o desenvolvimento do backend com Java e Spring Boot. Contudo, rapidamente percebi que a curva de aprendizado para o restante da equipe — que precisaria manter o sistema no futuro — seria muito alta. Embora eles tivessem familiaridade com Node.js, o paradigma de Orientação a Objetos (OO) ainda era um desafio. Em uma decisão estratégica, decidi reiniciar o backend utilizando <strong>NestJS</strong>. Essa escolha, apesar de parecer um retrabalho, foi fundamental para garantir a longevidade e a manutenibilidade do projeto dentro da empresa.</p>
+
+<h4 style="color: #34495e; margin-top: 20px;">Iniciativa de Mentoria: Capacitando a Equipe</h4>
+<p>Para resolver o gap de conhecimento em OO, desenvolvi e ministrei um programa de <strong>5 aulas sobre Orientação a Objetos</strong> para os outros desenvolvedores. Esse processo ocorreu em paralelo ao desenvolvimento do backend e foi um sucesso: não apenas fortaleceu meus próprios conceitos, como também nivelou o conhecimento da equipe, preparando-os para futuros desafios e para a manutenção do novo sistema.</p>
+
+<h4 style="color: #34495e; margin-top: 20px;">Desafios e Resolução Ágil</h4>
+<p>Como PO, cometi uma falha no planejamento inicial ao não prever alguns endpoints de `GET` essenciais para o frontend. Percebi isso apenas quando, já atuando como dev, minhas próprias tarefas de frontend ficaram bloqueadas. Felizmente, como Scrum Master, eu havia planejado a sprint com uma "gordura" de tempo para imprevistos. Isso me permitiu pausar o frontend, voltar ao backend, implementar as rotas faltantes e retomar o desenvolvimento sem comprometer a data de entrega do MVP, mantendo o burndown chart na linha ideal.</p>
+
+<hr style="border: 0; height: 1px; background-color: #eee; margin: 40px 0;">
+
+<h3 style="color: #2c3e50; margin-top: 30px;">Hard Skills Aplicadas</h3>
+<table style="width:100%; border-collapse: collapse; margin-top: 15px;">
+    <thead style="background-color: #f2f2f2;">
+        <tr>
+            <th style="border: 1px solid #ddd; padding: 12px; text-align: left;">Habilidade</th>
+            <th style="border: 1px solid #ddd; padding: 12px; text-align: left;">Como foi aplicada no projeto</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 12px; font-weight: bold;">NestJS & SOLID</td>
+            <td style="border: 1px solid #ddd; padding: 12px;">Arquitetura do backend, implementando use-cases, injeção de dependência e lógica de negócio de forma limpa e testável.</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 12px; font-weight: bold;">Gestão de Projeto Ágil (PO/SM)</td>
+            <td style="border: 1px solid #ddd; padding: 12px;">Definição de User Stories, Critérios de Aceite (DoR/DoD), planejamento de sprint, gestão de backlog e acompanhamento via burndown.</td>
+        </tr>
+         <tr>
+            <td style="border: 1px solid #ddd; padding: 12px; font-weight: bold;">Docker & Docker Compose</td>
+            <td style="border: 1px solid #ddd; padding: 12px;">Criação de um ambiente de desenvolvimento local, isolado e consistente, simulando um processo de CI para garantir a qualidade antes do merge.</td>
+        </tr>
+         <tr>
+            <td style="border: 1px solid #ddd; padding: 12px; font-weight: bold;">Testes Unitários (Jest)</td>
+            <td style="border: 1px solid #ddd; padding: 12px;">Desenvolvimento de testes para todos os use-cases, controllers e repositórios, garantindo a confiabilidade de cada parte da aplicação.</td>
+        </tr>
+    </tbody>
+</table>
+
+<h3 style="color: #2c3e50; margin-top: 30px;">Soft Skills Desenvolvidas</h3>
+ <table style="width:100%; border-collapse: collapse; margin-top: 15px;">
+    <thead style="background-color: #f2f2f2;">
+        <tr>
+            <th style="border: 1px solid #ddd; padding: 12px; text-align: left;">Habilidade</th>
+            <th style="border: 1px solid #ddd; padding: 12px; text-align: left;">Como foi aplicada no projeto</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 12px; font-weight: bold;">Liderança e Iniciativa</td>
+            <td style="border: 1px solid #ddd; padding: 12px;">Assumi total responsabilidade pelo projeto, desde a concepção até a entrega, e criei proativamente um programa de capacitação para a equipe.</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 12px; font-weight: bold;">Pensamento Estratégico</td>
+            <td style="border: 1px solid #ddd; padding: 12px;">Realizei o pivot tecnológico de Java para NestJS, priorizando a sustentabilidade do projeto a longo prazo em vez da conveniência imediata.</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 12px; font-weight: bold;">Adaptabilidade e Resolução de Problemas</td>
+            <td style="border: 1px solid #ddd; padding: 12px;">Identifiquei minha própria falha de planejamento e rapidamente ajustei o curso, desenvolvendo as APIs faltantes para desbloquear o frontend sem atrasar a sprint.</td>
+        </tr>
+    </tbody>
+</table>
+
+<div style="margin-top: 40px; text-align: center;">
+    <a href="#topo" style="color: #3498db; text-decoration: none;">Voltar ao topo</a>
+</div>
+
+</div>
 
 <br>
 
