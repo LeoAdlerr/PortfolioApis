@@ -79,6 +79,28 @@
             </td>
             <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Intermediário</td>
         </tr>
+         <tr>
+                <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Docker & CI/CD</td>
+                <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Criação de ambientes de desenvolvimento e teste totalmente containerizados com <b>Docker Compose</b>. Experiência na automação de pipelines de testes (unitários e E2E) como base para processos de Integração Contínua (CI).</td>
+                <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">
+                    <ul style="margin: 0; padding-left: 20px;">
+                        <li>App de Inspeção 8/18</li>
+                        <li>Análise de Endossantes (SPC Grafeno)</li>
+                        <li>Dashboard para Faturas (TECSUS)</li>
+                    </ul>
+                </td>
+                <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Avançado</td>
+            </tr>
+        <tr>
+                <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Testes Automatizados</td>
+                <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Implementação de suítes de testes para garantir a qualidade e a estabilidade do software, com foco em <b>Testes Unitários</b> para a lógica de negócio (Use Cases) e <b>Testes End-to-End (E2E)</b> para validar os fluxos completos da aplicação.</td>
+                <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">
+                    <ul style="margin: 0; padding-left: 20px;">
+                        <li>App de Inspeção 8/18</li>
+                    </ul>
+                </td>
+                <td style="border: 1px solid #ddd; padding: 12px; vertical-align: top;">Avançado (Unitários)<br>Intermediário (E2E)</td>
+            </tr>
         </tbody>
 </table>
 
