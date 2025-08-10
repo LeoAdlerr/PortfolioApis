@@ -276,6 +276,10 @@
         <div style="text-align: center;">
             <img src="imgs/ArquiteturaApp8-18.png" alt="Diagrama de Arquitetura da Aplicação" style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px;">
         </div>
+        <h4 style="color: #2c3e50; margin-top: 20px;"> MER </h4>
+        <div style="text-align: center;">
+            <img src="imgs/modelagemInspecao8-18.png" alt="Diagrama de Arquitetura da Aplicação" style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px;">
+        </div>
     </div>
 </details>
 
