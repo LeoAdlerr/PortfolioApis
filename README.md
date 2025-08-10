@@ -169,219 +169,133 @@
 <hr style="border: 0; height: 1px; background-color: #ccc; margin: 60px 0;">
 
 <h2 style="color: #2c3e50; border-bottom: 1px solid #ccc; padding-bottom: 5px;">
-    Projeto App de Inspeção Digital 8/18 (Universal Armazéns, 2025)
+    Projeto: App de Inspeção Digital 8/18 (Universal Armazéns, 2025)
 </h2>
 <p>
     <strong>Parceiro Corporativo:</strong> Universal Armazéns Gerais e Alfandegados (Projeto Interno)<br>
-    <strong>Link para Repositório do Projeto:</strong> <a href="https://github.com/LeoAdlerr/checklistBalanca" style="color: #3498db; text-decoration: none; font-weight: bold;">Repositório do Projeto (Open Source)</a>
+    <strong>Link para o Código:</strong> <a href="https://github.com/LeoAdlerr/checklistBalanca" style="color: #3498db; text-decoration: none; font-weight: bold;">Repositório do Projeto (Open Source)</a>
 </p>
 
-<h3 style="color: #2c3e50; margin-top: 30px;">Propósito</h3>
-<p>Digitalizar e otimizar um processo de inspeção de cargas 100% manual e baseado em papel, visando aumentar a agilidade, garantir a rastreabilidade das informações e transformar dados operacionais em insights estratégicos para o negócio.</p>
+<h3 style="color: #2c3e50; margin-top: 30px;">O Problema</h3>
+<p>Digitalizar e otimizar um processo crítico de inspeção de cargas que era 100% manual, baseado em papel, lento e que não gerava dados rastreáveis para a empresa.</p>
 
-<h3 style="color: #2c3e50; margin-top: 30px;">Contexto</h3>
-<p>A Universal Armazéns dependia de um formulário físico ("Form. 24") para realizar inspeções de unidades de carga, um processo lento, suscetível a erros e que não gerava dados para análise posterior. Como um desafio proposto pela liderança de TI, recebi a autonomia e a responsabilidade de conceber e desenvolver do zero uma solução de melhoria para este processo crítico.</p>
+<h3 style="color: #2c3e50; margin-top: 30px;">Minha Missão</h3>
+<p>Como único desenvolvedor, recebi a autonomia para liderar o projeto do zero. Minha responsabilidade abrangia o ciclo completo: atuar como <strong>Product Owner</strong> para definir o produto, como <strong>Scrum Master</strong> para gerir o processo ágil, e como <strong>Desenvolvedor Full-Stack</strong> para construir, testar e entregar a solução técnica.</p>
 
-<h3 style="color: #2c3e50; margin-top: 30px;">Desafio</h3>
-<p>O desafio foi multifacetado: além da complexidade técnica de construir uma aplicação full-stack com funcionalidades como upload de arquivos e geração de PDFs, o maior obstáculo era criar uma solução sustentável, que pudesse ser mantida e evoluída pela equipe interna. Isso exigiu uma abordagem que considerasse não apenas o código, mas também o nivelamento técnico do time.</p>
+<h3 style="color: #2c3e50; margin-top: 30px;">A Solução Entregue</h3>
+<p>Uma aplicação web full-stack, responsiva e de alta performance que permite aos inspetores realizar o checklist de 18 pontos em qualquer dispositivo. A solução conta com um backend robusto em <strong>NestJS</strong> e um frontend reativo em <strong>Vue.js</strong>, permitindo o anexo de evidências fotográficas e a geração automática de um relatório PDF idêntico ao formulário físico. A qualidade é garantida por uma suíte completa de <strong>testes unitários e E2E</strong>, integrada a um pipeline de CI com Docker.</p>
 
-<h3 style="color: #2c3e50; margin-top: 30px;">Solução Proposta</h3>
-<p>Uma aplicação web full-stack, responsiva e de alta performance, que permite aos inspetores realizar o checklist de 18 pontos em qualquer dispositivo. A solução conta com um backend robusto em <strong>NestJS</strong> e um frontend reativo em <strong>Vue.js</strong>, permitindo o preenchimento dos dados, anexo de evidências fotográficas, captura de assinaturas digitais e a geração automática de um relatório PDF idêntico ao formulário físico, garantindo conformidade e eficiência.</p>
+<h3 style="color: #2c3e50; margin-top: 30px;">Demonstração Visual do Aplicativo</h3>
+<table width="100%" style="border-spacing: 10px; border-collapse: separate;">
+    <tr>
+        <td align="center" width="50%" style="vertical-align: top;">
+            <b style="color: #34495e;">Tela 1: Inicial</b><br>
+            <sub style="font-size: 13px;">Ponto de partida claro para iniciar um novo trabalho ou consultar inspeções.</sub>
+            <br><br>
+            <img src="imgs/tela1app.png" alt="Tela Inicial do Aplicativo de Inspeção" style="width: 90%; border: 1px solid #ddd; border-radius: 4px;">
+        </td>
+        <td align="center" width="50%" style="vertical-align: top;">
+            <b style="color: #34495e;">Tela 2: Nova Inspeção</b><br>
+            <sub style="font-size: 13px;">Coleta dos dados primários que identificam a inspeção.</sub>
+            <br><br>
+            <img src="imgs/tela2app.png" alt="Tela de Cadastro de Nova Inspeção" style="width: 90%; border: 1px solid #ddd; border-radius: 4px;">
+        </td>
+    </tr>
+    <tr>
+        <td align="center" colspan="2" style="vertical-align: top;">
+            <br>
+            <b style="color: #34495e;">Tela 3: Checklist 18 Pontos</b><br>
+            <sub style="font-size: 13px;">O coração da aplicação, onde o inspetor avalia cada ponto e coleta evidências.</sub>
+            <br><br>
+            <img src="imgs/tela3app.png" alt="Tela do Checklist de 18 Pontos" style="width: 80%; border: 1px solid #ddd; border-radius: 4px;">
+        </td>
+    </tr>
+    <tr>
+        <td align="center" width="50%" style="vertical-align: top;">
+            <br>
+            <b style="color: #34495e;">Tela 4: Revisar e Finalizar</b><br>
+            <sub style="font-size: 13px;">Resumo completo para revisão final antes de concluir o processo.</sub>
+            <br><br>
+            <img src="imgs/tela4app.png" alt="Tela de Finalização da Inspeção" style="width: 90%; border: 1px solid #ddd; border-radius: 4px;">
+        </td>
+        <td align="center" width="50%" style="vertical-align: top;">
+            <br>
+            <b style="color: #34495e;">Tela 5: Visualizar Relatório</b><br>
+            <sub style="font-size: 13px;">Confirmação da conclusão e acesso fácil ao relatório PDF gerado.</sub>
+            <br><br>
+            <img src="imgs/tela5app.png" alt="Tela de Confirmação com Link para o Relatório PDF" style="width: 90%; border: 1px solid #ddd; border-radius: 4px;">
+        </td>
+    </tr>
+</table>
 
 <hr style="border: 0; height: 1px; background-color: #eee; margin: 40px 0;">
 
-<details>
-  <summary><strong>Visualizar Arquitetura do Sistema e Modelo de Dados</strong></summary>
-  <p>A aplicação foi projetada com uma arquitetura desacoplada, seguindo os princípios de Clean Architecture e Domain-Driven Design (DDD) para garantir separação de responsabilidades e escalabilidade.</p>
-  <p><em>Nota: Os diagramas abaixo são representados como código e podem precisar do suporte nativo do GitHub ou extensão para renderizar visualmente.</em></p>
-
-  <h4>Diagrama de Arquitetura</h4>
-  
-```mermaid
-graph TD
-    subgraph "Cliente"
-        A[/"Vue.js Web App (Desktop/Mobile)"/]
-    end
-
-    subgraph "Servidor Backend (NestJS)"
-        B(API Gateway / Controllers)
-        C{Auth Service: JWT or Guard}
-        D[Inspection Service <br> Business Logic]
-        E[PDF Service: Puppeteer/pdfmake]
-        F[File Service: Multer]
-        G((TypeORM))
-    end
-
-    subgraph "Infraestrutura"
-        H[(MySQL Database)]
-        I[(File Storage <br> ex: AWS S3, Local Disk)]
-    end
-
-    A -- "Requisições HTTP/S (API RESTful)" --> B
-    B -- "Valida Rota" --> C
-    B -- "Chama Serviço" --> D
-    B -- "Upload" --> F
-    D -- "Gera PDF" --> E
-    D -- "Manipula Dados" --> G
-    F -- "Salva Arquivo em" --> I
-    E -- "Salva PDF em" --> I
-    G -- "CRUD Operations" --> H
-
-    style A fill:#42b883,stroke:#333,stroke-width:2px
-    style B fill:#e3224d,stroke:#333,stroke-width:2px
-    style H fill:#00758f,stroke:#333,stroke-width:2px
-    style I fill:#f0ad4e,stroke:#333,stroke-width:2px
- ```
-<h4 style="color: #2c3e50; margin-top: 20px;">Modelo de Entidade-Relacionamento (MER)</h4>
-
-```mermaid
-    erDiagram
-    INSPECTIONS {
-        INT id PK
-        VARCHAR inspector_name
-        INT status_id FK
-        VARCHAR entry_registration
-        VARCHAR vehicle_plates
-        VARCHAR transport_document
-        INT modality_id FK
-        INT operation_type_id FK
-        INT unit_type_id FK
-        INT container_type_id FK
-        DECIMAL verified_length
-        DECIMAL verified_width
-        DECIMAL verified_height
-        DATETIME start_datetime
-        DATETIME end_datetime
-        VARCHAR driver_name
-        VARCHAR driver_signature_path
-        VARCHAR inspector_signature_path
-        VARCHAR seal_uaga_post_inspection
-        VARCHAR seal_uaga_post_loading
-        VARCHAR seal_shipper
-        VARCHAR seal_rfb
-        INT seal_verification_rfb_status_id FK
-        INT seal_verification_shipper_status_id FK
-        INT seal_verification_tape_status_id FK
-        VARCHAR seal_verification_responsible_name
-        VARCHAR seal_verification_signature_path
-        DATE seal_verification_date
-        TEXT observations
-        TEXT action_taken
-        VARCHAR generated_pdf_path
-        TIMESTAMP created_at
-        TIMESTAMP updated_at
-    }
-
-    INSPECTION_CHECKLIST_ITEMS {
-        INT id PK
-        INT inspection_id FK
-        INT master_point_id FK
-        INT status_id FK
-        TEXT observations
-        TIMESTAMP created_at
-        TIMESTAMP updated_at
-    }
-
-    ITEM_EVIDENCES {
-        INT id PK
-        INT item_id FK
-        VARCHAR file_path
-        VARCHAR file_name
-        INT file_size
-        VARCHAR mime_type
-        TIMESTAMP created_at
-    }
-
-    MASTER_INSPECTION_POINTS {
-        INT id PK
-        INT point_number
-        VARCHAR name
-        TEXT description
-        VARCHAR category
-    }
-
-    LOOKUP_STATUSES {
-        INT id PK
-        VARCHAR name
-    }
-
-    LOOKUP_MODALITIES {
-        INT id PK
-        VARCHAR name
-    }
-
-    LOOKUP_OPERATION_TYPES {
-        INT id PK
-        VARCHAR name
-    }
-
-    LOOKUP_UNIT_TYPES {
-        INT id PK
-        VARCHAR name
-    }
-
-    LOOKUP_CONTAINER_TYPES {
-        INT id PK
-        VARCHAR name
-    }
-
-    LOOKUP_CHECKLIST_ITEM_STATUSES {
-        INT id PK
-        VARCHAR name
-    }
-
-    LOOKUP_SEAL_VERIFICATION_STATUSES {
-        INT id PK
-        VARCHAR name
-    }
-
-    %% Relacionamentos principais
-    INSPECTIONS ||--o{ INSPECTION_CHECKLIST_ITEMS : contém
-    INSPECTION_CHECKLIST_ITEMS ||--o{ ITEM_EVIDENCES : tem
-    MASTER_INSPECTION_POINTS ||--o{ INSPECTION_CHECKLIST_ITEMS : ponto
-
-    %% Relacionamentos com lookups
-    LOOKUP_STATUSES ||--o{ INSPECTIONS : status
-    LOOKUP_MODALITIES ||--o{ INSPECTIONS : modalidade
-    LOOKUP_OPERATION_TYPES ||--o{ INSPECTIONS : tipo_op
-    LOOKUP_UNIT_TYPES ||--o{ INSPECTIONS : tipo_unidade
-    LOOKUP_CONTAINER_TYPES ||--o{ INSPECTIONS : tipo_container
-
-    LOOKUP_SEAL_VERIFICATION_STATUSES ||--o{ INSPECTIONS : status_lacre_rfb
-    LOOKUP_SEAL_VERIFICATION_STATUSES ||--o{ INSPECTIONS : status_lacre_shipper
-    LOOKUP_SEAL_VERIFICATION_STATUSES ||--o{ INSPECTIONS : status_lacre_tape
-
-    LOOKUP_CHECKLIST_ITEM_STATUSES ||--o{ INSPECTION_CHECKLIST_ITEMS : status_item
-```
+<details open>
+    <summary style="font-size: 1.1em; font-weight: bold; cursor: pointer; color: #2c3e50;">
+        Visualizar Stack de Tecnologias, Arquitetura e Modelo de Dados
+    </summary>
+    <div style="background-color: #f9f9f9; padding: 15px; border-radius: 5px; margin-top: 15px;">
+        <h4 style="color: #2c3e50; margin-top: 0;">Stack de Tecnologias</h4>
+        <table border="1" style="border-collapse: collapse; width:100%; font-size: 14px;">
+          <thead style="background-color: #f2f2f2;">
+            <tr>
+              <th align="left" style="padding: 8px;">Área</th>
+              <th align="left" style="padding: 8px;">Tecnologia Principal</th>
+              <th align="left" style="padding: 8px;">Testes</th>
+              <th align="left" style="padding: 8px;">Detalhes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="padding: 8px;"><strong>Backend</strong></td>
+              <td style="padding: 8px;"><code>NestJS</code></td>
+              <td style="padding: 8px;"><code>Jest</code> (Unitário & E2E)</td>
+              <td style="padding: 8px;">Node.js, TypeScript, TypeORM, Arquitetura Limpa, DDD, SOLID.</td>
+            </tr>
+            <tr>
+              <td style="padding: 8px;"><strong>Frontend</strong></td>
+              <td style="padding: 8px;"><code>Vue.js</code></td>
+              <td style="padding: 8px;"><code>Vitest</code> (Unitário) + <code>Cypress</code> (E2E)</td>
+              <td style="padding: 8px;">TypeScript, Vuetify, Pinia para gestão de estado.</td>
+            </tr>
+            <tr>
+              <td style="padding: 8px;"><strong>Banco de Dados</strong></td>
+              <td style="padding: 8px;"><code>MySQL</code></td>
+              <td style="padding: 8px;">N/A</td>
+              <td style="padding: 8px;">Banco de dados relacional para persistência dos dados.</td>
+            </tr>
+            <tr>
+              <td style="padding: 8px;"><strong>DevOps & CI</strong></td>
+              <td style="padding: 8px;"><code>Podman / Docker Compose</code></td>
+              <td style="padding: 8px;">Scripts de Entrypoint</td>
+              <td style="padding: 8px;">Ambiente 100% containerizado e pipeline de CI "Test-Before-Run".</td>
+            </tr>
+          </tbody>
+        </table>
+        <h4 style="color: #2c3e50; margin-top: 20px;">Diagrama de Arquitetura</h4>
+        <div style="text-align: center;">
+            <img src="imgs/ArquiteturaApp8-18.png" alt="Diagrama de Arquitetura da Aplicação" style="max-width: 100%; height: auto; border: 1px solid #ddd; border-radius: 4px;">
+        </div>
+    </div>
 </details>
 
-<p>As principais tecnologias utilizadas foram:</p>
-<ul style="list-style-type: disc; padding-left: 20px;">
-    <li style="margin-bottom: 5px;"><strong>Backend:</strong> Node.js, NestJS, TypeORM, JWT para segurança.</li>
-    <li style="margin-bottom: 5px;"><strong>Frontend:</strong> Vue.js, Pinia para gerenciamento de estado.</li>
-    <li style="margin-bottom: 5px;"><strong>Banco de Dados:</strong> MySQL.</li>
-    <li style="margin-bottom: 5px;"><strong>Infraestrutura e DevOps:</strong> Docker, Docker Compose para ambiente de desenvolvimento e simulação de CI.</li>
-    <li style="margin-bottom: 5px;"><strong>Testes:</strong> Jest para testes unitários e de integração.</li>
-</ul>
-
 <hr style="border: 0; height: 1px; background-color: #eee; margin: 40px 0;">
 
-<h3 style="color: #2c3e50; margin-top: 30px;">Minhas Contribuições e Aprendizados</h3>
-<p>Neste projeto, atuei em múltiplas frentes: como <strong>Product Owner (PO)</strong>, planejando o escopo; como <strong>Scrum Master</strong>, gerenciando o fluxo de trabalho; e como <strong>único Desenvolvedor</strong>, implementando a solução.</p>
+<h3 style="color: #2c3e50; margin-top: 30px;">Destaques do Projeto e Tomada de Decisão</h3>
 
-<h4 style="color: #34495e; margin-top: 20px;">A Tomada de Decisão Estratégica: O "Pivot" Tecnológico</h4>
-<p>Inicialmente, comecei o desenvolvimento do backend com Java e Spring Boot. Contudo, rapidamente percebi que a curva de aprendizado para o restante da equipe — que precisaria manter o sistema no futuro — seria muito alta. Embora eles tivessem familiaridade com Node.js, o paradigma de Orientação a Objetos (OO) ainda era um desafio. Em uma decisão estratégica, decidi reiniciar o backend utilizando <strong>NestJS</strong>. Essa escolha, apesar de parecer um retrabalho, foi fundamental para garantir a longevidade e a manutenibilidade do projeto dentro da empresa.</p>
+<h4 style="color: #34495e; margin-top: 20px;">Decisão Estratégica: O "Pivot" Tecnológico para a Sustentabilidade</h4>
+<p>Iniciei o backend com Java/Spring, mas rapidamente identifiquei que a curva de aprendizado para a equipe de manutenção seria um risco para o projeto. Em uma decisão estratégica focada na sustentabilidade a longo prazo, realizei um "pivot" tecnológico, reiniciando o backend em <strong>NestJS</strong>. Esta escolha alinhou a tecnologia ao conhecimento existente da equipe (Node.js) e introduziu, de forma didática, os paradigmas de Orientação a Objetos e Injeção de Dependência.</p>
 
-<h4 style="color: #34495e; margin-top: 20px;">Iniciativa de Mentoria: Capacitando a Equipe</h4>
-<p>Para resolver o gap de conhecimento em OO, desenvolvi e ministrei um programa de <strong>5 aulas sobre Orientação a Objetos</strong> para os outros desenvolvedores. Esse processo ocorreu em paralelo ao desenvolvimento do backend e foi um sucesso: não apenas fortaleceu meus próprios conceitos, como também nivelou o conhecimento da equipe, preparando-os para futuros desafios e para a manutenção do novo sistema.</p>
+<h4 style="color: #34495e; margin-top: 20px;">Iniciativa de Mentoria: Capacitando a Equipe para o Futuro</h4>
+<p>Para mitigar o gap técnico do time em POO, criei e ministrei um workshop interno de <strong>5 aulas sobre Orientação a Objetos e SOLID</strong>. A iniciativa, realizada em paralelo ao desenvolvimento, não só solidificou meus próprios conceitos, mas nivelou o conhecimento da equipe, preparando-a para manter e evoluir a nova aplicação com confiança.</p>
 
-<h4 style="color: #34495e; margin-top: 20px;">Desafios e Resolução Ágil</h4>
-<p>Como PO, cometi uma falha no planejamento inicial ao não prever alguns endpoints de `GET` essenciais para o frontend. Percebi isso apenas quando, já atuando como dev, minhas próprias tarefas de frontend ficaram bloqueadas. Felizmente, como Scrum Master, eu havia planejado a sprint com uma "gordura" de tempo para imprevistos. Isso me permitiu pausar o frontend, voltar ao backend, implementar as rotas faltantes e retomar o desenvolvimento sem comprometer a data de entrega do MVP, mantendo o burndown chart na linha ideal.</p>
+<h4 style="color: #34495e; margin-top: 20px;">Agilidade na Prática: Corrigindo o Rumo da Sprint</h4>
+<p>Atuando como PO, falhei ao não prever alguns endpoints de `GET` essenciais para o frontend. Já no papel de desenvolvedor, minhas próprias tarefas ficaram bloqueadas por essa falha. Graças à "gordura" de tempo que planeei na sprint como Scrum Master, consegui pausar o frontend, voltar ao backend, implementar as rotas faltantes e retomar o fluxo sem comprometer a data de entrega, demonstrando adaptabilidade e resolução ágil de problemas.</p>
 
 <hr style="border: 0; height: 1px; background-color: #eee; margin: 40px 0;">
 
 <h3 style="color: #2c3e50; margin-top: 30px;">Hard Skills Aplicadas</h3>
-<table style="width:100%; border-collapse: collapse; margin-top: 15px;">
+<table style="width:100%; border-collapse: collapse; margin-top: 15px; font-size: 14px;">
     <thead style="background-color: #f2f2f2;">
         <tr>
             <th style="border: 1px solid #ddd; padding: 12px; text-align: left;">Habilidade</th>
@@ -390,26 +304,30 @@ graph TD
     </thead>
     <tbody>
         <tr>
-            <td style="border: 1px solid #ddd; padding: 12px; font-weight: bold;">NestJS & SOLID</td>
-            <td style="border: 1px solid #ddd; padding: 12px;">Arquitetura do backend, implementando use-cases, injeção de dependência e lógica de negócio de forma limpa e testável.</td>
+            <td style="border: 1px solid #ddd; padding: 12px; font-weight: bold;">Arquitetura de Software (Clean Architecture, DDD, SOLID)</td>
+            <td style="border: 1px solid #ddd; padding: 12px;">Desenho e implementação da API em NestJS, com camadas bem definidas, injeção de dependência e interfaces para garantir um código testável, desacoplado e escalável.</td>
         </tr>
         <tr>
+            <td style="border: 1px solid #ddd; padding: 12px; font-weight: bold;">Desenvolvimento Full-Stack</td>
+            <td style="border: 1px solid #ddd; padding: 12px;">Codificação completa do backend (Node.js/NestJS), do frontend (Vue.js/Pinia) e do banco de dados (MySQL), entregando a solução de ponta a ponta.</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 12px; font-weight: bold;">Testes Automatizados (TDD/BDD)</td>
+            <td style="border: 1px solid #ddd; padding: 12px;">Criação de suítes de testes unitários (Jest/Vitest) e End-to-End (Cypress) que validam todo o fluxo da aplicação, garantindo 100% de cobertura dos casos de uso.</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid #ddd; padding: 12px; font-weight: bold;">DevOps & CI/CD</td>
+            <td style="border: 1px solid #ddd; padding: 12px;">Containerização de todo o ambiente com Podman/Docker Compose e criação de um pipeline de CI que executa todos os testes antes de permitir que a aplicação inicie.</td>
+        </tr>
+         <tr>
             <td style="border: 1px solid #ddd; padding: 12px; font-weight: bold;">Gestão de Projeto Ágil (PO/SM)</td>
-            <td style="border: 1px solid #ddd; padding: 12px;">Definição de User Stories, Critérios de Aceite (DoR/DoD), planejamento de sprint, gestão de backlog e acompanhamento via burndown.</td>
-        </tr>
-         <tr>
-            <td style="border: 1px solid #ddd; padding: 12px; font-weight: bold;">Docker & Docker Compose</td>
-            <td style="border: 1px solid #ddd; padding: 12px;">Criação de um ambiente de desenvolvimento local, isolado e consistente, simulando um processo de CI para garantir a qualidade antes do merge.</td>
-        </tr>
-         <tr>
-            <td style="border: 1px solid #ddd; padding: 12px; font-weight: bold;">Testes Unitários (Jest)</td>
-            <td style="border: 1px solid #ddd; padding: 12px;">Desenvolvimento de testes para todos os use-cases, controllers e repositórios, garantindo a confiabilidade de cada parte da aplicação.</td>
+            <td style="border: 1px solid #ddd; padding: 12px;">Definição de User Stories, Critérios de Aceite (DoR/DoD), planejamento de sprint, gestão de backlog e acompanhamento de progresso via Burndown Chart.</td>
         </tr>
     </tbody>
 </table>
 
 <h3 style="color: #2c3e50; margin-top: 30px;">Soft Skills Desenvolvidas</h3>
- <table style="width:100%; border-collapse: collapse; margin-top: 15px;">
+<table style="width:100%; border-collapse: collapse; margin-top: 15px; font-size: 14px;">
     <thead style="background-color: #f2f2f2;">
         <tr>
             <th style="border: 1px solid #ddd; padding: 12px; text-align: left;">Habilidade</th>
@@ -418,16 +336,16 @@ graph TD
     </thead>
     <tbody>
         <tr>
-            <td style="border: 1px solid #ddd; padding: 12px; font-weight: bold;">Liderança e Iniciativa</td>
-            <td style="border: 1px solid #ddd; padding: 12px;">Assumi total responsabilidade pelo projeto, desde a concepção até a entrega, e criei proativamente um programa de capacitação para a equipe.</td>
+            <td style="border: 1px solid #ddd; padding: 12px; font-weight: bold;">Liderança Técnica e Iniciativa</td>
+            <td style="border: 1px solid #ddd; padding: 12px;">Assumi total responsabilidade pelo projeto ("ownership"), desde a concepção até a entrega, e criei proativamente um programa de capacitação para a equipe.</td>
         </tr>
         <tr>
             <td style="border: 1px solid #ddd; padding: 12px; font-weight: bold;">Pensamento Estratégico</td>
-            <td style="border: 1px solid #ddd; padding: 12px;">Realizei o pivot tecnológico de Java para NestJS, priorizando a sustentabilidade do projeto a longo prazo em vez da conveniência imediata.</td>
+            <td style="border: 1px solid #ddd; padding: 12px;">Realizei o pivot tecnológico de Java para NestJS, priorizando a sustentabilidade e a manutenibilidade do projeto a longo prazo em vez da conveniência imediata.</td>
         </tr>
         <tr>
             <td style="border: 1px solid #ddd; padding: 12px; font-weight: bold;">Adaptabilidade e Resolução de Problemas</td>
-            <td style="border: 1px solid #ddd; padding: 12px;">Identifiquei minha própria falha de planejamento e rapidamente ajustei o curso, desenvolvendo as APIs faltantes para desbloquear o frontend sem atrasar a sprint.</td>
+            <td style="border: 1px solid #ddd; padding: 12px;">Identifiquei minha própria falha de planejamento e rapidamente ajustei o curso, desenvolvendo os endpoints faltantes para desbloquear o frontend sem atrasar a sprint.</td>
         </tr>
     </tbody>
 </table>
