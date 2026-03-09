@@ -403,11 +403,8 @@
     <details style="margin-bottom: 10px; border: 1px solid #ddd; border-radius: 4px; padding: 15px; background-color: #f9f9f9;">
         <summary style="font-weight: bold; cursor: pointer;">4. Análise de Impacto nas Variáveis do Score (Random Forest)</summary>
         <p style="margin-top: 10px;">Implementamos um modelo de Random Forest para analisar o impacto das variáveis que influenciam o score de endossantes. A IA gera recomendações sobre como aumentar ou diminuir o score com base em variáveis como duplicatas finalizadas ou canceladas.</p>
-        <details style="margin-top: 15px;">
-            <summary style="font-weight: normal; cursor: pointer; color: #3498db;">Visualizar tela de recomendação</summary>
-            <img src="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/IMGS/HomeSprint3.png" alt="Tela de Recomendação de Score" style="max-width: 100%; height: auto; margin-top: 10px; border-radius: 4px;">
-        </details>
     </details>
+    <img src="https://github.com/quarks-team/Projeto-Integrador-SPCGrafeno/blob/main/Documents/IMGS/HomeSprint3.png" alt="Tela de Recomendação de Score" style="max-width: 100%; height: auto; margin-top: 10px; border-radius: 4px;">
     <details style="margin-bottom: 10px; border: 1px solid #ddd; border-radius: 4px; padding: 15px; background-color: #f9f9f9;">
         <summary style="font-weight: bold; cursor: pointer;">5. Plataforma Web e Requisitos de Segurança (LGPD)</summary>
         <div style="margin-top: 10px;">
